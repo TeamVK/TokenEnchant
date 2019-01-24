@@ -28,5 +28,8 @@ If applicable, add screenshots to help explain your problem.
  - TokenEnchant version [e.g. 13.14.0]
  - Custom Enchantment name and version [e.g. Explosive, 7.1.1]
 
+**Configuration:**
+attach your config.yml used when this issue was surfaced.
+
 **Additional context**
 Add any other context about the problem here.
