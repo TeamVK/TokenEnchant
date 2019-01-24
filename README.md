@@ -1,6 +1,6 @@
 ## Welcome to TokenEnchant's Official Home
 
-[Installation](https://github.com/TeamVK/TokenEnchant/blob/master/installation.md)
+[Installation](installation.md)
 
 You can use the [editor on GitHub](https://github.com/TeamVK/TokenEnchant/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
