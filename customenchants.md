@@ -63,7 +63,7 @@ These effects must be listed under "Potions:" section. (Note: anything under thi
 * ====
 * Molten (custom :  attacker catches fire)
 * Fly (custom effect : item holder can fly)
-* [Explosive](explosive.md) : this is a custom effect, which will blow up surrounding blocks. It has an option of auto smelt. This Explosive effect works with MineResetLitePlus's mined block counting as well as Lucky Block feature!
+* [Explosive](ce/explosive.md) : this is a custom effect, which will blow up surrounding blocks. It has an option of auto smelt. This Explosive effect works with MineResetLitePlus's mined block counting as well as Lucky Block feature!
 * Excavation : this is a custom effect, It is just like Explosive but it will remove entire cuboid
 * Sphered : this is a custom effect, It is just like Explosive but it will remove entire sphere
 * BedrockBreaker (custom: allow you to break a bedrock block)
