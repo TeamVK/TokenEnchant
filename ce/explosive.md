@@ -1,25 +1,27 @@
-NOTE: This a custom enchant module requires TokenEnchant plugin. Support will be provided to those who purchased TokenEnchant at here. 
-
 This plugin contains a custom enchantment effect that allows you to use 5 different types of explosive effects:
-Explosive
-Excavation
-Sphered
-Disk
-Tile
+
+* Explosive
+* Excavation
+* Sphered
+* Disk
+* Tile
+
 This was originally included in TokenEnchant plugin.  However, it has been removed from TE itself so that this effect can be used in the different version of TE.
 
 Demo Video:
 coming...
 
-Installation:
+### Installation:
 Just install TE-ExplosiveEnchant.jar in TokenEnchant/enchants folder. Then you can either "restart the server" or "reload the plugin (not /te reload)". ExplosiveEnchantment will automatically be loaded into TokenEnchant framework.
 
-Configuration:
+### Configuration:
 You need to add new entry for "Explosive, Excavation, Sphered, Disk, and Tile" enchant under the "Potions:" section in your config.yml.
 
-NOTE: Make sure to configure your WorldGuard (block-break : allow) or if your server uses any region management plugins, make sure they allow users to break blocks in the region where you wish to use this effect.
+#### NOTE:
+* Make sure to configure your WorldGuard (block-break : allow) or if your server uses any region management plugins, make sure they allow users to break blocks in the region where you wish to use this effect.
 
-[CODE]
+
+```
 # if this option is true, TEBlockExplodeEvent will be handled by TokenEnchant
 # if you want other plugin to handle TEBlockExplodeEvent, set it to false;
 PickupTEExplodedBlocks: true
@@ -151,7 +153,4 @@ Potions:
         - ENDER_CHEST
         - GLOWSTONE
         - LADDER
-[/CODE]
-
-Donation:
-It would be greatly appreciated for your donation for the provision of support for this plugin.
+```
