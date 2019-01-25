@@ -8,7 +8,7 @@ This plugin contains a custom enchantment effect that allows you to use 5 differ
 
 This was originally included in TokenEnchant plugin.  However, it has been removed from TE itself so that this effect can be used in the different version of TE.
 
-Demo Video:
+### Demo Video:
 coming...
 
 ### Installation:
