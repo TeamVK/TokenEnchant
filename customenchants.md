@@ -142,7 +142,7 @@ These effects must be listed under "Potions:" section. (Note: anything under thi
 * FrostWalker (by [USER=108646]@ThePurpleHoser[/USER]) : Creates frost blocks when walking over water
 * Slicing (aka JackHammer, by [USER=108646]@ThePurpleHoser[/USER]) : Explode entire layer(s)!!
 * SkullDigger (aka LuckyBlock digger, by [USER=108646]@ThePurpleHoser[/USER]) : Dig out skull/player head blocks instantly!!
-* McMMOExp : Multiply McMMO Experience gain! Higher level = more gain!
+* [McMMOExp](https://www.spigotmc.org/resources/te-mcmmoexpenchant.21766/) : Multiply McMMO Experience gain! Higher level = more gain!
 * Elytra : Elytra like feature for 1.7, 1.8 server! (you can use it on 1.9 server too!)
 * LuckyExcavation (aka Concentrate excavation, by [USER=108646]@ThePurpleHoser[/USER]) : You can get random rewards from Spade-Excavation! Higher level = more drops!!
 * Boomerang : Throw your weapon to attack and your weapon will return to you when its job is done!
