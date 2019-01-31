@@ -20,7 +20,7 @@
 * /te pay <player> <token_amount> : send <token_amount> to <player>
 * /tealiasreload : reloads command aliases.
 * /te enchant [player][enchant_name][[+]level] : enchants the item [player] is holding with [enchant_name]. If [level] is provided, the command will apply [enchant_name] with [level] to the item, which [player] is holding. If [+level] is specified, [level] will be "added" to the current enchantment level.
-* /te refund [player][enchant_name] : refund [player] for the enchantment [enchant_name]
+* /te refund <player> [enchant_name] <level> : refund [player] for the enchantment [enchant_name]
 * /te repair [player] : repair the item in your (or [player]'s) hand.
 * /te givebp <name> <row> [bpname] cost:xxx : gives <name> a backpacked named [bpname] of size <row> costing xxx.
 * /te baltop : lists ranking of token balance.
