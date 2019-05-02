@@ -5,6 +5,7 @@
 * tokenenchant.remove : allows you to use /te remove command
 * tokenenchant.balance : allows you to use /te balance command
 * tokenenchant.balance.other : allows you to use /te balance <other> command
+* tokenenchant.baltop : allows you to see the list of balance top.
 * tokenenchant.withdraw: allows you to use /te withdraw command
 * tokenenchant.expexchange: allows you to use /te expexchange command
 * tokenenchant.alias.reload : allows you to use /tealiasreload command.
