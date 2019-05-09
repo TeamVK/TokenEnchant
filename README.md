@@ -14,4 +14,4 @@ Capability of TokenEnchant is featured in SSundee's Faction Series Youtube video
 ## [For Developers](for_developers.md)
 
 ### Support or Contact
-Having trouble with TokenEnchant? You can submit your support tickeat at [this site](hhttps://github.com/TeamVK/Support/issues) or [vk2gpz's Discord server](https://discord.gg/7KyDzjP), and we’ll help you sort it out.
+Having trouble with TokenEnchant? You can submit your support tickeat at [this site](https://github.com/TeamVK/Support/issues) or [vk2gpz's Discord server](https://discord.gg/7KyDzjP), and we’ll help you sort it out.
