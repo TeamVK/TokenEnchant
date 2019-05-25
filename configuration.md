@@ -349,7 +349,7 @@ Commands:
     #     - ">fly"
 
 #
-# default is LOW, you can have LOWEST, LOW, NORMAL, HIGH, HIGHEST or MONITOR
+# default is as listed beloe, you can have LOWEST, LOW, NORMAL, HIGH, HIGHEST or MONITOR
 # adjust these event priority if those event processes from this plugin
 # interfere with other plugins' event processes.
 EventPriorityMap:
