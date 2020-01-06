@@ -1,0 +1,37 @@
+Potions:
+  GroundPound:
+    description: "Are you ungry? Pound the ground!"
+    event_map:
+      PlayerInteractEvent: "HIGHEST"
+    price: 10
+    max: 2
+    sound: ENTITY_GENERIC_EXPLODE   # for pre 1.9 -> EXPLODE
+    volume: 5
+    pitch: 0.1
+    cooldown: 10    # if you set -1, no cooldown option.
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always
+    light_weight_materials:
+      - STONE
+      - GRASS
+      - DIRT
+      - COBBLESTONE
+      - WOOD
+      - SAPLING
+      - WATER
+      - STATIONARY_WATER
+      - LAVA
+      - STATIONARY_LAVA
+      - SAND
+      - GRAVEL
+      - GOLD_ORE
+      - IRON_ORE
+      - COAL_ORE
+      - LOG
+      - LEAVES
+      - SPONGE
+      - GLASS
+      - LAPIS_ORE
+      - LAPIS_BLOCK
+      - DISPENSER
+      - SANDSTONE

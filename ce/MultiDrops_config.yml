@@ -1,0 +1,8 @@
+Potions:
+  MultiDrops:
+    event_map:
+      BlockBreakEvent: "HIGHEST"
+    price: 10
+    max: 5
+    multiplier: 2  # the extra drops = level * multiplier
+    occurrence: random

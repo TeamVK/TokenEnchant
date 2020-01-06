@@ -1,0 +1,7 @@
+Potions:
+  Vampire:
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 10
+    occurrence: random

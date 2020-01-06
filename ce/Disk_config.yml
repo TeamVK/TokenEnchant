@@ -1,0 +1,49 @@
+# if this option is true, TEBlockExplodeEvent will be handled by TokenEnchant
+# if you want other plugin to handle TEBlockExplodeEvent, set it to false;
+PickupTEExplodedBlocks: true
+SmeltTEExplodedBlocks: true
+
+Potions:
+  Disk:
+    description: "It will blow up surrounding blocks in circular form with 1 block deep"
+    event_map:
+      BlockBreakEvent: "HIGHEST"
+      TEBlockExplodeEvent: "MONITOR"
+    price: 10
+    max: 10
+    # you can nominate the world, which prevents explosive
+    invalid_in_world:
+#        - plotworld
+    # you can turn on automatic pickup.
+    pickup: false
+    # you can apply the identification of holding tool for pickup process.
+    applytool: true
+    # you can turn on automatic smelting
+    smelt: false
+    # you can turn on/off explostion sound/visual effects
+    effect: true
+    # you can turn on/off explostion sound effects
+    sound: true
+    # you can increase the number of exploded blocs with in a radius
+    multiplier: 2
+    # you can specify the radius whithin which explosion will occur.
+    # it is not recommended to have a large radius. it may cause lag.
+    radius: 2
+    # You can set the occurrence of explosion.
+    # random: randomly occur based on the level
+    # always: explosion occur always.
+    occurrence: random
+    # You can set the list of blocks exempt from explosiont.
+    # use this list to avoid your crates being exploded.
+    # AIR and BEDROCK are already exempted by defalt
+    exemptions:
+      - ENDER_CHEST
+      - GLOWSTONE
+      - LADDER
+      - STONE_PLATE
+    use_explode_event: true
+    conflict_with:
+      - Explosive
+      - Excavation
+      - Sphered
+      - Tile

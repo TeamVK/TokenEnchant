@@ -1,0 +1,12 @@
+Potions:
+  BatmanCape:
+    description: "With this enchant, you fall to the ground slower than usual!"
+    event_map:
+      PlayerQuitEvent: "HIGHEST"
+      PlayerMoveEvent: "HIGHEST"
+      EntityDamageEvent: "HIGHEST"
+    price: 0
+    max: 1
+    anti_gravity_factor: 0.2
+    minimum_fall_height: 5 # in blocks.
+    occurrence: always

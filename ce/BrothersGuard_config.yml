@@ -1,0 +1,6 @@
+Potions:
+  BrothersGuard:
+    description: "Allows you to get absorption hearts when you wear full armor set with this enchantment."
+    price: 0
+    max: 1
+

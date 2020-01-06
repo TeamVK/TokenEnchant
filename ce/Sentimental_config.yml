@@ -1,0 +1,13 @@
+Potions:
+  Sentimental:
+    # this option is to set custom Death Event process priority.
+    event_map:
+      PlayerDeathEvent: "LOW"
+      PlayerRespawnEvent: "MONITOR"
+      PlayerJoinEvent: "MONITOR"
+    price: 10
+    max: 4
+    event_priority: LOW
+    occurrence: always
+    #this option allow the enchantment level to automatically decrease upon death
+    decrement_chance: 1.0

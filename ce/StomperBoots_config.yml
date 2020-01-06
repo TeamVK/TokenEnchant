@@ -1,0 +1,11 @@
+Potions:
+  StomperBoots:
+    event_map:
+      PlayerMoveEvent: "HIGH"
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 1   # not much point in having a level bigger than 1.
+    cooldown: 5   # in seconds
+    cooldown_message: ""  # empty message = no message.
+    occurrence: random
+

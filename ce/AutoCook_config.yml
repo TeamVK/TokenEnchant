@@ -1,0 +1,9 @@
+Potions:
+  AutoCook:
+    description: "Automatically cook caught fish and killed animals."
+    event_map:
+      PlayerFishEvent: "NORMAL"
+      EntityDeathEvent: "NORMAL"
+    price: 10
+    max: 1
+    occurrence: always

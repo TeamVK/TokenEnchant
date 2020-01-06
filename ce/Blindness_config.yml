@@ -1,0 +1,8 @@
+Potions:
+  Blindness:
+    description: "This enchant will make your attacker blind for a while!"
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    occurrence: always # you can set it to random as well.

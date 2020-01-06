@@ -1,0 +1,5 @@
+Potions:
+    Over9000:
+      price: 10
+      max: 10
+      occurrence: random

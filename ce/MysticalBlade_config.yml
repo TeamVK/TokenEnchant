@@ -1,0 +1,16 @@
+Potions:
+  MysticalBlade:
+    event_map:
+      PlayerFishEvent: "HIGHEST"
+    potion_effects:
+      - poison
+      - blindness
+      - confusion
+      - slow
+      - weakness
+    price: 10
+    max: 1
+    duration: -1
+    damage_message: "You just hit your opponent with %type%"
+    damaged_message: "You where given %type% by mystical blade from %damager%"
+    occurrence: always

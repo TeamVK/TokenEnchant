@@ -1,0 +1,11 @@
+Potions:
+  MoneyPickPocket:
+    event_map:
+      PlayerInteractAtEntityEvent: "HIGHEST"
+    price: 10
+    max: 1
+    cooldown: 10
+    sneak: true
+    ratio : 0.01  # balance * level * ratio = amount of $ being pick-pocketed.
+    occurrence: random
+

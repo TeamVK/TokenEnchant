@@ -1,0 +1,16 @@
+Potions:
+  AutoSmelt:
+    description: "Automatically smelt mined ore."
+    event_map:
+      BlockBreakEvent: "LOWEST"
+    price: 10
+    max: 1
+    occurrence: always
+    mapping:
+      DIAMOND_ORE : DIAMOND
+      IRON_ORE : IRON_INGOT
+      GOLD_ORE : GOLD_INGOT
+      COAL_ORE : COAL
+      EMERALD_ORE : EMERALD
+      COBBLESTONE : STONE
+      SAND : GLASS

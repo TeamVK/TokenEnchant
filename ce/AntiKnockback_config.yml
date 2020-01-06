@@ -1,0 +1,6 @@
+Potions:
+  AntiKnockback:
+    description: "Prevents being knocked back."
+    price: 10
+    max: 4
+    occurrence: random

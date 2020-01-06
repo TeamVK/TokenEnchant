@@ -1,0 +1,9 @@
+Potions:
+  Blunter:
+    description: "Give an extra durability damage to your attacker's weapon!"
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 1
+    occurrence: always
+    multiplier: 2

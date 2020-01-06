@@ -1,0 +1,6 @@
+Potions:
+  AntiPickPocket:
+    description: "Prevents being a victim of pickpocketing!"
+    price: 10
+    max: 1
+    occurrence: random

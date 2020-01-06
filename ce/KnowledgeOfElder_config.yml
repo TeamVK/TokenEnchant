@@ -1,0 +1,9 @@
+Potions:
+  KnowledgeOfElder:
+    event_map:
+      PlayerJoinEvent: "NORMAL"
+      PlayerRespawnEvent: "NORMAL"
+      PlayerTeleportEvent: "NORMAL"
+    price: 10
+    max: 1
+    occurrence: always

@@ -1,0 +1,8 @@
+Potions:
+  ArmoredTank:
+    description: "You won't get any damage from explosion and lava/fire!"
+    event_map:
+      EntityDamageEvent: "HIGHEST"
+    price: 0
+    max: 1
+    occurrence: 0.3

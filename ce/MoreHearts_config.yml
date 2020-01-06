@@ -1,0 +1,11 @@
+Potions:
+  MoreHearts:
+    event_map:
+      PlayerRespawnEvent: "MONITOR"
+      PlayerTeleportEvent: "MONITOR"
+      PlayerJoinEvent: "MONITOR"
+    price: 10
+    max: 5
+    multiplier: 2.0   # extra hearts = level * multiplier
+    default_max_health: 20.0
+    occurrence: always

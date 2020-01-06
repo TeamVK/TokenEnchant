@@ -1,0 +1,14 @@
+Potions:
+  Molten:
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    occurrence: always
+    duration: 200
+    # if duration_multiplier is > 1.0, the duration = level * multiplier
+    duration_multiplier: 1.0
+#    invalid_in_region:
+#      - nofly
+#    invalid_in_world:
+#      - plotworld

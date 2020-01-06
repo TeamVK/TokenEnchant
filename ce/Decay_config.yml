@@ -1,0 +1,8 @@
+Potions:
+  Decay:
+    description: "Sickens your enemy with the wither effect as well a poison."
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 1
+    occurrence: always

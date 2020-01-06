@@ -1,0 +1,8 @@
+Potions:
+  MiningFlame:
+    event_map:
+      BlockBreakEvent: "HIGHEST"
+    price: 10
+    max: 10
+    multiplier: 1 # duration = level * multiplier second
+    occurrence: always

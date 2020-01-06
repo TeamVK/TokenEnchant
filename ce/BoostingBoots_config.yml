@@ -1,0 +1,8 @@
+Potions:
+  BoostingBoots:
+    description: "When running this enchant, you have a chance to get speed effect."
+    event_map:
+      PlayerMoveEvent: "HIGh"
+    price: 0
+    max: 1
+

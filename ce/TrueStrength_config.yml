@@ -1,0 +1,7 @@
+Potions:
+  TrueStrength:
+    price: 0
+    max: 1
+    strength_multiplier: 2.0
+    slowness_multiplier: 1.0
+    occurrence: always # always, random or specified value

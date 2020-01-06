@@ -1,0 +1,8 @@
+Potions:
+  ShotsFired:
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 0
+    max: 1
+    default_shots: 10 #default_shots * level arrows will be shots.
+    occurrence: 0.1

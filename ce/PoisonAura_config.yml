@@ -1,0 +1,12 @@
+Potions:
+    PoisonAura:
+      event_map:
+        EntityDamageByEntityEvent: "HIGHEST"
+      price: 10
+      max: 10
+      duration: 5
+      radius: 6
+      effect: POISON
+      occurrence: always
+      region_plugin: FactionUUID
+

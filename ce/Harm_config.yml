@@ -1,0 +1,11 @@
+Potions:
+  Harm:
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    #
+    # level_multiplier * the level of potion will be used as
+    # the level of Harm potion.
+    level_multiplier: 1
+    occurrence: always # you can set it to random as well.

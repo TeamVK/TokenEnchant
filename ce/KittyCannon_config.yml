@@ -1,0 +1,10 @@
+Potions:
+  KittyCannon:
+    event_map:
+      PlayerInteractEvent: "NORMAL"
+    price: 10
+    max: 1
+    sound: CAT_HIT
+    damage_multiplier: 2
+    damage: 4
+    occurrence: always

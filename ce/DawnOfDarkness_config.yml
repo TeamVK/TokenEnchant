@@ -1,0 +1,8 @@
+Potions:
+  DawnOfDarkness:
+    description: "Gives a chance to mildly blind someone."
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 1
+    occurrence: always

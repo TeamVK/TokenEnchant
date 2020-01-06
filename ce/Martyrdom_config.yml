@@ -1,0 +1,8 @@
+Potions:
+  Martyrdom:
+    event_map:
+      BlockExplodeEvent: "LOW"
+      PlayerDeathEvent: "HIGH"
+    price: 10
+    max: 10
+    occurrence: always

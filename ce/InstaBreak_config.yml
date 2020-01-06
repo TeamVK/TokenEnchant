@@ -1,0 +1,10 @@
+Potions:
+  InstaBreak:
+    event_map:
+      PlayerInteractEvent: "MONITOR"
+      BlockBreakEvent: "MONITOR"
+    price: 10
+    max: 1. # not much point having level above 1 !
+    occurrence: always
+    target_blocks:
+      - SPONGE

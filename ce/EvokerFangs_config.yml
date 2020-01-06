@@ -1,0 +1,15 @@
+Potions:
+  EvokerFangs:
+    description: "Attack like Evoker!! Fangs will reach out to your opponent and bite them!"
+    event_map:
+      PlayerInteractEvent: "HIGHEST"
+    price: 10
+    max: 4
+    distance_multiplier: 2
+    need_sneak: false
+    need_sneak_message: "&a[TE] You need to sneak (Shift-key) to use this enchant!"
+    cooldown: 0
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always
+    allowed_items:
+      - DIAMOND_SWORD

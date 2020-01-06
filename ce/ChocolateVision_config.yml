@@ -1,0 +1,9 @@
+Potions:
+  ChocolateVision:
+    description: "See the names of anyone using invisibility potion."
+    event_map:
+      PotionSplashEvent: "LOWEST"
+      PlayerItemConsumeEvent: "HIGHEST"
+    price: 10
+    max: 1
+    occurrence: always

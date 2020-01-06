@@ -1,0 +1,34 @@
+Potions:
+  MineWipe:
+    description: "Wipe out the entire mine! It is recommended to be used with AutoSell."
+    event_map:
+      BlockBreakEvent: "MONITOR"
+      TEBlockExplodeEvent: "MONITOR"
+    price: 10
+    max: 1  # Since it will wipe out all blocks in the mine, no need to have levels
+    # you can nominate the world, which prevents explosive
+    invalid_in_world:
+      - plotworld
+    # you can turn on automatic pickup.
+    pickup: false
+    # you can tunrn on automatic smelting
+    smelt: false
+    # you can turn on/off explostion sound/visual effects
+    effect: true
+    # you can turn on/off explostion sound effects
+    sound: true
+    # You can set the occurrence of explosion.
+    # random: randomly occur based on the level
+    # always: explosion occur always.
+    occurrence: random
+    cooldown: 20  # inseconds
+    cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
+    maxRadius: 100  #in case you miss config your mine.
+    # You can set the list of blocks exempt from explosiont.
+    # use this list to avoid your crates being exploded.
+    # AIR and BEDROCK are already exempted by defalt
+    exemptions:
+      - ENDER_CHEST
+      - GLOWSTONE
+      - LADDER
+      - STONE_PLATE

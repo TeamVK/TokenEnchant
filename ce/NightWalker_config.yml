@@ -1,0 +1,7 @@
+Potions:
+    NightWalker:
+      price: 10
+      max: 10
+      multiplier: 0.1
+      occurrence: random
+

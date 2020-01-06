@@ -1,0 +1,11 @@
+Potions:
+  ElderBow:
+    description: "Use your wisdom to fire multiple arrows at your struggling target!"
+    event_map:
+      EntityShootBowEvent: "NORMAl"
+      ProjectileHitEvent: "MONITOR"
+    price: 10
+    max: 1
+    radiation_angle: 45.0
+    multiplier: 2
+    occurrence: always

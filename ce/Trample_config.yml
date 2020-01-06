@@ -1,0 +1,15 @@
+Potions:
+  Trample:
+    event_map:
+      EntityDamageEvent: "HIGH"
+      PlayerToggleFlightEvent: "NORMAL"
+      PlayerToggleSneakEvent: "HIGH"
+    damage: 2
+    price: 0
+    max: 1
+    smash_volumey: 50
+    smash_velocity: 3
+    particle_speed: 1
+    particle_range: 10
+    cooldown: 2
+    occurrence: always

@@ -1,0 +1,7 @@
+Potions:
+  ItemFishing:
+    event_map:
+      PlayerFishEvent: "HIGHEST"
+    price: 10
+    max: 20
+    occurrence: random

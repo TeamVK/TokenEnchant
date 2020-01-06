@@ -1,0 +1,10 @@
+Potions:
+  EnderScape:
+    description: "It gives a small chance of teleporting to escape when about to die."
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 1
+    max_distance: 10
+    speed_factor: 0.7
+    occurrence: always

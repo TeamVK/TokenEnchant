@@ -1,0 +1,8 @@
+Potions:
+  McMMOExp:
+    event_map:
+      McMMOPlayerXpGainEvent: "NORMAL"
+    price: 10
+    max: 5
+    multiplier: 2.0  # new exp gain = original * level * multiplier
+    occurrence: always

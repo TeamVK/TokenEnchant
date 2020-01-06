@@ -1,0 +1,10 @@
+Potions:
+  ElderPowers:
+    description: "The use of your knowledge has given you the ability to craft these powerful pant to increase your armors durability when being hit by an axe."
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 1
+    radius: 10
+    multiplier: 0.1
+    occurrence: always

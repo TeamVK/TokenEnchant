@@ -1,0 +1,9 @@
+Potions:
+  FedTooLittle:
+    description: "This decrease the hunger of the enemy at an alarming rate."
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 1
+    multiplier: 1.0
+    occurrence: always

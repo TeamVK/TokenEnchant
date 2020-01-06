@@ -1,0 +1,8 @@
+Potions:
+  Tank:
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    multiplier: 0.1
+    price: 0
+    max: 1
+    occurrence: always

@@ -1,0 +1,8 @@
+Potions:
+  StormCaller:
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    damage_multiplier: 2 # damage level = enchant level * multiplier.
+    occurrence: random

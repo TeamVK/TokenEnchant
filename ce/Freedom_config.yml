@@ -1,0 +1,12 @@
+Potions:
+  Freedom:
+    description: "Fireworks for Freedom!!!"
+    event_map:
+      BlockBreakEvent: "HIGHEST"
+    price: 10
+    max: 10
+    effect: STAR
+    color: 4
+    flicker: true
+    trail: true
+    occurrence: always

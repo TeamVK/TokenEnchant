@@ -1,0 +1,9 @@
+Potions:
+  Curse:
+    description: "Curse your attacker with this enchant! It will give them mining fatigue!"
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    duration_multiplier: 4 # duration = level * multiplier seconds.
+    occurrence: random

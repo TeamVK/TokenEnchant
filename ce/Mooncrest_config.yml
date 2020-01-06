@@ -1,0 +1,8 @@
+Potions:
+  Mooncrest:
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 10
+    multiplier: 1.15
+    occurrence: always

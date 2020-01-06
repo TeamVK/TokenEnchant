@@ -1,0 +1,8 @@
+Potions:
+  MoneyBlade:
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 10
+    amount: 5000
+    occurrence: always

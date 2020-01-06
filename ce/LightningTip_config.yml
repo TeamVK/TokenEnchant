@@ -1,0 +1,9 @@
+Potions:
+  LightningTip:
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+      BlockExplodeEvent: "LOW"
+    price: 10
+    max: 4
+    pve: false
+    occurrence: always

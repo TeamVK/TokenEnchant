@@ -1,0 +1,9 @@
+Potions:
+  ItemPickPocket:
+    event_map:
+      PlayerInteractAtEntityEvent: "HIGHEST"
+    price: 10
+    max: 1
+    cooldown: 10
+    sneak: true
+    occurrence: random

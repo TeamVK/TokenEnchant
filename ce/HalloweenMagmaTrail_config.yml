@@ -1,0 +1,17 @@
+Potions:
+  HalloweenMagmaTrail:
+    event_map:
+      BlockBreakEvent: "LOWEST"
+      EntityDamageByBlockEvent: "LOWEST"
+      PlayerMoveEvent: "HIGHEST"
+      PlayerQuitEvent: "MONITOR"
+    use_fakeblock: true
+    fakeblock_visible_radius: 16
+    price: 10
+    max: 1
+    radius: 1
+    duration: 60
+    ignore_blocks:
+      - CHEST
+      - ENDER_CHEST
+    occurrence: always

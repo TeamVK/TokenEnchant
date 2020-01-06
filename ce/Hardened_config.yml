@@ -1,0 +1,8 @@
+Potions:
+  Hardened:
+    event_map:
+      PlayerItemDamageEvent: "HIGHEST"
+    price: 10
+    max: 5
+    max_protection: 0.95  # maximum up to this percentage will be reduced.
+    occurrence: always  # you can also make it occur randomly

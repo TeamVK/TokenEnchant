@@ -1,0 +1,9 @@
+Potions:
+  Implants:
+    event_map:
+      PlayerMoveEvent: "NORMAL"
+    price: 10
+    max: 5
+    gain: 1  # the amount of health/food recovery per one duration.
+    duration_multiplier: 4 # duration = max/lvl * duration seconds to recover.
+    occurrence: always

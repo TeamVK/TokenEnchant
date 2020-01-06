@@ -1,0 +1,8 @@
+Potions:
+  Grinder:
+    description: "Gives a chance to double the efficiency of the pickaxe."
+    event_map:
+      BlockBreakEvent: "NORMAL"
+    price: 10
+    max: 1
+    occurrence: always

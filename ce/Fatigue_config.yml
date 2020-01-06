@@ -1,0 +1,8 @@
+Potions:
+  Fatigue:
+    description: "It gives your opponent a fatigue effect!"
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    occurrence: always # you can set it to random as well.

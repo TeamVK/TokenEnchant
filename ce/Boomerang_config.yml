@@ -1,0 +1,14 @@
+Potions:
+  Boomerang:
+    description: "Throw your weapon to attack and your weapon will return to you when its job is done!"
+    event_map:
+      PlayerDeathEvent: "HIGHEST"
+      PlayerPickupItemEvent: "HIGHEST"
+      InventoryPickupItemEvent: "HIGHEST"
+      PlayerInteractEvent: "HIGHEST"
+    price: 10
+    max: 1
+    occurrence: always
+    damage_multiplier: 2
+    need_snek: true
+    delay: 5

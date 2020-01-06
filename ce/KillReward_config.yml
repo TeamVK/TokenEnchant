@@ -1,0 +1,23 @@
+Potions:
+  KillReward:
+    event_map:
+      EntityDeathEvent: "HIGHEST"
+    price: 10
+    max: 3
+    occurrence: always
+    rewards:
+      1:
+        reward_msg: "&aYou've received level 1 reward for killing!"
+        commands:
+          - "!te add %player% 10"
+          - "!eco give %player% 10"
+      2:
+        reward_msg: "&aYou've received level 2 reward for killing!"
+        commands:
+          - "!te add %player% 20"
+          - "!eco give %player% 20"
+      3:
+        reward_msg: "&aYou've received level 3 reward for killing!"
+        commands:
+          - "!te add %player% 30"
+          - "!eco give %player% 30"

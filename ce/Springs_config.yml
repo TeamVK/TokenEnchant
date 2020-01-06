@@ -1,0 +1,5 @@
+Potions:
+  Springs:
+    price: 0
+    max: 1
+    occurrence: always

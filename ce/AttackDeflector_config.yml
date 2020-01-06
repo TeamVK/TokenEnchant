@@ -1,0 +1,10 @@
+Potions:
+  AttackDeflector:
+    description: "This custom effect will allow you to deflect attacks including arrow!"
+    event_map:
+      EntityDamageByEntityEvent: "LOW"
+    price: 10
+    max: 10
+    require_blocking: true
+    projectile: true         # deflect all projectile based attacks
+    entity_attack: true   # deflect any other attacks

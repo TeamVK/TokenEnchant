@@ -1,0 +1,32 @@
+Potions:
+  Upgrade:
+    description: "With a small chance, upgrade a randomly selected enchantment level."
+    event_map:
+      PlayerFishEvent: "NORMAL"
+      BlockBreakEvent: "NORMAL"
+      EntityDamageByEntityEvent: "HIGHEST"
+      PlayerDeathEvent: "HIGHEST"
+    price: 10
+    max: 1
+    message: "&aYour &e%enchantment% &ahas been upgraded to the level &e%level%&a!"
+    display_message: false
+    action_bar_message: false
+    occurrence: 0.01
+
+    triggers:
+      - FISHING
+      - WOODCUTTING
+      - MINING
+      - FARMING
+
+    # you can list type of blocks associated with mining (mineral), woodcutting (wood)
+    # and farming (Crop)
+    block_types:
+      minerals:
+        - DIAMOND_ORE
+        - IRON_ORE
+      woods:
+        - LOG
+        - LOG_2
+      crops:
+        - CROPS

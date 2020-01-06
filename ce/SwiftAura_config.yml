@@ -1,0 +1,9 @@
+Potions:
+  SwiftAura:
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 0
+    max: 1
+    duration: 5 # in second.
+    radius: 10
+    occurrence: always

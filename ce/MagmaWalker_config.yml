@@ -1,0 +1,11 @@
+Potions:
+  MagmaWalker:
+    event_map:
+      BlockBreakEvent: "LOWEST"
+      PlayerMoveEvent: "HIGHEST"
+    price: 10
+    max: 3
+    delay: 10  # delay in seconds until Obsidian starts melting.
+    cooldown: -1  # >0 will impose cooldown of the use.
+    cooldown_message: ""  # empty message -> no message displayed.
+    occurrence: always

@@ -1,0 +1,8 @@
+Potions:
+  Toxic:
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    duration_multiplier: 20  # duration = level * multipler [tics] (1sec=20tics)
+    occurrence: always

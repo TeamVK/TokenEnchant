@@ -1,0 +1,7 @@
+Potions:
+  SteelSword:
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 0
+    max: 1
+    occurrence: always

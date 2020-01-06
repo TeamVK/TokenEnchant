@@ -1,0 +1,18 @@
+Potions:
+  AutoSell:
+    description: "Automatically sell all items in your inventory and VKBackPack."
+    event_map:
+      BlockBreakEvent: "MONITOR"
+      TEBlockExplodeEvent: "MONITOR"
+      PlayerInteractEvent: "MONITOR"
+    price: 10
+    max: 1
+    wait_for_inv_full: true
+    action_bar: false
+    action_bar_message: "&aYou've sold &e%itemssold% &afor &e%price%&a."
+    display_message: false
+    display_format:
+      - "&bItems Sold:&r %itemssold%"
+      - "&bPrice:&r %price%"
+    use_right_click: false # true will allow you to initiate autosell with right click
+    occurrence: always

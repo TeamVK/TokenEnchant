@@ -1,0 +1,9 @@
+Potions:
+  GrapplingRod:
+    description: "This allows a player to cast a fishing rod for grappling."
+    event_map:
+      PlayerFishEvent: "HIGHEST"
+    price: 10
+    max : 1
+    sound: ENTITY_MAGMACUBE_JUMP
+    occurrence: always

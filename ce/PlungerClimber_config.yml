@@ -1,0 +1,10 @@
+Potions:
+  PlungerClimber:
+    event_map:
+      PlayerInteractEvent: "LOW"
+      BlockPlaceEvent: "LOW"
+    price: 10
+    max: 1
+    cooldown: 0
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always

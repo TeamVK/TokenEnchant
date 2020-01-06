@@ -1,0 +1,35 @@
+Potions:
+  AutoBlocking:
+    description: "Automatically turn dust/ore into blocks when your inventory/backpack is full."
+    event_map:
+      BlockBreakEvent: "NORMAL"
+    price: 10
+    max: 1
+    occurrence: always
+    wait_for_inventory_full: false
+    resource_mapping:
+      CLAY_BALL:
+        num: 4
+        target: CLAY
+      DIAMOND:
+        num: 9
+        target: DIAMOND_BLOCK
+      GOLD_INGOT:
+        num: 9
+        target: GOLD_BLOCK
+      IRON_INGOT:
+        num: 9
+        target: IRON_BLOCK
+      EMERALD:
+        num: 9
+        target: EMERALD_BLOCK
+      REDSTONE:
+        num: 9
+        target: REDSTONE_BLOCK
+      INK_SACK:
+        data: 4
+        num: 9
+        target: LAPIS_BLOCK
+      COAL:
+        num: 9
+        target: COAL_BLOCK

@@ -1,0 +1,12 @@
+Potions:
+  QuickTrap:
+    event_map:
+      PlayerInteractEvent: "HIGHEST"
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    cooldown: -1
+    sneak: true
+    check_break: true # if this is true, enchant is activated only if you can break a block.
+    time_multiplier : 1 # duration = level * time_multiplier seconds
+    occurrence: always # you can set it to random as well.

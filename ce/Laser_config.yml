@@ -1,0 +1,15 @@
+Potions:
+  Laser:
+    event_map:
+      PlayerInteractEvent: "LOW"
+      BlockExplodeEvent: "NORMAL"
+      EntityExplodeEvent: "NORMAL"
+      EntityDamageByBlockEvent: "NORMAL"
+      EntityDamageByEntityEvent: "NORMAL"
+    price: 10
+    max: 5
+    cooldown: -1
+    cooldown_message: ""
+    throw_sound: MAGMACUBE_JUMP
+    bullet: PUMPKIN #EGG
+    occurrence: always

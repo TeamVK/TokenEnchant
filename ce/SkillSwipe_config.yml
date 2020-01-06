@@ -1,0 +1,9 @@
+Potions:
+  SkillSwipe:
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 100
+    max: 10
+    max_exp_at_max_level: 30  # maximum exp one can take with max enchantment level
+    drop_exp_orb option : false
+    occurrence: random

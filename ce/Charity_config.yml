@@ -1,0 +1,25 @@
+Potions:
+  Charity: # give out $ to online players.
+    description: "Give out random amount of $ to all online players!"
+    event_map:
+      BlockBreakEvent: "NORMAL"
+    price: 10
+    max: 5
+    RewardMsg: "&e%player% &awas very charitable and you've received &e$%amount% &a!"
+    Rewards:
+      1:
+        min: 5
+        max: 10
+      2:
+        min: 10
+        max: 15
+      3:
+        min: 20
+        max: 25
+      4:
+        min: 30
+        max: 35
+      5:
+        min: 40
+        max: 45
+    occurrence: 0.04  # 4% chance of occurrence at the max level.

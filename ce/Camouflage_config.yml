@@ -1,0 +1,11 @@
+Potions:
+  Camouflage:
+    description: "Allows you to blend into the environment as long as you sneak and don't move!"
+
+    event_map:
+      PlayerToggleSneakEvent: "NORMAL"
+    price: 10
+    max: 1
+    cooldown: -1
+    cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always

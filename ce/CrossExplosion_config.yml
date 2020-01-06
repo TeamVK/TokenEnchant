@@ -1,0 +1,23 @@
+Potions:
+  CrossExplosion:
+    description: "It explodes a cross pattern of blocks in a mine."
+    alias: CrossHammer
+    event_map:
+      BlockBreakEvent: "MONITOR"
+    price: 10
+    max: 3 # 
+    # you can nominate the world, which prevents explosive
+    invalid_in_world:
+      - plotworld
+    # you can turn on/off explostion sound/visual effects
+    effect: true
+    # you can turn on/off explostion sound effects
+    sound: true
+    # You can set the occurrence of explosion.
+    # random: randomly occur based on the level
+    # always: explosion occur always.
+    occurrence: random
+    cooldown: 20 # inseconds
+    cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
+    maxRadius: 100 
+    use_explode_event: true

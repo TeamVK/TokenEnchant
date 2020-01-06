@@ -1,0 +1,7 @@
+Potions:
+  Neglect:
+    event_map:
+      EntityDamageByEntityEvent: "MONITOR"
+    price: 10
+    max: 10
+    occurrence: always

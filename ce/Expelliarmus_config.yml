@@ -1,0 +1,15 @@
+Potions:
+  Expelliarmus:
+    description: "Disarm your opponent!"
+    event_map:
+      PlayerInteractEvent: "HIGHEST"
+    price: 10
+    max: 4
+    distance_multiplier: 2
+    max_distance: 100
+    need_sneak: true
+    need_sneak_message: "&a[TE] You need to sneak (Shift-key) to use this enchant!"
+    cooldown: 10
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always
+

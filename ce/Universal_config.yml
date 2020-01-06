@@ -1,0 +1,37 @@
+Potions:
+  Universal:
+    event_map:
+      PlayerInteractEvent: "HIGHEST"
+      BlockDamageEvent: "LOW"
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    occurrence: always
+    default_item: FISHING_ROD
+    shears: true
+    levels:
+      1:
+        axe: WOOD_AXE
+        pickaxe: WOOD_PICKAXE
+        sword: WOOD_SWORD
+        spade: WOOD_SPADE
+      2:
+        axe: STONE_AXE
+        pickaxe: STONE_PICKAXE
+        sword: STONE_SWORD
+        spade: STONE_SPADE
+      3:
+        axe: IRON_AXE
+        pickaxe: IRON_PICKAXE
+        sword: IRON_SWORD
+        spade: IRON_SPADE
+      4:
+        axe: GOLD_AXE
+        pickaxe: GOLD_PICKAXE
+        sword: GOLD_SWORD
+        spade: GOLD_SPADE
+      5:
+        axe: DIAMOND_AXE
+        pickaxe: DIAMOND_PICKAXE
+        sword: DIAMOND_SWORD
+        spade: DIAMOND_SPADE

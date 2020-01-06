@@ -1,0 +1,6 @@
+Potions:
+  BatmanLeggings:
+    description: "With this enchant, you get permanent resistance !"
+    price: 0
+    max: 1
+    occurrence: always

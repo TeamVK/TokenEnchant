@@ -1,0 +1,8 @@
+Potions:
+  Desecrate:
+    description: "Destroying your enemies armor very fast but weapon breaks once your enemies armor does."
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 1
+    occurrence: always

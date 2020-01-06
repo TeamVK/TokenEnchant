@@ -1,0 +1,11 @@
+Potions:
+  HalloweenBats:
+    event_map:
+      EntityDamageByEntityEvent: "NORMAL"
+    price: 10
+    max: 1
+    number_of_bats: 5
+    duration: 60
+    cooldown: 3
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always

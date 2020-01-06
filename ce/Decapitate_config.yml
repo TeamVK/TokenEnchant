@@ -1,0 +1,20 @@
+Potions:
+  Decapitate:
+    description: "It decapitates players and mobs' heads!"
+    event_map:
+      EntityDeathEvent: "NORMAL"
+    price: 10
+    max: 1
+    drop_player_head: true
+    drop_player_head_chance: 100
+    drop_mob_head: false   # if this is true friendly mobs drops their head
+    drop_mob_head_chance: 30
+    drop_hostile_mob_head: true # this is for hostile mobs.
+    drop_hostile_mob_head_chance: 20
+    killed_message: "Killed by %killer%"
+    head_message: "%killed%'s Head"
+    decapitated_message: "&b%killed% was beheaded by %killer%"
+    display_message: true
+    occurrence: random
+    blacklist:
+      - WITHER

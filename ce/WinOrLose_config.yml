@@ -1,0 +1,7 @@
+Potions:
+  WinOrLose:
+    event_map:
+      PlayerDeathEvent: "LOWEST"
+    price: 0
+    max: 1
+    occurrence: always

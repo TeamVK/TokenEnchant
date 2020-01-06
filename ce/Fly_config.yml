@@ -1,0 +1,18 @@
+Potions:
+  Fly:
+    description: "This will let you FLY!!"
+    price: 10
+    max: 5
+    occurrence: always
+#    invalid_in_region:
+#      - nofly
+#    invalid_in_world:
+#      - plotworld
+    allowed_items:
+      - DIAMOND_BOOTS
+    max_speed: 1.0. # value between 0.1 - 1.0. (0.2 is the default fly speed)
+    default_speed: 0.05 # if not specified 0.05 will be used.
+
+    #if a player has the following permission node, his fly own't be turned off
+    fly_permission_nodes:
+      - "essentials.fly"

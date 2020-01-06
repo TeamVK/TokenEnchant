@@ -1,0 +1,10 @@
+Potions:
+  Ramming:
+    event_map:
+      EntityDamageByEntityEvent : "HIGH"
+    price: 10
+    max: 10
+    multiplier: 0.1 # damage = origianldamage * (1 + multiplier*level)
+    cooldown: 10
+    cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always

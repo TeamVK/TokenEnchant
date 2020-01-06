@@ -1,0 +1,14 @@
+Potions:
+  HealingBow:
+    event_map:
+      EntityShootBowEvent: "NORMAL"
+      ProjectileHitEvent: "MONITOR"
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 5
+    radiation_angle: 30.0
+    cooldown: 10
+    cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
+    heal_message: "&a[TE] You have been healed by %healer%. "
+    multiplier: 3  # arrow number = level * multiplier
+    occurrence: always

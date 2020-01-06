@@ -1,0 +1,8 @@
+Potions:
+  FlakJacket:
+    description: "Neglects all tnt damage and knockback effects when hit with tnt or exploded near you."
+    event_map:
+      EntityDamageEvent: "HIGHEST"
+    price: 10
+    max : 1
+    occurrence: always

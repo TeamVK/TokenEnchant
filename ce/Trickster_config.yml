@@ -1,0 +1,9 @@
+Potions:
+  Trickster:
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 5
+    support_projectile: false  # if it's true, projectile attack will also teleport you.
+    offset: 2.0   # distance from your opponent when you get teleported.
+    occurrence: random

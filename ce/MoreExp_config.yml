@@ -1,0 +1,19 @@
+# +------------------------------------------------------------+ #
+# MoreExpPotion Configuration
+# +------------------------------------------------------------+ #
+
+# NOTE: Do NOT put tabs anywhere in the config!
+
+Potions:
+  MoreExp:
+    event_map:
+      BlockBreakEvent: "HIGHEST"
+      EntityDeathEvent: "HIGHEST"
+      PlayerFishEvent: "HIGHEST"
+    price: 10
+    max: 2
+    # you can use variables 'original_exp' and 'level' in the formula: option.
+    formula: "original_exp * (1 + level * 0.25)"
+    # if you set occurrence: random, the chance of
+    # your guardian being spawn will be calculated form the level
+    occurrence: always

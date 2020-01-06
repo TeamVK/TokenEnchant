@@ -1,0 +1,18 @@
+Potions:
+  Lightning:
+    event_map:
+      BlockExplodeEvent: "NORMAL"
+      PlayerInteractEvent: "HIGHEST"
+      EntityDamageByBlockEvent: "NORMAL"
+    price: 10
+    max: 10
+    use_for_mining: true
+    no_damage: true
+    need_sneak: true # use sneak to strike!
+    need_sneak_message: "&a[TE] You need to sneak (Shift-key) to use this!"
+    cooldown: 10
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    power_multiplier: 1.0  # level * multiple = explosion power (4 = 1TNT)
+    sound: true. # set this to "false" to turn off the lightning sound.
+    occurrence: always
+    right_click: false. #if it is true, right click air will trigger the lightning.

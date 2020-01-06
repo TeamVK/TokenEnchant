@@ -1,0 +1,8 @@
+Potions:
+  Slaughter:
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 5
+    multiplier: 4 # kill number = level * multiplier.
+    occurrence: random

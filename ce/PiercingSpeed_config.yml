@@ -1,0 +1,9 @@
+Potions:
+    PiercingSpeed:
+      event_map:
+        EntityDamageByEntityEvent: "HIGH"
+      price: 10
+      max: 10
+      multiplier: 0.1
+      amount: 5000
+      occurrence: always

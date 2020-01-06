@@ -1,0 +1,12 @@
+Potions:
+  Voodoo:
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 1
+    cooldown: 300
+    cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
+    notify: true
+    notify_message: "&c[Voodoo] Someone used your voodoo doll!!"
+    offline_message: "&c[Voodoo] Player %player% is not online!"
+    occurrence: random

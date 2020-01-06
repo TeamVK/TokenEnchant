@@ -1,0 +1,12 @@
+Potions:
+  DeathBringer:
+    description: "It doubles attack damage upon hitting your opponent!"
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 4
+    cooldown: 0
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always
+    allowed_items:
+      - DIAMOND_SWORD

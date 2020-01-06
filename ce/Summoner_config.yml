@@ -1,0 +1,15 @@
+Potions:
+  Summoner:
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+      EntityDeathEvent: "HIGHEST"
+      EntityTargetEvent: "HIGHEST"
+    price: 0
+    max: 2
+    name_format: "&e%player%&'s Army"
+    guards:
+      1:
+        type: ZOMBIE
+      2:
+        type: PIG_ZOMBIE
+    occurrence: always

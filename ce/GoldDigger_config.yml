@@ -1,0 +1,9 @@
+Potions:
+  GoldDigger:
+    description: "Gives you a chance of finding small increments of In game money whilst excavating."
+    event_map:
+      BlockBreakEvent: "HIGH"
+    price: 10
+    max : 1
+    message: "&aYou got lucky! You've found $%amount%!"
+    occurrence: always

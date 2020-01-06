@@ -1,0 +1,16 @@
+Potions:
+  SoulBound:
+    event_map:
+      PlayerDeathEvent: "LOW"
+      PlayerRespawnEvent: "MONITOR"
+      PlayerJoinEvent: "MONITOR"
+      PlayerPickupItemEvent: "LOW"
+      InventoryCloseEvent: "NORMAL"
+    price: 10
+    max: 4
+    occurrence: always
+    #this option allow the enchantment level to automatically decrease upon death
+    decrement_chance: 1.0
+    # if this flag is set to "true", soul-bounded item will have its soul attached to it, and only the lawful owner can pick it up unless you have 'tokenenchant.soulbound.admin' permission node.
+    no_pickup: true
+    # tag_prefix: "&bSOUL:"  # this is deprecated because the UUID is now in NBT.

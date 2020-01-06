@@ -1,0 +1,24 @@
+Potions:
+  Guardian:
+    description: "Upon taking damage, it will spawn your guardian mob (like PigZombie, IronGolem) to fight for your and protect you!"
+    event_map:
+      EntityDamageByEntityEvent: "MONITOR"
+      EntityDeathEvent: "MONITOR"
+      EntityTargetEvent: "LOWEST"
+      PlayerDeathEvent: "HIGHEST"
+      PlayerMoveEvent: "LOWEST"
+      PlayerQuitEvent: "LOWEST"
+    price: 10
+    max: 2
+    name_format: "&e%player%&'s Guardian"
+    nearby_radius: 10
+    PvE: false
+    combat_expire: 20. #in seconds.
+    guards:
+      1:
+        type: PIG_ZOMBIE
+      2:
+        type: IRON_GOLEM
+    # if you set occurrence: random, the chance of
+    # your guardian being spawn will be calculated form the level
+    occurrence: always

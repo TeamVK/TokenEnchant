@@ -1,0 +1,21 @@
+Potions:
+  GrapplingBow:
+    description: "This allows a player to shoot an arrow for grappling."
+    event_map:
+      EntityShootBowEvent: "HIGHEST"
+      ProjectileHitEvent: "HIGHEST"
+      EntityDamageEvent: "HIGHEST"
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 1
+    fall_damage: false
+    sound: ENTITY_MAGMACUBE_JUMP  # for pre 1.9 -> MAGMACUBE_JUMP
+    cooldown: 0   # 0 = no cooldown
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always
+    horizontal_factor: 0.07
+    vertical_factor: 0.03
+#    invalid_in_region:
+#      - nofly
+#    invalid_in_world:
+#      - plotworld

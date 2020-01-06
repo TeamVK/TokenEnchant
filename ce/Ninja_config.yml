@@ -1,0 +1,13 @@
+Potions:
+  Ninja:
+    event_map:
+      EntityDamageByEntityEvent: "LOW"
+    price: 10
+    max: 10
+    duration_multiplier: 5
+    no_attack: true
+    show_bubble: true
+    show_smoke: true
+    cooldown: 10
+    cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always

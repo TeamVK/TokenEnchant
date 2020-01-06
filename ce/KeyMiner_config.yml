@@ -1,0 +1,25 @@
+Potions:
+  KeyMiner:
+    # use this option to resolve any conflict with other plugin(s) such as AutoSell
+    event_map:
+      BlockBreakEvent: "HIGH"
+      TEBlockExplodeEvent: "HIGHEST"
+    price: 10
+    max: 2    #this number should be same as the highest level in levels: section
+    occurrence: always
+    effect: MOBSPAWNER_FLAMES
+    sound: ENTITY_LIGHTNING_THUNDER  # for pre 1.9 ...AMBIENCE_THUNDER
+    levels:
+      1:
+        chance: 0.10  # 10% chance!
+        # '!' -> console, '>' -> op, '@' -> player
+        commands:
+          - "!crate givekey %player% common 1"
+      2:
+        chance: 0.02  # 2% chance!
+        commands:
+          - "!crate givekey %player% rare 1"
+    exemptions:  # needs to be Bukkit's Material type in CAPs.
+      - GRASS
+      - SAND
+

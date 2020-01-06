@@ -1,0 +1,14 @@
+Potions:
+  BatmanBoots:
+    description: "With this enchant, you will be fast, and take no fall damage and have constant fire resistance!"
+    event_map:
+      EntityDamageEvent: "HIGH"
+    price: 0
+    max: 1
+    speed_multiplier: 2
+    speed_offset: 1
+    fireprot_multiplier: 2
+    fireprot_offset: 1
+    regen_multiplier: 1
+    regen_offset: 1
+    occurrence: always

@@ -1,0 +1,7 @@
+Potions:
+  MobSpawnerEgg:
+    event_map:
+      BlockBreakEvent: "HIGHEST"
+    price: 10
+    max: 1
+    occurrence: always

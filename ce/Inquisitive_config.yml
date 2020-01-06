@@ -1,0 +1,10 @@
+Potions:
+  Inquisitive:
+    event_map:
+      EntityDeathEvent: "NORMAL"
+    price: 10
+    max: 4
+    multiplier: 4  # amount of orbs = ex_drop * level * multiplier
+    cooldown: 0
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always

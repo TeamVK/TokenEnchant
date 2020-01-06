@@ -1,0 +1,8 @@
+Potions:
+  BodyBreaker:
+    description: "Give durability damage twice the rate!"
+    event_map:
+      PlayerItemDamageEvent: "HIGH"
+      EntityDamageByEntityEvent: "HIGH"
+    price: 0
+    max: 1

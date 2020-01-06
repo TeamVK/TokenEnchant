@@ -1,0 +1,10 @@
+Potions:
+  GravityDefiance:
+    description: "Once you're in combat, it has a chance to throw your enemy into the air making them take fall damage."
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 1
+    velocity: 5.0
+    vertical_offset: 1.0
+    occurrence: always

@@ -1,0 +1,12 @@
+Potions:
+  BatSonar:
+    description: "When people hit someone with this armor, it makes it so all they hear is the bat squeak sound!"
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 0
+    max: 1
+    duration: 10
+    volume: 10
+    pitch: 1
+    sound: "BAT_HURT"
+    occurrence: always

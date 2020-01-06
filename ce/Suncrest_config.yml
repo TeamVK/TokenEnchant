@@ -1,0 +1,8 @@
+Potions:
+  Suncrest:
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 0
+    max: 1
+    multiplier: 1.15
+    occurrence: always

@@ -1,0 +1,8 @@
+Potions:
+  StrengthenedSkin:
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 0
+    max: 1
+    multiplier: 2
+    occurrence: always

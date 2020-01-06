@@ -1,0 +1,10 @@
+Potions:
+  Titanium:
+    price: 0
+    max: 1
+    # You can set the occurrence of explosion.
+    # random: randomly occur based on the level
+    # always: explosion occur always.
+    occurrence: random
+    cooldown: 20 # inseconds
+    cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."

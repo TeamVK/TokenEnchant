@@ -1,0 +1,28 @@
+Potions:
+  LuckyMining:
+    # use this option to resolve any conflict with other plugin(s) such as AutoSell
+    event_map:
+      BlockBreakEvent: "HIGH"
+      TEBlockExplodeEvent: "HIGHEST"
+    price: 10
+    max: 2    #this number should be same as the highest level in levels: section
+    occurrence: always
+    effect: MOBSPAWNER_FLAMES
+    sound: ENTITY_LIGHTNING_THUNDER  # for pre 1.9 ...AMBIENCE_THUNDER
+    levels:
+      1:
+        chance: 0.10  # 10% chance!
+        # '!' -> console, '>' -> op, '@' -> player
+        commands:
+          - "!tokenenchant add %player% 3;tm msg %player% &aLucky Block! <nl>&aYou received 3 tokens!"
+          - "!tokenenchant add %player% 1;tm msg %player% &aLucky Block! <nl>&aYou received one token!"
+          - "!tokenenchant add %player% 5;tm msg %player% &aLucky Block! <nl>&aYou received 5 token!"
+      2:
+        chance: 0.02  # 2% chance!
+        commands:
+          - "tokenenchant add %player% 10;tm msg %player% &aLucky Block! <nl>&aYou received 5 token!"
+          - "tokenenchant add %player% 50;tm msg %player% &aLucky Block! <nl>&aYou received 5 token!"
+    exemptions:  # needs to be Bukkit's Material type in CAPs.
+      - GRASS
+      - SAND
+

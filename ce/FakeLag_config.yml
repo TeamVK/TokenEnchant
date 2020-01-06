@@ -1,0 +1,9 @@
+Potions:
+  FakeLag:
+    description: "It causes your opponent to lag like crazy!"
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 10
+    duration_multiplier: 1.0
+    occurrence: random

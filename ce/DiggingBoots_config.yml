@@ -1,0 +1,9 @@
+Potions:
+  DiggingBoots:
+    description: "When jumping, you mine the block down one when you land on top of it."
+    event_map:
+      PlayerMoveEvent: "HIGH"
+    price: 10
+    max: 1
+    multiplier: 1.0
+    occurrence: always

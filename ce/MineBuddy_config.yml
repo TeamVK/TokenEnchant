@@ -1,0 +1,19 @@
+Potions:
+  MineBuddy:
+    event_map:
+      TEBlockExplodeEvent_register: "LOWEST"
+      TEBlockExplodeEvent_process: "MONITOR"
+      BlockBreakEvent_register: "LOWEST"
+      BlockBreakEvent_process: "MONITOR"
+    price: 10
+    max: 1
+    occurrence: always
+    no_player_msg : "&a[TE] No such player (%player%)."
+    no_buddy_msg :  "&a[TE] You don't have a mine buddy."
+    your_buddy_msg: "&a[TE] Your mine buddy is %player%."
+    removed_buddy_msg: "&a[TE] You de-registered your mine buddy."
+    sent_to_buddy_msg: "&a[TE] %item% has been sent to %player%"
+    accepted_msg: "&a[TE] %requestee% accepted the mine buddy request from %requester%."
+    no_request_found_msg: "&a[TE] Mine buddy request from %player% was not found."
+    request_sent_msg: "&a[TE] Your mine buddy request has been sent to %player%."
+    requested_msg: "&a[TE] You've received a mine buddy request from %player%."

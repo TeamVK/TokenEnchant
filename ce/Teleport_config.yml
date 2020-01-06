@@ -1,0 +1,17 @@
+Potions:
+  Teleport:
+    event_map:
+      PlayerInteractEvent: "HIGHEST"
+    price: 10
+    max: 4
+    distance_multiplier: 4
+    need_sneak: true
+    need_sneak_message: "&a[TE] You need to sneak (Shift-key) to use this enc\
+hant!"
+    cooldown: -1
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always
+    to_mint_top: true
+    to_set_location: true
+    set_location_message: "&a[TE] You have set the teleport destination."
+    teleported_message: "&a[TE] You have been teleported."

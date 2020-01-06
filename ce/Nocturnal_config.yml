@@ -1,0 +1,7 @@
+Potions:
+  Nocturnal:
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max : 5
+    occurrence: 0.9

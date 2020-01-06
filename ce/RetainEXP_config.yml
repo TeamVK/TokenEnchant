@@ -1,0 +1,7 @@
+Potions:
+  RetainEXP:
+    event_map:
+      PlayerDeathEvent: "LOWEST"
+    price: 10
+    max: 20
+    occurrence: random

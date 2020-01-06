@@ -1,0 +1,24 @@
+Potions:
+  Rage:
+    event_map:
+      PlayerInteractEvent: "MONITOR"
+      EntityDamageByEntityEvent: "HIGH"
+      PlayerQuitEvent: "HIGH"
+      PlayerJoinEvent: "HIGH"
+      PlayerDeathEvent: "HIGH"
+      PlayerRespawnEvent: "HIGH"
+      PlayerTeleportEvent: "HIGH"
+    price: 10
+    max: 10
+    expire: 10   #combo data will expire in this seconds.
+    maximum_combo: 10
+    damage_multiplier: 0.1 # final damage = original * (1 + combo* multiplier * level)
+    combo_message: ""    #"&e%count% &aHit Combo!"
+    particle: SLIME
+    particle_count: 5
+    sound: STEP_STONE
+    occurrence: always
+    reset_cause:
+      - ENTITY_ATTACK
+      - PROJECTILE
+      - THORNS

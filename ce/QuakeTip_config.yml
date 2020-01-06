@@ -1,0 +1,12 @@
+Potions:
+  QuakeTip:
+    event_map:
+      EntityDamageByEntityEvent: "NORMAL"
+    price: 10
+    max: 3
+    multiplier: 3
+    velocity: 0.2
+    vertical_offset: 2.0
+    cooldown: 5
+    cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: 0.1

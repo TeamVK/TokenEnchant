@@ -1,0 +1,10 @@
+Potions:
+  Tame:
+    event_map:
+      PlayerInteractAtEntityEvent: "HIGHEST"
+    price: 10
+    max: 1
+    cooldown_message: ""
+    already_tamed: "&c[TE] This is already tamed by &e%owner%&c."
+    tamed : "&a[TE] You've tamed this animal!"
+    occurrence: random

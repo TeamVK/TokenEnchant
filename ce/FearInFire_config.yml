@@ -1,0 +1,14 @@
+Potions:
+  FearInFire:
+    description: "It releases a fierce fire effect scarring off enemies while giving you regen effect!"
+    event_map:
+      PlayerItemConsumeEvent: "NORMAL"
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 1
+    duration: 10
+    effect: FLAME
+    particle_amount: 10
+    particle_range: 5.0
+    regen_level: 1
+    occurrence: always

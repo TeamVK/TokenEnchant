@@ -1,0 +1,10 @@
+Potions:
+  FeedMe:
+    description: "This enchant takes the hunger of your enemy and feeds it to you with a chance of activating."
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    alias: "&4StarvingEdge"
+    price: 10
+    max: 10
+    occurrence: 0.7
+    enchant_chance: 0.10

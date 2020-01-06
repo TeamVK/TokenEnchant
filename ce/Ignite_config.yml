@@ -1,0 +1,8 @@
+Potions:
+  Ignite:
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max : 1
+    unit_tick: 5  # final ticks = unit_tick * level
+    occurrence: always

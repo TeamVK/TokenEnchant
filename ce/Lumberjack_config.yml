@@ -1,0 +1,10 @@
+Potions:
+  Lumberjack:
+    event_map:
+      BlockBreakEvent: "NORMAL"
+    price: 10
+    max: 10
+    multiplier: 10 # level * multipler = number of wood blcoks to be cut.
+    include_leaves: true # this will remove leaves as well.
+    cooldown: -1
+    occurrence: always

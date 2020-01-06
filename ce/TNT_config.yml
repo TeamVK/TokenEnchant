@@ -1,0 +1,12 @@
+Potions:
+  TNT:
+    event_map:
+      BlockExplodeEvent: "NORMAL"
+      ProjectileHitEvent: "NORMAL"
+      EntityExplodeEvent: "NORMAL"
+    price: 10
+    max: 10
+    use_for_mining: true
+    cooldown: 10
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always

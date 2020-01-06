@@ -1,0 +1,33 @@
+Potions:
+  Drill:
+    description: "You can drill vertically or horizontally. The size of drilling hole can be controlled by the level of enchantment."
+    event_map:
+      BlockBreakEvent: "MONITOR"
+      PlayerInteractEvent: "NORMAL"
+    price: 10
+    max: 3
+    # if you put radius : -1, the level will be used as a radius.
+    radius: 2
+    # you can nominate the world, which prevents explosive
+    invalid_in_world:
+      - plotworld
+    # you can turn on automatic pickup.
+    pickup: false
+    # you can turn on automatic smelting
+    smelt: false
+    # you can turn on/off explostion sound/visual effects
+    effect: true
+    # tip shape can be SPHERE or CUBE
+    tipshape: SPHERE
+    # you can turn on/off explostion sound effects
+    sound: true
+    occurrence: always
+    # You can set the list of blocks exempt from explosiont.
+    # use this list to avoid your crates being exploded.
+    # AIR and BEDROCK are already exempted by defalt
+    exemptions:
+      - ENDER_CHEST
+      - GLOWSTONE
+      - LADDER
+      - STONE_PLATE
+      - "STAINED_GLASS:11"

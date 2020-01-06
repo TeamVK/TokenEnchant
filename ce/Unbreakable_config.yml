@@ -1,0 +1,8 @@
+Potions:
+  Unbreakable:
+    event_map:
+      PlayerItemDamageEvent: "MONITOR"
+      BlockBreakEvent: "MONITOR"
+    price: 10
+    max: 1
+    occurrence: always

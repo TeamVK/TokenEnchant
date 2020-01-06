@@ -1,0 +1,9 @@
+Potions:
+  Chiseled:
+    description: "It gives you mroe loot upon mining."
+    event_map:
+      BlockBreakEvent: "HIGH"
+    price: 0
+    max: 3
+    multiplier: 2.0
+    occurrence: always

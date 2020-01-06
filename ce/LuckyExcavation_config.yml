@@ -1,0 +1,14 @@
+Potions:
+  LuckyExcavation:
+    event_map:
+      BlockBreakEvent: "NORMAL"
+    alias: "&bLucky Spade"
+    price: 10
+    max: 5
+    MaxRewardMultiplier: 3  # the number of items dropped will be = 1 + MaxRewardMultiplier * level
+    Rewards:    # you can specify the material and its chance of dropping.
+      DIAMOND: 0.5
+      EMERALD: 0.4
+      GOLD_INGOT: 0.7
+      IRON_INGOT: 0.8
+    occurrence: always

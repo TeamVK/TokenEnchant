@@ -1,0 +1,11 @@
+Potions:
+  ExplosiveDeath:
+    description: "Gives the sound and effect of TNT and deals the damage and knockback of TNT as well."
+    event_map:
+      BlockExplodeEvent: "LOW"
+      EntityDamageByBlockEvent: "MONITOR"
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 1
+    heal_amount: 1
+    occurrence: always

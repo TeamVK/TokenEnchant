@@ -1,0 +1,8 @@
+Potions:
+  ObsidianDestroyer:
+    event_map:
+      BlockDamageEvent: "HIGHEST"
+    alias: "ObbyDestroyer"
+    price: 10
+    max: 1
+    occurrence: random

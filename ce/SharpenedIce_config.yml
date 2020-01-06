@@ -1,0 +1,9 @@
+Potions:
+  SharpenedIce:
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 0
+    max: 1
+    time_multiplier: 2
+    material: PACKED_ICE
+    occurrence: always

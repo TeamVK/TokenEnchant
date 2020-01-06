@@ -1,0 +1,20 @@
+Potions:
+  Batarang:
+    description: "You can throw an item to give damage to your oponent. The item you've thrown will comeback to you!"
+    event_map:
+      PlayerDeathEvent: "HIGHEST"
+      PlayerPickupItemEvent: "HIGHEST"
+      InventoryPickupItemEvent: "HIGHEST"
+      PlayerInteractEvent: "HIGHEST"
+    price: 0
+    max: 1
+    proximity: 2.0
+    damage_multiplier: 6  # this number * level = damage
+    anyone_can_pickup: false
+    distance_multiplier: 3
+    max_distance: 100
+    delay: 3
+    sound: GHAST_FIREBALL
+    cooldown: 3
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always

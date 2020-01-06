@@ -1,0 +1,7 @@
+Potions:
+  TripleDrop:
+    event_map:
+      BlockBreakEvent: "HIGH"
+    price: 0
+    max: 1
+    occurrence: always

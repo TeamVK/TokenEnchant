@@ -1,0 +1,9 @@
+Potions:
+  Repel:
+    event_map:
+      PlayerMoveEvent: "LOWEST"
+    price: 10
+    max: 10
+    radius_multiplier: 2.0
+    velocity: 0.3
+    occurrence: random

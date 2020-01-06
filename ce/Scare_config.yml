@@ -1,0 +1,11 @@
+Potions:
+  Scare:
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 2
+    sounds:
+      1: BLAZE_BREATH
+      2: ENDERDRAGON_GROWL
+    occurrence: always
+    enchant_chance: 0.02

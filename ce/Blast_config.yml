@@ -1,0 +1,13 @@
+Potions:
+  Blast:
+    description: "(aka Shockwave) Blasts off nearby players and hostile mobs!"
+    event_map:
+      PlayerInteractEvent: "NORMAL"
+    price: 10
+    max: 10
+    radius_multiplier: 3
+    velocity: 0.2
+    vertical_offset: 2.0
+    cooldown: 10
+    cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always

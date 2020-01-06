@@ -1,0 +1,9 @@
+Potions:
+  BurnBabyBurn:
+    description: "When an arrow hit an enemy, it will remove enemy's FireResistance."
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 0
+    max: 3
+    duration_multiplier: 2
+    occurrence: always

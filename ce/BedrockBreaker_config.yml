@@ -1,0 +1,12 @@
+Potions:
+  BedrockBreaker:
+    description: "Allow you to break a bedrock block!"
+    price: 10
+    max: 5
+    occurrence: always
+    top_protected_layers: 3
+    bottom_protected_layers: 3
+#    invalid_in_region:
+#      - nofly
+#    invalid_in_world:
+#      - plotworld

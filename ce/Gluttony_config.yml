@@ -1,0 +1,8 @@
+Potions:
+  Gluttony:
+    description: "Gives you full hunger bars so there is no need to eat."
+    event_map:
+      FoodLevelChangeEvent: "HIGHEST"
+    price: 10
+    max : 1
+    occurrence: always

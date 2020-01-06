@@ -1,0 +1,16 @@
+Potions:
+  MobDrops:
+    event_map:
+      EntityDeathEvent: "HIGHEST"
+    price: 10
+    max: 10
+    occurrence: always
+    display_message: true
+    Mobs:
+      Zombie:
+        - "money,50"
+        - "token,30"
+        - "1:6,5;1:3,5"
+      Skeleton:
+        - "orb,60;262,10"
+        - "money,100"

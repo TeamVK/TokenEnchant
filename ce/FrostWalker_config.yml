@@ -1,0 +1,10 @@
+Potions:
+  FrostWalker:
+    description: "Creates frost blocks when walking over water."
+    event_map:
+      PlayerMoveEvent: "HIGHEST"
+    price: 10
+    max: 3
+    delay: 10  # delay in seconds until frosted ice start melting.
+    cooldown: -1  # >0 will impose cooldown of the use.
+    occurrence: always

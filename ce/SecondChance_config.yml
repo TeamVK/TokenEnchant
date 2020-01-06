@@ -1,0 +1,6 @@
+Potions:
+  SecondChance:
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 0
+    max: 1

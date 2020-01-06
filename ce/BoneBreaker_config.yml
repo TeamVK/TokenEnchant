@@ -1,0 +1,8 @@
+Potions:
+  BoneBreaker:
+    description: "Knocks back the enemy!"
+    event_map:
+      EntityDamageByEntityEvent: "MONITOR"
+    velocity: 5.0
+    price: 0
+    max: 1

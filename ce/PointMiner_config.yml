@@ -1,0 +1,18 @@
+Potions:
+  PointMiner:
+    description: "It allows to earn player points from mining!"
+    event_map:
+      BlockBreakEvent: "LOW"
+      TEBlockExplodeEvent: "LOW"
+    price: 10
+    max: 4
+    multiplier: 2
+    occurrence: always
+    applyfortune: false
+    fortune_multiplier: 2
+    action_bar_message: "&aYou mined &e%amount% &apointss!"
+    sound: "ORB_PICKUP"
+    interval: 10 #every 10 blocks mined, you get the points.
+    trigger_event:
+      BlockBreakEvent: true
+      TEBlockExplodeEvent: true

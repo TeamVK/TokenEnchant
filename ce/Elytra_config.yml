@@ -1,0 +1,12 @@
+Potions:
+  Elytra:
+    description: "Elytra like feature for 1.7, 1.8 server! (you can use it on 1.9 server too!)"
+    event_map:
+      PlayerQuitEvent: "HIGHEST"
+      PlayerMoveEvent: "HIGHEST"
+      EntityDamageEvent: "HIGHEST"
+    price: 0
+    max: 1
+    gliding_factor: 0.2
+    anti_gravity_factor: -0.08
+    occurrence: always

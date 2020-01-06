@@ -1,0 +1,30 @@
+PickupTEExplodedBlocks: true
+SmeltTEExplodedBlocks: true
+BlockPerTEBlockExplodeEvent: 200
+
+Potions:
+  OreSeeker:
+    event_map:
+      TEBlockExplodeEvent: "MONITOR"
+      BlockBreakEvent: "NORMAL"
+    price: 10
+    max: 10  # the level of Explosive will be used as the radius of explosion.
+    radius_multiplier: 2. #radius = level * radius_multiplier
+    # you can nominate the world, which prevents explosive
+    invalid_in_world:
+      - plotworld
+    # you can turn on/off explostion sound/visual effects
+    effect: true
+    # you can turn on/off explostion sound effects
+    sound: true
+    # You can set the occurrence of explosion.
+    # random: randomly occur based on the level
+    # always: explosion occur always.
+    occurrence: random
+    block_break_event_priority : NORMAL
+    ore_types :
+      - COAL_ORE
+      - IRON_ORE
+      - GOLD_ORE
+      - DIAMOND_ORE
+      - EMERALD_ORE

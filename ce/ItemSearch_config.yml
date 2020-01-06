@@ -1,0 +1,11 @@
+Potions:
+  ItemSearch:
+    event_map:
+      PlayerInteractEvent: "NORMAL"
+    price: 10
+    max: 1
+    radius: 5
+    occurrence: always
+    mapping:
+      DIAMOND: DIAMOND_ORE
+      COAL: COAL_ORE

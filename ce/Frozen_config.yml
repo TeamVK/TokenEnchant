@@ -1,0 +1,9 @@
+Potions:
+  Frozen:
+    description: "This enchant applies the slowness effect to the attacker."
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    duration_multiplier: 2 # duration = level * duration_multiplier seconds
+    occurrence: random

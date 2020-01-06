@@ -1,0 +1,7 @@
+Potions:
+  RedSkyAtNight:
+    event_map:
+      ProjectileHitEvent: "HIGH"
+    price: 10
+    max: 1
+    occurrence: always

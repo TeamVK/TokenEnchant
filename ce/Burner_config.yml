@@ -1,0 +1,8 @@
+Potions:
+  Burner:
+    description: "Smelts the ores as you mine them."
+    event_map:
+      BlockBreakEvent: "NORMAL"
+    price: 0
+    max: 1
+    occurrence: always

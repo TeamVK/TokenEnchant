@@ -1,0 +1,10 @@
+Potions:
+  SecureLoot:
+    event_map:
+      EntityDeathEvent: "HIGHEST"
+      BlockBreakEvent: "HIGHEST"
+      EntityPickupItemEvent: "HIGHEST"
+      PlayerPickupItemEvent: "HIGHEST"
+    price: 100
+    max: 1  # if occurrence is random, the chance will be determined by the level of enchantment.
+    occurrence: always # or random

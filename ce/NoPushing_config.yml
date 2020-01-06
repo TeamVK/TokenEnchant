@@ -1,0 +1,11 @@
+Potions:
+  NoPushing:
+    event_map:
+      PlayerQuitEvent: "HIGHEST"
+      PlayerJoinEvent: "HIGHEST"
+      PlayerTeleportEvent: "HIGHEST"
+    price: 10
+    max: 1
+    occurrence: always
+    no_push_message: "&aYou cannot push nor be pushed"
+    push_message: "&aYou can push and be pushed"

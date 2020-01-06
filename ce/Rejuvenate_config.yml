@@ -1,0 +1,7 @@
+Potions:
+  Rejuvenate:
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    heal_amount: 1
+    price: 0
+    max: 1

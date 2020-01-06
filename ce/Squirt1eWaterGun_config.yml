@@ -1,0 +1,23 @@
+Potions:
+  Squirt1eWaterGun:
+    event_map:
+      PlayerInteractEvent: "HIGHEST"
+      EntityDamageByEntityEvent: "HIGHEST"
+    alias: Squirt1e
+    price: 10
+    max: 4
+    # search target within the distance of level * distance_multiplier
+    distance_multiplier: 5
+    # search distance will be capped at this
+    max_distance: 100
+    # thunder gives level * damage_multiplier damage to an entity
+    damage_multiplier: 3
+    # probability to control the behavior of thunder
+    probability: 0.02
+    # iteration
+    iteration: 200
+    # maximum branching of thunder
+    max_branch: 4
+    cooldown: 3
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always

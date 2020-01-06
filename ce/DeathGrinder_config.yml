@@ -1,0 +1,8 @@
+Potions:
+  DeathGrinder:
+    description: "It gives you double the EXP for swords MCMMO than usual."
+    event_map:
+      McMMOPlayerXpGainEvent: "NORMAL"
+    price: 10
+    max: 1
+    occurrence: always

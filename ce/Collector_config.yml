@@ -1,0 +1,6 @@
+Potions:
+  Collector:
+    description: "Gives you a better looting effect."
+    price: 10
+    max: 1
+    occurrence: always

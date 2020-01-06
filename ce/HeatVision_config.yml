@@ -1,0 +1,10 @@
+Potions:
+  HeatVision:
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 0
+    max: 1
+    duration: 5
+    radius: 5
+    effect: "WITHER"
+    occurrence: always

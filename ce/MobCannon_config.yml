@@ -1,0 +1,12 @@
+Potions:
+  MobCannon:
+    event_map:
+      PlayerInteractEvent: "NORMAL"
+    price: 10
+    max: 4
+    damage_multiplier: 2  # this number * level = damage
+    sound: COW_HURT
+    type: COW
+    cooldown: 3
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always
