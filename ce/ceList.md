@@ -236,7 +236,7 @@ Enchantment Name | Description | Price | Site
 [Unbreakable](Unbreakable_config.yml) | Unbreakable | ask | [url]
 [Unenchantable](Unenchantable_config.yml) | Unenchantable | ask | [url]
 [Universal](Universal_config.yml) | Universal | ask | [url]
-[Upgrade](Upgrade_config.yml) | "With a small chance, upgrade a randomly selected enchantment level." | US$3.5 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
+[Upgrade](Upgrade_config.yml) | "With a small chance, upgrade a randomly selected enchantment level." | US$4.0 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
 [Vampire](Vampire_config.yml) | Vampire | ask | [url]
 [Voltage](Voltage_config.yml) | Voltage | ask | [url]
 [Voodoo](Voodoo_config.yml) | Voodoo | ask | [url]

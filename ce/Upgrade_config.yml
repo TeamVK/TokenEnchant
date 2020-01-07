@@ -1,5 +1,5 @@
 #plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
-#plugin.price:US$3.5
+#plugin.price:US$4.0
 Potions:
   Upgrade:
     description: "With a small chance, upgrade a randomly selected enchantment level."
