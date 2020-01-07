@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/te-p1kachuthunderenchant.7611/
+#plugin.price:US$1.5
 Potions:
   P1kachuThunder:
     event_map:
