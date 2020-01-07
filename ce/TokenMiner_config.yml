@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/te-tokenminerenchant.68783/
+#plugin.price:free
 Potions:
   TokenMiner:
     description: "It allows to earn tokens from mining!"

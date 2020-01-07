@@ -2,6 +2,7 @@
 #plugin.price:US$1.5
 Potions:
   P1kachuThunder:
+    description: "It will create P1kachuThunder, which will give damage to nearby entities."
     event_map:
       PlayerInteractEvent: "HIGHEST"
       EntityDamageByEntityEvent: "HIGHEST"

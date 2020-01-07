@@ -1,16 +1,20 @@
+#Custom Enchantments
 There are two types of Custom Enchantments (CEs):
 * Enchantments : these CEs are created based on Minecraft's Enchantment.
 * Potions : these CEs are created more like Minecraft's Potion effects.
 
 In practice, the codings for these two types of CEs are slightly different but the usages are pretty much the same.
 
+###Purchasing 
+Some custom enchantments are not free and you can purchase them from the URL provided, or you can create a purchase request ticket at [TeamVK's support site](hhtp://vk2gpz.freshdesk.com).  
+If you wish to have multiple custom enchantments in a single .jar file, you can specify the list of custom enchantments in your request ticket.
 
-
+ 
 Enchantment Name | Description | Price | Site
 --- | --- | --- | ---
-[AntiKnockback](AntiKnockback_config.yml) | "Prevents being knocked back." | ask | [url]
+[AntiKnockback](AntiKnockback_config.yml) | "Prevents being knocked back." | free | [url](https://www.spigotmc.org/resources/te-antidoteenchant.55172/)
 [AntiPickPocket](AntiPickPocket_config.yml) | "Prevents being a victim of pickpocketing!" | ask | [url]
-[Antidote](Antidote_config.yml) | "This enchant will protect you from bad splash/lingering potions!" | ask | [url]
+[Antidote](Antidote_config.yml) | "This enchant will protect you from bad splash/lingering potions!" | free | [url](https://www.spigotmc.org/resources/te-antidoteenchant.55172/)
 [ArmoredTank](ArmoredTank_config.yml) | "You won't get any damage from explosion and lava/fire!" | ask | [url]
 [AttackDeflector](AttackDeflector_config.yml) | "This custom effect will allow you to deflect attacks including arrow!" | ask | [url]
 [AutoBlocking](AutoBlocking_config.yml) | "Automatically turn dust/ore into blocks when your inventory/backpack is full." | ask | [url]
@@ -26,7 +30,7 @@ Enchantment Name | Description | Price | Site
 [BedrockBreaker](BedrockBreaker_config.yml) | "Allow you to break a bedrock block!" | ask | [url]
 [Blast](Blast_config.yml) | "(aka Shockwave) Blasts off nearby players and hostile mobs!" | ask | [url]
 [Blessing](Blessing_config.yml) | "Give out random amount of tokens to all online players!" | ask | [url]
-[Blindness](Blindness_config.yml) | "This enchant will make your attacker blind for a while!" | ask | [url]
+[Blindness](Blindness_config.yml) | "This enchant will make your attacker blind for a while!" | free | [url](https://www.spigotmc.org/resources/te-blindnessenchant.20226/)
 [Blunter](Blunter_config.yml) | "Give an extra durability damage to your attacker's weapon!" | ask | [url]
 [BodyBreaker](BodyBreaker_config.yml) | "Give durability damage twice the rate!" | ask | [url]
 [BoneBreaker](BoneBreaker_config.yml) | "Knocks back the enemy!" | ask | [url]
@@ -44,7 +48,7 @@ Enchantment Name | Description | Price | Site
 [CloudWalking](CloudWalking_config.yml) | "Neglects all fall damage." | ask | [url]
 [Collector](Collector_config.yml) | "Gives you a better looting effect." | ask | [url]
 [Concentrate](Concentrate_config.yml) | "Gives you a high chance of recovering diamonds from excavation." | ask | [url]
-[Confusion](Confusion_config.yml) | "Makes your attacker confused!" | ask | [url]
+[Confusion](Confusion_config.yml) | "Makes your attacker confused!" | free | [url](https://www.spigotmc.org/resources/te-confusionenchant.20229/)
 [CrossExplosion](CrossExplosion_config.yml) | "It explodes a cross pattern of blocks in a mine." | ask | [url]
 [Curse](Curse_config.yml) | "Curse your attacker with this enchant! It will give them mining fatigue!" | ask | [url]
 [CustomFishing](CustomFishing_config.yml) | "Yields customised catches. You can define chances and type of possible items to be caught in config.yml." | ask | [url]
@@ -71,7 +75,7 @@ Enchantment Name | Description | Price | Site
 [EnderScape](EnderScape_config.yml) | "It gives a small chance of teleporting to escape when about to die." | ask | [url]
 [Enlightened](Enlightened_config.yml) | "Opposite to Deathbringer Enchant! You can reverse the damage into gaining health!" | ask | [url]
 [Enragement](Enragement_config.yml) | "If you drop below 3 hearts you have a chance of gaining str 4 for 5 seconds activated on use." | ask | [url]
-[EvokerFangs](EvokerFangs_config.yml) | "Attack like Evoker!! Fangs will reach out to your opponent and bite them!" | ask | [url]
+[EvokerFangs](EvokerFangs_config.yml) | "Attack like Evoker!! Fangs will reach out to your opponent and bite them!" | US$2.5 | [url](https://www.spigotmc.org/resources/te-evokerfangsenchant.34044/)
 [Excavation](Excavation_config.yml) | "It is just like Explosive but it will remove entire cuboid!" | ask | [url]
 [Expelliarmus](Expelliarmus_config.yml) | "Disarm your opponent!" | ask | [url]
 [ExplosiveDeath](ExplosiveDeath_config.yml) | "Gives the sound and effect of TNT and deals the damage and knockback of TNT as well." | ask | [url]
@@ -160,7 +164,7 @@ Enchantment Name | Description | Price | Site
 [ObsidianDestroyer](ObsidianDestroyer_config.yml) | ObsidianDestroyer | ask | [url]
 [OreSeeker](OreSeeker_config.yml) | OreSeeker | ask | [url]
 [Over9000](Over9000_config.yml) | Over9000 | ask | [url]
-[P1kachuThunder](P1kachuThunder_config.yml) | P1kachuThunder | US$1.5 | [url](https://www.spigotmc.org/resources/te-p1kachuthunderenchant.7611/)
+[P1kachuThunder](P1kachuThunder_config.yml) | "It will create P1kachuThunder, which will give damage to nearby entities." | US$1.5 | [url](https://www.spigotmc.org/resources/te-p1kachuthunderenchant.7611/)
 [PiercingSpeed](PiercingSpeed_config.yml) | PiercingSpeed | ask | [url]
 [Piercing](Piercing_config.yml) | Piercing | ask | [url]
 [PlungerClimber](PlungerClimber_config.yml) | PlungerClimber | ask | [url]
@@ -221,7 +225,7 @@ Enchantment Name | Description | Price | Site
 [TightLine](TightLine_config.yml) | TightLine | ask | [url]
 [Tile](Tile_config.yml) | Tile | ask | [url]
 [Titanium](Titanium_config.yml) | Titanium | ask | [url]
-[TokenMiner](TokenMiner_config.yml) | "It allows to earn tokens from mining!" | ask | [url]
+[TokenMiner](TokenMiner_config.yml) | "It allows to earn tokens from mining!" | free | [url](https://www.spigotmc.org/resources/te-tokenminerenchant.68783/)
 [Toxic](Toxic_config.yml) | Toxic | ask | [url]
 [Trample](Trample_config.yml) | Trample | ask | [url]
 [Trickster](Trickster_config.yml) | Trickster | ask | [url]
@@ -232,7 +236,7 @@ Enchantment Name | Description | Price | Site
 [Unbreakable](Unbreakable_config.yml) | Unbreakable | ask | [url]
 [Unenchantable](Unenchantable_config.yml) | Unenchantable | ask | [url]
 [Universal](Universal_config.yml) | Universal | ask | [url]
-[Upgrade](Upgrade_config.yml) | "With a small chance, upgrade a randomly selected enchantment level." | ask | [url]
+[Upgrade](Upgrade_config.yml) | "With a small chance, upgrade a randomly selected enchantment level." | US$3.5 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
 [Vampire](Vampire_config.yml) | Vampire | ask | [url]
 [Voltage](Voltage_config.yml) | Voltage | ask | [url]
 [Voodoo](Voodoo_config.yml) | Voodoo | ask | [url]

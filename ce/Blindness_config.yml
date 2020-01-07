@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/te-blindnessenchant.20226/
+#plugin.price:free
 Potions:
   Blindness:
     description: "This enchant will make your attacker blind for a while!"

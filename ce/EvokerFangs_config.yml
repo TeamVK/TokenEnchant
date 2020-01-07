@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/te-evokerfangsenchant.34044/
+#plugin.price:US$2.5
 Potions:
   EvokerFangs:
     description: "Attack like Evoker!! Fangs will reach out to your opponent and bite them!"

@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/te-antidoteenchant.55172/
+#plugin.price:free
 Potions:
   Antidote:
     description: "This enchant will protect you from bad splash/lingering potions!"
