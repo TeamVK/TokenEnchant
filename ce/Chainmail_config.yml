@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$4.0
 Potions:
   Chainmail:
     description: "A chance of taking less damage when you get attacked."

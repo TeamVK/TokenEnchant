@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/te-blunterenchant.25942/
+#plugin.price:free
 Potions:
   Blunter:
     description: "Give an extra durability damage to your attacker's weapon!"

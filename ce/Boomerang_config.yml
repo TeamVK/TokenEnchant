@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/te-boomerangenchant.25943/
+#plugin.price:free
 Potions:
   Boomerang:
     description: "Throw your weapon to attack and your weapon will return to you when its job is done!"

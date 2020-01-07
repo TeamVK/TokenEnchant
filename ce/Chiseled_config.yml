@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$4.0
 Potions:
   Chiseled:
     description: "It gives you mroe loot upon mining."

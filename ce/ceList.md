@@ -7,7 +7,7 @@ In practice, the codings for these two types of CEs are slightly different but t
 
 ### Purchasing 
 Some custom enchantments are not free and you can purchase them from the URL provided, or you can create a purchase request ticket at [TeamVK's support site](http://vk2gpz.freshdesk.com).  
-If you wish to have multiple custom enchantments in a single .jar file, you can specify the list of custom enchantments in your request ticket.
+If you wish to have multiple custom enchantments in a single .jar file, you can specify the list of custom enchantments in your request ticket.  We can apply 30% discount to the bulk purchase.
 
  
 Enchantment Name | Description | Price | Site
@@ -31,19 +31,19 @@ Enchantment Name | Description | Price | Site
 [Blast](Blast_config.yml) | "(aka Shockwave) Blasts off nearby players and hostile mobs!" | free | [url](https://www.spigotmc.org/resources/te-blastenchant.12788/)
 [Blessing](Blessing_config.yml) | "Give out random amount of tokens to all online players!" | US$3.00 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
 [Blindness](Blindness_config.yml) | "This enchant will make your attacker blind for a while!" | free | [url](https://www.spigotmc.org/resources/te-blindnessenchant.20226/)
-[Blunter](Blunter_config.yml) | "Give an extra durability damage to your attacker's weapon!" | ask | [url]
-[BodyBreaker](BodyBreaker_config.yml) | "Give durability damage twice the rate!" | ask | [url]
-[BoneBreaker](BoneBreaker_config.yml) | "Knocks back the enemy!" | ask | [url]
-[Boomerang](Boomerang_config.yml) | "Throw your weapon to attack and your weapon will return to you when its job is done!" | ask | [url]
-[BoostingBoots](BoostingBoots_config.yml) | "When running this enchant, you have a chance to get speed effect." | ask | [url]
-[BrothersGuard](BrothersGuard_config.yml) | "Allows you to get absorption hearts when you wear full armor set with this enchantment." | ask | [url]
-[BurnBabyBurn](BurnBabyBurn_config.yml) | "When an arrow hit an enemy, it will remove enemy's FireResistance." | ask | [url]
-[Burner](Burner_config.yml) | "Smelts the ores as you mine them." | ask | [url]
-[Camouflage](Camouflage_config.yml) | "Allows you to blend into the environment as long as you sneak and don't move!" | ask | [url]
-[ChainDrag](ChainDrag_config.yml) | "Pulls your enemy close to you." | ask | [url]
-[Chainmail](Chainmail_config.yml) | "A chance of taking less damage when you get attacked." | ask | [url]
+[Blunter](Blunter_config.yml) | "Give an extra durability damage to your attacker's weapon!" | free | [url](https://www.spigotmc.org/resources/te-blunterenchant.25942/)
+[BodyBreaker](BodyBreaker_config.yml) | "Give durability damage twice the rate!" | US$3.5 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
+[BoneBreaker](BoneBreaker_config.yml) | "Knocks back the enemy!" | US$3.5 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
+[Boomerang](Boomerang_config.yml) | "Throw your weapon to attack and your weapon will return to you when its job is done!" | free | [url](https://www.spigotmc.org/resources/te-boomerangenchant.25943/)
+[BoostingBoots](BoostingBoots_config.yml) | "When running this enchant, you have a chance to get speed effect." | US$4.0 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
+[BrothersGuard](BrothersGuard_config.yml) | "Allows you to get absorption hearts when you wear full armor set with this enchantment." | US$4.0 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
+[BurnBabyBurn](BurnBabyBurn_config.yml) | "When an arrow hit an enemy, it will remove enemy's FireResistance." | US$4.0 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
+[Burner](Burner_config.yml) | "Smelts the ores as you mine them." | US$4.0 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
+[Camouflage](Camouflage_config.yml) | "Allows you to blend into the environment as long as you sneak and don't move!" | free | [url](https://www.spigotmc.org/resources/te-camouflageenchant.13272/)
+[ChainDrag](ChainDrag_config.yml) | "Pulls your enemy close to you." | US$4.0 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
+[Chainmail](Chainmail_config.yml) | "A chance of taking less damage when you get attacked." | US$4.0 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
 [Charity](Charity_config.yml) | "Give out random amount of $ to all online players!" | US$3.00 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
-[Chiseled](Chiseled_config.yml) | "It gives you mroe loot upon mining." | ask | [url]
+[Chiseled](Chiseled_config.yml) | "It gives you mroe loot upon mining." | US$4.0 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
 [ChocolateVision](ChocolateVision_config.yml) | "See the names of anyone using invisibility potion." | ask | [url]
 [CloudWalking](CloudWalking_config.yml) | "Neglects all fall damage." | ask | [url]
 [Collector](Collector_config.yml) | "Gives you a better looting effect." | ask | [url]

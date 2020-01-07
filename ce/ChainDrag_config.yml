@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$4.0
 Potions:
   ChainDrag:
     description: "Pulls your enemy close to you."

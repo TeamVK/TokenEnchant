@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/te-camouflageenchant.13272/
+#plugin.price:free
 Potions:
   Camouflage:
     description: "Allows you to blend into the environment as long as you sneak and don't move!"

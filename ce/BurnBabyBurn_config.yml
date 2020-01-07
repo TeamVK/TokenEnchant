@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$4.0
 Potions:
   BurnBabyBurn:
     description: "When an arrow hit an enemy, it will remove enemy's FireResistance."
