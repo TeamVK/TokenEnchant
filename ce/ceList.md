@@ -96,7 +96,7 @@ Enchantment Name | Description | Price | Site
 [GodlyGuard](GodlyGuard_config.yml) | "Gives you a chance to only take half the damage normally when using block hitting." | ask | [url]
 [GoldDigger](GoldDigger_config.yml) | "Gives you a chance of finding small increments of In game money whilst excavating." | ask | [url]
 [GrapplingBow](GrapplingBow_config.yml) | "This allows a player to shoot an arrow for grappling." | ask | [url]
-[GrapplingRod](GrapplingRod_config.yml) | "This allows a player to cast a fishing rod for grappling." | US$4.0 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
+[GrapplingRod](GrapplingRod_config.yml) | "This allows a player to cast a fishing rod for grappling." | US$2.0 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
 [GravityDefiance](GravityDefiance_config.yml) | "Once you're in combat, it has a chance to throw your enemy into the air making them take fall damage." | ask | [url]
 [Grinder](Grinder_config.yml) | "Gives a chance to double the efficiency of the pickaxe." | ask | [url]
 [GroundPound](GroundPound_config.yml) | "Are you ungry? Pound the ground!" | ask | [url]
