@@ -1,5 +1,8 @@
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$4
 Potions:
   SteelSword:
+    description: "This sword has a chance to do an extra heart of damage when in combat."
     event_map:
       EntityDamageByEntityEvent: "HIGHEST"
     price: 0

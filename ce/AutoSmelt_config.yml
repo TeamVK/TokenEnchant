@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/te-autosmeltenchant.19555/
+#plugin.price:free
 Potions:
   AutoSmelt:
     description: "Automatically smelt mined ore."

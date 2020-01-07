@@ -1,35 +1,35 @@
-#Custom Enchantments
+# Custom Enchantments
 There are two types of Custom Enchantments (CEs):
 * Enchantments : these CEs are created based on Minecraft's Enchantment.
 * Potions : these CEs are created more like Minecraft's Potion effects.
 
 In practice, the codings for these two types of CEs are slightly different but the usages are pretty much the same.
 
-###Purchasing 
+### Purchasing 
 Some custom enchantments are not free and you can purchase them from the URL provided, or you can create a purchase request ticket at [TeamVK's support site](http://vk2gpz.freshdesk.com).  
 If you wish to have multiple custom enchantments in a single .jar file, you can specify the list of custom enchantments in your request ticket.
 
  
 Enchantment Name | Description | Price | Site
 --- | --- | --- | ---
-[AntiKnockback](AntiKnockback_config.yml) | "Prevents being knocked back." | free | [url](https://www.spigotmc.org/resources/te-antidoteenchant.55172/)
-[AntiPickPocket](AntiPickPocket_config.yml) | "Prevents being a victim of pickpocketing!" | ask | [url]
+[AntiKnockback](AntiKnockback_config.yml) | "Prevents being knocked back." | free | [url](https://www.spigotmc.org/resources/te-antiknockbackenchant.12751/)
+[AntiPickPocket](AntiPickPocket_config.yml) | "Prevents being a victim of pickpocketing!" | free | [url](https://www.spigotmc.org/resources/te-pickpocketenchant.20497/)
 [Antidote](Antidote_config.yml) | "This enchant will protect you from bad splash/lingering potions!" | free | [url](https://www.spigotmc.org/resources/te-antidoteenchant.55172/)
-[ArmoredTank](ArmoredTank_config.yml) | "You won't get any damage from explosion and lava/fire!" | ask | [url]
-[AttackDeflector](AttackDeflector_config.yml) | "This custom effect will allow you to deflect attacks including arrow!" | ask | [url]
-[AutoBlocking](AutoBlocking_config.yml) | "Automatically turn dust/ore into blocks when your inventory/backpack is full." | ask | [url]
-[AutoCook](AutoCook_config.yml) | "Automatically cook caught fish and killed animals." | ask | [url]
-[AutoSell](AutoSell_config.yml) | "Automatically sell all items in your inventory and VKBackPack." | ask | [url]
-[AutoSmelt](AutoSmelt_config.yml) | "Automatically smelt mined ore." | ask | [url]
-[Barbarian](Barbarian_config.yml) | "You can throw an item to give damage to your oponent." | ask | [url]
-[BatSonar](BatSonar_config.yml) | "When people hit someone with this armor, it makes it so all they hear is the bat squeak sound!" | ask | [url]
-[Batarang](Batarang_config.yml) | "You can throw an item to give damage to your oponent. The item you've thrown will comeback to you!" | ask | [url]
-[BatmanBoots](BatmanBoots_config.yml) | "With this enchant, you will be fast, and take no fall damage and have constant fire resistance!" | ask | [url]
-[BatmanCape](BatmanCape_config.yml) | "With this enchant, you fall to the ground slower than usual!" | ask | [url]
-[BatmanLeggings](BatmanLeggings_config.yml) | "With this enchant, you get permanent resistance !" | ask | [url]
-[BedrockBreaker](BedrockBreaker_config.yml) | "Allow you to break a bedrock block!" | ask | [url]
-[Blast](Blast_config.yml) | "(aka Shockwave) Blasts off nearby players and hostile mobs!" | ask | [url]
-[Blessing](Blessing_config.yml) | "Give out random amount of tokens to all online players!" | ask | [url]
+[ArmoredTank](ArmoredTank_config.yml) | "You won't get any damage from explosion and lava/fire!" | free | [url](https://www.spigotmc.org/resources/te-armoredtankenchant.22031/)
+[AttackDeflector](AttackDeflector_config.yml) | "This custom effect will allow you to deflect attacks including arrow!" | free | [url](https://www.spigotmc.org/resources/te-attackdeflectorenchant.8598/)
+[AutoBlocking](AutoBlocking_config.yml) | "Automatically turn dust/ore into blocks when your inventory/backpack is full." | free | [url](https://www.spigotmc.org/resources/te-autoblockingenchant.12794/)
+[AutoCook](AutoCook_config.yml) | "Automatically cook caught fish and killed animals." | free | [url](https://www.spigotmc.org/resources/te-autocookenchant.19556/)
+[AutoSell](AutoSell_config.yml) | "Automatically sell all items in your inventory and VKBackPack." | free | [url](https://www.spigotmc.org/resources/te-autosellenchant.11891/)
+[AutoSmelt](AutoSmelt_config.yml) | "Automatically smelt mined ore." | free | [url](https://www.spigotmc.org/resources/te-autosmeltenchant.19555/)
+[Barbarian](Barbarian_config.yml) | "You can throw an item to give damage to your oponent." | US$3.5 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
+[BatSonar](BatSonar_config.yml) | "When people hit someone with this armor, it makes it so all they hear is the bat squeak sound!" | US$4 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
+[Batarang](Batarang_config.yml) | "You can throw an item to give damage to your oponent. The item you've thrown will comeback to you!" | US$3.5 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
+[BatmanBoots](BatmanBoots_config.yml) | "With this enchant, you will be fast, and take no fall damage and have constant fire resistance!" | US$4 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
+[BatmanCape](BatmanCape_config.yml) | "With this enchant, you fall to the ground slower than usual!" | US$4 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
+[BatmanLeggings](BatmanLeggings_config.yml) | "With this enchant, you get permanent resistance !" | US$4 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
+[BedrockBreaker](BedrockBreaker_config.yml) | "Allow you to break a bedrock block!" | free | [url](https://www.spigotmc.org/resources/te-bedrockbreakerenchant.20228/)
+[Blast](Blast_config.yml) | "(aka Shockwave) Blasts off nearby players and hostile mobs!" | free | [url](https://www.spigotmc.org/resources/te-blastenchant.12788/)
+[Blessing](Blessing_config.yml) | "Give out random amount of tokens to all online players!" | US$3.00 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
 [Blindness](Blindness_config.yml) | "This enchant will make your attacker blind for a while!" | free | [url](https://www.spigotmc.org/resources/te-blindnessenchant.20226/)
 [Blunter](Blunter_config.yml) | "Give an extra durability damage to your attacker's weapon!" | ask | [url]
 [BodyBreaker](BodyBreaker_config.yml) | "Give durability damage twice the rate!" | ask | [url]
@@ -42,7 +42,7 @@ Enchantment Name | Description | Price | Site
 [Camouflage](Camouflage_config.yml) | "Allows you to blend into the environment as long as you sneak and don't move!" | ask | [url]
 [ChainDrag](ChainDrag_config.yml) | "Pulls your enemy close to you." | ask | [url]
 [Chainmail](Chainmail_config.yml) | "A chance of taking less damage when you get attacked." | ask | [url]
-[Charity](Charity_config.yml) | "Give out random amount of $ to all online players!" | ask | [url]
+[Charity](Charity_config.yml) | "Give out random amount of $ to all online players!" | US$3.00 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
 [Chiseled](Chiseled_config.yml) | "It gives you mroe loot upon mining." | ask | [url]
 [ChocolateVision](ChocolateVision_config.yml) | "See the names of anyone using invisibility potion." | ask | [url]
 [CloudWalking](CloudWalking_config.yml) | "Neglects all fall damage." | ask | [url]
@@ -111,7 +111,7 @@ Enchantment Name | Description | Price | Site
 [HeadBlow](HeadBlow_config.yml) | HeadBlow | ask | [url]
 [HeadButt](HeadButt_config.yml) | HeadButt | ask | [url]
 [HealingBow](HealingBow_config.yml) | HealingBow | ask | [url]
-[HeatVision](HeatVision_config.yml) | HeatVision | ask | [url]
+[HeatVision](HeatVision_config.yml) | "When your enemies hitting you and you’re in combat, you give wither to anyone that isn’t in your faction in a 5 block radius around you." | US$4 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
 [HelpingBlade](HelpingBlade_config.yml) | HelpingBlade | ask | [url]
 [Hunger](Hunger_config.yml) | Hunger | ask | [url]
 [Ignite](Ignite_config.yml) | Ignite | ask | [url]
@@ -120,7 +120,7 @@ Enchantment Name | Description | Price | Site
 [InstaBreak](InstaBreak_config.yml) | InstaBreak | ask | [url]
 [Invisibility](Invisibility_config.yml) | Invisibility | ask | [url]
 [ItemFishing](ItemFishing_config.yml) | ItemFishing | ask | [url]
-[ItemPickPocket](ItemPickPocket_config.yml) | ItemPickPocket | ask | [url]
+[ItemPickPocket](ItemPickPocket_config.yml) | ItemPickPocket | free | [url](https://www.spigotmc.org/resources/te-pickpocketenchant.20497/)
 [ItemSearch](ItemSearch_config.yml) | ItemSearch | ask | [url]
 [KeyMiner](KeyMiner_config.yml) | KeyMiner | ask | [url]
 [KillReward](KillReward_config.yml) | KillReward | ask | [url]
@@ -150,7 +150,7 @@ Enchantment Name | Description | Price | Site
 [MolotovCocktail](MolotovCocktail_config.yml) | MolotovCocktail | ask | [url]
 [Molten](Molten_config.yml) | Molten | ask | [url]
 [MoneyBlade](MoneyBlade_config.yml) | MoneyBlade | ask | [url]
-[MoneyPickPocket](MoneyPickPocket_config.yml) | MoneyPickPocket | ask | [url]
+[MoneyPickPocket](MoneyPickPocket_config.yml) | MoneyPickPocket | free | [url](https://www.spigotmc.org/resources/te-pickpocketenchant.20497/)
 [Mooncrest](Mooncrest_config.yml) | Mooncrest | ask | [url]
 [MoreExp](MoreExp_config.yml) | MoreExp | ask | [url]
 [MoreHearts](MoreHearts_config.yml) | MoreHearts | ask | [url]
@@ -207,15 +207,15 @@ Enchantment Name | Description | Price | Site
 [Springs](Springs_config.yml) | Springs | ask | [url]
 [Squirt1eWaterGun](Squirt1eWaterGun_config.yml) | Squirt1eWaterGun | ask | [url]
 [StarvingEdge](StarvingEdge_config.yml) | StarvingEdge | ask | [url]
-[SteelSword](SteelSword_config.yml) | SteelSword | ask | [url]
+[SteelSword](SteelSword_config.yml) | "This sword has a chance to do an extra heart of damage when in combat." | US$4 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
 [StomperBoots](StomperBoots_config.yml) | StomperBoots | ask | [url]
 [StormCaller](StormCaller_config.yml) | StormCaller | ask | [url]
 [StrengthAura](StrengthAura_config.yml) | StrengthAura | ask | [url]
-[StrengthenedSkin](StrengthenedSkin_config.yml) | StrengthenedSkin | ask | [url]
+[StrengthenedSkin](StrengthenedSkin_config.yml) | "This breaks the enemy weapon at a slightly faster pace than usual!" | US$4 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
 [Summoner](Summoner_config.yml) | Summoner | ask | [url]
 [Suncrest](Suncrest_config.yml) | Suncrest | ask | [url]
-[SuperSpeed](SuperSpeed_config.yml) | SuperSpeed | ask | [url]
-[SuperStrength](SuperStrength_config.yml) | SuperStrength | ask | [url]
+[SuperSpeed](SuperSpeed_config.yml) | "These boots, when in combat, should give the player a chance to get speed 4 for 20 seconds!" | US$4 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
+[SuperStrength](SuperStrength_config.yml) | "When in combat, this enchant will give a small percent chance to randomly give strength 3 for 5 seconds." | US$4 | [url](https://www.spigotmc.org/resources/tokenenchant.2287/)
 [SwiftAura](SwiftAura_config.yml) | SwiftAura | ask | [url]
 [TNT](TNT_config.yml) | TNT | ask | [url]
 [Tame](Tame_config.yml) | Tame | ask | [url]

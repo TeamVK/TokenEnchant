@@ -1,5 +1,8 @@
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$4
 Potions:
   HeatVision:
+    description: "When your enemies hitting you and you’re in combat, you give wither to anyone that isn’t in your faction in a 5 block radius around you."
     event_map:
       EntityDamageByEntityEvent: "HIGHEST"
     price: 0

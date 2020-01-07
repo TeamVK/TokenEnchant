@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/te-autocookenchant.19556/
+#plugin.price:free
 Potions:
   AutoCook:
     description: "Automatically cook caught fish and killed animals."

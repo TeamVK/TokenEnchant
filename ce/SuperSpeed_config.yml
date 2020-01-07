@@ -1,5 +1,8 @@
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$4
 Potions:
   SuperSpeed:
+    description: "These boots, when in combat, should give the player a chance to get speed 4 for 20 seconds!"
     event_map:
       EntityDamageByEntityEvent: "HIGHEST"
     price: 0

@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/te-pickpocketenchant.20497/
+#plugin.price:free
 Potions:
   ItemPickPocket:
     event_map:

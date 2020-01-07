@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$3.5
 Potions:
   Batarang:
     description: "You can throw an item to give damage to your oponent. The item you've thrown will comeback to you!"

@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/te-autoblockingenchant.12794/
+#plugin.price:free
 Potions:
   AutoBlocking:
     description: "Automatically turn dust/ore into blocks when your inventory/backpack is full."

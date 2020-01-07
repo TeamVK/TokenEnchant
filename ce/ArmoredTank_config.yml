@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/te-armoredtankenchant.22031/
+#plugin.price:free
 Potions:
   ArmoredTank:
     description: "You won't get any damage from explosion and lava/fire!"

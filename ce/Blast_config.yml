@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/te-blastenchant.12788/
+#plugin.price:free
 Potions:
   Blast:
     description: "(aka Shockwave) Blasts off nearby players and hostile mobs!"

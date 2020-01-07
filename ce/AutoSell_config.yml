@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/te-autosellenchant.11891/
+#plugin.price:free
 Potions:
   AutoSell:
     description: "Automatically sell all items in your inventory and VKBackPack."

@@ -1,3 +1,5 @@
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$3.00
 Potions:
   Charity: # give out $ to online players.
     description: "Give out random amount of $ to all online players!"
