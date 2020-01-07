@@ -1,8 +1,5 @@
 
 ```
-# This is a template config file
-# define your parameter and its value like:
-
 ###########################
 # Help Messages used by the plugin
 ###########################
@@ -10,7 +7,7 @@ HelpMessages:
   banner:
     msg: "=== &e[&aTokenEnchant Commands List (%version%)&e] &r==="
   help:
-    msg: "/te or /te help : display this help menu."
+    msg: "/te help : display this help menu."
   reload:
     msg: "/te reload : reloads config file."
     permission: "tokenenchant.reload"
@@ -27,7 +24,7 @@ HelpMessages:
     msg: "/te remove <name> <amount> : removes <name> <amount> tokens from <name>."
     permission: "tokenenchant.add"
   balance:
-    msg: "/te balance [name] : displays the token balance of yourself or [name]."
+    msg: "/te [name] : displays the token balance of yourself or [name]."
     permission: "tokenenchant.balance"
   withdraw:
     msg: "/te withdraw <amount> [drop] : withdraws the specified amount of tokens from your account."
@@ -62,6 +59,9 @@ HelpMessages:
   tosql:
     msg: "/te tosql [add] : transfer userdata/*.yml to SQL database. If [add] was provided, the data from userdata/*.yml will be added."
     permission: "tokenenchant.tosql"
+  info:
+    msg: "/te info <enchantname> : displays the detail information of the specified enchantment."
+    permission: "tokenenchant.list"
   news:
     msg: "/te news : display the news associated with the current release."
     permission: "tokenenchant.news"
@@ -122,6 +122,26 @@ Messages:
   CEListTypeMore: "&a[TE] Type &c/te list %next% &ato read the next page."
   CannotUseTokenItem: "&c[TE] You cannot use TokenItems for crafting!"
 
+###############################
+# Enchant information format
+# supported placeholder:
+# %enchant% :name of the enchant,
+# %version% :version of the enchant,
+# %alias% :alias
+# %max% : max level
+# %price% : base price
+# %formula% : costing formula
+# %occurrence% : occurrence chance at the max level.
+# %description% : Short description of the enchant.
+###############################
+InfoFormat:
+  - "&a------------ &e%enchant% &a(&b%version%&a) ------------"
+  - "&a Alias : &e%alias%"
+  - "&a Max level : &e%max%"
+  - "&a Base price : &e%price%"
+  - "&a Cost formula: &e%formula%"
+  - "&a Occurrence: &e%occurrence%"
+  - "&a Description: &e%description%"
 
 
 ###############################
@@ -214,8 +234,6 @@ PureRomanNumeral: false
 #CustomEnchantDisplay: true
 
 #
-UseEnchantGlowForPotion: true
-#
 MaxEnchantLevel: 100
 
 #
@@ -224,7 +242,7 @@ DefaultEnchantChance: 0.7
 UseTokenEnchantSettingForVanillaEnchant: false
 
 
-#
+# Deprecated, use DefaultFormula option and CostFormulae.js
 TokenFormula:
     # Valid values are: LINEAR and EXPONENTIAL
     # If an invalid value is entered, this will reset to the default setting, which is LINEAR
@@ -239,10 +257,12 @@ TokenFormula:
     Exponential:
         exponent: 1.80
 
+# pick one from CostFormulae.js
+DefaultFormula: "linear_diff"
 
 # if this option is true, when you tried to enchant an item, which already has enchantment
 # level, the excess enchantment level will be removed and set to the max level.
-CapOverEnchant: false
+CapOverEnchant: true
 
 # if this option is true, any enchantment level which is over the configured max level
 # will be capped at the max level
@@ -349,7 +369,7 @@ Commands:
     #     - ">fly"
 
 #
-# default is as listed beloe, you can have LOWEST, LOW, NORMAL, HIGH, HIGHEST or MONITOR
+# default values are listed below.  You can have LOWEST, LOW, NORMAL, HIGH, HIGHEST or MONITOR
 # adjust these event priority if those event processes from this plugin
 # interfere with other plugins' event processes.
 EventPriorityMap:
@@ -373,6 +393,7 @@ EventPriorityMap:
   PrepareAnvilEvent: "MONITOR"
   PlayerMoveEvent: "LOWEST"
   InventoryClickEvent_StopCrafting: "MONITOR"
+  PlayerInteractEvent_TokenItem: "HIGH" # interacting with TokenItem.
 
 #
 # potion effects included in the default TE:
@@ -467,7 +488,7 @@ Potions:
       # random: randomly occur based on the level
       # always: occur always.
       occurrence: always
-    FireProtection:
+    FireRegistance:
       price: 10
       max: 1
       duration_multiplier: 1800
