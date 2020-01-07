@@ -240,4 +240,3 @@ Enchantment Name | Description | Note
 [WhisperOfWind](WhisperOfWind_config.yml) |  | 
 [WinOrLose](WinOrLose_config.yml) |  | 
 [Wither](Wither_config.yml) |  | 
-[ceList.tpl](ceList.tpl) |  | 
