@@ -1,3 +1,11 @@
+There are two types of Custom Enchantments (CEs):
+* Enchantments : these CEs are created based on Minecraft's Enchantment.
+* Potions : these CEs are created more like Minecraft's Potion effects.
+
+In practice, the codings for these two types of CEs are slightly different but the usages are pretty much the same.
+
+
+
 Enchantment Name | Description | Note
 --- | --- | ---
 [AntiKnockback](AntiKnockback_config.yml) |  | 
@@ -232,3 +240,4 @@ Enchantment Name | Description | Note
 [WhisperOfWind](WhisperOfWind_config.yml) |  | 
 [WinOrLose](WinOrLose_config.yml) |  | 
 [Wither](Wither_config.yml) |  | 
+[ceList.tpl](ceList.tpl) |  | 
