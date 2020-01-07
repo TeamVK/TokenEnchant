@@ -9,7 +9,7 @@ Capability of TokenEnchant is featured in SSundee's Faction Series Youtube video
 ## [Configuration](configuration.md)
 ## [Commands](commands.md)
 ## [Permissions](permissions.md)
-## [Custom Enchants](customenchants.md)
+## [Custom Enchants](ce/ceList.md)
 ## [Sign Usages](sign_usages.md)
 ## [For Developers](for_developers.md)
 
