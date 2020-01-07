@@ -6,7 +6,7 @@ There are two types of Custom Enchantments (CEs):
 In practice, the codings for these two types of CEs are slightly different but the usages are pretty much the same.
 
 ###Purchasing 
-Some custom enchantments are not free and you can purchase them from the URL provided, or you can create a purchase request ticket at [TeamVK's support site](hhtp://vk2gpz.freshdesk.com).  
+Some custom enchantments are not free and you can purchase them from the URL provided, or you can create a purchase request ticket at [TeamVK's support site](http://vk2gpz.freshdesk.com).  
 If you wish to have multiple custom enchantments in a single .jar file, you can specify the list of custom enchantments in your request ticket.
 
  
