@@ -10,7 +10,7 @@ If a custom enchant has its own website, you can follow the link to obtain it.
 Some custom enchantments might not be free.  
 Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtained from the URL provided, or you can create an order request ticket at [TeamVK's support site](http://vk2gpz.freshdesk.com).  
 
-### [Contributing](../contributing.md)
+### [Contributing](contributing.md)
 
 ## List of Currently Known Custom Enchantments.
 
