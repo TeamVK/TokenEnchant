@@ -9,7 +9,7 @@ In practice, the codings for these two types of CEs are slightly different but t
 Some custom enchantments are not free and you can purchase them from the URL provided, or you can create a purchase request ticket at [TeamVK's support site](http://vk2gpz.freshdesk.com).  
 If you wish to have multiple custom enchantments in a single .jar file, you can specify the list of custom enchantments in your request ticket.  We can apply 30% discount to the bulk purchase.
 
-### [Contributing](contributin.md)
+### [Contributing](contributing.md)
 
 ## List of Currently Known Custom Enchantments.
 
