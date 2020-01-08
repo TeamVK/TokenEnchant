@@ -1,3 +1,6 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-explosiveenchant.20281/
+#plugin.price:free
 # if this option is true, TEBlockExplodeEvent will be handled by TokenEnchant
 # if you want other plugin to handle TEBlockExplodeEvent, set it to false;
 PickupTEExplodedBlocks: true

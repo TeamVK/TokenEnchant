@@ -1,3 +1,6 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$4.0
 Potions:
   DiaIsDia:
     description: "This enchant allows you to right click your pickaxe and it faces you in the direction of the closest diamonds."

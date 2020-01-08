@@ -1,3 +1,6 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/te-enlightenedenchant.14102/
+#plugin.price:free
 Potions:
   Enlightened:
     description: "Opposite to Deathbringer Enchant! You can reverse the damage into gaining health!"

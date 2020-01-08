@@ -1,3 +1,6 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$4.0
 Potions:
   ExplosiveDeath:
     description: "Gives the sound and effect of TNT and deals the damage and knockback of TNT as well."
