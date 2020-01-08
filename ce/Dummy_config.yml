@@ -1,8 +1,0 @@
-#plugin.url:https://www.spigotmc.org/resources/te-antiknockbackenchant.12751/
-#plugin.price:US1M
-Potions:
-  Dummy:
-    description: "Dummy Custom Enchantment."
-    price: 10
-    max: 4
-    occurrence: random
