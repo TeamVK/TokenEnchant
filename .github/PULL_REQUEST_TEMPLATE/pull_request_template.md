@@ -1,4 +1,5 @@
 # Custom Enchantment registration request
+This pull request is to register your custom enchantment with this site's Custom Enchantment list.  You only need to submit your custom enchantment's ```_config.yml``` file.
 
 ## Name of Your Custom Enchantment.
 name_of_your_custom_enchantment
