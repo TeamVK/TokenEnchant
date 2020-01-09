@@ -18,7 +18,7 @@ NOTE: It is recommended to use spigotmc.org's profile page.
 
 ## Checklist:
 - [ ] Is your submitting config file named like ```NameOfEnchant_config.yml```? (eg. ```Excavation_config.yml```)
-- [ ] Does your ```NameOfEnchant_config.yml``` file contain the following header info lines?
+- [ ] Does your ```NameOfEnchant_config.yml``` file contain the following header info lines? (These metadata are optional but they will be very useful for potential users.)
 ```
 #plugin.author:[YourName](https://www.spigotmc.org/members/yourname.xxxxx/)
 #plugin.url:https://www.spigotmc.org/resources/yourresoruce.xxxx/
