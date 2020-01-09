@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-unbreakableenchant.18594/
+#plugin.price:free
 Potions:
   Unbreakable:
+    description: "Simply making an item unbreakable."
     event_map:
       PlayerItemDamageEvent: "MONITOR"
       BlockBreakEvent: "MONITOR"

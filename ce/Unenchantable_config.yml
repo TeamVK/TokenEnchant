@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:free
 Potions:
   Unenchantable:
+    description: "With this enchantment, one cannot add any other enchantment on this item ;("
     price: 10
     max: 1
     occurrence: always

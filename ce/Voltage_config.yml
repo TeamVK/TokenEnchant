@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$2.0
 Potions:
   Voltage:
+    description: "Hurls a bolt of lighting at the enemy zapping them and doing damage!"
     event_map:
       EntityDamageByEntityEvent: "HIGH"
     price: 0

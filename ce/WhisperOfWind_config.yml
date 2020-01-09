@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$2.0
 Potions:
   WhisperOfWind:
+    description: "It applies speed 2 to the wearer of the boots; activated once on."
     price: 10
     max: 1
     multiplier: 0.1

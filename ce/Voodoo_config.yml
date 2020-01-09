@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-voodooenchant.20754/
+#plugin.price:free
 Potions:
   Voodoo:
+    description: "Use ArmorStand +Voodoo head (of another player) to give another player damage!"
     event_map:
       EntityDamageByEntityEvent: "HIGHEST"
     price: 10
