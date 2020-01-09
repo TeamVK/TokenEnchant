@@ -1,6 +1,8 @@
 # Custom Enchantment registration request
 This pull request is to register your custom enchantment with this site's Custom Enchantment list.  You only need to submit your custom enchantment's ```_config.yml``` file.
 
+If you haven't read the information on what sort of pieces of information are needed for your ```_config.yml``` file, please read [Contributing](https://github.com/TeamVK/TokenEnchant/blob/master/ce/contributing.md). 
+
 ## Name of Your Custom Enchantment.
 name_of_your_custom_enchantment
 
