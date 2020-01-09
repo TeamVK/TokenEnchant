@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-rammingenchant.12784/
+#plugin.price:free
 Potions:
   Ramming:
+    description: "Charge towards your opponent when you attack to increase the damage!"
     event_map:
       EntityDamageByEntityEvent : "HIGH"
     price: 10

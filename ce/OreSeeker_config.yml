@@ -1,9 +1,13 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-oreseekerenchant-aka-vein-mining-enchant.26185/
+#plugin.price:free
 PickupTEExplodedBlocks: true
 SmeltTEExplodedBlocks: true
 BlockPerTEBlockExplodeEvent: 200
 
 Potions:
   OreSeeker:
+    description: "(aka Vein Mining) Let this enchant to seek other similar ores around you!"
     event_map:
       TEBlockExplodeEvent: "MONITOR"
       BlockBreakEvent: "NORMAL"

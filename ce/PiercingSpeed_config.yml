@@ -1,9 +1,13 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$3.0
 Potions:
-    PiercingSpeed:
-      event_map:
-        EntityDamageByEntityEvent: "HIGH"
-      price: 10
-      max: 10
-      multiplier: 0.1
-      amount: 5000
-      occurrence: always
+  PiercingSpeed:
+    description: "Activates a haste 1 on the pickaxe increasing the braking speed activated on enchant."
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 10
+    multiplier: 0.1
+    amount: 5000
+    occurrence: always

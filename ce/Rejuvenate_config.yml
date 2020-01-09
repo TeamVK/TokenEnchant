@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$3.0
 Potions:
   Rejuvenate:
+    description: "It gives you the chance to heal some of your hearts whilst fighting."
     event_map:
       EntityDamageByEntityEvent: "HIGH"
     heal_amount: 1

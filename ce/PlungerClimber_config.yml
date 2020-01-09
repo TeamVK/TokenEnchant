@@ -1,5 +1,10 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/te-plungerclimberenchant.14347/
+#plugin.price:free
 Potions:
   PlungerClimber:
+    description: "You can climb up the wall with plunger climber enchanted tool!
+"
     event_map:
       PlayerInteractEvent: "LOW"
       BlockPlaceEvent: "LOW"

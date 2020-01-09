@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$3.0
 Potions:
   QuakeTip:
+    description: "This bow when shot throws the target 20 blocks in the air"
     event_map:
       EntityDamageByEntityEvent: "NORMAL"
     price: 10

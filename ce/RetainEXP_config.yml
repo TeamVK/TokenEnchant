@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-retainexpenchant.12713/
+#plugin.price:free
 Potions:
   RetainEXP:
+    description: "Retain your exp upon your death. You simply carry an item which was enchanted with RetainEXP enchant in your inventory or armours/tools."
     event_map:
       PlayerDeathEvent: "LOWEST"
     price: 10

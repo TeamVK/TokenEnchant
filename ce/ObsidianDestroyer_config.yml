@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:hhttps://www.spigotmc.org/resources/te-obsidiandestroyerenchant.21434/
+#plugin.price:free
 Potions:
   ObsidianDestroyer:
+    description: "It lets you break obsidian block with no effor!"
     event_map:
       BlockDamageEvent: "HIGHEST"
     alias: "ObbyDestroyer"

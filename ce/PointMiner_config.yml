@@ -1,6 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$3.0
 Potions:
   PointMiner:
-    description: "It allows to earn player points from mining!"
+    description: "It allows to earn player (PlayerPoints plugin) points from mining!"
     event_map:
       BlockBreakEvent: "LOW"
       TEBlockExplodeEvent: "LOW"

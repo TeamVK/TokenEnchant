@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-poisonenchant.20218/
+#plugin.price:free
 Potions:
   Poison:
+    description: "Cast the Poison poison effect upon attack!"
     event_map:
       EntityDamageByEntityEvent: "HIGHEST"
     price: 10

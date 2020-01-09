@@ -1,12 +1,15 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$3.0
 Potions:
-    PoisonAura:
-      event_map:
-        EntityDamageByEntityEvent: "HIGHEST"
-      price: 10
-      max: 10
-      duration: 5
-      radius: 6
-      effect: POISON
-      occurrence: always
-      region_plugin: FactionUUID
-
+  PoisonAura:
+    description: "Gives enemies a poison 1 effect when in a 6 (config defined) block radius."
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 10
+    duration: 5
+    radius: 6
+    effect: POISON
+    occurrence: always
+    region_plugin: FactionUUID

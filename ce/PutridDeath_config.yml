@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$3.0
 Potions:
   PutridDeath:
+    description: "The enemy attacking you has a chance to get nausea"
     event_map:
       EntityDamageByEntityEvent: "HIGH"
     price: 10
