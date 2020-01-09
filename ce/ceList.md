@@ -12,9 +12,8 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-
- 
 ## List of Currently Known Custom Enchantments. (235 registered)
+
 Enchantment Name | Description | Author | Config
 --- | --- | --- | ---
 [AntiKnockback](https://www.spigotmc.org/resources/te-antiknockbackenchant.12751/) | "Prevents being knocked back." | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](AntiKnockback_config.yml)
