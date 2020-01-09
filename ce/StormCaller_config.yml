@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-stormcallerenchant.13456/
+#plugin.price:free
 Potions:
   StormCaller:
+    description: "It allows you give lightning strike to your attacker! The duration and the level of damage is determined by the level of enchant."
     event_map:
       EntityDamageByEntityEvent: "HIGHEST"
     price: 10

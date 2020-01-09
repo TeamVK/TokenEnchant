@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-squirtlewatergunenchant.7665/
+#plugin.price:US$1.5
 Potions:
   Squirt1eWaterGun:
+    description: "Shoot water gun like Squirtle!"
     event_map:
       PlayerInteractEvent: "HIGHEST"
       EntityDamageByEntityEvent: "HIGHEST"

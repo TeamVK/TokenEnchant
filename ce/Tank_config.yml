@@ -3,6 +3,7 @@
 #plugin.price:US$3.0
 Potions:
   Tank:
+    description: "Once in combat with this enchantment, you take less damage!"
     event_map:
       EntityDamageByEntityEvent: "HIGH"
     multiplier: 0.1

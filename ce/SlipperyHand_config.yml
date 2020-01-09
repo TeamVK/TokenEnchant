@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-slipperyhandenchant.29540/
+#plugin.price:free
 Potions:
   SlipperyHand:
+    description: "Make your opponent's hands slippery and make him lose his item from his hand!"
     event_map:
       EntityDamageByEntityEvent: "HIGHEST"
     price: 10

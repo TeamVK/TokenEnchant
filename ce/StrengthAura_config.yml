@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$3.0
 Potions:
   StrengthAura:
+    description: "Gives strength 2 to faction members, allies, and party members that are in a 5 block radius."
     event_map:
       EntityDamageByEntityEvent: "HIGHEST"
     price: 0

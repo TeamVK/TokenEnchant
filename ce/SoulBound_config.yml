@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-soulboundenchant.8233/
+#plugin.price:US$3.0
 Potions:
   SoulBound:
+    description: "If you enchant your item with this effect, the item will stay in your inventory when you die. Also other people cannot pick it up."
     event_map:
       PlayerDeathEvent: "LOW"
       PlayerRespawnEvent: "MONITOR"

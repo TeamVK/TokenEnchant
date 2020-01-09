@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-shotgunenchant.12833/
+#plugin.price:free
 Potions:
   ShotGun:
+    description: "It will shoot multiple arrows in one go!"
     event_map:
       EntityShootBowEvent: "NORMAL"
       ProjectileHitEvent: "MONITOR"

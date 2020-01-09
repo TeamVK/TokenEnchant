@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/te-skulldiggerenchant-aka-luckyblock-digger.21654/
+#plugin.price:free
 Potions:
   SkullDigger:
+    description: "(aka LuckyBlock digger) Dig out skull/player head blocks instantly!!"
     event_map:
       BlockDamageEvent: "HIGHEST"
     price: 10

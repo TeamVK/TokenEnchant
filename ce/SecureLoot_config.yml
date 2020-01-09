@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/te-securelootenchant.14346/
+#plugin.price:ask
 Potions:
   SecureLoot:
+    description: "You can secure loot (from breaking chests/containers and killing mobs/players) with this enchant so that other cannot pick up your loot!"
     event_map:
       EntityDeathEvent: "HIGHEST"
       BlockBreakEvent: "HIGHEST"

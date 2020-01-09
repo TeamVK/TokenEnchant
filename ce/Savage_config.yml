@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$3.0
 Potions:
   Savage:
+    description: "It gives your enemy mining fatigue and blindness, it also might give yourself mining fatigue while fighting them."
     event_map:
       EntityDamageByEntityEvent: "HIGH"
     price: 0

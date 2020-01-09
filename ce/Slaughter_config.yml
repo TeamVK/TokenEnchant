@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/te-slaughterenchant.38595/
+#plugin.price:free
 Potions:
   Slaughter:
+    description: "Kill multiple mobs in the merged/stacked mobs (from MergedMob plugin)!! Higher enchant, more kills!"
     event_map:
       EntityDamageByEntityEvent: "HIGH"
     price: 10
