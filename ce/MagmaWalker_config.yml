@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/te-magmawalkerenchant.31572/
+#plugin.price:free
 Potions:
   MagmaWalker:
+    description: "Creates obsidian blocks when walking over lava."
     event_map:
       BlockBreakEvent: "LOWEST"
       PlayerMoveEvent: "HIGHEST"

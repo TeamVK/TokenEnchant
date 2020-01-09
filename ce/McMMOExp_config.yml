@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-mcmmoexpenchant.21766/
+#plugin.price:free
 Potions:
   McMMOExp:
+    description: "Multiply McMMO Experience gain! Higher level = more gain!"
     event_map:
       McMMOPlayerXpGainEvent: "NORMAL"
     price: 10

@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-mobcannonenchant.18638/
+#plugin.price:free
 Potions:
   MineBuddy:
+    description: "It allows you to have a mining buddy. All you mined will automatically sent to your mining buddy's inventory."
     event_map:
       TEBlockExplodeEvent_register: "LOWEST"
       TEBlockExplodeEvent_process: "MONITOR"

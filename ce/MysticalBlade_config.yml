@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$2.5
 Potions:
   MysticalBlade:
+    description: "Pulls your enemy close to you."
     event_map:
       PlayerFishEvent: "HIGHEST"
     potion_effects:

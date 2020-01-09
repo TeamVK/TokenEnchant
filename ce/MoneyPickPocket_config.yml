@@ -1,7 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
 #plugin.url:https://www.spigotmc.org/resources/te-pickpocketenchant.20497/
 #plugin.price:free
 Potions:
   MoneyPickPocket:
+    description: "This allows you to pickpocket $ from other players."
     event_map:
       PlayerInteractAtEntityEvent: "HIGHEST"
     price: 10

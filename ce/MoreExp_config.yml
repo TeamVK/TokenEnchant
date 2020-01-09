@@ -1,11 +1,9 @@
-# +------------------------------------------------------------+ #
-# MoreExpPotion Configuration
-# +------------------------------------------------------------+ #
-
-# NOTE: Do NOT put tabs anywhere in the config!
-
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$3.0
 Potions:
   MoreExp:
+    description: "Yields more exp orbs depending on the level of enchantment."
     event_map:
       BlockBreakEvent: "HIGHEST"
       EntityDeathEvent: "HIGHEST"

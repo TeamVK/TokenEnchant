@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-miningflameenchant.7509/
+#plugin.price:free
 Potions:
   MiningFlame:
+    description: "It puts a fire when you break a block."
     event_map:
       BlockBreakEvent: "HIGHEST"
     price: 10
