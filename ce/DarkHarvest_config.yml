@@ -1,0 +1,101 @@
+#plugin.author:[GabyTM](https://www.mc-market.org/members/100752/)
+#plugin.url:https://www.mc-market.org/resources/13264/
+#plugin.price:US$1.99
+Potions:
+  DarkHarvest:
+    event_map:
+      EntityDeathEvent: 'HIGHEST'
+      EntityDamageByEntityEvent: 'HIGHEST'
+    price: 10
+    max: 10
+ 
+    #
+    # If enabled, players can check their DarkHarvest stats using using '/te [darkharvest / alias]'
+    #
+    # • aliases    - the aliases list for the command, MUST be a list
+    # • list       - the message sent if the player has at lest 1 soul harvested
+    #   • header   - the first line of message that is sent
+    #   • format   - the message format (support placeholders)
+    #   • splitter - the character(s) that are placed between each soul (format - splitter - format...)
+    #   • footer   - the lst like of message that is sent
+    # • noSouls    - the message sent if the player haven't harvested any souls
+    #
+    # Placeholders:
+    # • {amount}       - the amount of souls
+    # • {damage}       - the extra damage
+    # • {damage_fixed} - the extra damage without decimals
+    # • {entity}       - the entity display name
+    #
+    command:
+      enabled: true
+      aliases: [souls]
+      list:
+        header: '&8&m-----------------------------------------------------'
+        format: '{entity} &8(&a{amount}✦ &c+{damage}d&8)'
+        splitter: '&7, '
+        footer: '&8&m-----------------------------------------------------'
+      noSouls: '&cNo souls!'
+ 
+    #
+    # List of actions that are executed when the player kill an entity
+    # that is listed on the 'entities' list (see below)
+    #
+    # • sendMessage - if enabled, the message will be sent
+    # • playSound   - if enabled, a sound will be played
+    # • message     - the message (support placeholders)
+    # • sound       - the sound
+    #
+    # Placeholders:
+    # • {amount} - the amount of souls harvested
+    # • {entity} - the entity display name
+    #
+    # Sounds list for each version: https://git.io/JeoHM
+    #
+    onHarvest:
+      sendMessage: true
+      playSound: true
+      message: '&cDarkHarvest &8» &c+{amount} {entity} &7souls.'
+      sound: ENTITY_PLAYER_LEVELUP
+ 
+    #
+    # The entities list which soul the player can harvest
+    # The first line is the entity name and must be valid
+    #
+    # • name             - the display name used for the '{entity}' placeholder
+    # • extraDamage      - the extra damage given by each souk
+    #   • base           - the base damage of each soul
+    #   • levelAmplifier - the damage amplifier (see the formula above)
+    # • souls            - souls settings
+    #   • perLevel       - the max amount of levels that the player can harvest
+    #                      based on the enchantment level
+    #   • max            - the max amount of souls a player can harvest
+    #
+    # Entities list:
+    # • Latest - https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.htm
+    # • 1.13.2 - https://helpch.at/docs/1.13.2/org/bukkit/entity/EntityType.html
+    # • 1.12.2 - https://helpch.at/docs/1.12.2/org/bukkit/entity/EntityType.html
+    # • 1.11.2 - https://helpch.at/docs/1.11.2/org/bukkit/entity/EntityType.html
+    # • 1.10.2 - https://helpch.at/docs/1.10.2/org/bukkit/entity/EntityType.html
+    # • 1.9.4  - https://helpch.at/docs/1.9.4/org/bukkit/entity/EntityType.html
+    # • 1.8.8  - https://helpch.at/docs/1.8.8/org/bukkit/entity/EntityType.html
+    #
+    entities:
+      PIG:
+        name: '&dPig'
+        extraDamage:
+          base: 0.1
+          levelAmplifier: 0.2 # (base * (amplifier * level)) * amount
+        souls:
+          perLevel: 20 # perLevel * level
+          max: 200
+ 
+    #
+    # Per level settings, the first line is the level number and must be a number
+    #
+    # • souls - a number of souls will be generated between these two values
+    #
+    levels:
+      1:
+        cooldown: 20 # The harvest cooldown (in seconds)
+        chance: 20 # The chance to deal extra damage (out of 100)
+        souls: 1-2
