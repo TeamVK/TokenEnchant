@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-tntenchant.12555/
+#plugin.price:free
 Potions:
   TNT:
+    description: "You can cause TNT-like explosion with Bow/Arrow or simply breaking a block. (you can mine those exploded block if you have auto pick up plugin!)"
     event_map:
       BlockExplodeEvent: "NORMAL"
       ProjectileHitEvent: "NORMAL"

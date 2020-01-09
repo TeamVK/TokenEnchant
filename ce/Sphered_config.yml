@@ -8,6 +8,7 @@ SmeltTEExplodedBlocks: true
 
 Potions:
     Sphered:
+      description: "It is just like Explosive but it will remove a spherical shape!"
       event_map:
         BlockBreakEvent: "HIGHEST"
         TEBlockExplodeEvent: "MONITOR"

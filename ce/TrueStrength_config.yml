@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$3.0
 Potions:
   TrueStrength:
+    description: "Stays the same with constant strength X and slowness Y."
     price: 0
     max: 1
     strength_multiplier: 2.0

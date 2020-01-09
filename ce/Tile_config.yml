@@ -8,6 +8,7 @@ SmeltTEExplodedBlocks: true
 
 Potions:
     Tile:
+      description: "It will blow up surrounding blocks in square form with 1 block deep"
       event_map:
         BlockBreakEvent: "HIGHEST"
         TEBlockExplodeEvent: "MONITOR"

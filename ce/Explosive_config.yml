@@ -8,7 +8,7 @@ SmeltTEExplodedBlocks: true
 
 Potions:
   Explosive:
-    description: "It will blow up surrounding blocks!"
+    description: "It will blow up randomly selected surrounding blocks!"
     event_map:
       BlockBreakEvent: "HIGHEST"
       TEBlockExplodeEvent: "MONITOR"

@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-teleportenchant.7926/
+#plugin.price:free
 Potions:
   Teleport:
+    description: "You can mark the destination of teleportation, and flick of your enchanted tool, you can teleport back to the defined location or to the top of the mine."
     event_map:
       PlayerInteractEvent: "HIGHEST"
     price: 10

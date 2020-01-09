@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-throwenchant.7809/
+#plugin.price:US$3.0
 Potions:
   Throw:
+    description: "With this enchantment, you can throw it to give a damage! Be like Ninja!"
     event_map:
       PlayerPickupItemEvent: "HIGHEST"
       EntityPickupItemEvent: "HIGHEST"

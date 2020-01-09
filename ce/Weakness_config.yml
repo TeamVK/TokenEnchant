@@ -3,6 +3,7 @@
 #plugin.price:free
 Potions:
   Weakness:
+    description: "Cast the Weakness poison effect upon attack!"
     event_map:
       EntityDamageByEntityEvent: "HIGHEST"
     price: 10
