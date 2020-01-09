@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (236 registered)
+## List of Currently Known Custom Enchantments. (239 registered)
 
 Enchantment Name | Description | Author | Config
 --- | --- | --- | ---
@@ -35,6 +35,7 @@ Enchantment Name | Description | Author | Config
 [Blast](https://www.spigotmc.org/resources/te-blastenchant.12788/) | "(aka Shockwave) Blasts off nearby players and hostile mobs!" | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](Blast_config.yml)
 [Blessing](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Give out random amount of tokens to all online players!" | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](Blessing_config.yml)
 [Blindness](https://www.spigotmc.org/resources/te-blindnessenchant.20226/) | "This enchant will make your attacker blind for a while!" | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](Blindness_config.yml)
+[Bloodthirster](https://www.spigotmc.org/resources/73463/) | 'Heal with your enemies blood' | [GabyTM](https://www.spigotmc.org/members/386419/) | [config](Bloodthirster_config.yml)
 [Blunter](https://www.spigotmc.org/resources/te-blunterenchant.25942/) | "Give an extra durability damage to your attacker's weapon!" | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](Blunter_config.yml)
 [BodyBreaker](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Give durability damage twice the rate!" | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](BodyBreaker_config.yml)
 [BoneBreaker](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Knocks back the enemy!" | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](BoneBreaker_config.yml)
@@ -56,6 +57,7 @@ Enchantment Name | Description | Author | Config
 [CrossExplosion](https://www.spigotmc.org/resources/tokenenchant.2287/) | "It explodes a cross pattern of blocks in a mine." | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](CrossExplosion_config.yml)
 [Curse](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Curse your attacker with this enchant! It will give them mining fatigue!" | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](Curse_config.yml)
 [CustomFishing](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Yields customised catches. You can define chances and type of possible items to be caught in config.yml." | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](CustomFishing_config.yml)
+[DarkHarvest](https://www.mc-market.org/resources/13264/) | 'Gain extra power from the soul of the defeated enemies' | [GabyTM](https://www.mc-market.org/members/100752/) | [config](DarkHarvest_config.yml)
 [DarkenedDiamond](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Gives a chance of wither 1 effect to an enemy." | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](DarkenedDiamond_config.yml)
 [DawnOfDarkness](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Gives a chance to mildly blind someone." | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](DawnOfDarkness_config.yml)
 [DeathBringer](https://www.spigotmc.org/resources/tokenenchant.2287/) | "It doubles attack damage upon hitting your opponent!" | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](DeathBringer_config.yml)
@@ -169,6 +171,7 @@ Enchantment Name | Description | Author | Config
 [ObsidianDestroyer](https://www.spigotmc.org/resources/te-obsidiandestroyerenchant.21434/) | "It lets you break obsidian block with no effor!" | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](ObsidianDestroyer_config.yml)
 [OreSeeker](https://www.spigotmc.org/resources/te-oreseekerenchant-aka-vein-mining-enchant.26185/) | "(aka Vein Mining) Let this enchant to seek other similar ores around you!" | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](OreSeeker_config.yml)
 [Over9000](https://www.spigotmc.org/resources/tokenenchant.2287/) | "This enchant when put on gives you strength 3 constantly but also gives you mining fatigue 2." | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](Over9000_config.yml)
+[Overheal](https://www.spigotmc.org/resources/73289/) | 'Receive the extra health as absorption effect for a certain amount of time' | [GabyTM](https://www.spigotmc.org/members/386419/) | [config](Overheal_config.yml)
 [P1kachuThunder](https://www.spigotmc.org/resources/te-p1kachuthunderenchant.7611/) | "It will create P1kachuThunder, which will give damage to nearby entities." | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](P1kachuThunder_config.yml)
 [PiercingSpeed](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Activates a haste 1 on the pickaxe increasing the braking speed activated on enchant." | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](PiercingSpeed_config.yml)
 [Piercing](https://www.spigotmc.org/resources/te-piercingenchant.12780/) | "It will let you pierce through opponent's armour!" | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](Piercing_config.yml)
