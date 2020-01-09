@@ -166,7 +166,7 @@ Enchantment Name | Description | Author | Config
 [Ninja](https://www.spigotmc.org/resources/tokenenchant.2287/) | Ninja |  | [config](Ninja_config.yml)
 [NoPushing](https://www.spigotmc.org/resources/tokenenchant.2287/) | NoPushing |  | [config](NoPushing_config.yml)
 [Nocturnal](https://www.spigotmc.org/resources/tokenenchant.2287/) | Nocturnal |  | [config](Nocturnal_config.yml)
-[ObsidianDestroyer](hhttps://www.spigotmc.org/resources/te-obsidiandestroyerenchant.21434/) | "It lets you break obsidian block with no effor!" | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](ObsidianDestroyer_config.yml)
+[ObsidianDestroyer](https://www.spigotmc.org/resources/te-obsidiandestroyerenchant.21434/) | "It lets you break obsidian block with no effor!" | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](ObsidianDestroyer_config.yml)
 [OreSeeker](https://www.spigotmc.org/resources/te-oreseekerenchant-aka-vein-mining-enchant.26185/) | "(aka Vein Mining) Let this enchant to seek other similar ores around you!" | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](OreSeeker_config.yml)
 [Over9000](https://www.spigotmc.org/resources/tokenenchant.2287/) | "This enchant when put on gives you strength 3 constantly but also gives you mining fatigue 2." | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](Over9000_config.yml)
 [P1kachuThunder](https://www.spigotmc.org/resources/te-p1kachuthunderenchant.7611/) | "It will create P1kachuThunder, which will give damage to nearby entities." | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](P1kachuThunder_config.yml)
