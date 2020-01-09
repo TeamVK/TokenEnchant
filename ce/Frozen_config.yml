@@ -1,3 +1,6 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-frozenenchant.13454/
+#plugin.price:free
 Potions:
   Frozen:
     description: "This enchant applies the slowness effect to the attacker."

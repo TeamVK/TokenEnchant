@@ -1,3 +1,6 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-guardianenchant.12070/
+#plugin.price:$4.0
 Potions:
   Guardian:
     description: "Upon taking damage, it will spawn your guardian mob (like PigZombie, IronGolem) to fight for your and protect you!"

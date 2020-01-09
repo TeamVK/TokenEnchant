@@ -1,3 +1,6 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-grapplingbowenchant.9603/
+#plugin.price:free
 Potions:
   GrapplingBow:
     description: "This allows a player to shoot an arrow for grappling."
