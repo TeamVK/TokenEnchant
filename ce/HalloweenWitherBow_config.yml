@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$2.0
 Potions:
   HalloweenWitherBow:
+    description: "If you shoot with a bow with this enchantment, it will shoot a witherskull instead of an arrow, and the witherskull will give damage only to a living entity and leave surrounding blocks without any damages."
     event_map:
       EntityShootBowEvent: "NORMAL"
       ProjectileHitEvent: "LOWEST"

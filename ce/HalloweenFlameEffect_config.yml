@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$2.0
 Potions:
   HalloweenFlameEffect:
+    description: "If you have an item/armor with this enchantment, it will repeatedly spawn the mobspawner flames around you."
     event_map:
       PlayerDeathEvent: "MONITOR"
     price: 10
