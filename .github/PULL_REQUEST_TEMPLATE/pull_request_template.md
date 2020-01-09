@@ -22,6 +22,7 @@ NOTE: It is recommended to use spigotmc.org's profile page.
 ```
 #plugin.author:[YourName](https://www.spigotmc.org/members/yourname.xxxxx/)
 #plugin.url:https://www.spigotmc.org/resources/yourresoruce.xxxx/
+#plugin.demo:[![demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 #plugin.price:name_your_price
 ```
 - [ ] Does your ```NameOfEnchant_config.yml``` file contains ```description:``` option? (like below?)
