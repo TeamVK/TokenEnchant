@@ -1,0 +1,11 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$1.5
+Potions:
+  MultipleCatch:
+    description: "Multiplies the caught fish (or an item)."
+    event_map:
+      PlayerFishEvent: "HIGHEST"
+    price: 10
+    max: 5
+    occurrence: random

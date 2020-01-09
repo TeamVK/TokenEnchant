@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (235 registered)
+## List of Currently Known Custom Enchantments. (236 registered)
 
 Enchantment Name | Description | Author | Config
 --- | --- | --- | ---
@@ -159,6 +159,7 @@ Enchantment Name | Description | Author | Config
 [MoreExp](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Yields more exp orbs depending on the level of enchantment." | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](MoreExp_config.yml)
 [MoreHearts](https://www.spigotmc.org/resources/te-moreheartsenchant-aka-overload.13847/) | "(aka Overload) : higher level of enchant will give you more hearts (you can go over 10 hearts!)" | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](MoreHearts_config.yml)
 [MultiDrops](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Multiply the drops depending on the enchantment level." | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](MultiDrops_config.yml)
+[MultipleCatch](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Multiplies the caught fish (or an item)." | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](MultipleCatch_config.yml)
 [MysticalBlade](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Pulls your enemy close to you." | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](MysticalBlade_config.yml)
 [Neglect](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Gives a chance to completely Dodge an incoming attack." | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](Neglect_config.yml)
 [NightWalker](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Gives you Night Vision once on." | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](NightWalker_config.yml)
