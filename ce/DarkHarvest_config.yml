@@ -6,6 +6,7 @@ Potions:
     event_map:
       EntityDeathEvent: 'HIGHEST'
       EntityDamageByEntityEvent: 'HIGHEST'
+    description: 'Gain extra power from the soul of the defeated enemies'
     price: 10
     max: 10
  
