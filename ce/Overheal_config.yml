@@ -1,0 +1,20 @@
+#plugin.author:[GabyTM](https://www.spigotmc.org/members/386419/)
+#plugin.url:https://www.spigotmc.org/resources/73289/
+#plugin.price:free
+Potions:
+  Overheal:
+    event_map:
+      EntityRegainHealthEvent: 'HIGHEST'
+    description: 'Receive the extra health as absorption effect for a certain amount of time'
+    #
+    # The extra absorption duration received on each level
+    #
+    #  Amount formula:    (received + currentHealth) - maxHealth
+    #    Example:         (6 + 19) - 20 = 5
+    #  Duration formula:  amount + [(amount / 100) * (level * percentagePerLevel)]
+    #    Example:         5 + [(5 / 100) * (1 * 10)] = 6 seconds of absorption
+    #
+    percentagePerLevel: 10
+    amplifier: 1 # The potion effect amplifier / level
+    price: 10
+    max: 10
