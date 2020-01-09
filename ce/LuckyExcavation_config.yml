@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/te-luckyexcavationenchant.22472/
+#plugin.price:US$3.0
 Potions:
   LuckyExcavation:
+    description: "(aka Concentrate excavation) You can get random rewards from Spade-Excavation! Higher level = more drops!!"
     event_map:
       BlockBreakEvent: "NORMAL"
     alias: "&bLucky Spade"

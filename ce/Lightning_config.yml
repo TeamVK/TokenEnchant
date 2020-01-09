@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-lightningenchant.12612/
+#plugin.price:free
 Potions:
   Lightning:
+    description: "(aka Thundering) You strike Lightning and cause TNT-like explosion! You can also use it for mining as well."
     event_map:
       BlockExplodeEvent: "NORMAL"
       PlayerInteractEvent: "HIGHEST"

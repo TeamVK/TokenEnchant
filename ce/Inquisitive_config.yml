@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-inquisitiveenchant.11860/
+#plugin.price:free
 Potions:
   Inquisitive:
+    description: "Get more EXP orbs upon mob killing."
     event_map:
       EntityDeathEvent: "NORMAL"
     price: 10

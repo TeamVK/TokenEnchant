@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$3.0
 Potions:
   Laceration:
+    description: "Cuts deep into your enemies armor giving a chance of dealing more damage."
     event_map:
       EntityDamageByEntityEvent: "HIGH"
     price: 10

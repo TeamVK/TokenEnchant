@@ -1,5 +1,9 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:US$3.0
 Potions:
   KnowledgeOfElder:
+    description: "Gives you extra hearts (depending on the level)"
     event_map:
       PlayerJoinEvent: "NORMAL"
       PlayerRespawnEvent: "NORMAL"

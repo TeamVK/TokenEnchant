@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-luckyminingenchant.7804/
+#plugin.price:free
 Potions:
   LuckyMining:
+    description: "If you enchant your tool with this effect, you might get lucky and get some prizes!"
     # use this option to resolve any conflict with other plugin(s) such as AutoSell
     event_map:
       BlockBreakEvent: "HIGH"

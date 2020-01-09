@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-itemsearchenchant.19564/
+#plugin.price:free
 Potions:
   ItemSearch:
+    description: "This effect will make you 'look' towards the direction which leads you to the block/item with the same type as the item you're holding on your left hand!!"
     event_map:
       PlayerInteractEvent: "NORMAL"
     price: 10

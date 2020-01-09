@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-killrewardenchant.19232/
+#plugin.price:free
 Potions:
   KillReward:
+    description: "You can receive rewards by killing!"
     event_map:
       EntityDeathEvent: "HIGHEST"
     price: 10

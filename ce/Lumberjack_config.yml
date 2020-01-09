@@ -1,5 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/te-lumberjackenchant.12390/
+#plugin.price:US$1.5
 Potions:
   Lumberjack:
+    description: "It allows a player to cut one block of a tree and destroy all connected tree block/leaves. All cut tree blocks and saplings will naturally drop"
     event_map:
       BlockBreakEvent: "NORMAL"
     price: 10
