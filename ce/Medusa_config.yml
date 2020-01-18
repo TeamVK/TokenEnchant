@@ -1,0 +1,17 @@
+#plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:free
+Potions:
+  Medusa:
+    description: "Freeze them with your stare!"
+    event_map:
+      PlayerMoveEvent: "HIGHEST"
+    price: 10
+    max: 3
+    distance_multiplier: 2
+    freeze_multiplier: 2
+    max_distance: 32
+    targets:
+      - ZOMBIE
+      - SKELETON
+
