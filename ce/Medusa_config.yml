@@ -1,5 +1,6 @@
 #plugin.author:[ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/)
 #plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.demo:[![demo](https://img.youtube.com/vi/X09nBRQfrgM/0.jpg)](https://www.youtube.com/watch?v=X09nBRQfrgM)
 #plugin.price:free
 Potions:
   Medusa:
@@ -8,10 +9,10 @@ Potions:
       PlayerMoveEvent: "HIGHEST"
     price: 10
     max: 3
+    ray_size: 0.0  #making this bigger will increase the are of ray casting.
     distance_multiplier: 2
     freeze_multiplier: 2
     max_distance: 32
     targets:
       - ZOMBIE
       - SKELETON
-
