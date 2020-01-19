@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (240 registered)
+## List of Currently Known Custom Enchantments. (240 registered) 
 
 Enchantment Name | Description | Demo | Author | Config
 --- | --- | --- | --- | ---
