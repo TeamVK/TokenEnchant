@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (240 registered)
+## List of Currently Known Custom Enchantments. (242 registered)
 
 Enchantment Name | Description | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | ---
@@ -137,6 +137,7 @@ Enchantment Name | Description | Demo | Author | Config | Price
 <a name="LegDay"></a>[LegDay](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Gives you more speed." |  | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](LegDay_config.yml) | US$3.0
 <a name="LightningTip"></a>[LightningTip](https://www.spigotmc.org/resources/tokenenchant.2287/) | "This plugin contains a custom enchantment effect that allows you to cause an lightning upon attack using a projectile (arrow) with this enchant." |  | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](LightningTip_config.yml) | US$3.0
 <a name="Lightning"></a>[Lightning](https://www.spigotmc.org/resources/te-lightningenchant.12612/) | "(aka Thundering) You strike Lightning and cause TNT-like explosion! You can also use it for mining as well." | [![demo](https://img.youtube.com/vi/U6y3Hkh6foc/0.jpg)](https://www.youtube.com/watch?v=U6y3Hkh6foc) | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](Lightning_config.yml) | free
+<a name="LuckyBlock"></a>[LuckyBlock](https://www.mc-market.org/resources/12980/) | "Mine special Lucky Blocks and find yourself a mystery reward!" |  | [ItsLewizzz](https://www.spigotmc.org/members/itslewizzz.118276/) | [config](LuckyBlock_config.yml) | US$1.49
 <a name="LuckyDrop"></a>[LuckyDrop](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Increases the number of drops according the level." |  | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](LuckyDrop_config.yml) | US$3.0
 <a name="LuckyExcavation"></a>[LuckyExcavation](https://www.spigotmc.org/resources/te-luckyexcavationenchant.22472/) | "(aka Concentrate excavation) You can get random rewards from Spade-Excavation! Higher level = more drops!!" |  | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](LuckyExcavation_config.yml) | US$3.0
 <a name="LuckyMining"></a>[LuckyMining](https://www.spigotmc.org/resources/te-luckyminingenchant.7804/) | "If you enchant your tool with this effect, you might get lucky and get some prizes!" |  | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](LuckyMining_config.yml) | free
@@ -147,6 +148,7 @@ Enchantment Name | Description | Demo | Author | Config | Price
 <a name="McMMOExp"></a>[McMMOExp](https://www.spigotmc.org/resources/te-mcmmoexpenchant.21766/) | "Multiply McMMO Experience gain! Higher level = more gain!" |  | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](McMMOExp_config.yml) | free
 <a name="Medusa"></a>[Medusa](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Freeze them with your stare!" | [![demo](https://img.youtube.com/vi/X09nBRQfrgM/0.jpg)](https://www.youtube.com/watch?v=X09nBRQfrgM) | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](Medusa_config.yml) | free
 <a name="Melee"></a>[Melee](https://www.spigotmc.org/resources/te-meleeenchant.40599/) | "Sneak up from behind and kill! in HALO style!" |  | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](Melee_config.yml) | free
+<a name="Merchant"></a>[Merchant](https://www.mc-market.org/resources/13193/) | "Gain extra cash when you autosell!" |  | [ItsLewizzz](https://www.spigotmc.org/members/itslewizzz.118276/) | [config](Merchant_config.yml) | US$1.49
 <a name="MineBuddy"></a>[MineBuddy](https://www.spigotmc.org/resources/te-mobcannonenchant.18638/) | "It allows you to have a mining buddy. All you mined will automatically sent to your mining buddy's inventory." |  | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](MineBuddy_config.yml) | free
 <a name="MineWipe"></a>[MineWipe](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Wipe out the entire mine! It is recommended to be used with AutoSell." |  | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](MineWipe_config.yml) | US$4.0
 <a name="MiningFlame"></a>[MiningFlame](https://www.spigotmc.org/resources/te-miningflameenchant.7509/) | "It puts a fire when you break a block." |  | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](MiningFlame_config.yml) | free
