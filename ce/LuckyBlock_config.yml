@@ -1,0 +1,66 @@
+#plugin.author:[ItsLewizzz](https://www.spigotmc.org/members/itslewizzz.118276/)
+#plugin.url:https://www.mc-market.org/resources/12980/
+#plugin.price:US$1.49
+Potions:
+    LuckyBlock:
+      event_map:
+        BlockBreakEvent: "HIGHEST"
+        TEBlockExplodeEvent: "MONITOR"
+      description: "Mine special Lucky Blocks and find yourself a mystery reward!"
+      price: 10
+      max: 2
+      lucky_block: SPONGE
+      # This will disable any sort of placing of this block to prevent exploiting the LB system (if allowed in region) (OPs will bypass)
+      disable_placement:
+        enabled: true
+        message: "&c&lHey!, &7you aren't allowed to place LuckyBlocks here!"
+      cannot_break: "&c&lHey!, &7you do not have the LuckyBlock enchantment to break this block!"
+      prevent_break_without_enchant: true
+      broadcast:
+        enabled: true
+        message: "&6&lINFORMATION &8| &e%player% &fhas just found a &4&lL&c&lU&6&lC&e&lK&a&lY&2&lB&b&lL&3&lO&9&lC&5&lK"
+      firework:
+        enabled: true
+        settings:
+          flicker: true
+          trail: true
+          type: "STAR"
+          color: 1
+      invalid_in_world:
+      #  - plotworld
+      occurrence: always # Best to keep this on always unless you want the chance that a luckyblock will give nothing upon mined
+      level:
+        1: # Rewards for the level of the enchantment
+          rewards:
+            '1':
+              chance: 60 # Chance to get this reward out of 100
+              message: "&eYou have won &b&l3&r &eDiamonds from this Lucky Block!"
+              commands:
+                - give %player% DIAMOND 3
+            '2':
+              chance: 30
+              message: "&eYou have won &b&l6&r &eDiamonds from this Lucky Block!"
+              commands:
+                - give %player% DIAMOND 6
+            '3':
+              chance: 10
+              message: "&eYou have won &b&l15&r &eDiamonds from this Lucky Block!"
+              commands:
+                - give %player% DIAMOND 15
+        2:
+          rewards:
+            '1':
+              chance: 60
+              message: "&eYou have won &b&l$200&r from this Lucky Block!"
+              commands:
+                - eco give %player% 200
+            '2':
+              chance: 30
+              message: "&eYou have won &b&l$500&r from this Lucky Block!"
+              commands:
+                - eco give %player% 500
+            '3':
+              chance: 10
+              message: "&eYou have won &b&l$1000&r from this Lucky Block!"
+              commands:
+                - eco give %player% 1000
