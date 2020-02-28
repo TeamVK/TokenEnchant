@@ -1,0 +1,69 @@
+#plugin.author:[GabyTM](https://www.mc-market.org/members/100752/)
+#plugin.url:https://www.mc-market.org/resources/13906/
+#plugin.price:US$1.99
+Potions:
+  Gemstone:
+    event_map:
+      BlockBreakEvent: HIGHEST
+      EntityDeathEvent: HIGHEST
+    occurrence: random
+    description: 'Get a better tool by doing basic tasks'
+    price: 10
+    max: 10
+    alias: '&5Gemstone&d'
+    events:
+      BlockBreakEvent: # Called when a block is broken by a player.
+        enabled: true
+        message:
+          enabled: true
+          #
+          # The message sent when the player find a Gemstone
+          #
+          # Placeholders:
+          # • {enchantment}       - the enchantment default name (eg, Gemstone)
+          # • {enchantment_alias} - the enchantment alias (eg, &5Gemstone&d)
+          # • {level}             - the amount of levels applied (eg, 1)
+          # • {level_roman}       - the amount of levels applied displayed using roman numerals (eg, I)
+          #
+          message: '&7A &5Gemstone &7have been applied to your tool. (&d{enchantment} {level_roman}&7)'
+        allowedWorlds: # Set to [] to allow all worlds
+          - world
+        trackedBlocks: # Set to [] to track all blocks
+          - DIAMOND_BLOCK
+          - EMERALD_BLOCK
+        tiers:
+          T1:
+            levels:
+              #
+              # This tier will cover the levels from 1 to 5 (inclusive)
+              #
+              from: 1
+              to: 5
+            range:
+              #
+              # Minimum 1 level, maximum 2 levels
+              #
+              min: 1
+              max: 2
+            enchantments:
+              # Format: Enchantment;max-level
+              - Unbreaking;3
+              - Fortune;3
+      EntityDeathEvent: # Thrown whenever a LivingEntity (mob or player) dies
+        enabled: true
+        message:
+          enabled: true
+          message: '&7A &5Gemstone &7have been applied to your weapon. (&d{enchantment} {level_roman}&7)'
+        allowedWorlds: []
+        trackedEntites: []
+        tiers:
+          T1:
+            levels:
+              from: 1
+              to: 5
+            range:
+              min: 1
+              max: 2
+            enchantments:
+              - Unbreaking;3
+              - Sharpness;3
