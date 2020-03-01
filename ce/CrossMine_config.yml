@@ -1,0 +1,12 @@
+#plugin.author:[RedSmith](https://www.spigotmc.org/members/redsmith.187164/)
+#plugin.url:https://github.com/redsmith-dev/crossmine
+#plugin.demo:[![demo](https://img.youtube.com/vi/xy_UlGwgufM/0.jpg)](https://www.youtube.com/watch?v=xy_UlGwgufM)
+#plugin.price:Free
+#
+Potions:
+    CrossMine:
+      description: "Cross mining enchantment. Supports WorldGuard and JS functions to determine cross size and activation chance."
+      price: 10
+      max: 10
+      event_map:
+        BlockBreakEvent: "LOWEST"
