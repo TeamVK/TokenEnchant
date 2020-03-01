@@ -19,4 +19,6 @@ Potions:
     type: CUBOID
     effect: true
     sound: true
+    particle: REDSTONE
+    rgb: "255,0,0"
     occurrence: always

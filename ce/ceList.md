@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (244 registered)
+## List of Currently Known Custom Enchantments. (245 registered)
 
 Enchantment Name | Description | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | ---
@@ -55,6 +55,7 @@ Enchantment Name | Description | Demo | Author | Config | Price
 <a name="Concentrate"></a>[Concentrate](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Gives you a high chance of recovering diamonds from excavation." |  | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](Concentrate_config.yml) | US$4.0
 <a name="Confusion"></a>[Confusion](https://www.spigotmc.org/resources/te-confusionenchant.20229/) | "Makes your attacker confused!" |  | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](Confusion_config.yml) | free
 <a name="CrossExplosion"></a>[CrossExplosion](https://www.spigotmc.org/resources/tokenenchant.2287/) | "It explodes a cross pattern of blocks in a mine." |  | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](CrossExplosion_config.yml) | US$4.0
+<a name="CrossMine"></a>[CrossMine](https://github.com/redsmith-dev/crossmine) | "Cross mining enchantment. Supports WorldGuard and JS functions to determine cross size and activation chance." | [![demo](https://img.youtube.com/vi/xy_UlGwgufM/0.jpg)](https://www.youtube.com/watch?v=xy_UlGwgufM) | [RedSmith](https://www.spigotmc.org/members/redsmith.187164/) | [config](CrossMine_config.yml) | Free
 <a name="Curse"></a>[Curse](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Curse your attacker with this enchant! It will give them mining fatigue!" |  | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](Curse_config.yml) | US$4.0
 <a name="CustomFishing"></a>[CustomFishing](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Yields customised catches. You can define chances and type of possible items to be caught in config.yml." |  | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](CustomFishing_config.yml) | US$4.0
 <a name="DarkHarvest"></a>[DarkHarvest](https://www.mc-market.org/resources/13264/) | 'Gain extra power from the soul of the defeated enemies' |  | [GabyTM](https://www.mc-market.org/members/100752/) | [config](DarkHarvest_config.yml) | US$1.99
@@ -172,7 +173,7 @@ Enchantment Name | Description | Demo | Author | Config | Price
 <a name="Ninja"></a>[Ninja](https://www.spigotmc.org/resources/te-ninjaenchant.12858/) | "Disappear like a Ninja!!" | [![demo](https://img.youtube.com/vi/ghF654IvnEo/0.jpg)](https://www.youtube.com/watch?v=ghF654IvnEo) | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](Ninja_config.yml) | free
 <a name="NoPushing"></a>[NoPushing](https://www.spigotmc.org/resources/te-nopushingenchant-only-for-1-9-and-up.19462/) | "Prevent from being pushed around!" |  | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](NoPushing_config.yml) | free
 <a name="Nocturnal"></a>[Nocturnal](https://www.spigotmc.org/resources/tokenenchant.2287/) | "Chance to cancel incoming damage during nighttime." |  | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](Nocturnal_config.yml) | US$3.0
-<a name="Noninflammable"></a>[Noninflammable](https://www.spigotmc.org/resources/te-antiknockbackenchant.12751/) | "The item will not burn in fire!" | [![demo](https://img.youtube.com/vi/w9OquHv0gKs/0.jpg)](https://www.youtube.com/watch?v=w9OquHv0gKs) | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](Noninflammable_config.yml) | free
+<a name="Noninflammable"></a>[Noninflammable](https://www.spigotmc.org/resources/tokenenchant.2287/) | "The item will not burn in fire!" |  | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](Noninflammable_config.yml) | free
 <a name="ObsidianDestroyer"></a>[ObsidianDestroyer](https://www.spigotmc.org/resources/te-obsidiandestroyerenchant.21434/) | "It lets you break obsidian block with no effor!" |  | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](ObsidianDestroyer_config.yml) | free
 <a name="OreSeeker"></a>[OreSeeker](https://www.spigotmc.org/resources/te-oreseekerenchant-aka-vein-mining-enchant.26185/) | "(aka Vein Mining) Let this enchant to seek other similar ores around you!" |  | [vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/) | [config](OreSeeker_config.yml) | free
 <a name="Over9000"></a>[Over9000](https://www.spigotmc.org/resources/tokenenchant.2287/) | "This enchant when put on gives you strength 3 constantly but also gives you mining fatigue 2." |  | [ThePurpleHoser](https://www.spigotmc.org/members/thepurplehoser.108646/) | [config](Over9000_config.yml) | US$3.0
