@@ -1,0 +1,9 @@
+#plugin.author:[vk2gpz](https://www.spigotmc.org/members/vk2gpz.617/)
+#plugin.url:https://www.spigotmc.org/resources/tokenenchant.2287/
+#plugin.price:free
+Potions:
+  Noninflammable:
+    description: "The item will not burn in fire!"
+    price: 10
+    max: 1
+    occurrence: always
