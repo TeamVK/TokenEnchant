@@ -1,0 +1,80 @@
+#plugin.author:[GabyTM](https://www.spigotmc.org/members/386419/)
+#plugin.url:https://www.spigotmc.org/resources/75977/
+#plugin.price:free
+Potions:
+  LuckyRewards:
+    event_map:
+      BlockBreakEvent: HIGHEST
+      EntityDeathEvent: HIGHEST
+    price: 10
+    max: 10
+    occurrence: always
+    events:
+      BlockBreakEvent: # Called when a block is broken by a player
+        enabled: true
+        allowedWorlds: # Set to [] to allow all worlds
+          - world
+        tiers:
+          T1:
+           #
+            # This tier will cover the levels from 1 to 5 (inclusive)
+            #
+            levels:
+              from: 1
+              to: 5
+            countedBlocks: # Set to [] to get rewards from all blocks
+              - DIAMOND_BLOCK
+              - EMERALD_BLOCK
+            chance: 10
+            rewards:
+              1:
+                chance: 10
+                #
+                # Actions support PlaceholderAPI placeholders, if it isn't installed
+                # only %player_name% will be replaced by player's name
+                #
+                # Default actions
+                # • [chat] message                       - make the player send a chat message
+                # • [json] json                          - send a json message to the player
+                # • [message] message                    - send a private message to the player
+                # • [broadcast] message                  - send a message to all online players
+                # • [sound] SOUND volume pitch           - play a sound at player's location,
+                #                                          all sounds can be found here http://bit.ly/spigotsounds
+                # • [player] command                     - make the player run a command
+                # • [permission] permission.node command - same as above but the permission is temporally
+                #                                          given so the player can run the command
+                # • [console] command                    - run a command from console
+                # • [addtokens] amount                   - give tokens to the player
+                #
+                # Extra actions (require certain plugin(s) to work)
+                # • [addmoney] amount - give money to the player (Vault & an economy plugin)
+                #
+                actions:
+                 - '[message] &aYou have found 10 tokens!'
+                  - '[addtokens] 10'
+              2:
+                chance: 5
+                actions:
+                 - '[message] &aYou have found 20 tokens!'
+                  - '[addtokens] 20'
+      EntityDeathEvent: # Thrown whenever a LivingEntity (mob or player) dies
+        enabled: true
+        allowedWorlds: []
+        tiers:
+          T1:
+            levels:
+              from: 1
+              to: 5
+            countedEntities: [] # Set to [] to get rewards from all entities
+            chance: 10
+            rewards:
+              1:
+                chance: 10
+                actions:
+                 - '[message] &aYou have found 10 tokens!'
+                  - '[addtokens] 10'
+              2:
+                chance: 5
+                actions:
+                 - '[message] &aYou have found 20 tokens!'
+                  - '[addtokens] 20'
