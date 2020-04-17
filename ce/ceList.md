@@ -12,13 +12,14 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (247 registered)
+## List of Currently Known Custom Enchantments. (248 registered)
 
 Enchantment Name | Description | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | ---
 <a name="AntiKnockback"></a>[AntiKnockback](https://www.mc-market.org/resources/14138/) | "Prevents being knocked back." | [![demo](https://img.youtube.com/vi/w9OquHv0gKs/0.jpg)](https://www.youtube.com/watch?v=w9OquHv0gKs) | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](AntiKnockback_config.yml) | free
 <a name="AntiPickPocket"></a>[AntiPickPocket](https://www.mc-market.org/resources/14380/) | "Prevents being a victim of pickpocketing!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](AntiPickPocket_config.yml) | free
 <a name="Antidote"></a>[Antidote](https://www.mc-market.org/resources/14137/) | "This enchant will protect you from bad splash/lingering potions!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Antidote_config.yml) | free
+<a name="ArmorPiercing"></a>[ArmorPiercing](https://www.spigotmc.org/resources/te-piercingenchant.12780/) | "It will let you pierce through opponent's armour!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](ArmorPiercing_config.yml) | free
 <a name="ArmoredTank"></a>[ArmoredTank](https://www.mc-market.org/resources/14389/) | "You won't get any damage from explosion and lava/fire!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](ArmoredTank_config.yml) | free
 <a name="AttackDeflector"></a>[AttackDeflector](https://www.mc-market.org/resources/14390/) | "This custom effect will allow you to deflect attacks including arrow!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](AttackDeflector_config.yml) | free
 <a name="AutoBlocking"></a>[AutoBlocking](https://www.spigotmc.org/resources/te-autoblockingenchant.12794/) | "Automatically turn dust/ore into blocks when your inventory/backpack is full." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](AutoBlocking_config.yml) | free
@@ -33,7 +34,7 @@ Enchantment Name | Description | Demo | Author | Config | Price
 <a name="BatmanLeggings"></a>[BatmanLeggings](https://www.mc-market.org/resources/14045/) | "With this enchant, you get permanent resistance !" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](BatmanLeggings_config.yml) | US$4
 <a name="BedrockBreaker"></a>[BedrockBreaker](https://www.spigotmc.org/resources/te-bedrockbreakerenchant.20228/) | "Allow you to break a bedrock block!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](BedrockBreaker_config.yml) | free
 <a name="Blast"></a>[Blast](https://www.spigotmc.org/resources/te-blastenchant.12788/) | "(aka Shockwave) Blasts off nearby players and hostile mobs!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Blast_config.yml) | free
-<a name="Blessing"></a>[Blessing](https://www.mc-market.org/resources/14045/) | "Give out random amount of tokens to all online players!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Blessing_config.yml) | US$3.00
+<a name="Blessing"></a>[Blessing](https://www.mc-market.org/resources/14751/) | "Give out random amount of tokens to all online players!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Blessing_config.yml) | US$3.00
 <a name="Blindness"></a>[Blindness](https://www.spigotmc.org/resources/te-blindnessenchant.20226/) | "This enchant will make your attacker blind for a while!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Blindness_config.yml) | free
 <a name="Bloodthirster"></a>[Bloodthirster](https://www.spigotmc.org/resources/73463/) | 'Heal with your enemies blood' |  | [GabyTM](https://www.spigotmc.org/members/386419/) | [config](Bloodthirster_config.yml) | free
 <a name="Blunter"></a>[Blunter](https://www.spigotmc.org/resources/te-blunterenchant.25942/) | "Give an extra durability damage to your attacker's weapon!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Blunter_config.yml) | free
@@ -47,7 +48,7 @@ Enchantment Name | Description | Demo | Author | Config | Price
 <a name="Camouflage"></a>[Camouflage](https://www.spigotmc.org/resources/te-camouflageenchant.13272/) | "Allows you to blend into the environment as long as you sneak and don't move!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Camouflage_config.yml) | free
 <a name="ChainDrag"></a>[ChainDrag](https://www.mc-market.org/resources/14045/) | "Pulls your enemy close to you." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](ChainDrag_config.yml) | US$4.0
 <a name="Chainmail"></a>[Chainmail](https://www.mc-market.org/resources/14045/) | "A chance of taking less damage when you get attacked." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Chainmail_config.yml) | US$4.0
-<a name="Charity"></a>[Charity](https://www.mc-market.org/resources/14045/) | "Give out random amount of $ to all online players!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Charity_config.yml) | US$3.00
+<a name="Charity"></a>[Charity](https://www.mc-market.org/resources/14752/) | "Give out random amount of $ to all online players!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Charity_config.yml) | US$3.00
 <a name="Chiseled"></a>[Chiseled](https://www.mc-market.org/resources/14045/) | "It gives you mroe loot upon mining." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Chiseled_config.yml) | US$4.0
 <a name="ChocolateVision"></a>[ChocolateVision](https://www.mc-market.org/resources/14045/) | "See the names of anyone using invisibility potion." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](ChocolateVision_config.yml) | US$4.0
 <a name="CloudWalking"></a>[CloudWalking](https://www.mc-market.org/resources/14045/) | "Neglects all fall damage." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](CloudWalking_config.yml) | US$4.0

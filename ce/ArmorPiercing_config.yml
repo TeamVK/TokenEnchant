@@ -2,7 +2,7 @@
 #plugin.url:https://www.spigotmc.org/resources/te-piercingenchant.12780/
 #plugin.price:free
 Potions:
-  Piercing:
+  ArmorPiercing:
     description: "It will let you pierce through opponent's armour!"
     event_map:
       EntityDamageByEntityEvent: "HIGH"
