@@ -1,5 +1,5 @@
 #plugin.author:[TeamVK](https://www.mc-market.org/resources/authors/190740/)
-#plugin.url:https://www.spigotmc.org/resources/te-instabreakenchant.33340/
+#plugin.url:https://www.mc-market.org/resources/14803/
 #plugin.price:free
 Potions:
   InstaBreak:
@@ -12,3 +12,8 @@ Potions:
     occurrence: always
     target_blocks:
       - SPONGE
+      - STONE
+      - 1
+      - STONE:2
+      - GRANITE
+      - 1:2
