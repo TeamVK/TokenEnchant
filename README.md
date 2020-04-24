@@ -11,7 +11,7 @@ Capability of TokenEnchant is featured in SSundee's Faction Series Youtube video
 ## [Permissions](permissions.md)
 ## [Custom Enchants](ce/ceList.md)
 ## [Sign Usages](sign_usages.md)
-## [For Developers](for_developers.md)
+## [For Developers](http://teamvk.github.io/TokenEnchantAPI/)
 
 ### Support or Contact
-Having trouble with TokenEnchant? You can submit your support tickeat at [this site](https://vk2gpz.freshdesk.com) or [vk2gpz's Discord server](https://discord.gg/7KyDzjP), and we’ll help you sort it out.
+Having trouble with TokenEnchant? You can submit your support tickeat at [this site](https://vk2gpz.freshdesk.com) or [vk2gpz's Discord server](https://discord.gg/7KyDzjP), and we’ll help you sort it out. (We do not use Github's issue page.)
