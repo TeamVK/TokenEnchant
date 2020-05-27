@@ -13,3 +13,7 @@ Potions:
     # the level of Harm potion.
     level_multiplier: 1
     occurrence: always # you can set it to random as well.
+    # if duration_multiplier is set, duration = level * duration_multiplier
+    duration_multiplier: 300
+    # otherwise
+    duration: 300
