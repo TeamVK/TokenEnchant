@@ -5,7 +5,7 @@ Potions:
   AutoSmelt:
     description: "Automatically smelt mined ore."
     event_map:
-      BlockBreakEvent: "LOWEST"
+      BlockBreakEvent: "HIGHEST"
     price: 10
     max: 1
     occurrence: always
