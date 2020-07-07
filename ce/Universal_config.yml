@@ -13,29 +13,51 @@ Potions:
     occurrence: always
     default_item: FISHING_ROD
     shears: true
+    # tools will be search in the following order atains the nominated block material.
+    # if you want DIRT, GRASS, GRASs_BLOCK/PATH to trigger a hoe, you should move HOE
+    # to above SHOVEL.
+    tool_search_order:
+      - AXE
+      - PICKAXE
+      - SHOVEL
+      - SWORD
+      - HOE
+      - SHEARS
+
     levels:
       1:
         axe: WOOD_AXE
         pickaxe: WOOD_PICKAXE
         sword: WOOD_SWORD
         spade: WOOD_SPADE
+        hoe: WOOD_HOE
       2:
         axe: STONE_AXE
         pickaxe: STONE_PICKAXE
         sword: STONE_SWORD
         spade: STONE_SPADE
+        hoe: STONE_HOE
       3:
         axe: IRON_AXE
         pickaxe: IRON_PICKAXE
         sword: IRON_SWORD
         spade: IRON_SPADE
+        hoe: IRON_HOE
       4:
         axe: GOLD_AXE
         pickaxe: GOLD_PICKAXE
         sword: GOLD_SWORD
         spade: GOLD_SPADE
+        hoe: GOLD_HOE
       5:
         axe: DIAMOND_AXE
         pickaxe: DIAMOND_PICKAXE
         sword: DIAMOND_SWORD
         spade: DIAMOND_SPADE
+        hoe: DIAMOND_HOE
+      6:
+        axe: NETHERITE_AXE
+        pickaxe: NETHERITE_PICKAXE
+        sword: NETHERITE_SWORD
+        spade: NETHERITE_SPADE
+        hoe: NETHERITE_HOE

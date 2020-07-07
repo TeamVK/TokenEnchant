@@ -1,6 +1,9 @@
 #plugin.author:[TeamVK](https://www.mc-market.org/resources/authors/190740/)
 #plugin.url:https://www.mc-market.org/resources/14542/
 #plugin.price:US$4.0
+
+# if you want MineWipe to process TE's exploded blocks, set the following option to true
+PickupTEExplodedBlocks: false
 Potions:
   MineWipe:
     description: "Wipe out the entire mine! It is recommended to be used with AutoSell."
