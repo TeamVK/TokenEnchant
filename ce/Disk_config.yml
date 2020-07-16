@@ -32,6 +32,9 @@ Potions:
     # you can specify the radius whithin which explosion will occur.
     # it is not recommended to have a large radius. it may cause lag.
     radius: 2
+    # if the following option is true, the above radius is used regardless of the level
+    fixedsize: false
+
     # You can set the occurrence of explosion.
     # random: randomly occur based on the level
     # always: explosion occur always.
