@@ -53,3 +53,4 @@ Potions:
         - Disk
         - Excavation
         - Explosive
+      drop_naturally: false # drop blocks naturally if it's not picking p.

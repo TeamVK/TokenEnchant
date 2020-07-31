@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (251 registered)
+## List of Currently Known Custom Enchantments. (252 registered)
 
 Enchantment Name | Description | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | ---
@@ -132,6 +132,7 @@ Enchantment Name | Description | Demo | Author | Config | Price
 <a name="ItemFishing"></a>[ItemFishing](https://www.spigotmc.org/resources/te-itemfishingenchant.12716/) | "Fish/steal an item your opponent/mob is currently holding!!" | [![demo](https://img.youtube.com/vi/GavEFSYnaKE/0.jpg)](https://www.youtube.com/watch?v=GavEFSYnaKE) | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](ItemFishing_config.yml) | free
 <a name="ItemPickPocket"></a>[ItemPickPocket](https://www.mc-market.org/resources/14380/) | "This allows you to pickpocket an item from other players inventory." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](ItemPickPocket_config.yml) | free
 <a name="ItemSearch"></a>[ItemSearch](https://www.spigotmc.org/resources/te-itemsearchenchant.19564/) | "This effect will make you 'look' towards the direction which leads you to the block/item with the same type as the item you're holding on your left hand!!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](ItemSearch_config.yml) | free
+<a name="Jackhammer"></a>[Jackhammer](https://www.mc-market.org/resources/14053/) | "A custom Jackhammer for Nexus." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Jackhammer_config.yml) | $30
 <a name="KeyMiner"></a>[KeyMiner](https://www.mc-market.org/resources/14464/) | "It will let you discover a crate key upon mining ... only if you're lucky." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](KeyMiner_config.yml) | US$3.0
 <a name="KillReward"></a>[KillReward](https://www.spigotmc.org/resources/te-killrewardenchant.19232/) | "You can receive rewards by killing!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](KillReward_config.yml) | free
 <a name="KittyCannon"></a>[KittyCannon](https://www.mc-market.org/resources/14045/) | "Swinging your weapon to send a cat out of of your tool! When the cat hits a player, s/he will get damage." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](KittyCannon_config.yml) | US$3.0
@@ -219,7 +220,7 @@ Enchantment Name | Description | Demo | Author | Config | Price
 <a name="Slicing"></a>[Slicing](https://www.mc-market.org/resources/14053/) | "(aka JackHammer) Explode entire layer(s)!!" |  | [ThePurpleHoser](https://www.mc-market.org/members/190740/) | [config](Slicing_config.yml) | free
 <a name="SlipperyHand"></a>[SlipperyHand](https://www.spigotmc.org/resources/te-slipperyhandenchant.29540/) | "Make your opponent's hands slippery and make him lose his item from his hand!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](SlipperyHand_config.yml) | free
 <a name="Slow"></a>[Slow](https://www.mc-market.org/resources/14757/) | "Cast the Slowness poison effect upon attack!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Slow_config.yml) | US$3.0
-<a name="SoulBound"></a>[SoulBound](https://www.spigotmc.org/resources/te-soulboundenchant.8233/) | "If you enchant your item with this effect, the item will stay in your inventory when you die. Also other people cannot pick it up." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](SoulBound_config.yml) | US$3.0
+<a name="SoulBound"></a>[SoulBound](https://www.mc-market.org/resources/14132/) | "If you enchant your item with this effect, the item will stay in your inventory when you die. Also other people cannot pick it up." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](SoulBound_config.yml) | US$3.0
 <a name="SpeedTheory"></a>[SpeedTheory](https://www.mc-market.org/resources/14045/) | "When it is used, it will give you the defined haste effect." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](SpeedTheory_config.yml) | US$3.0
 <a name="Sphered"></a>[Sphered](https://www.mc-market.org/resources/14046/) | "It is just like Explosive but it will remove a spherical shape!" |  | [vk2gpz](https://www.mc-market.org/members/190740/) | [config](Sphered_config.yml) | free
 <a name="Springs"></a>[Springs](https://www.mc-market.org/resources/14045/) | "Jump boost effect" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Springs_config.yml) | US$3.0

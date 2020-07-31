@@ -54,3 +54,4 @@ Potions:
       - Sphered
       - Tile
       - Disk
+    drop_naturally: false # drop blocks naturally if it's not picking p.

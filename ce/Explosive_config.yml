@@ -37,7 +37,7 @@ Potions:
     # random: randomly occur based on the level
     # always: explosion occur always.
     occurrence: random
-    # You can set the list of blocks exempt from explosiont.
+    # You can set the list of blocks exempt from explosion.
     # use this list to avoid your crates being exploded.
     # AIR and BEDROCK are already exempted by defalt
     exemptions:
@@ -51,5 +51,5 @@ Potions:
       - Tile
       - Disk
       - Excavation
-    drop_naturally: true # drop blocks naturally if it's not picking p.
+    drop_naturally: false # drop blocks naturally if it's not picking p.
 

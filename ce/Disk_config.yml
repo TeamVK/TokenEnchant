@@ -53,3 +53,4 @@ Potions:
       - Excavation
       - Sphered
       - Tile
+    drop_naturally: false # drop blocks naturally if it's not picking p.
