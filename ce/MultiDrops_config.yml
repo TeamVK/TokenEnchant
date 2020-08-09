@@ -10,3 +10,7 @@ Potions:
     max: 5
     multiplier: 2  # the extra drops = level * multiplier
     occurrence: random
+    whitelist:  # if "*" is listed all materials yields multi drop
+      - "*"
+#      - DIAMOND_ORE
+#      - IRON_ORE
