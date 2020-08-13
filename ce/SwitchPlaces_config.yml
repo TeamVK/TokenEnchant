@@ -1,0 +1,13 @@
+#plugin.author:[TeamVK](https://www.mc-market.org/resources/authors/190740/)
+#plugin.url:https://www.mc-market.org/resources/14045/
+#plugin.demo:[![demo](https://img.youtube.com/vi/U6XOm4JUwQM/0.jpg)](https://youtu.be/U6XOm4JUwQM)
+#plugin.price:US$2.0
+Potions:
+  SwitchPlaces:
+    description: "Swap places with the enemy you've just gave damage with the specified projectile."
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 5
+    occurrence: always
+

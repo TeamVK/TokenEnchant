@@ -1,0 +1,16 @@
+#plugin.author:[TeamVK](https://www.mc-market.org/resources/authors/190740/)
+#plugin.url:https://www.mc-market.org/resources/14926/
+#plugin.price:US$3.00
+Potions:
+  Exp2Token: # give out tokens to online players.
+    description: "Exchange the specified Exp levels into tokens."
+    event_map:
+      PlayerExpChangeEvent: "MONITOR"
+    price: 10
+    max: 1
+    multiplier: 1 #default multiplier (should be >= 1)
+    interval: 20 # every 20 exp level will be converted to tokens.
+    use_level: true # if this is true tokens = multiplier * level, otherwise tokens = multiplier
+    action_bar_message: "&aYour %exp-level% Exp levels has been converted to &e%amount% &atokens!"
+    occurrence: always  # 4% chance of occurrence at the max level.
+

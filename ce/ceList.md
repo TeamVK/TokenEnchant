@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (252 registered)
+## List of Currently Known Custom Enchantments. (255 registered)
 
 Enchantment Name | Description | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | ---
@@ -132,7 +132,6 @@ Enchantment Name | Description | Demo | Author | Config | Price
 <a name="ItemFishing"></a>[ItemFishing](https://www.spigotmc.org/resources/te-itemfishingenchant.12716/) | "Fish/steal an item your opponent/mob is currently holding!!" | [![demo](https://img.youtube.com/vi/GavEFSYnaKE/0.jpg)](https://www.youtube.com/watch?v=GavEFSYnaKE) | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](ItemFishing_config.yml) | free
 <a name="ItemPickPocket"></a>[ItemPickPocket](https://www.mc-market.org/resources/14380/) | "This allows you to pickpocket an item from other players inventory." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](ItemPickPocket_config.yml) | free
 <a name="ItemSearch"></a>[ItemSearch](https://www.spigotmc.org/resources/te-itemsearchenchant.19564/) | "This effect will make you 'look' towards the direction which leads you to the block/item with the same type as the item you're holding on your left hand!!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](ItemSearch_config.yml) | free
-<a name="Jackhammer"></a>[Jackhammer](https://www.mc-market.org/resources/14053/) | "A custom Jackhammer for Nexus." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Jackhammer_config.yml) | $30
 <a name="KeyMiner"></a>[KeyMiner](https://www.mc-market.org/resources/14464/) | "It will let you discover a crate key upon mining ... only if you're lucky." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](KeyMiner_config.yml) | US$3.0
 <a name="KillReward"></a>[KillReward](https://www.spigotmc.org/resources/te-killrewardenchant.19232/) | "You can receive rewards by killing!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](KillReward_config.yml) | free
 <a name="KittyCannon"></a>[KittyCannon](https://www.mc-market.org/resources/14045/) | "Swinging your weapon to send a cat out of of your tool! When the cat hits a player, s/he will get damage." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](KittyCannon_config.yml) | US$3.0
@@ -257,7 +256,7 @@ Enchantment Name | Description | Demo | Author | Config | Price
 <a name="Unbreakable"></a>[Unbreakable](https://www.mc-market.org/resources/14953/) | "Simply making an item unbreakable." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Unbreakable_config.yml) | free
 <a name="Unenchantable"></a>[Unenchantable](https://www.mc-market.org/resources/14045/) | "With this enchantment, one cannot add any other enchantment on this item ;(" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Unenchantable_config.yml) | free
 <a name="Universal"></a>[Universal](https://www.mc-market.org/resources/14380/) | "It allows your tool to automatically morph into an appropriate tool depending on what you're doing." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Universal_config.yml) | US$4.0
-<a name="Upgrade"></a>[Upgrade](https://www.mc-market.org/resources/15004/) | "With a small chance, upgrade a randomly selected enchantment level." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Upgrade_config.yml) | US$4.0
+<a name="Upgrade"></a>[Upgrade](https://polymart.org/resource/te-upgradeenchant.147) | "With a small chance, upgrade a randomly selected enchantment level." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Upgrade_config.yml) | US$4.0
 <a name="Vampire"></a>[Vampire](https://www.mc-market.org/resources/14856/) | "Suck your opponent's health when you attack him/her." |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Vampire_config.yml) | free
 <a name="Voltage"></a>[Voltage](https://www.mc-market.org/resources/14045/) | "Hurls a bolt of lighting at the enemy zapping them and doing damage!" |  | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Voltage_config.yml) | US$2.0
 <a name="Voodoo"></a>[Voodoo](https://www.spigotmc.org/resources/te-voodooenchant.20754/) | "Use ArmorStand +Voodoo head (of another player) to give another player damage!" | [![demo](https://img.youtube.com/vi/FedC7Je3Rts/0.jpg)](https://www.youtube.com/watch?v=FedC7Je3Rts) | [TeamVK](https://www.mc-market.org/resources/authors/190740/) | [config](Voodoo_config.yml) | free

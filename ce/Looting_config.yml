@@ -1,0 +1,29 @@
+#plugin.author:[TeamVK](https://www.mc-market.org/resources/authors/190740/)
+#plugin.url:https://www.mc-market.org/resources/14045/
+#plugin.price:$1.0
+Enchants:
+  Looting:
+    description: "Looting can only be triggered for the pre-defined mobs."
+    event_map:
+      PotionSplashEvent: "MONITOR"
+      AreaEffectCloudApplyEvent: "MONITOR"
+      PlayerItemConsumeEvent: "MONITOR"
+      TEPlayerEffectCastedEvent: "MONITOR"
+    price: 10
+    max:  2 # if occurrence is random or specified, the chance will be determined by the level of enchantment.
+    occurrence: 0.75 # always, random or specified value
+    potion_types:
+      - BLINDNESS
+      - CONFUSION
+      - HARM
+      - HUNGER
+      - POISON
+      - SLOW
+      - SLOW_DIGGING
+      - UNLUCK
+      - WEAKNESS
+      - WITHER
+
+    # you can nominate the world, which prevents explosive
+    invalid_in_world:
+#        - plotworld

@@ -1,5 +1,5 @@
 #plugin.author:[TeamVK](https://www.mc-market.org/resources/authors/190740/)
-#plugin.url:https://www.mc-market.org/resources/15004/
+#plugin.url:https://polymart.org/resource/te-upgradeenchant.147
 #plugin.price:US$4.0
 Potions:
   Upgrade:
@@ -33,3 +33,8 @@ Potions:
         - LOG_2
       crops:
         - CROPS
+
+    # you can list which enchants should be upgraded
+    whitelist:
+      - "*" # if you have this, all available enchants are subject to upgrade.
+#      - Excavation
