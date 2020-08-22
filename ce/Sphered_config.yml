@@ -1,5 +1,5 @@
-#plugin.author:[vk2gpz](https://www.mc-market.org/members/190740/)
-#plugin.url:https://www.mc-market.org/resources/14046/
+#plugin.author:[vk2gpz](https://polymart.org/team/teamvk.4)
+#plugin.url:https://polymart.org/resource/te-explosiveenchant.168
 #plugin.price:free
 # if this option is true, TEBlockExplodeEvent will be handled by TokenEnchant
 # if you want other plugin to handle TEBlockExplodeEvent, set it to false;
