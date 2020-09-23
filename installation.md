@@ -1,6 +1,10 @@
 ## Installation Process
+0-1. If you're running TokenEnchant v17 or older and your server version is 1.12 or older, install [this plugin](https://polymart.org/resource/enchantmentlisting.349) on your server and start your server
+0-2. And shutdown your server.  
+0-3. You will find enchantIDs.yml file in EnchantmentListing's plugin folder.
 1. Shutdown your server.
 2. Place TokenEnchant.jar in the plugins folder (plugins/). 
+2-1. If you're upgrading from older version to v18, create TokenEnchant folder and place your enchantIDs.yml in it.
 3. Restart the server, and this should create plugin's folder called TokenEnchant with the default config.yml and other folders (such as enchants/)
 4. If you found the custom enchants you wish to install, place .jar file of the custom enchants (CEs) (which should look like TE-XXXEnchant.jar, where XXX is the general name of enchant) in plugins/TokenEnchant/enchants folder.
 5. Add installed CEs configuration(s) to your config.yml file.
