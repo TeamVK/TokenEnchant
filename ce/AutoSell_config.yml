@@ -11,7 +11,7 @@ Potions:
     price: 10
     max: 1
     wait_for_inv_full: true
-    action_bar: false
+    use_action_bar: false
     action_bar_message: "&aYou've sold &e%itemssold% &afor &e%price%&a."
     display_message: false
     display_format:

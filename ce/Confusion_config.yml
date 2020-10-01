@@ -13,3 +13,5 @@ Potions:
     duration_multiplier: 300
     # otherwise
     duration: 300
+    # if this option is set > 0, this amplifire is applied regardless of the enchant level
+    amplifier: -1

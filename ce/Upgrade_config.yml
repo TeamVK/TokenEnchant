@@ -13,7 +13,7 @@ Potions:
     max: 1
     message: "&aYour &e%enchantment% &ahas been upgraded to the level &e%level%&a!"
     display_message: false
-    action_bar: false
+    use_action_bar: false
     occurrence: 0.01
 
     triggers:

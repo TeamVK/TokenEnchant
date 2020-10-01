@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (257 registered)
+## List of Currently Known Custom Enchantments. (258 registered)
 
 Enchantment Name | Description | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | ---
@@ -202,6 +202,7 @@ Enchantment Name | Description | Demo | Author | Config | Price
 <a name="Rejuvenate"></a>[Rejuvenate](https://polymart.org/resource/tokenenchant.155) | "It gives you the chance to heal some of your hearts whilst fighting." |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Rejuvenate_config.yml) | US$3.0
 <a name="Repel"></a>[Repel](https://polymart.org/resource/te-repelenchant.298) | "It will automatically pushes away your opponents and hostile mobs." | [![demo](https://img.youtube.com/vi/8_TJ_9KxT-Y/0.jpg)](https://www.youtube.com/watch?v=8_TJ_9KxT-Y) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Repel_config.yml) | free
 <a name="RetainEXP"></a>[RetainEXP](https://polymart.org/resource/te-retainexpenchant.330) | "Retain your exp upon your death. You simply carry an item which was enchanted with RetainEXP enchant in your inventory or armours/tools." |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](RetainEXP_config.yml) | free
+<a name="RewardFinder"></a>[RewardFinder](https://polymart.org/resource/te-keyminerenchant.180) | "It will let you discover beacon! ... only if you're lucky." |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](RewardFinder_config.yml) | US$4
 <a name="Ricochet"></a>[Ricochet](https://polymart.org/resource/tokenenchant.155) | "Reflects the damage done upon them back to the dealer of the damage" |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Ricochet_config.yml) | US$3.0
 <a name="SandSmelter"></a>[SandSmelter](https://polymart.org/resource/tokenenchant.155) | "Turns sand into glass whilst digging it." |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](SandSmelter_config.yml) | US$3.0
 <a name="Savage"></a>[Savage](https://polymart.org/resource/tokenenchant.155) | "It gives your enemy mining fatigue and blindness, it also might give yourself mining fatigue while fighting them." |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Savage_config.yml) | US$3.0
