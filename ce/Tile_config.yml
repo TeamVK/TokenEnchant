@@ -17,12 +17,8 @@ Potions:
       # you can nominate the world, which prevents explosive	  
       invalid_in_world:
 #        - plotworld
-      # you can turn on automatic pickup.
-      pickup: true
       # you can apply the identification of holding tool for pickup process.
       applytool: true
-      # you can turn on automatic smelting
-      smelt: true
       # you can turn on/off explostion sound/visual effects
       effect: true
       # you can turn on/off explostion sound effects
@@ -47,7 +43,6 @@ Potions:
         - GLOWSTONE
         - LADDER
         - STONE_PLATE
-      use_explode_event: true
       conflict_with:
         - Disk
         - Excavation

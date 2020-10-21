@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (258 registered)
+## List of Currently Known Custom Enchantments. (259 registered)
 
 Enchantment Name | Description | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | ---
@@ -116,6 +116,7 @@ Enchantment Name | Description | Demo | Author | Config | Price
 <a name="HalloweenMagmaTrail"></a>[HalloweenMagmaTrail](https://polymart.org/resource/tokenenchant.155) | "This enchant will leave a trail of magma blocks on the floor. The trail will automatically be put back to the original blocks. A player will not get damaged from the magma blocks as long as the trail belongs to the player." |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](HalloweenMagmaTrail_config.yml) | US$2.0
 <a name="HalloweenWitherBow"></a>[HalloweenWitherBow](https://polymart.org/resource/tokenenchant.155) | "If you shoot with a bow with this enchantment, it will shoot a witherskull instead of an arrow, and the witherskull will give damage only to a living entity and leave surrounding blocks without any damages." |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](HalloweenWitherBow_config.yml) | US$2.0
 <a name="HandyHearts"></a>[HandyHearts](https://polymart.org/resource/tokenenchant.155) | "This enchant will give you a chance to get an absorption heart when you hit by an enemy." |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](HandyHearts_config.yml) | US$3.0
+<a name="HardenedPlus"></a>[HardenedPlus](Comissioned work.) | "Decrease durability loss on ALL your armours!" |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](HardenedPlus_config.yml) | US$10
 <a name="Hardened"></a>[Hardened](https://polymart.org/resource/te-hardenedenchant.343) | "Decrease durability loss on your armour!" |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Hardened_config.yml) | free
 <a name="Harm"></a>[Harm](https://polymart.org/resource/te-badpotionenchant.169) | "Cast the Harm poison effect upon attack!" |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Harm_config.yml) | free
 <a name="HeadBlow"></a>[HeadBlow](https://polymart.org/resource/te-headblowenchant.282/) | "1 hit kill with direct hit to the head!" |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](HeadBlow_config.yml) | free

@@ -20,8 +20,6 @@ Potions:
 
     # you can apply the identification of holding tool for pickup process.
     applytool: true
-    # you can turn on automatic smelting
-    smelt: true
     # you can turn on/off explostion sound/visual effects
     effect: true
     # you can turn on/off explostion sound effects

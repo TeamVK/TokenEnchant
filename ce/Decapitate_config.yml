@@ -19,5 +19,7 @@ Potions:
     decapitated_message: "&b%killed% was beheaded by %killer%"
     display_message: true
     occurrence: random
+    # you can list mob type or player names.
     blacklist:
       - WITHER
+      - vk2gpz
