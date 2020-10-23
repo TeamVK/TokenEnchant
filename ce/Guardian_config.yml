@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-guardianenchant.232
 #plugin.demo:[![demo](https://img.youtube.com/vi/mu9sfXk7htQ/0.jpg)](https://www.youtube.com/watch?v=mu9sfXk7htQ)
 #plugin.price:$4.0
-#plugin.enchant.category:Any
+#plugin.enchant.category:PvP
 Potions:
   Guardian:
     description: "Upon taking damage, it will spawn your guardian mob (like PigZombie, IronGolem) to fight for your and protect you!"

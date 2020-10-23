@@ -1,7 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-exp2tokenenchant.138
 #plugin.price:US$3.00
-#plugin.enchant.category:Any
+#plugin.enchant.category:Economy
 Potions:
   Exp2Token: # give out tokens to online players.
     description: "Exchange the specified Exp levels into tokens."
