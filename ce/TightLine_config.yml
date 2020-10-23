@@ -1,7 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$3.0
-#plugin.enchant.category:Any
+#plugin.enchant.category:Fishing/Mining
 Potions:
   TightLine:
     description: "Gives you a chance of pulling out diamonds-gold-emeralds-iron [1-3 gems] whilst fishing."

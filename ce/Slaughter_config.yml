@@ -1,7 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-slaughterenchant.294
 #plugin.price:free
-#plugin.enchant.category:Any
+#plugin.enchant.category:PvE
 Potions:
   Slaughter:
     description: "Kill multiple mobs in the merged/stacked mobs (from MergedMob plugin)!! Higher enchant, more kills!"

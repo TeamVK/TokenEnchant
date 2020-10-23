@@ -1,7 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-rageenchant-aka-comboattack.300
 #plugin.price:free
-#plugin.enchant.category:Any
+#plugin.enchant.category:PvP
 Potions:
   Rage:
     description: "ComboAttack (consecutive attack without being damaged) will increase your attack damage!"

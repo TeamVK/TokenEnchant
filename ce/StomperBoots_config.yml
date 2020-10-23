@@ -1,7 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-stomperbootsenchant.292
 #plugin.price:free
-#plugin.enchant.category:Any
+#plugin.enchant.category:Mining
 Potions:
   StomperBoots:
     description: "Break/mine a block by stomping on it!"

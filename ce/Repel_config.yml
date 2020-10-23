@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-repelenchant.298
 #plugin.demo:[![demo](https://img.youtube.com/vi/8_TJ_9KxT-Y/0.jpg)](https://www.youtube.com/watch?v=8_TJ_9KxT-Y)
 #plugin.price:free
-#plugin.enchant.category:Any
+#plugin.enchant.category:PvE
 Potions:
   Repel:
     description: "It will automatically pushes away your opponents and hostile mobs."

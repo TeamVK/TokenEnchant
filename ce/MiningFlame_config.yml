@@ -1,7 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-miningflameenchant.336
 #plugin.price:free
-#plugin.enchant.category:Any
+#plugin.enchant.category:Mining
 Potions:
   MiningFlame:
     description: "It puts a fire when you break a block."

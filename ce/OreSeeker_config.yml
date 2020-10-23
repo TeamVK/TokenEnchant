@@ -1,11 +1,11 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-oreseekerenchant.325
 #plugin.price:free
+#plugin.enchant.category:Mining
 PickupTEExplodedBlocks: true
 SmeltTEExplodedBlocks: true
 BlockPerTEBlockExplodeEvent: 200
 
-#plugin.enchant.category:Any
 Potions:
   OreSeeker:
     description: "(aka Vein Mining) Let this enchant to seek other similar ores around you!"

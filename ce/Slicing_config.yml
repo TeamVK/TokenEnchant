@@ -1,7 +1,7 @@
 #plugin.author:[ThePurpleHoser](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-slicingenchant-jackhammer.324
 #plugin.price:free
-#plugin.enchant.category:Any
+#plugin.enchant.category:Mining
 Potions:
   Slicing:
     description: "(aka JackHammer) Explode entire layer(s)!!"

@@ -1,7 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-pickpocketenchant.171
 #plugin.price:free
-#plugin.enchant.category:Any
+#plugin.enchant.category:Economy
 Potions:
   MoneyPickPocket:
     description: "This allows you to pickpocket $ from other players."

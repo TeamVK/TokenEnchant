@@ -1,12 +1,12 @@
 #plugin.author:[vk2gpz](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-explosiveenchant.168
 #plugin.price:free
+#plugin.enchant.category:Mining
 # if this option is true, TEBlockExplodeEvent will be handled by TokenEnchant
 # if you want other plugin to handle TEBlockExplodeEvent, set it to false;
 PickupTEExplodedBlocks: true
 SmeltTEExplodedBlocks: true
 
-#plugin.enchant.category:Any
 Potions:
     Tile:
       description: "It will blow up surrounding blocks in square form with 1 block deep"

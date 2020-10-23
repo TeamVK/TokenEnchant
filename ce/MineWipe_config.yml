@@ -1,10 +1,11 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-minewipeenchant.193
 #plugin.price:US$4.0
+#plugin.enchant.category:Mining
 
 # if you want MineWipe to process TE's exploded blocks, set the following option to true
 PickupTEExplodedBlocks: false
-#plugin.enchant.category:Any
+
 Potions:
   MineWipe:
     description: "Wipe out the entire mine! It is recommended to be used with AutoSell."
