@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-batmanvssuperman.259
 #plugin.price:US$2
+#plugin.enchant.category:PvP
 Potions:
   BatSonar:
     description: "When people hit someone with this armor, it makes it so all they hear is the bat squeak sound!"

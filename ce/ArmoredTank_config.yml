@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-armoredtankenchant.174
 #plugin.price:free
+#plugin.enchant.category:PvP
 Potions:
   ArmoredTank:
     description: "You won't get any damage from explosion and lava/fire!"

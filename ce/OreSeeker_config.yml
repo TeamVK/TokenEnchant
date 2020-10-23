@@ -5,6 +5,7 @@ PickupTEExplodedBlocks: true
 SmeltTEExplodedBlocks: true
 BlockPerTEBlockExplodeEvent: 200
 
+#plugin.enchant.category:Any
 Potions:
   OreSeeker:
     description: "(aka Vein Mining) Let this enchant to seek other similar ores around you!"

@@ -6,6 +6,7 @@
 PickupTEExplodedBlocks: true
 SmeltTEExplodedBlocks: true
 
+#plugin.enchant.category:Any
 Potions:
   Disk:
     description: "It will blow up surrounding blocks in circular form with 1 block deep"

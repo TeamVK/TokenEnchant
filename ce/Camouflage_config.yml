@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-camouflageenchant.275
 #plugin.price:free
+#plugin.enchant.category:PvP
 Potions:
   Camouflage:
     description: "Allows you to blend into the environment as long as you sneak and don't move!"

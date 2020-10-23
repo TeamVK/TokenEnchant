@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-retainexpenchant.330
 #plugin.price:free
+#plugin.enchant.category:Any
 Potions:
   RetainEXP:
     description: "Retain your exp upon your death. You simply carry an item which was enchanted with RetainEXP enchant in your inventory or armours/tools."

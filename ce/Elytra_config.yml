@@ -2,6 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-elytraenchant.231
 #plugin.demo:[![demo](https://img.youtube.com/vi/D8qIXQkx7s0/0.jpg)](https://www.youtube.com/watch?v=D8qIXQkx7s0)
 #plugin.price:free
+#plugin.enchant.category:Any
 Potions:
   Elytra:
     description: "Elytra like feature for 1.7, 1.8 server! (you can use it on 1.9 server too!)"

@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$2.0
+#plugin.enchant.category:Any
 Potions:
   Voltage:
     description: "Hurls a bolt of lighting at the enemy zapping them and doing damage!"

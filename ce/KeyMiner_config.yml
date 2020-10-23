@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-keyminerenchant.180
 #plugin.price:US$3.0
+#plugin.enchant.category:Any
 Potions:
   KeyMiner:
     description: "It will let you discover a crate key upon mining ... only if you're lucky."

@@ -2,6 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-medusaenchant.345
 #plugin.demo:[![demo](https://img.youtube.com/vi/X09nBRQfrgM/0.jpg)](https://www.youtube.com/watch?v=X09nBRQfrgM)
 #plugin.price:free
+#plugin.enchant.category:Any
 Potions:
   Medusa:
     description: "Freeze them with your stare!"

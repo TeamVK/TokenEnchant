@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-frozenenchant.280
 #plugin.price:free
+#plugin.enchant.category:Any
 Potions:
   Frozen:
     description: "This enchant applies the slowness effect to the attacker."

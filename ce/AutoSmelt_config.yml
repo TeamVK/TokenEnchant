@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-autosmeltenchant.258
 #plugin.price:free
+#plugin.enchant.category:Mining
 Potions:
   AutoSmelt:
     description: "Automatically smelt mined ore."

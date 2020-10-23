@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$2.0
+#plugin.enchant.category:Any
 Potions:
   WhisperOfWind:
     description: "It applies speed 2 to the wearer of the boots; activated once on."

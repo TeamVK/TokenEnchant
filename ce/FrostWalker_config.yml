@@ -2,6 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-frostwalkerenchant.279
 #plugin.demo:[![demo](https://img.youtube.com/vi/SAxGBL1arlE/0.jpg)](https://www.youtube.com/watch?v=SAxGBL1arlE)
 #plugin.price:free
+#plugin.enchant.category:Any
 Potions:
   FrostWalker:
     description: "Creates frost blocks when walking over water."

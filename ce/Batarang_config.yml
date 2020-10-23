@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-batmanvssuperman.259
 #plugin.price:US$2
+#plugin.enchant.category:PvP
 Potions:
   Batarang:
     description: "You can throw an item to give damage to your oponent. The item you've thrown will comeback to you!"

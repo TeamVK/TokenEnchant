@@ -6,6 +6,7 @@
 PickupTEExplodedBlocks: true
 SmeltTEExplodedBlocks: true
 
+#plugin.enchant.category:Any
 Potions:
   Sphered:
     description: "It is just like Explosive but it will remove a spherical shape!"

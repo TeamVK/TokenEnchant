@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-skulldiggerenchant.295
 #plugin.price:free
+#plugin.enchant.category:Any
 Potions:
   SkullDigger:
     description: "(aka LuckyBlock digger) Dig out skull/player head blocks instantly!!"

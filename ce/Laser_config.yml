@@ -2,6 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-laserenchant.164
 #plugin.demo:[![demo](https://img.youtube.com/vi/2hL4uX-wOG0/0.jpg)](https://youtu.be/2hL4uX-wOG0)
 #plugin.price:US$3.0
+#plugin.enchant.category:Any
 Potions:
   Laser:
     description: "Swing of tool will cast laser of an item (such as Pumpkin), which will cause explosion!"

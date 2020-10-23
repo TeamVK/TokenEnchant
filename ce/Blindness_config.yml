@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-badpotionenchant.169
 #plugin.price:free
+#plugin.enchant.category:PvP
 Potions:
   Blindness:
     description: "This enchant will make your attacker blind for a while!"

@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-soulboundenchant.182
 #plugin.price:US$3.0
+#plugin.enchant.category:Any
 Potions:
   SoulBound:
     description: "If you enchant your item with this effect, the item will stay in your inventory when you die. Also other people cannot pick it up."

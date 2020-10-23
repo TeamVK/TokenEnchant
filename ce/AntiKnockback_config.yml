@@ -2,6 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-antiknockbackenchant.170
 #plugin.demo:[![demo](https://img.youtube.com/vi/w9OquHv0gKs/0.jpg)](https://www.youtube.com/watch?v=w9OquHv0gKs)
 #plugin.price:free
+#plugin.enchant.category:PvP
 Potions:
   AntiKnockback:
     description: "Prevents being knocked back."

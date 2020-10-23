@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-teleportenchant.288
 #plugin.price:free
+#plugin.enchant.category:Any
 Potions:
   Teleport:
     description: "You can mark the destination of teleportation, and flick of your enchanted tool, you can teleport back to the defined location or to the top of the mine."

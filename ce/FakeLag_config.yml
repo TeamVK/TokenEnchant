@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.https://polymart.org/resource/te-fakelagenchant.277
 #plugin.price:free
+#plugin.enchant.category:Any
 Potions:
   FakeLag:
     description: "It causes your opponent to lag like crazy!"

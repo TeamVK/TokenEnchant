@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-reconstructenchant.363
 #plugin.price:US$1.5
+#plugin.enchant.category:Any
 Potions:
   Reconstruct:
     description: "Repairs the item with this enchant while it's in use."

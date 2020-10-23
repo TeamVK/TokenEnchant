@@ -6,6 +6,7 @@
 PickupTEExplodedBlocks: true
 SmeltTEExplodedBlocks: true
 
+#plugin.enchant.category:Any
 Potions:
   Explosive:
     description: "It will blow up randomly selected surrounding blocks!"

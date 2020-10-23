@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-multidropsenchant.334
 #plugin.price:free
+#plugin.enchant.category:Any
 Potions:
   MultiDrops:
     description: "Multiply the drops depending on the enchantment level."

@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-autocookenchant.256
 #plugin.price:free
+#plugin.enchant.category:Food
 Potions:
   AutoCook:
     description: "Automatically cook caught fish and killed animals."

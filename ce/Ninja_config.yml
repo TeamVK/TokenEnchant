@@ -2,6 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-ninjaenchant.303
 #plugin.demo:[![demo](https://img.youtube.com/vi/ghF654IvnEo/0.jpg)](https://www.youtube.com/watch?v=ghF654IvnEo)
 #plugin.price:free
+#plugin.enchant.category:Any
 Potions:
   Ninja:
     description: "Disappear like a Ninja!!"

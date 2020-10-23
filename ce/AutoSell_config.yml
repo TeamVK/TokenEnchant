@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-autosellenchant.257
 #plugin.price:free
+#plugin.enchant.category:Mining
 Potions:
   AutoSell:
     description: "Automatically sell all items in your inventory and VKBackPack."

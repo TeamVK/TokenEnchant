@@ -2,6 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-tntenchant.290
 #plugin.demo:[![demo](https://img.youtube.com/vi/am0uC9dJVWo/0.jpg)](https://www.youtube.com/watch?v=am0uC9dJVWo)
 #plugin.price:free
+#plugin.enchant.category:Any
 Potions:
   TNT:
     description: "You can cause TNT-like explosion with Bow/Arrow or simply breaking a block. (you can mine those exploded block if you have auto pick up plugin!)"

@@ -1,6 +1,7 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$3.0
+#plugin.enchant.category:Any
 Potions:
   TrueStrength:
     description: "Stays the same with constant strength X and slowness Y."

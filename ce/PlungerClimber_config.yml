@@ -2,6 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-plungerclimberenchant.302
 #plugin.demo:[![demo](https://img.youtube.com/vi/BdSbdDQSU0I/0.jpg)](https://www.youtube.com/watch?v=BdSbdDQSU0I)
 #plugin.price:free
+#plugin.enchant.category:Any
 Potions:
   PlungerClimber:
     description: "You can climb up the wall with plunger climber enchanted tool!

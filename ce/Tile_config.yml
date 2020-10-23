@@ -6,6 +6,7 @@
 PickupTEExplodedBlocks: true
 SmeltTEExplodedBlocks: true
 
+#plugin.enchant.category:Any
 Potions:
     Tile:
       description: "It will blow up surrounding blocks in square form with 1 block deep"
