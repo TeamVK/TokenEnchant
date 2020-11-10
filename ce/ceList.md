@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (259 registered)
+## List of Currently Known Custom Enchantments. (262 registered)
 
 Enchantment Name | Description | Category | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | --- | ---
@@ -146,8 +146,11 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="LuckyBlock"></a>[LuckyBlock](https://www.mc-market.org/resources/12980/) | "Mine special Lucky Blocks and find yourself a mystery reward!" | Any |  | [ItsLewizzz](https://www.spigotmc.org/members/itslewizzz.118276/) | [config](LuckyBlock_config.yml) | US$1.49
 <a name="LuckyDrop"></a>[LuckyDrop](https://polymart.org/resource/te-luckydropenchant.250) | "Increases the number of drops according the level." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](LuckyDrop_config.yml) | US$3.0
 <a name="LuckyExcavation"></a>[LuckyExcavation](https://polymart.org/resource/te-luckyexcavationenchant.309) | "(aka Concentrate excavation) You can get random rewards from Spade-Excavation! Higher level = more drops!!" | Mining |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](LuckyExcavation_config.yml) | US$3.0
+<a name="LuckyKey"></a>[LuckyKey](https://polymart.org/resource/te-luckypackenchant.474) | "If you enchant your tool with this effect, you might get lucky and get some prizes!" | Economy |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](LuckyKey_config.yml) | US$1.5
 <a name="LuckyMining"></a>[LuckyMining](https://polymart.org/resource/te-luckyminingenchant.338) | "If you enchant your tool with this effect, you might get lucky and get some prizes!" | Mining |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](LuckyMining_config.yml) | free
+<a name="LuckyMoney"></a>[LuckyMoney](https://polymart.org/resource/te-luckypackenchant.474) | "If you enchant your tool with this effect, you might get lucky and get some prizes!" | Economy |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](LuckyMoney_config.yml) | US$1.5
 <a name="LuckyRewards"></a>[LuckyRewards](https://www.spigotmc.org/resources/75977/) | LuckyRewards | Any |  | [GabyTM](https://www.spigotmc.org/members/386419/) | [config](LuckyRewards_config.yml) | free
+<a name="LuckyToken"></a>[LuckyToken](https://polymart.org/resource/te-luckypackenchant.474) | "If you enchant your tool with this effect, you might get lucky and get some prizes!" | Economy |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](LuckyToken_config.yml) | US$1.5
 <a name="Lumberjack"></a>[Lumberjack](https://polymart.org/resource/te-lumberjackenchant.195) | "It allows a player to cut one block of a tree and destroy all connected tree block/leaves. All cut tree blocks and saplings will naturally drop" | Mining | [![demo](https://img.youtube.com/vi/Dqtcbw4_HpY/0.jpg)](https://www.youtube.com/watch?v=Dqtcbw4_HpY) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Lumberjack_config.yml) | US$2.0
 <a name="Mace"></a>[Mace](https://polymart.org/resource/tokenenchant.155) | "When using this against an enemy player, it can do up to 1 heart of damage no matter what the gear is. | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Mace_config.yml) | US$3.0
 <a name="MagmaWalker"></a>[MagmaWalker](https://polymart.org/resource/te-magmawalkerenchant.308) | "Creates obsidian blocks when walking over lava." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](MagmaWalker_config.yml) | free
