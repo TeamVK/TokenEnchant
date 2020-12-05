@@ -7,17 +7,12 @@ Potions:
     description: "(aka JackHammer) Explode entire layer(s)!!"
     event_map:
       BlockBreakEvent: "MONITOR"
-      TEBlockExplodeEvent: "MONITOR"
     alias: JackHammer
     price: 10
     max: 3  # the level of Slicing will be used as the depth of explosion.
     # you can nominate the world, which prevents explosive
     invalid_in_world:
       - plotworld
-    # you can turn on automatic pickup.
-    pickup: false
-    # you can tunrn on automatic smelting
-    smelt: false
     # you can turn on/off explostion sound/visual effects
     effect: true
     # you can turn on/off explostion sound effects
@@ -32,7 +27,6 @@ Potions:
     cooldown: 20  # inseconds
     cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
     maxRadius: 100  #in case you miss config your mine.
-    drop_naturally: true # drop blocks naturally if it's not picking p.
     # You can set the list of blocks exempt from explosiont.
     # use this list to avoid your crates being exploded.
     # AIR and BEDROCK are already exempted by defalt

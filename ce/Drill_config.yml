@@ -16,10 +16,6 @@ Potions:
     # you can nominate the world, which prevents explosive
     invalid_in_world:
       - plotworld
-    # you can turn on automatic pickup.
-    pickup: false
-    # you can turn on automatic smelting
-    smelt: false
     # you can turn on/off explostion sound/visual effects
     effect: true
     # tip shape can be SPHERE or CUBE

@@ -2,11 +2,6 @@
 #plugin.url:https://polymart.org/resource/te-explosiveenchant.168
 #plugin.price:free
 #plugin.enchant.category:Mining
-# if this option is true, TEBlockExplodeEvent will be handled by TokenEnchant
-# if you want other plugin to handle TEBlockExplodeEvent, set it to false;
-PickupTEExplodedBlocks: true
-SmeltTEExplodedBlocks: true
-
 Potions:
   Excavation:
     description: "It is just like Explosive but it will remove entire cuboid!"
@@ -50,4 +45,3 @@ Potions:
       - Sphered
       - Tile
       - Disk
-    drop_naturally: false # drop blocks naturally if it's not picking p.

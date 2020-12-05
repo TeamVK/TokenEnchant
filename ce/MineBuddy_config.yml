@@ -22,3 +22,9 @@ Potions:
     no_request_found_msg: "&a[TE] Mine buddy request from %player% was not found."
     request_sent_msg: "&a[TE] Your mine buddy request has been sent to %player%."
     requested_msg: "&a[TE] You've received a mine buddy request from %player%."
+    # in the following order MineBuddy will try to fill up storage
+    # you need to specify the name of the plugin used.
+    storage_order:
+      - Sack
+      - VKBackPack
+

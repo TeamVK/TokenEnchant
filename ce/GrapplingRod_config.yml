@@ -12,3 +12,4 @@ Potions:
     max : 1
     sound: ENTITY_MAGMACUBE_JUMP
     occurrence: always
+    anchor_air: true

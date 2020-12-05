@@ -2,15 +2,12 @@
 #plugin.url:https://polymart.org/resource/te-oreseekerenchant.325
 #plugin.price:free
 #plugin.enchant.category:Mining
-PickupTEExplodedBlocks: true
-SmeltTEExplodedBlocks: true
 BlockPerTEBlockExplodeEvent: 200
 
 Potions:
   OreSeeker:
     description: "(aka Vein Mining) Let this enchant to seek other similar ores around you!"
     event_map:
-      TEBlockExplodeEvent: "MONITOR"
       BlockBreakEvent: "NORMAL"
     price: 10
     max: 10  # the level of Explosive will be used as the radius of explosion.
@@ -26,7 +23,6 @@ Potions:
     # random: randomly occur based on the level
     # always: explosion occur always.
     occurrence: random
-    block_break_event_priority : NORMAL
     ore_types :
       - COAL_ORE
       - IRON_ORE
