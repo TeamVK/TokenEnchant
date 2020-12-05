@@ -1,13 +1,15 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
-#plugin.url:https://www.mc-market.org/resources/14422/
+#plugin.url:https://polymart.org/resource/te-pikachuthunderenchant.244
+#plugin.demo:[![demo](https://img.youtube.com/vi/s7VyEIrK-iU/0.jpg)](https://www.youtube.com/watch?v=s7VyEIrK-iU)
 #plugin.price:US$1.5
+#plugin.enchant.category:PvP
 Potions:
-  Squirt1eWaterGun:
-    description: "Shoot water gun like Squirtle!"
+  PikachuThunder:
+    description: "It will create PikachuThunder, which will give damage to nearby entities."
     event_map:
       PlayerInteractEvent: "HIGHEST"
       EntityDamageByEntityEvent: "HIGHEST"
-    alias: Squirt1e
+    alias: Pikachu
     price: 10
     max: 4
     # search target within the distance of level * distance_multiplier

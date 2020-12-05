@@ -1,0 +1,16 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:Comissioned work.
+#plugin.price:US$10
+#plugin.enchant.category:PvP
+Potions:
+  HardenedPlus:
+    description: "Decrease durability loss on ALL your armours!"
+    event_map:
+      PlayerItemDamageEvent: "HIGHEST"
+    price: 10
+    max: 5
+    max_protection: 0.95  # maximum up to this percentage will be reduced.
+    occurrence: always  # you can also make it occur randomly
+    use_action_bar: true # send the hardened_message to the action bar.
+    hardened_message: "&aHardenedPlus has protected all your armors!"
+    armor_only: true # if this option is true, hardened is applied only to armors.

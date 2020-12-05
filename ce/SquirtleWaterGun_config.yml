@@ -1,14 +1,14 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
-#plugin.url:https://www.mc-market.org/resources/14421/
-#plugin.demo:[![demo](https://img.youtube.com/vi/s7VyEIrK-iU/0.jpg)](https://www.youtube.com/watch?v=s7VyEIrK-iU)
+#plugin.url:https://polymart.org/resource/te-squirtlewatergunenchant.243
 #plugin.price:US$1.5
+#plugin.enchant.category:PvP
 Potions:
-  P1kachuThunder:
-    description: "It will create P1kachuThunder, which will give damage to nearby entities."
+  SquirtleWaterGun:
+    description: "Shoot water gun like Squirtle!"
     event_map:
       PlayerInteractEvent: "HIGHEST"
       EntityDamageByEntityEvent: "HIGHEST"
-    alias: P1kachu
+    alias: Squirtle
     price: 10
     max: 4
     # search target within the distance of level * distance_multiplier
