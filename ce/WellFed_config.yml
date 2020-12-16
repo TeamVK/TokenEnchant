@@ -1,0 +1,16 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://polymart.org/resource/tokenenchant.155
+#plugin.price:US$4.0
+#plugin.enchant.category:Any
+Potions:
+  Gluttony:
+    description: "Reduces the rate of food level decrement."
+    event_map:
+      FoodLevelChangeEvent: "HIGHEST"
+    price: 10
+    max : 10
+    occurrence: 0.9  # 90% chance at the max enchant level.
+    multiplier: 2 # everly (muliplier * level) food level will decremented by 1.
+    allowed_items:
+      - DIAMOND_CHEST
+

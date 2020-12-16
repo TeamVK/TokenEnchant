@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (261 registered)
+## List of Currently Known Custom Enchantments. (262 registered)
 
 Enchantment Name | Description | Category | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | --- | ---
@@ -267,6 +267,7 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="Voltage"></a>[Voltage](https://polymart.org/resource/tokenenchant.155) | "Hurls a bolt of lighting at the enemy zapping them and doing damage!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Voltage_config.yml) | US$2.0
 <a name="Voodoo"></a>[Voodoo](https://polymart.org/resource/te-voodooenchant.283) | "Use ArmorStand +Voodoo head (of another player) to give another player damage!" | PvP | [![demo](https://img.youtube.com/vi/FedC7Je3Rts/0.jpg)](https://www.youtube.com/watch?v=FedC7Je3Rts) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Voodoo_config.yml) | free
 <a name="Weakness"></a>[Weakness](https://polymart.org/resource/te-badpotionenchant.169) | "Cast the Weakness poison effect upon attack!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Weakness_config.yml) | free
+<a name="WellFed"></a>[WellFed](https://polymart.org/resource/tokenenchant.155) | "Reduces the rate of food level decrement." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](WellFed_config.yml) | US$4.0
 <a name="WhisperOfWind"></a>[WhisperOfWind](https://polymart.org/resource/tokenenchant.155) | "It applies speed 2 to the wearer of the boots; activated once on." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](WhisperOfWind_config.yml) | US$2.0
 <a name="WinOrLose"></a>[WinOrLose](https://polymart.org/resource/tokenenchant.155) | "This enchant upon death clears your inventory, so no ite ms are dropped." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](WinOrLose_config.yml) | US$2.0
 <a name="Wither"></a>[Wither](https://polymart.org/resource/te-badpotionenchant.169) | "Cast the Wither effect to your opponent when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Wither_config.yml) | free
