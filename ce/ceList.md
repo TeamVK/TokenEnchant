@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (262 registered)
+## List of Currently Known Custom Enchantments. (264 registered)
 
 Enchantment Name | Description | Category | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | --- | ---
@@ -154,6 +154,7 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="LuckyToken"></a>[LuckyToken](https://polymart.org/resource/te-luckypackenchant.474) | "If you enchant your tool with this effect, you might get lucky and get some prizes!" | Economy |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](LuckyToken_config.yml) | US$1.5
 <a name="Lumberjack"></a>[Lumberjack](https://polymart.org/resource/te-lumberjackenchant.195) | "It allows a player to cut one block of a tree and destroy all connected tree block/leaves. All cut tree blocks and saplings will naturally drop" | Mining | [![demo](https://img.youtube.com/vi/Dqtcbw4_HpY/0.jpg)](https://www.youtube.com/watch?v=Dqtcbw4_HpY) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Lumberjack_config.yml) | US$2.0
 <a name="Mace"></a>[Mace](https://polymart.org/resource/tokenenchant.155) | "When using this against an enemy player, it can do up to 1 heart of damage no matter what the gear is. | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Mace_config.yml) | US$3.0
+<a name="MagicBag"></a>[MagicBag](https://polymart.org/resource/tokenenchant-1-7-10-1-16-4.155) | "It will let you open your enderchest!" | ANY |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](MagicBag_config.yml) | US$8
 <a name="MagmaWalker"></a>[MagmaWalker](https://polymart.org/resource/te-magmawalkerenchant.308) | "Creates obsidian blocks when walking over lava." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](MagmaWalker_config.yml) | free
 <a name="Martyrdom"></a>[Martyrdom](https://polymart.org/resource/tokenenchant.155) | "This effect spawns a TNT which doesn’t break blocks but appears upon death. It will always be activated and made to give knockback and destroy the dropped items." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Martyrdom_config.yml) | US$3.0
 <a name="McMMOExp"></a>[McMMOExp](https://polymart.org/resource/te-mcmmoexpenchant.233) | "Multiply McMMO Experience gain! Higher level = more gain!" | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](McMMOExp_config.yml) | $3.00
@@ -263,6 +264,7 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="Unenchantable"></a>[Unenchantable](https://polymart.org/resource/tokenenchant.155) | "With this enchantment, one cannot add any other enchantment on this item ;(" | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Unenchantable_config.yml) | free
 <a name="Universal"></a>[Universal](https://polymart.org/resource/te-universalenchant.194) | "It allows your tool to automatically morph into an appropriate tool depending on what you're doing." | Any | [![demo](https://img.youtube.com/vi/UvhMu0LCavY/0.jpg)](https://youtu.be/UvhMu0LCavY) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Universal_config.yml) | US$4.0
 <a name="Upgrade"></a>[Upgrade](https://polymart.org/resource/te-upgradeenchant.147) | "With a small chance, upgrade a randomly selected enchantment level." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Upgrade_config.yml) | US$4.0
+<a name="VSlicing"></a>[VSlicing](https://polymart.org/resource/te-slicingenchant-jackhammer.324) | "(aka JackHammer) Explode entire layer(s)!!" | Mining |  | [ThePurpleHoser](https://polymart.org/team/teamvk.4) | [config](VSlicing_config.yml) | free
 <a name="Vampire"></a>[Vampire](https://polymart.org/resource/te-vampireenchant.326) | "Suck your opponent's health when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Vampire_config.yml) | free
 <a name="Voltage"></a>[Voltage](https://polymart.org/resource/tokenenchant.155) | "Hurls a bolt of lighting at the enemy zapping them and doing damage!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Voltage_config.yml) | US$2.0
 <a name="Voodoo"></a>[Voodoo](https://polymart.org/resource/te-voodooenchant.283) | "Use ArmorStand +Voodoo head (of another player) to give another player damage!" | PvP | [![demo](https://img.youtube.com/vi/FedC7Je3Rts/0.jpg)](https://www.youtube.com/watch?v=FedC7Je3Rts) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Voodoo_config.yml) | free

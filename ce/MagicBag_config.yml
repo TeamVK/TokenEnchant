@@ -1,0 +1,12 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://polymart.org/resource/tokenenchant-1-7-10-1-16-4.155
+#plugin.price:US$8
+#plugin.enchant.category:ANY
+Potions:
+  MagicBag:
+    description: "It will let you open your enderchest!"
+    price: 10
+    max: 1
+    occurrence: always
+    allowed_items:
+      - BOOK

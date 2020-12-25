@@ -3,14 +3,14 @@
 #plugin.price:US$4.0
 #plugin.enchant.category:Any
 Potions:
-  Gluttony:
+  WellFed:
     description: "Reduces the rate of food level decrement."
     event_map:
       FoodLevelChangeEvent: "HIGHEST"
     price: 10
     max : 10
-    occurrence: 0.9  # 90% chance at the max enchant level.
+    occurrence: always  # 90% chance at the max enchant level.
     multiplier: 2 # everly (muliplier * level) food level will decremented by 1.
     allowed_items:
-      - DIAMOND_CHEST
+      - DIAMOND_CHESTPLATE
 
