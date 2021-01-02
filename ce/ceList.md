@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (264 registered)
+## List of Currently Known Custom Enchantments. (265 registered)
 
 Enchantment Name | Description | Category | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | --- | ---
@@ -102,6 +102,7 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="FrozenBlade"></a>[FrozenBlade](https://polymart.org/resource/tokenenchant.155) | "Stops the person in there place with a slowness effect!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](FrozenBlade_config.yml) | US$4.0
 <a name="Frozen"></a>[Frozen](https://polymart.org/resource/te-frozenenchant.280) | "This enchant applies the slowness effect to the attacker." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Frozen_config.yml) | free
 <a name="Gemstone"></a>[Gemstone](https://www.mc-market.org/resources/13906/) | 'Get a better tool by doing basic tasks' | Any |  | [GabyTM](https://www.mc-market.org/members/100752/) | [config](Gemstone_config.yml) | US$1.99
+<a name="Generous"></a>[Generous](https://polymart.org/resource/te-generousenchant.610) | "Give out random exp to all online players!" | Economy |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Generous_config.yml) | US$5.00
 <a name="Gluttony"></a>[Gluttony](https://polymart.org/resource/tokenenchant.155) | "Gives you full hunger bars so there is no need to eat." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Gluttony_config.yml) | US$4.0
 <a name="GodlyGuard"></a>[GodlyGuard](https://polymart.org/resource/tokenenchant.155) | "Gives you a chance to only take half the damage normally when using block hitting." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](GodlyGuard_config.yml) | US$4.0
 <a name="GoldDigger"></a>[GoldDigger](https://polymart.org/resource/tokenenchant.155) | "Gives you a chance of finding small increments of In game money whilst excavating." | Mining/Economy |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](GoldDigger_config.yml) | US$3.0

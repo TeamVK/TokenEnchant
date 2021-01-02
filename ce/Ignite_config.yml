@@ -3,8 +3,8 @@
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP
 Potions:
-  description: "Chance to light your attacker on fire when hit."
   Ignite:
+    description: "Chance to light your attacker on fire when hit."
     event_map:
       EntityDamageByEntityEvent: "HIGHEST"
     price: 10
