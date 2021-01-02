@@ -1,9 +1,4 @@
 # Custom Enchantments
-There are two types of Custom Enchantments (CEs):
-* Enchantments : these CEs are created based on Minecraft's Enchantment.
-* Potions : these CEs are created more like Minecraft's Potion effects.
-
-In practice, the codings for these two types of CEs are slightly different but the usages are pretty much the same.
 
 ### Obtaining 
 If a custom enchant has its own website, you can follow the link to obtain it.  
