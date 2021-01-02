@@ -11,6 +11,7 @@ Enchants:
     max: 5
     recipient_needs: none # if this option is true, the recipient must have the same enchant (inhand, any, none).
     command: "te add"
+    exclude_trigger: true
     reward_message: "&aYou're blessed by &e%player% &aand received &e%amount% &atokens!"
     rewards:
       1:
@@ -38,6 +39,7 @@ Enchants:
     max: 5
     recipient_needs: none # if this option is true, the recipient must have the same enchant (inhand, any, none).
     command: "eco give"
+    exclude_trigger: true
     reward_message: "&aYou're blessed by &e%player% &aand received $&e%amount% &a!"
     rewards:
       1:
@@ -65,6 +67,7 @@ Enchants:
     max: 5
     recipient_needs: none # if this option is true, the recipient must have the same enchant (inhand, any, none).
     command: "exp give"
+    exclude_trigger: true
     reward_message: "&aYou're blessed by &e%player% &aand received &e%amount% &aexp!"
     rewards:
       1:
