@@ -1,91 +1,281 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
-#plugin.url:https://polymart.org/resource/te-keyminerenchant.180
-#plugin.price:US$4
+#plugin.url:https://polymart.org/resource/te-rewardfinderenchant.615
+#plugin.price:US$5
 #plugin.enchant.category:Any
-Potions:
+Enchants:
+  ################### Reward Finder (aka LuckyMining)
   RewardFinder:
-    VIPFinder:
-      description: "It will let you discover rewards! ... only if you're lucky."
-      # use this option to resolve any conflict with other plugin(s) such as AutoSell
-      event_map:
-        BlockBreakEvent: "HIGH"
-        TEBlockExplodeEvent: "HIGHEST"
-      price: 10
-      max: 2    #this number should be same as the highest level in levels: section
-      occurrence: always
-      effect: MOBSPAWNER_FLAMES
-      sound: ENTITY_LIGHTNING_THUNDER  # for pre 1.9 ...AMBIENCE_THUNDER
-      levels:
-        1:
-          chance: 0.10  # 10% chance!
-          # '!' -> console, '>' -> op, '@' -> player
-          commands:
-            - "!pex user %player% add your.vip.perm"
-        2:
-          chance: 0.02  # 2% chance!
-          commands:
-            - - "!pex user %player% add your.vip++.perm"
-      # choices of triggering the lucky reward are
-      # ANY (all types)
-      # FISHING
-      # WOODCUTTING
-      # MINING (mining minirals)
-      # FARMING (harvesting crops)
-      triggers:
-        - MINING
-        - WOODCUTTING
+    alias: "LuckyMining"
+    description: "It will let you discover rewards! ... only if you're lucky."
+    # use this option to resolve any conflict with other plugin(s) such as AutoSell
+    event_map:
+      BlockBreakEvent: "HIGH"
+      TEBlockExplodeEvent: "HIGHEST"
+    price: 10
+    max: 2    #this number should be same as the highest level in levels: section
+    occurrence: always
+    effect: MOBSPAWNER_FLAMES
+    sound: ENTITY_LIGHTNING_THUNDER  # for pre 1.9 ...AMBIENCE_THUNDER
+    levels:
+      1:
+        chance: 0.10  # 10% chance!
+        # '!' -> console, '>' -> op, '@' -> player
+        commands:
+          - "!tokenenchant add %player% 3;tm msg %player% &aLucky Block! <nl>&aYou received 3 tokens!"
+          - "!tokenenchant add %player% 1;tm msg %player% &aLucky Block! <nl>&aYou received one token!"
+          - "!tokenenchant add %player% 5;tm msg %player% &aLucky Block! <nl>&aYou received 5 token!"
+      2:
+        chance: 0.02  # 2% chance!
+        commands:
+          - "tokenenchant add %player% 10;tm msg %player% &aLucky Block! <nl>&aYou received 5 token!"
+          - "tokenenchant add %player% 50;tm msg %player% &aLucky Block! <nl>&aYou received 5 token!"
+    # choices of triggering the lucky reward are
+    # ANY (all types)
+    # FISHING
+    # WOODCUTTING
+    # MINING (mining minirals)
+    # FARMING (harvesting crops)
+    triggers:
+      - MINING
+      - WOODCUTTING
 
-      # you can list type of blocks associated with mining (mineral), woodcutting (wood)
-      # and farming (Crop)
-      block_types:
-        mineral:
-          - DIAMOND_ORE
-          - IRON_ORE
-        wood:
-          - LOG
-          - LOG_2
-        crop:
-          - CROPS
+    # you can list type of blocks associated with mining (mineral), woodcutting (wood)
+    # and farming (Crop)
+    block_types:
+      mineral:
+        - DIAMOND_ORE
+        - IRON_ORE
+      wood:
+        - LOG
+        - LOG_2
+      crop:
+        - CROPS
 
-    BeaconFinder:
-      description: "It will let you discover beacon! ... only if you're lucky."
-      # use this option to resolve any conflict with other plugin(s) such as AutoSell
-      event_map:
-        BlockBreakEvent: "HIGH"
-        TEBlockExplodeEvent: "HIGHEST"
-      price: 10
-      max: 2    #this number should be same as the highest level in levels: section
-      occurrence: always
-      effect: MOBSPAWNER_FLAMES
-      sound: ENTITY_LIGHTNING_THUNDER  # for pre 1.9 ...AMBIENCE_THUNDER
-      levels:
-        1:
-          chance: 0.10  # 10% chance!
-          # '!' -> console, '>' -> op, '@' -> player
-          commands:
-            - "!give %player% Beacon 1"
-        2:
-          chance: 0.02  # 2% chance!
-          commands:
-            - - "!give %player% Beacon 2"
-      # choices of triggering the lucky reward are
-      # ANY (all types)
-      # FISHING
-      # WOODCUTTING
-      # MINING (mining minirals)
-      # FARMING (harvesting crops)
-      triggers:
-        - MINING
-        - WOODCUTTING
+  ################### VIP Finder
+  VIPFinder:
+    description: "It will let you discover VIP ranks! ... only if you're lucky."
+    # use this option to resolve any conflict with other plugin(s) such as AutoSell
+    event_map:
+      BlockBreakEvent: "HIGH"
+      TEBlockExplodeEvent: "HIGHEST"
+    price: 10
+    max: 2    #this number should be same as the highest level in levels: section
+    occurrence: always
+    effect: MOBSPAWNER_FLAMES
+    sound: ENTITY_LIGHTNING_THUNDER  # for pre 1.9 ...AMBIENCE_THUNDER
+    levels:
+      1:
+        chance: 0.10  # 10% chance!
+        # '!' -> console, '>' -> op, '@' -> player
+        commands:
+          - "!pex user %player% add your.vip.perm"
+      2:
+        chance: 0.02  # 2% chance!
+        commands:
+          - "!pex user %player% add your.vip++.perm"
+    # choices of triggering the lucky reward are
+    # ANY (all types)
+    # FISHING
+    # WOODCUTTING
+    # MINING (mining minirals)
+    # FARMING (harvesting crops)
+    triggers:
+      - MINING
+      - WOODCUTTING
 
-      # you can list type of blocks associated with mining (mineral), woodcutting (wood)
-      # and farming (Crop)
-      block_types:
-        mineral:
-          - DIAMOND_ORE
-          - IRON_ORE
-        wood:
-          - LOG
-          - LOG_2
-        crop:
-          - CROPS
+    # you can list type of blocks associated with mining (mineral), woodcutting (wood)
+    # and farming (Crop)
+    block_types:
+      mineral:
+        - DIAMOND_ORE
+        - IRON_ORE
+      wood:
+        - LOG
+        - LOG_2
+      crop:
+        - CROPS
+
+  ################### Beacon Finder
+  BeaconFinder:
+    description: "It will let you discover beacon! ... only if you're lucky."
+    # use this option to resolve any conflict with other plugin(s) such as AutoSell
+    event_map:
+      BlockBreakEvent: "HIGH"
+      TEBlockExplodeEvent: "HIGHEST"
+    price: 10
+    max: 2    #this number should be same as the highest level in levels: section
+    occurrence: always
+    effect: MOBSPAWNER_FLAMES
+    sound: ENTITY_LIGHTNING_THUNDER  # for pre 1.9 ...AMBIENCE_THUNDER
+    levels:
+      1:
+        chance: 0.10  # 10% chance!
+        # '!' -> console, '>' -> op, '@' -> player
+        commands:
+          - "!give %player% Beacon 1"
+      2:
+        chance: 0.02  # 2% chance!
+        commands:
+          - "!give %player% Beacon 2"
+    # choices of triggering the lucky reward are
+    # ANY (all types)
+    # FISHING
+    # WOODCUTTING
+    # MINING (mining minirals)
+    # FARMING (harvesting crops)
+    triggers:
+      - MINING
+      - WOODCUTTING
+
+    # you can list type of blocks associated with mining (mineral), woodcutting (wood)
+    # and farming (Crop)
+    block_types:
+      mineral:
+        - DIAMOND_ORE
+        - IRON_ORE
+      wood:
+        - LOG
+        - LOG_2
+      crop:
+        - CROPS
+
+  ################### Key Finder (aka KeyMiner, KeyGreed)
+  KeyFinder:
+    description: "It will let you discover crate keys! ... only if you're lucky."
+    # use this option to resolve any conflict with other plugin(s) such as AutoSell
+    event_map:
+      BlockBreakEvent: "HIGH"
+      TEBlockExplodeEvent: "HIGHEST"
+    price: 10
+    max: 2    #this number should be same as the highest level in levels: section
+    occurrence: always
+    effect: MOBSPAWNER_FLAMES
+    sound: ENTITY_LIGHTNING_THUNDER  # for pre 1.9 ...AMBIENCE_THUNDER
+    levels:
+      1:
+        chance: 0.10  # 10% chance!
+        # '!' -> console, '>' -> op, '@' -> player
+        commands:
+          - "!crate give %player% tier1"
+          - "!crate give %player% tier2"
+          - "!crate give %player% tier3"
+      2:
+        chance: 0.02  # 2% chance!
+        commands:
+          - "!crate give %player% tier10"
+          - "!crate give %player% tier50"
+    # choices of triggering the lucky reward are
+    # ANY (all types)
+    # FISHING
+    # WOODCUTTING
+    # MINING (mining minirals)
+    # FARMING (harvesting crops)
+    triggers:
+      - MINING
+      - WOODCUTTING
+
+    # you can list type of blocks associated with mining (mineral), woodcutting (wood)
+    # and farming (Crop)
+    block_types:
+      mineral:
+        - DIAMOND_ORE
+        - IRON_ORE
+      wood:
+        - LOG
+        - LOG_2
+      crop:
+        - CROPS
+
+  ################### Money Finder (aka MoneyMiner, MoneyGreed)
+  MoneyFinder:
+    description: "If you enchant your tool with this effect, you might get lucky and get some $!"
+    # use this option to resolve any conflict with other plugin(s) such as AutoSell
+    event_map:
+      BlockBreakEvent: "HIGH"
+      TEBlockExplodeEvent: "HIGHEST"
+    price: 10
+    max: 2    #this number should be same as the highest level in levels: section
+    occurrence: always
+    effect: MOBSPAWNER_FLAMES
+    sound: ENTITY_LIGHTNING_THUNDER  # for pre 1.9 ...AMBIENCE_THUNDER
+    levels:
+      1:
+        chance: 0.10  # 10% chance!
+        # '!' -> console, '>' -> op, '@' -> player
+        commands:
+          - "!eco give %player% 3;tm msg %player% &aLucky Block! <nl>&aYou received $3!"
+          - "!eco give %player% 1;tm msg %player% &aLucky Block! <nl>&aYou received one dollar!"
+          - "!eco give %player% 5;tm msg %player% &aLucky Block! <nl>&aYou received $5!"
+      2:
+        chance: 0.02  # 2% chance!
+        commands:
+          - "eco give %player% 10;tm msg %player% &aLucky Block! <nl>&aYou received $10!"
+          - "eco give %player% 50;tm msg %player% &aLucky Block! <nl>&aYou received %50!"
+    # choices of triggering the lucky reward are
+    # ANY (all types)
+    # FISHING
+    # WOODCUTTING
+    # MINING (mining minirals)
+    # FARMING (harvesting crops)
+    triggers:
+      - MINING
+      - WOODCUTTING
+
+    # you can list type of blocks associated with mining (mineral), woodcutting (wood)
+    # and farming (Crop)
+    block_types:
+      mineral:
+        - DIAMOND_ORE
+        - IRON_ORE
+      wood:
+        - LOG
+        - LOG_2
+      crop:
+        - CROPS
+
+  ################### Token Finder (aka, TokenMiner, TokenGreed)
+  TokenFinder:
+    description: "If you enchant your tool with this effect, you might get lucky and get some tokens!"
+    # use this option to resolve any conflict with other plugin(s) such as AutoSell
+    event_map:
+      BlockBreakEvent: "HIGH"
+      TEBlockExplodeEvent: "HIGHEST"
+    price: 10
+    max: 2    #this number should be same as the highest level in levels: section
+    occurrence: always
+    effect: MOBSPAWNER_FLAMES
+    sound: ENTITY_LIGHTNING_THUNDER  # for pre 1.9 ...AMBIENCE_THUNDER
+    levels:
+      1:
+        chance: 0.10  # 10% chance!
+        # '!' -> console, '>' -> op, '@' -> player
+        commands:
+          - "!tokenenchant add %player% 3;tm msg %player% &aLucky Block! <nl>&aYou received 3 tokens!"
+          - "!tokenenchant add %player% 1;tm msg %player% &aLucky Block! <nl>&aYou received one token!"
+          - "!tokenenchant add %player% 5;tm msg %player% &aLucky Block! <nl>&aYou received 5 token!"
+      2:
+        chance: 0.02  # 2% chance!
+        commands:
+          - "tokenenchant add %player% 10;tm msg %player% &aLucky Block! <nl>&aYou received 5 token!"
+          - "tokenenchant add %player% 50;tm msg %player% &aLucky Block! <nl>&aYou received 5 token!"
+    # choices of triggering the lucky reward are
+    # ANY (all types)
+    # FISHING
+    # WOODCUTTING
+    # MINING (mining minirals)
+    # FARMING (harvesting crops)
+    triggers:
+      - MINING
+      - WOODCUTTING
+
+    # you can list type of blocks associated with mining (mineral), woodcutting (wood)
+    # and farming (Crop)
+    block_types:
+      mineral:
+        - DIAMOND_ORE
+        - IRON_ORE
+      wood:
+        - LOG
+        - LOG_2
+      crop:
+        - CROPS

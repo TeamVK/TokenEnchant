@@ -2,28 +2,28 @@
 #plugin.url:https://polymart.org/resource/te-generousenchant.610
 #plugin.price:see Generous
 #plugin.enchant.category:Economy
-Potions:
-  Blessing: # give out tokens to online players.
-    description: "Give out random amount of tokens to all online players!"
-    event_map:
-      BlockBreakEvent: "NORMAL"
-    price: 10
-    max: 5
-    RewardMsg: "&aYou're blessed by &e%player% &aand received &e%amount% &atokens!"
-    Rewards:    # you can specify the material and its chance of dropping.
-      1:
-        min: 5
-        max: 10
-      2:
-        min: 10
-        max: 15
-      3:
-        min: 20
-        max: 25
-      4:
-        min: 30
-        max: 35
-      5:
-        min: 40
-        max: 45
-    occurrence: 0.04  # 4% chance of occurrence at the max level.
+#Potions:
+#  Blessing: # give out tokens to online players.
+#    description: "Give out random amount of tokens to all online players!"
+#    event_map:
+#      BlockBreakEvent: "NORMAL"
+#    price: 10
+#    max: 5
+#    RewardMsg: "&aYou're blessed by &e%player% &aand received &e%amount% &atokens!"
+#    Rewards:    # you can specify the material and its chance of dropping.
+#      1:
+#        min: 5
+#        max: 10
+#      2:
+#        min: 10
+#        max: 15
+#      3:
+#        min: 20
+#        max: 25
+#      4:
+#        min: 30
+#        max: 35
+#      5:
+#        min: 40
+#        max: 45
+#    occurrence: 0.04  # 4% chance of occurrence at the max level.
