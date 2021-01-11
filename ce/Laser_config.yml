@@ -23,3 +23,4 @@ Potions:
     particle: REDSTONE
     rgb: "255,0,0"
     occurrence: always
+    sneak: false # if this is true, you need to shift_right_click to cast the laser

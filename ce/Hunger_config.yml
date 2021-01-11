@@ -2,9 +2,134 @@
 #plugin.url:https://polymart.org/resource/te-badpotionenchant.169
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
+  Blindness:
+    potion_effect: BLINDNESS
+    description: "This enchant will make your attacker blind for a while!"
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    occurrence: always # you can set it to random as well.
+    # if duration_multiplier is set, duration = level * duration_multiplier
+    duration_multiplier: 300
+    # otherwise
+    duration: 300
+    # if this option is set > 0, this amplifire is applied regardless of the enchant level
+    amplifier: -1
+
+  Confusion:
+    potion_effect: CONFUSION
+    description: "Makes your attacker confused!"
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    occurrence: always # you can set it to random as well.
+    # if duration_multiplier is set, duration = level * duration_multiplier
+    duration_multiplier: 300
+    # otherwise
+    duration: 300
+    # if this option is set > 0, this amplifire is applied regardless of the enchant level
+    amplifier: -1
+
+  Fatigue:
+    potion_effect: SLOW
+    description: "It gives your opponent a fatigue effect!"
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    occurrence: always # you can set it to random as well.
+    # if duration_multiplier is set, duration = level * duration_multiplier
+    duration_multiplier: 300
+    # otherwise
+    duration: 300
+    # if this option is set > 0, this amplifire is applied regardless of the enchant level
+    amplifier: -1
+
+  Harm:
+    potion_effect: HARM
+    description: "Cast the Harm poison effect upon attack!"
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    #
+    # level_multiplier * the level of potion will be used as
+    # the level of Harm potion.
+    level_multiplier: 1
+    occurrence: always # you can set it to random as well.
+    # if duration_multiplier is set, duration = level * duration_multiplier
+    duration_multiplier: 300
+    # otherwise
+    duration: 300
+    # if this option is set > 0, this amplifire is applied regardless of the enchant level
+    amplifier: -1
+
   Hunger:
+    potion_effect: HUNGER
     description: "Cast the Hunger poison effect upon attack!"
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    occurrence: always # you can set it to random as well.
+    # if duration_multiplier is set, duration = level * duration_multiplier
+    duration_multiplier: 300
+    # otherwise
+    duration: 300
+    # if this option is set > 0, this amplifire is applied regardless of the enchant level
+    amplifier: -1
+
+  Poison:
+    potion_effect: POISON
+    description: "Cast the Poison poison effect upon attack!"
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    occurrence: always # you can set it to random as well.
+    # if duration_multiplier is set, duration = level * duration_multiplier
+    duration_multiplier: 300
+    # otherwise
+    duration: 300
+    # if this option is set > 0, this amplifire is applied regardless of the enchant level
+    amplifier: -1
+
+  Slow:
+    potion_effect: SLOW
+    description: "Cast the Slowness poison effect upon attack!"
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    occurrence: always # you can set it to random as well.
+    # if duration_multiplier is set, duration = level * duration_multiplier
+    duration_multiplier: 300
+    # otherwise
+    duration: 300
+    # if this option is set > 0, this amplifire is applied regardless of the enchant level
+    amplifier: -1
+
+  Weakness:
+    potion_effect: WEAKNESS
+    description: "Cast the Weakness poison effect upon attack!"
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 5
+    occurrence: always # you can set it to random as well.
+    # if duration_multiplier is set, duration = level * duration_multiplier
+    duration_multiplier: 300
+    # otherwise
+    duration: 300
+    # if this option is set > 0, this amplifire is applied regardless of the enchant level
+    amplifier: -1
+
+  Wither:
+    potion_effect: WITHER
+    description: "Cast the Wither effect to your opponent when you attack him/her."
     event_map:
       EntityDamageByEntityEvent: "HIGHEST"
     price: 10

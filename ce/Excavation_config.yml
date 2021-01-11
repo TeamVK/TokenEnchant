@@ -24,7 +24,7 @@ Potions:
     # you can specify the radius whithin which explosion will occur.
     # it is not recommended to have a large radius. it may cause lag.
     # setting this option to -1 will use the enchantment level as the radius
-    radius: 2
+    radius: 3
     # if the following option is true, the above radius is used regardless of the level
     fixedsize: false
 
