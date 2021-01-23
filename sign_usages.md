@@ -4,5 +4,5 @@
 ### [Exchange](exchange_sign.md)
 ### [Withdraw](withdraw_sign.md)
 ### [ExpExchange](exp_sign.md)
-### [Repair](repaire_sign.md)
+### [Repair](repair_sign.md)
 
