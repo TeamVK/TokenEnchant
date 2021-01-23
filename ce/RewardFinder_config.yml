@@ -19,11 +19,14 @@ Enchants:
     levels:
       1:
         chance: 0.10  # 10% chance!
+        # if min max are specified, you can use %amount% placeholder int the command.
+        min: 5
+        max: 10
         # '!' -> console, '>' -> op, '@' -> player
         commands:
           - "!tokenenchant add %player% 3;tm msg %player% &aLucky Block! <nl>&aYou received 3 tokens!"
           - "!tokenenchant add %player% 1;tm msg %player% &aLucky Block! <nl>&aYou received one token!"
-          - "!tokenenchant add %player% 5;tm msg %player% &aLucky Block! <nl>&aYou received 5 token!"
+          - "!tokenenchant add %player% 5;tm msg %player% &aLucky Block! <nl>&aYou received %amount% token!"
       2:
         chance: 0.02  # 2% chance!
         commands:
@@ -109,14 +112,18 @@ Enchants:
     sound: ENTITY_LIGHTNING_THUNDER  # for pre 1.9 ...AMBIENCE_THUNDER
     levels:
       1:
-        chance: 0.10  # 10% chance!
+        chance: 1.0  # 10% chance!
+        min: 1
+        max: 1
         # '!' -> console, '>' -> op, '@' -> player
         commands:
-          - "!give %player% Beacon 1"
-      2:
-        chance: 0.02  # 2% chance!
+          - "!give %player% Beacon %amount%"
+      4:
+        chance: 1.0  # 2% chance!
+        min: 2
+        max: 5
         commands:
-          - "!give %player% Beacon 2"
+          - "!give %player% Beacon %amount%"
     # choices of triggering the lucky reward are
     # ANY (all types)
     # FISHING
