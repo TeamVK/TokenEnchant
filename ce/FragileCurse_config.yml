@@ -1,0 +1,16 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://polymart.org/resource/te-cursecastingenchant.705
+#plugin.price:US$5
+#plugin.enchant.category:ANY
+Enchants:
+  FragileCurse:
+    description: "You can cast a spell to make someone's item fragile!"
+    event_map:
+      PlayerItemDamageEvent: "HIGH"
+    price: 10
+    max: 5
+    damage_multiplier: 5
+    occurrence: always
+    use_action_bar: true
+    cursed_message: "&cYou've been cursed with &e%enchant%&c!"
+    casted_message: "&cYou've casted &e%enchant%&c to &b%player%&b!"
