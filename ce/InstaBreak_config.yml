@@ -12,9 +12,9 @@ Potions:
     max: 1. # not much point having level above 1 !
     occurrence: always
     target_blocks:
-      - SPONGE
-      - STONE
-      - 1
-      - STONE:2
-      - GRANITE
-      - 1:2
+      - "SPONGE"
+      - "STONE"
+      - "1"
+      - "STONE:2"
+      - "GRANITE"
+      - "1:2"
