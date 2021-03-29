@@ -14,7 +14,7 @@ HelpMessages:
     msg: "/te set <name> <amount> : sets <name> <amount> tokens."
     permission: "tokenenchant.add"
   add:
-    msg: "/te add <name> <amount> : adds <name> <amount> tokens."
+    msg: "/te add <name> <amount> [-nomulti]: adds <name> <amount> tokens."
     permission: "tokenenchant.add"
   pay:
     msg: "/te pay <name> <amount> : pay <name> <amount> tokens."
@@ -28,6 +28,9 @@ HelpMessages:
   withdraw:
     msg: "/te withdraw <amount> [drop] : withdraws the specified amount of tokens from your account."
     permission: "tokenenchant.withdraw"
+  cheque:
+    msg: "/te cheque <amount> [to-player] : withdraws the specified amount of tokens from your account and issue a check."
+    permission: "tokenenchant.cheque"
   expexchange:
     msg: "/te expexchange : exchanges the current EXP values to tokens."
     permission: "tokenenchant.expexchange"
@@ -61,52 +64,62 @@ HelpMessages:
   info:
     msg: "/te info <enchantname> : displays the detail information of the specified enchantment."
     permission: "tokenenchant.list"
-  news:
-    msg: "/te news : display the news associated with the current release."
-    permission: "tokenenchant.news"
+  customdisplay:
+    msg: "/te customdisplay : toggle the use of custom display name for vanilla enchants."
+    permission: "tokenenchant.customdisplay"
 
+CommandAliases:
+  - "token"
+  - "te"
 
 ###########################
 # Messages used by the plugin
 ###########################
 Messages:
   ErrorMessage: "&c [TE] : Some error occured."
-  SelfBalance: "&a[TE] You currently have &b%token% &atokens."
+  SelfBalance:
+    msg: "&a[TE] You currently have &b%tokens% &atokens."
+    outlet: cat  #c : chat, a: actionbar, t : title
   NoOthersBalance: "&c[TE] You are not allowed to check other's balance."
   NoTargetPlayer: "&a[TE] A player needs to be specified."
   PlayerOffline: "&a[TE] &e%player% &ais currently offline."
   PlayerNotFound: "&a[TE] &e%player% &awas not found."
-  Balance: "&a[TE] &e%player% &acurrently has &b%token% &atokens."
-  SetSuccess: "&a[TE] You have set &e%token% &atokens to &e%player%&a."
-  AddSuccess: "&a[TE] You have added &e%token% &atokens to &e%player%&a."
-  PaySuccess: "&a[TE] You have paid &e%token% &atokens to &e%player%&a." # or %receipient%
-  Received: "&a[TE] You have received &e%token% &atokens from &e%sender%&a."
-  Deducted: "&a[TE] &e%token% &atokens have been deducted."
-  RemoveSuccess: "&a[TE] You have removed &e%token% &atokens from &e%player%&a."
+  Balance: "&a[TE] &e%player% &acurrently has &b%tokens% &atokens."
+
+  SetSuccess: "&a[TE] You have set &e%tokens% &atokens to &e%player%&a."
+  AddSuccess: "&a[TE] You have added &e%tokens% &atokens to &e%player%&a."
+  PaySuccess: "&a[TE] You have paid &e%tokens% &atokens to &e%player%&a." # or %receipient%
+  Received: "&a[TE] You have received &e%tokens% &atokens from &e%sender%&a."
+  Deducted: "&a[TE] &e%tokens% &atokens have been deducted."
+  RemoveSuccess: "&a[TE] You have removed &e%tokens% &atokens from &e%player%&a."
   NotEnoughTokens: "&c[TE] You do not have enough tokens. You need at least %needed% tokens."
   NotEnoughTokenItems: "&c[TE] You do not have enough token items. You need at least %needed% token item(s)."
   NotEnoughExpLevels: "&c[TE] You do not have enough EXP levels. You need at least %exp_needed% EXP level(s)."
   WithdrawSuccess: "&a[TE] You have withdrawn &e%tokens% &atokens."
+  ChequeIssued: "&a[TE] You have withdrawn &e%tokens% &atokens and issued a cheque."
+  ChequeDeposited: "&a[TE] &e%tokens% &atokens have been deposited."
+  ChequeReceived: "&a[TE] You have received a token cheque worth &e%tokens% &atokens from &e%sender%&a."
   InventoryFull: "&a[TE] Inventory is full! &e%tokens% &atokens could not be withdrawn!"
-  ExchangeSuccess: "&a[TE] &e+ %token% &atoken(s) has been added to your account."
+  ExchangeSuccess: "&a[TE] &e+ %tokens% &atoken(s) has been added to your account."
   NeedToHoldItem: "&c[TE] You need to hold an item to enchant."
-  CannotEnchantThis: "&c[TE] You cannot enchant the item you're holding."
-  CannotRepairThis: "&c[TE] You cannot repair the item you're holding."
+  CannotEnchantThis: "&c[TE] You cannot enchant the item you're holding. (%reason%)"
+  CannotRepairThis: "&c[TE] You cannot repair the item you're holding. (%reason%)"
   EnchantSuccess:
-    msg: "&a[TE] &e+ %addedlevel% &d%enchant% &aenchantment level. %token% tokens have been deducted."
+    msg: "&a[TE] &e+ %addedlevel% &d%enchant% &aenchantment level. %tokens% tokens have been deducted."
     sound: LEVEL_UP
-  RepairSuccess: "&a[TE] &eThe item repaired. %token% tokens have been deducted."
+  RepairSuccess: "&a[TE] &eThe item repaired. %tokens% tokens have been deducted."
   MaxedOut: "&c[TE] Your item has already maxed out on &e%enchant% &cenchantment."
   NoPermission: "&c[TE] You don't have a permission for this!"
   NoSuchEnchant: "&c[TE-Admin] That (&e%enchant%&c) is not a valid enchant. Please specify the enchant listed in the config file."
   TokenItemsGiven: "&a[TE] &e%tokenitems% &atoken items were given to &e%player%&a."
   NoPriceSet: "&a[TE] Price is not set for this."
-  CommandSuccess: "&a[TE] &e%command%&a was executed, and it cost &e%token% tokens."
+  CommandSuccess: "&a[TE] &e%command%&a was executed, and it cost &e%tokens% tokens."
+  NoSuchCommand: "&c[TE] No such a command!"
   NeedPermission: "&a[TE] You need a permission &etokenenchant.alias.command.%command% &ato use this command &e%command%&a."
-  CannotDeEnchantThis: "&c[TE] We cannot de-enchant the item you're holding."
-  CannotRefundThis: "&c[TE] We cannot refund the item you're holding."
-  RefundSuccess: "&a[TE] &e - %refundlevel% &d%enchant% &aenchantment level. %token% tokens have been refunded."
-  BackPackGiven: "&a[TE] %player% has given a backpack and %token% toknes has been deducted."
+  CannotDisEnchantThis: "&c[TE] We cannot dis-enchant the item you're holding. (%reason%)"
+  CannotRefundThis: "&c[TE] We cannot refund the item you're holding. (%reason%)"
+  RefundSuccess: "&a[TE] &e - %refundlevel% &d%enchant% &aenchantment level. %tokens% tokens have been refunded."
+  BackPackGiven: "&a[TE] %player% has given a backpack and %tokens% toknes has been deducted."
   VKBackPackNotFound: "&a[TE] VKBackPack plugin was not found."
   TokenBalTopHeader: "&a[TE] Token Balance Top - page:%page%/%total%-"
   TokenBalTopList: "%rank%. %name%, %balance%"
@@ -116,10 +129,28 @@ Messages:
   CannotUseMoreEnchant:
     msg: "&c[TE] You cannot use an item with enchants more than &e%max%&c."
     sound: ITEM_BREAK
+    outlet: cat  #c : chat, a: actionbar, t : title
   CEListHeader: "&a[TE] Resistered Custom Enchantments - page:%page%/%total%-"
   CEListList: "%name% (%version%), max:%max%, %description%"
   CEListTypeMore: "&a[TE] Type &c/te list %next% &ato read the next page."
   CannotUseTokenItem: "&c[TE] You cannot use TokenItems for crafting!"
+  CustomDisplayToggle: "&a[TE] Changed the CustomEnchantDisplay to &e%state%&a."
+
+Reasons:
+  Conflict: "Conflict"
+  NotAllowed: "Not allowed to have the specified enchantment."
+  NoRefund: "Refund is not enabled for this."
+  MissedChance: "Lack of enchantment chance!"
+  NoSuchEnchant: "No such enchantment."
+  DoesNotHave: "It does not have it."
+
+# this option is introduced from v18.0.1
+# this option is for the target outlet of the messages to go. Previously, they were all sent to chat.
+MessageOutlet:
+  Title: false
+  ActionBar: false
+  Chat: true
+
 
 ###############################
 # Enchant information format
@@ -140,6 +171,8 @@ InfoFormat:
   - "&a Base price : &e%price%"
   - "&a Cost formula: &e%formula%"
   - "&a Occurrence: &e%occurrence%"
+  - "&a Rarity: &e%rarity%"
+  - "&a Treasure: &e%treasure%"
   - "&a Description: &e%description%"
 
 
@@ -166,6 +199,8 @@ UseDynamicSignUpdate: true
 
 Currency: token # token, money, or (exp...not supported atm)
 
+# token value formatter used for %token% or %tokens% placeholder.
+NumberFormat: "%,.0f"
 
 # formating of number
 BeautifyNumber: false
@@ -184,6 +219,7 @@ OrderChars:
 
 EnchantSign: "[&9Enchant&8]"
 CostPlaceHolder: "{ench_cost}"
+CostMaxPlaceHolder: "&cMaxed"
 #
 ExchangeSign: "[&9Exchange&8]"
 ExchangeRate: 1
@@ -200,14 +236,28 @@ RepairBase: 1
 RepairDiscount: 0.05
 RepairRatePlaceHolder: "{rep_rate}"
 #
-#
+
+####### Token Item
 TokenItem: MAGMA_CREAM
 TokenItemName: "&aTokenItem"
 TokenItemLore: "&bHold it in your hand and\n&bRight-Click to redeem &eTokens"
+TokenItemGlow: true
+
+####### Token Cheque
+TokenCheque: PAPER
+TokenChequeName: "&aTokenCheque"
+TokenChequeLore:
+    - "&e%tokens% &7tokens"    # make sure the money amount is in the 1st line!
+    - "&7Issued by %player%"
+    - "&7Right-Click to Redeem"
 
 #
 # Enchantment lore prefix
 EnchantmentLorePrefix: "&r&7"
+
+# if an enchantment is disabled, the following string will be
+# displayed instead of its enchantment level.
+DisabledSuffix: "&7(Disabled)"
 
 #
 #
@@ -230,16 +280,13 @@ PureRomanNumeral: false
 # also it will convert enchantment.level.xxx into xxxx
 # default : true
 # this option is no longer used.
-#CustomEnchantDisplay: true
+CustomEnchantDisplay: true
 
 #
 MaxEnchantLevel: 100
 
 #
-UseEnchantmentTable: false
-DefaultEnchantChance: 0.7
-UseTokenEnchantSettingForVanillaEnchant: false
-
+UseEnchantmentTable: true
 
 # Deprecated, use DefaultFormula option and CostFormulae.js
 TokenFormula:
@@ -304,13 +351,18 @@ IgnoreSelfDamage: true
 # if this option is true, TE will handle enchant merging via Anvil
 AnvilMerge: true
 
-#
 # Merge mode: when two items of the same type is merged in anvil, NONE, ADD, MAX, VANILLA
 MergeMode: ADD
 
+# cap repair cost : when you using an anvil to repair/merge/rename item(s), if the
+# calculated EnchantmentCost go beyond this max repair cost (40),
+# you can specify to cap the cost at the specified level (<= 40);
+# if this value is -1, cost won't be capped and anvil might not proceed with "Too Expensive"
+RepairCostCap: 40
+
 #
 # the mode of permission node for each effect, default=ENCHANT
-# ENCHANT : the permission node is considered to determine whether a player can enchant or deenchant
+# ENCHANT : the permission node is considered to determine whether a player can enchant or disenchant
 # USE : the permission node is considered to determine whether a player can use the effect or not.
 PermissionMode: ENCHANT
 
@@ -393,9 +445,10 @@ EventPriorityMap:
   PlayerMoveEvent: "LOWEST"
   InventoryClickEvent_StopCrafting: "MONITOR"
   PlayerInteractEvent_TokenItem: "HIGH" # interacting with TokenItem.
+  TEBlockExplodeEvent: "MONITOR"
 
 #
-# potion effects included in the default TE:
+# potion effects from vanilla potion effects which do not need separate .jar files
 # Haste (Bukkit name: FAST_DIGGING)
 # Speed (Bukkit name: SPEED)
 # Nightvision (Bukkit name: NIGHT_VISION)
@@ -407,20 +460,6 @@ EventPriorityMap:
 # Saturation (Bukkit name: SATURATION)
 # HealthBoost (Bukkit name: HEALTH_BOOST)
 # Strength (Bukkit name: INCREASE_DAMAGE)
-# Blindness (Bukkit name: BLINDNESS)
-# Confusion (Bukkit name: CONFUSION)
-# Harm (aka Instant Damage, Bukkit name: HARM)
-# Hunger (Bukkit name: HUNGER)
-# Poison (Bukkit name: POISON)
-# Slow (Bukkit name: SLOW)
-# Weakness (Bukkit name: WEAKNESS)
-# Wither (Bukkit name: WITHER)
-# Molten (custom : attacker catches fire)
-# Fly (custom effect : item holder can fly)
-# Explosive : this is a custom effect, which will blow up surrounding blocks. It has an option of auto smelt. This Explosive effect works with MineResetLitePlus's mined block counting as well as Lucky Block feature!
-# Excavation : this is a custom effect, It is just like Explosive but it will remove entire cuboid
-# Sphered : this is a custom effect, It is just like Explosive but it will remove entire sphere
-# BedrockBreaker (custom: allow you to break a bedrock block)
 #
 # You can set the duration to -1 to give infinite potion effects.
 #
@@ -453,6 +492,15 @@ Potions:
       allowed_items:
         - DIAMOND_BOOTS
         - GOLD_BOOTS
+    Invisibility:
+      price: 10
+      max: 1
+      # You can set the occurrence
+      # random: randomly occur based on the level
+      # always: occur always.
+      occurrence: always
+      allowed_items:
+        - DIAMOND_HELMET
     Nightvision:
       price: 10
       max: 10
@@ -467,17 +515,6 @@ Potions:
       # random: randomly occur based on the level
       # always: occur always.
       occurrence: random
-    Harm:
-      price: 10
-      max: 1
-      #
-      # level_multiplier * the level of potion will be used as
-      # the level of Harm potion.
-      level_multiplier: 1
-      # You can set the occurrence
-      # random: randomly occur based on the level
-      # always: occur always.
-      occurrence: always
     Regeneration:
       price: 10
       max: 2
@@ -487,7 +524,7 @@ Potions:
       # random: randomly occur based on the level
       # always: occur always.
       occurrence: always
-    FireRegistance:
+    FireResistance:
       price: 10
       max: 1
       duration_multiplier: 1800
@@ -534,7 +571,7 @@ Potions:
 # Luck (LUCK)
 # Lure (LURE)
 # Mending / Repair (MENDING)
-# Repiration (OXYGEN)
+# Respiration (OXYGEN)
 # Protection (PROTECTIOHN_ENVIRONMENTAL)
 # BlastProtection (PROTECTION_EXPLOSIONS)
 # FeatherFall (PROTECTION_FALL)
@@ -699,4 +736,16 @@ Items:
         - Unbreaking
         - Fortune
         - Efficiency
+
+# This is included from v18.7.0
+# this provides the default pickup handling of TEBlockExplodeEvent
+# if you have another more sophisticated pickup plugin like VKAutoPickup,
+# this option should be set to false.
+TEBlockExplodeEvent:
+  process: true
+  #if process is true and pickup is false, blocks will be dropped naturally.
+  pickup: true
+
+# the following option determines the interval of token balance top calculation occurs (in seconds).
+BalanceTopCalculation: 60
 ```
