@@ -12,3 +12,4 @@ Potions:
     support_projectile: false  # if it's true, projectile attack will also teleport you.
     offset: 2.0   # distance from your opponent when you get teleported.
     occurrence: random
+    target: BOTH # PLAYER, MOB, or BOTH

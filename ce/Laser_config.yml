@@ -22,5 +22,8 @@ Potions:
     sound: true
     particle: REDSTONE
     rgb: "255,0,0"
+    min_rgb: "255,0,0"
+    max_rgb: "0,0,255"
     occurrence: always
-    sneak: false # if this is true, you need to shift_right_click to cast the laser
+    sneak: false # if this is true, you need to shift_click to cast the laser
+    trigger: RIGHT_CLICK # or LEFT_CLICK, RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, or LEFT_CLICK_BLOCK

@@ -1,5 +1,6 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
 #plugin.url:https://polymart.org/resource/te-crossexplosionenchant.246
+#plugin.demo:[![demo](https://img.youtube.com/vi/Kzxb6UBHB-Q/0.jpg)](https://youtu.be/Kzxb6UBHB-Q)
 #plugin.price:US$3.0
 #plugin.enchant.category:Mining
 Potions:
@@ -23,4 +24,5 @@ Potions:
     occurrence: random
     cooldown: 20 # inseconds
     cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
-    maxRadius: 100 
+    maxRadius: 100
+    use_level_as_depth:	true
