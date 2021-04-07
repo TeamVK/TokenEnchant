@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (277 registered)
+## List of Currently Known Custom Enchantments. (286 registered)
 
 Enchantment Name | Description | Category | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | --- | ---
@@ -199,7 +199,16 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="OreSeeker"></a>[OreSeeker](https://polymart.org/resource/te-oreseekerenchant.325) | "(aka Vein Mining) Let this enchant to seek other similar ores around you!" | Mining |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](OreSeeker_config.yml) | free
 <a name="Over9000"></a>[Over9000](https://polymart.org/resource/tokenenchant.155) | "This enchant when put on gives you strength 3 constantly but also gives you mining fatigue 2." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Over9000_config.yml) | US$3.0
 <a name="Overheal"></a>[Overheal](https://www.spigotmc.org/resources/73289/) | 'Receive the extra health as absorption effect for a certain amount of time' | Any |  | [GabyTM](https://www.spigotmc.org/members/386419/) | [config](Overheal_config.yml) | free
+<a name="PA-Blindness"></a>[PA-Blindness](https://te.polymart.org/resource/te-passiveagressiveenchant.922) | "Cast the Wither effect to your opponent when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](PA-Blindness_config.yml) | free
+<a name="PA-Confusion"></a>[PA-Confusion](https://te.polymart.org/resource/te-passiveagressiveenchant.922) | "Cast the Wither effect to your opponent when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](PA-Confusion_config.yml) | free
+<a name="PA-Harm"></a>[PA-Harm](https://te.polymart.org/resource/te-passiveagressiveenchant.922) | "Cast the Wither effect to your opponent when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](PA-Harm_config.yml) | free
+<a name="PA-Hunger"></a>[PA-Hunger](https://te.polymart.org/resource/te-passiveagressiveenchant.922) | "Cast the Wither effect to your opponent when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](PA-Hunger_config.yml) | free
+<a name="PA-Poison"></a>[PA-Poison](https://te.polymart.org/resource/te-passiveagressiveenchant.922) | "Cast the Wither effect to your opponent when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](PA-Poison_config.yml) | free
+<a name="PA-Slow"></a>[PA-Slow](https://te.polymart.org/resource/te-passiveagressiveenchant.922) | "Cast the Wither effect to your opponent when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](PA-Slow_config.yml) | free
+<a name="PA-Weakness"></a>[PA-Weakness](https://te.polymart.org/resource/te-passiveagressiveenchant.922) | "Cast the Wither effect to your opponent when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](PA-Weakness_config.yml) | free
+<a name="PA-Wither"></a>[PA-Wither](https://te.polymart.org/resource/te-passiveagressiveenchant.922) | "Cast the Wither effect to your opponent when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](PA-Wither_config.yml) | free
 <a name="Particle"></a>[Particle](https://polymart.org/resource/te-badpotionenchant.169) | "This enchant will create Ash particle effect." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Particle_config.yml) | US$3
+<a name="PassiveAgressive"></a>[PassiveAgressive](https://te.polymart.org/resource/te-passiveagressiveenchant.922) | "Cast the Wither effect to your opponent when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](PassiveAgressive_config.yml) | free
 <a name="PiercingSpeed"></a>[PiercingSpeed](https://polymart.org/resource/tokenenchant.155) | "Activates a haste 1 on the pickaxe increasing the braking speed activated on enchant." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](PiercingSpeed_config.yml) | US$3.0
 <a name="PikachuThunder"></a>[PikachuThunder](https://polymart.org/resource/te-pikachuthunderenchant.244) | "It will create PikachuThunder, which will give damage to nearby entities." | PvP | [![demo](https://img.youtube.com/vi/s7VyEIrK-iU/0.jpg)](https://www.youtube.com/watch?v=s7VyEIrK-iU) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](PikachuThunder_config.yml) | US$1.5
 <a name="PlungerClimber"></a>[PlungerClimber](https://polymart.org/resource/te-plungerclimberenchant.302) | "You can climb up the wall with plunger climber enchanted tool! | Any | [![demo](https://img.youtube.com/vi/BdSbdDQSU0I/0.jpg)](https://www.youtube.com/watch?v=BdSbdDQSU0I) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](PlungerClimber_config.yml) | free

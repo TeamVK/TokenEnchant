@@ -32,3 +32,7 @@ Potions:
       - LADDER
       - STONE_PLATE
       - "STAINED_GLASS:11"
+    # if max_depth is -1, the drill depth will be determined as:
+    # depth = level * (radius + 1);
+    # if max_depth > 0 is specified, max level will yield that depth.
+    max_depth: -1

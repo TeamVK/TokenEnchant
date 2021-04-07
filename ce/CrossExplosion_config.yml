@@ -25,4 +25,4 @@ Potions:
     cooldown: 20 # inseconds
     cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
     maxRadius: 100
-    use_level_as_depth:	true
+    use_level_as_depth: true
