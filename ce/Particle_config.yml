@@ -13,14 +13,42 @@ Enchants:
     price: 10
     max: 5
     occurrence: always # you can set it to random as well.
-    particle: "ASH"
-
     #
-    # if duration_multiplier is set, duration = level * duration_multiplier
-    duration_multiplier: 300
-    # otherwise
-    duration: 300
-    # if this option is set > 0, this amplifire is applied regardless of the enchant level
-    amplifier: -1
+    particles:
+      ASH:
+        # if duration_multiplier is set, duration = level * duration_multiplier
+        duration_multiplier: 300
+        # otherwise
+        duration: 300
+        # if this option is set > 0, this amplifire is applied regardless of the enchant level
+        amplifier: -1
+
+  Ash2:
+    description: "This enchant will create Ash particle effect."
+    event_map:
+      BlockBreakEvent: "HIGH"
+      PlayerMoveEvent: "HIGH"
+      ProjectileLaunchEvent: "HIGH"
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 5
+    occurrence: always # you can set it to random as well.
+    #
+    particles:
+      ASH:
+        # if duration_multiplier is set, duration = level * duration_multiplier
+        duration_multiplier: 300
+        # otherwise
+        duration: 300
+        # if this option is set > 0, this amplifire is applied regardless of the enchant level
+        amplifier: -1
+      REDSTONE:
+        # if duration_multiplier is set, duration = level * duration_multiplier
+        duration_multiplier: 300
+        # otherwise
+        duration: 300
+        # if this option is set > 0, this amplifire is applied regardless of the enchant level
+        amplifier: -1
+
 
 

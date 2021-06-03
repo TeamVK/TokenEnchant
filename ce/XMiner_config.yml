@@ -1,0 +1,130 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://te.polymart.org/resource/te-xminerenchant.1115
+#plugin.price:US$5
+#plugin.enchant.category:Any
+Enchants:
+  ################### XMiner (aka xxx-Miner)
+  TokenMiner:
+    description: "It allows to earn tokens from mining!"
+    # use this option to resolve any conflict with other plugin(s) such as AutoSell
+    event_map:
+      BlockBreakEvent: "LOW"
+      TEBlockExplodeEvent: "LOW"
+    price: 10
+    max: 4
+    multiplier: 2
+    occurrence: always
+    applyfortune: false
+    fortune_multiplier: 2
+    action_bar_message: "&aYou mined &e%amount% &atokens!"
+    effect: "MOBSPAWNER_FLAMES"
+    sound: "ORB_PICKUP"
+    interval: 10 #every 10 blocks mined, you get the tokens.
+    commands:
+      - "!te add %player% %amount%"
+
+    # choices of triggering the lucky reward are
+    # ANY (all types)
+    # FISHING
+    # WOODCUTTING
+    # MINING (mining minirals)
+    # FARMING (harvesting crops)
+    triggers:
+      - MINING
+
+    # you can list type of blocks associated with mining (mineral), woodcutting (wood)
+    # and farming (Crop)
+    block_types:
+      mineral:
+        - DIAMOND_ORE
+        - IRON_ORE
+
+  ################### Key miner
+  KeyMiner:
+    description: "It allows to mine a key (such as crate key) from mining/fishing/woodcutting/etc!"
+    # use this option to resolve any conflict with other plugin(s) such as AutoSell
+    event_map:
+      BlockBreakEvent: "LOW"
+      TEBlockExplodeEvent: "LOW"
+      PlayerFishEvent: "NORMAL"
+    price: 10
+    max: 4
+    multiplier: 2
+    occurrence: always
+    applyfortune: false
+    fortune_multiplier: 1
+    action_bar_message: "&aYou mined &e%amount% &akeys!"
+    effect: "MOBSPAWNER_FLAMES"
+    sound: "ORB_PICKUP"
+    interval: 100 #every 10 blocks mined, you get the points.
+    # one of listed commands will be randomly selected and executed.
+    # adjust the command based on the crate plugin on your system.
+    commands:
+      - "!crate give %player% tier1"
+      - "!crate give %player% tier2"
+      - "!crate give %player% tier3"
+
+    # choices of triggering the lucky reward are
+    # ANY (all types)
+    # FISHING
+    # WOODCUTTING
+    # MINING (mining minirals)
+    # FARMING (harvesting crops)
+    triggers:
+      - ANY
+
+    # you can list type of blocks associated with mining (mineral), woodcutting (wood)
+    # and farming (Crop)
+    block_types:
+      mineral:
+        - DIAMOND_ORE
+        - IRON_ORE
+      wood:
+        - LOG
+        - LOG_2
+      crop:
+        - CROPS
+
+  ################### PointMiner
+  PointMiner:
+    description: "It allows to earn player (PlayerPoints plugin) points from mining!"
+    # use this option to resolve any conflict with other plugin(s) such as AutoSell
+    event_map:
+      BlockBreakEvent: "LOW"
+      TEBlockExplodeEvent: "LOW"
+      PlayerFishEvent: "NORMAL"
+    price: 10
+    max: 4
+    multiplier: 2
+    occurrence: always
+    applyfortune: false
+    fortune_multiplier: 2
+    action_bar_message: "&aYou mined &e%amount% &apoints!"
+    effect: "MOBSPAWNER_FLAMES"
+    sound: "ORB_PICKUP"
+    interval: 10 #every 10 blocks mined, you get the points.
+    commands:
+      - "!points give %player% %amount%"
+
+    # choices of triggering the lucky reward are
+    # ANY (all types)
+    # FISHING
+    # WOODCUTTING
+    # MINING (mining minirals)
+    # FARMING (harvesting crops)
+    triggers:
+      - MINING
+      - WOODCUTTING
+
+    # you can list type of blocks associated with mining (mineral), woodcutting (wood)
+    # and farming (Crop)
+    block_types:
+      mineral:
+        - "*"  # this means any materials.
+      wood:
+        - LOG
+        - LOG_2
+      crop:
+        - CROPS
+
+  ################### You can add more XXXX-Miner below.

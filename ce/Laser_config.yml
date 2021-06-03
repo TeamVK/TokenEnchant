@@ -27,3 +27,4 @@ Potions:
     occurrence: always
     sneak: false # if this is true, you need to shift_click to cast the laser
     trigger: RIGHT_CLICK # or LEFT_CLICK, RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, or LEFT_CLICK_BLOCK
+    radius: -1 # if it's -1, the (level-1) will be used as the radius, >=0 value will be used as the fixed radius
