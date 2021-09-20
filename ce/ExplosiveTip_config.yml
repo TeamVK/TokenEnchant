@@ -1,8 +1,8 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
-#plugin.url:https://polymart.org/resource/tokenenchant.155
-#plugin.price:US$4.0
+#plugin.url:https://te.polymart.org/resource/te-explosivetipenchant.1445#
+#plugin.price:US$2.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   ExplosiveTip:
     description: "It allows you to cause an explosion upon attack."
     event_map:
@@ -18,5 +18,5 @@ Potions:
     cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
     allowed_items:
       - BOW
-    pve: true. # if this is true, you can damage mobs
+    pve: true # if this is true, you can damage mobs
     power_multiplier: 1.0 # power of explosion = level * multiplier

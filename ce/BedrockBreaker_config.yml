@@ -5,6 +5,9 @@
 Potions:
   BedrockBreaker:
     description: "Allow you to break a bedrock block!"
+    event_map:
+      PlayerInteractEvent: "HIGHEST"
+      BlockBreakEvent: "HIGHEST"
     price: 10
     max: 5
     occurrence: always

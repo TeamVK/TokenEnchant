@@ -38,6 +38,8 @@ Enchants:
     # WOODCUTTING
     # MINING (mining minirals)
     # FARMING (harvesting crops)
+    # PVP (killing players)
+    # PVE (killing hostile mobs)
     triggers:
       - MINING
       - WOODCUTTING

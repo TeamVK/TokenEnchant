@@ -1,8 +1,8 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
-#plugin.url:https://polymart.org/resource/tokenenchant.155
+#plugin.url:https://te.polymart.org/resource/te-sharpenediceenchant.1443/webhooks
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   SharpenedIce:
     description: "Put your enemy in a box of ice!"
     event_map:

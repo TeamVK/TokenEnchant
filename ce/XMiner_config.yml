@@ -20,6 +20,7 @@ Enchants:
     effect: "MOBSPAWNER_FLAMES"
     sound: "ORB_PICKUP"
     interval: 10 #every 10 blocks mined, you get the tokens.
+    # @ -> execute as a player, > -> execute as an op, ! -> execute as a console.
     commands:
       - "!te add %player% %amount%"
 
