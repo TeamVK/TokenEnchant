@@ -21,7 +21,6 @@ Potions:
     # random: randomly occur based on the level
     # always: explosion occur always.
     occurrence: random
-    use_explode_event: true # use efficient explode event.
     use_level_as_depth: false  #use the level of enchant to decide the depth of slicing.
     fixedDepth: 1
     cooldown: 20  # inseconds

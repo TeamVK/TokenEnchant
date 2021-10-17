@@ -7,10 +7,11 @@ Potions:
     description: "If you shoot with a bow with this enchantment, it will shoot a witherskull instead of an arrow, and the witherskull will give damage only to a living entity and leave surrounding blocks without any damages."
     event_map:
       EntityShootBowEvent: "NORMAL"
-      ProjectileHitEvent: "LOWEST"
       EntityExplodeEvent: "HIGHEST"
       PlayerQuitEvent: "HIGHEST"
       PlayerToggleSneakEvent: "HIGHEST"
+      EntityDamageByEntityEvent: "LOW"
+      #ProjectileHitEvent: "LOWEST"  # replaced with EntityDamageByEntityEvent in order to support older server.
     price: 10
     max: 1
     damage: 3
