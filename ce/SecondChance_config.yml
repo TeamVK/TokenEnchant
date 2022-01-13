@@ -6,6 +6,8 @@ Enchants:
   SecondChance:
     description: "This enchant will save you 'once' from being killed at the last minute from your death!"
     event_map:
+      EntityDamageEvent: "HIGH"
       EntityDamageByEntityEvent: "HIGH"
     price: 0
     max: 1
+    remove_option: ITEM  # choice is ITEM : remove the item, or ENCHANT : remove the enchant from an item.

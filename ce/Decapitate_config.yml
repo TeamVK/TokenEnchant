@@ -21,6 +21,8 @@ Potions:
     decapitated_message: "&b%killed% was beheaded by %killer%"
     display_message: true
     occurrence: random
+    heads:  # texture for mobs
+      AXOLOTL: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2I4M2EzOGE0NThjM2NjYTA3NjFlMmM4MjEwYzZmNWQyZjMzODBlODYwZDUwZDJmNDc1NjUxNmEyNjQyNjE3ZCJ9fX0="
     # you can list mob type or player names.
     blacklist:
       - WITHER

@@ -11,10 +11,9 @@ Potions:
     max: 1
     occurrence: always
     mapping:
-      DIAMOND_ORE : DIAMOND
+      RAW_IRON : IRON_INGOT
       IRON_ORE : IRON_INGOT
+      RAW_GOLD : GOLD_INGOT
       GOLD_ORE : GOLD_INGOT
-      COAL_ORE : COAL
-      EMERALD_ORE : EMERALD
       COBBLESTONE : STONE
       SAND : GLASS

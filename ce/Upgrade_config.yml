@@ -4,7 +4,8 @@
 #plugin.enchant.category:Any
 Potions:
   Upgrade:
-    description: "With a small chance, upgrade a randomly selected enchantment level."
+    # alias: "Ascension"
+    description: "(aka Ascension) With a small chance, upgrade a randomly selected enchantment level."
     event_map:
       PlayerFishEvent: "NORMAL"
       BlockBreakEvent: "NORMAL"

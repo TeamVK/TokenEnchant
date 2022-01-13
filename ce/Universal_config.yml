@@ -19,47 +19,47 @@ Potions:
     # if you want DIRT, GRASS, GRASs_BLOCK/PATH to trigger a hoe, you should move HOE
     # to above SHOVEL.
     tool_search_order:
+      - SHEARS
+      - HOE
+      - SHOVEL
       - AXE
       - PICKAXE
-      - SHOVEL
       - SWORD
-      - HOE
-      - SHEARS
 
     levels:
       1:
         axe: WOOD_AXE
         pickaxe: WOOD_PICKAXE
         sword: WOOD_SWORD
-        spade: WOOD_SPADE
+        spade: WOOD_SPADE #WOOD_SHOVEL
         hoe: WOOD_HOE
       2:
         axe: STONE_AXE
         pickaxe: STONE_PICKAXE
         sword: STONE_SWORD
-        spade: STONE_SPADE
+        spade: STONE_SPADE #STONE_SHOVEL
         hoe: STONE_HOE
       3:
         axe: IRON_AXE
         pickaxe: IRON_PICKAXE
         sword: IRON_SWORD
-        spade: IRON_SPADE
+        spade: IRON_SPADE #IRON_SHOVEL
         hoe: IRON_HOE
       4:
         axe: GOLD_AXE
         pickaxe: GOLD_PICKAXE
         sword: GOLD_SWORD
-        spade: GOLD_SPADE
+        spade: GOLD_SPADE #GOLD_SHOVEL
         hoe: GOLD_HOE
       5:
         axe: DIAMOND_AXE
         pickaxe: DIAMOND_PICKAXE
         sword: DIAMOND_SWORD
-        spade: DIAMOND_SPADE
+        spade: DIAMOND_SPADE #DIAMOND_SHOVEL
         hoe: DIAMOND_HOE
       6:
         axe: NETHERITE_AXE
         pickaxe: NETHERITE_PICKAXE
         sword: NETHERITE_SWORD
-        spade: NETHERITE_SPADE
+        spade: NETHERITE_SPADE  #NETHERITE_SHOVEL
         hoe: NETHERITE_HOE

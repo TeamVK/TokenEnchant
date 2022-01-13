@@ -34,9 +34,9 @@ Potions:
     # use this list to avoid your crates being exploded.
     # AIR and BEDROCK are already exempted by defalt
     exemptions:
-      - ENDER_CHEST
+      - ENDER_CHEST:0
       - GLOWSTONE
-      - LADDER
+      - LADDER:0
       - STONE_PLATE
     conflict_with:
       - Explosive
