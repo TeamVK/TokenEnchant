@@ -16,7 +16,7 @@ hant!"
     cooldown: -1
     cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
     occurrence: always
-    to_mint_top: true
+    to_mine_top: true
     to_set_location: true
     set_location_message: "&a[TE] You have set the teleport destination."
     teleported_message: "&a[TE] You have been teleported."

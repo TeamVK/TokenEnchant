@@ -1,0 +1,40 @@
+#plugin.author:[vk2gpz](https://polymart.org/team/teamvk.4)
+#plugin.url:https://te.polymart.org/resource/te-blowerenchant.1911
+#plugin.price:US$3.0
+#plugin.enchant.category:Mining
+Enchants:
+  Leafblower:
+    description: "Right click to blow (remove/pickup) leaves."
+    event_map:
+      PlayerInteractEvent: "LOW"
+      TEBlockExplodeEvent: "NORMLAL"
+    price: 10
+    max: 5
+    cooldown: -1
+    cooldown_message: ""
+    blow_sound: MAGMACUBE_JUMP
+    occurrence: always
+    sneak: false # if this is true, you need to shift_click to cast the laser
+    trigger: RIGHT_CLICK # or LEFT_CLICK, RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, or LEFT_CLICK_BLOCK
+    radius: -1 # if it's -1, the (level-1) will be used as the radius, >=0 value will be used as the fixed radius
+    # if the material name starts with "_", all materials ends with "_XXX" will be used.
+    materials:
+      - "_LEAVES"
+      - "_LEAVES_2"
+
+  Grassblower:
+    description: "Right click to blow (remove/pickup) grass/flowers."
+    event_map:
+      PlayerInteractEvent: "LOW"
+      TEBlockExplodeEvent: "NORMLAL"
+    price: 10
+    max: 5
+    cooldown: -1
+    cooldown_message: ""
+    blow_sound: MAGMACUBE_JUMP
+    occurrence: always
+    sneak: false # if this is true, you need to shift_click to cast the laser
+    trigger: RIGHT_CLICK # or LEFT_CLICK, RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, or LEFT_CLICK_BLOCK
+    radius: -1 # if it's -1, the (level-1) will be used as the radius, >=0 value will be used as the fixed radius
+    materials:
+      - "_GRASS"

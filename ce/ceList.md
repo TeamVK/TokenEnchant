@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (278 registered)
+## List of Currently Known Custom Enchantments. (279 registered)
 
 Enchantment Name | Description | Category | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | --- | ---
@@ -39,6 +39,7 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="Blast"></a>[Blast](https://polymart.org/resource/te-blastenchant.272) | "(aka Shockwave) Blasts off nearby players and hostile mobs!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Blast_config.yml) | free
 <a name="Blessing"></a>[Blessing](https://polymart.org/resource/te-generousenchant.610) | "Give out random exp to all online players!" | Economy |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Blessing_config.yml) | US$5.00
 <a name="Blindness"></a>[Blindness](https://polymart.org/resource/te-badpotionenchant.169) | "Cast the Wither effect to your opponent when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Blindness_config.yml) | free
+<a name="Blower"></a>[Blower](https://te.polymart.org/resource/te-blowerenchant.1911) | "Right click to blow (remove/pickup) grass/flowers." | Mining |  | [vk2gpz](https://polymart.org/team/teamvk.4) | [config](Blower_config.yml) | US$3.0
 <a name="BluntCurse"></a>[BluntCurse](https://polymart.org/resource/te-cursecastingenchant.705) | "You can cast a spell to make someone's tool blunt!" | PvP/Mining |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](BluntCurse_config.yml) | US$5
 <a name="Blunter"></a>[Blunter](https://polymart.org/resource/273) | "Give an extra durability damage to your attacker's weapon!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Blunter_config.yml) | free
 <a name="BodyBreaker"></a>[BodyBreaker](https://polymart.org/resource/tokenenchant.155) | "Give durability damage twice the rate!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](BodyBreaker_config.yml) | US$3.5
