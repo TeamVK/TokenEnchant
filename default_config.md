@@ -36,13 +36,16 @@ HelpMessages:
     permission: "tokenenchant.expexchange"
   givetokens:
     msg: "/te givetokens <name> <amount> : gives <name> <amount> tokens."
-    permission: "tokenenchant.expexchange"
+    permission: "tokenenchant.givetokens"
   enchant:
     msg: "/te enchant [name] <enchant> [level] [cost:xxx] : enchants the item <name> is holding with <enchant>."
     permission: "tokenenchant.enchant"
   repair:
     msg: "/te repair [name] [free] : repairs all the enchantments of the item <name> is holding."
     permission: "tokenenchant.repair"
+  disenchant:
+    msg: "/te disenchant [name] <enchant> [level]: disenchant the enchantment <enchant>. If [level] is not specified, level = 1."
+    permission: "tokenenchant.disenchant"
   refund:
     msg: "/te refund [name] <enchant> [level]: refund <name> for the enchantment <enchant>. If [level] is not specified, level = 1."
     permission: "tokenenchant.refund"
@@ -79,7 +82,7 @@ Messages:
   ErrorMessage: "&c [TE] : Some error occured."
   SelfBalance:
     msg: "&a[TE] You currently have &b%tokens% &atokens."
-    outlet: cat  #c : chat, a: actionbar, t : title
+    outlet: cats  #c : chat, a: actionbar, t : title, s : sub_title
   NoOthersBalance: "&c[TE] You are not allowed to check other's balance."
   NoTargetPlayer: "&a[TE] A player needs to be specified."
   PlayerOffline: "&a[TE] &e%player% &ais currently offline."
@@ -119,6 +122,7 @@ Messages:
   CannotDisEnchantThis: "&c[TE] We cannot dis-enchant the item you're holding. (%reason%)"
   CannotRefundThis: "&c[TE] We cannot refund the item you're holding. (%reason%)"
   RefundSuccess: "&a[TE] &e - %refundlevel% &d%enchant% &aenchantment level. %tokens% tokens have been refunded."
+  DisenchantSuccess: "&a[TE] &e - %level% &d%enchant% &aenchantment level."
   BackPackGiven: "&a[TE] %player% has given a backpack and %tokens% toknes has been deducted."
   VKBackPackNotFound: "&a[TE] VKBackPack plugin was not found."
   TokenBalTopHeader: "&a[TE] Token Balance Top - page:%page%/%total%-"
@@ -135,6 +139,7 @@ Messages:
   CEListTypeMore: "&a[TE] Type &c/te list %next% &ato read the next page."
   CannotUseTokenItem: "&c[TE] You cannot use TokenItems for crafting!"
   CustomDisplayToggle: "&a[TE] Changed the CustomEnchantDisplay to &e%state%&a."
+  NoPermissionToEnchant: "&c[TE] You don't have a permission to enchant &e%enchant% &cat the level &e%level% &c!"
 
 Reasons:
   Conflict: "Conflict"
@@ -143,11 +148,14 @@ Reasons:
   MissedChance: "Lack of enchantment chance!"
   NoSuchEnchant: "No such enchantment."
   DoesNotHave: "It does not have it."
+  MaxReached: "Maximum level reached."
+  PlayerNotFound: "Player not found."
 
 # this option is introduced from v18.0.1
 # this option is for the target outlet of the messages to go. Previously, they were all sent to chat.
 MessageOutlet:
   Title: false
+  SubTitle: false
   ActionBar: false
   Chat: true
 
@@ -227,6 +235,7 @@ RatePlaceHolder: "{ex_rate}"
 #
 ExpExchangeSign: "[&9EXP Exch&8]"
 ExpExchangeRate: 20
+ExpLevel: true  # if this option is fale, totalExperience value will be used instead of an exp level.
 ExpRatePlaceHolder: "{exp_rate}"
 #
 WithdrawSign: "[&9Withdraw&8]"
@@ -247,9 +256,9 @@ TokenItemGlow: true
 TokenCheque: PAPER
 TokenChequeName: "&aTokenCheque"
 TokenChequeLore:
-    - "&e%tokens% &7tokens"    # make sure the money amount is in the 1st line!
-    - "&7Issued by %player%"
-    - "&7Right-Click to Redeem"
+  - "&e%tokens% &7tokens"    # make sure the money amount is in the 1st line!
+  - "&7Issued by %player%"
+  - "&7Right-Click to Redeem"
 
 #
 # Enchantment lore prefix
@@ -262,7 +271,7 @@ DisabledSuffix: "&7(Disabled)"
 #
 #
 # option to force remove potion effects at the login
-ForceRemovePotionAtJoin : true
+ForceRemovePotionAtJoin: false
 #
 
 # option to use WorldGuard region
@@ -285,34 +294,43 @@ CustomEnchantDisplay: true
 #
 MaxEnchantLevel: 100
 
-#
-UseEnchantmentTable: true
+# UseEnchantmentTable has been replaced with HideFromNMS
+#UseEnchantmentTable: false
+# if HideFromNMS is true, custom enchants won't appear in Treasure/Villager/EnchantmentTable.
+HideFromNMS: false
+
+# Default enchantment chance.  This is the default chance for enchantment table to consider the enchantment.
+# each custom enchant can control its own enchance chance with enchant_chance: option (0.0 < x < 1.0)
+DefaultEnchantChance: 1.0
 
 # Deprecated, use DefaultFormula option and CostFormulae.js
 TokenFormula:
-    # Valid values are: LINEAR and EXPONENTIAL
-    # If an invalid value is entered, this will reset to the default setting, which is LINEAR
-    # CONSTANT:      price
-    # LINEAR:      price + (level * price)
-    # EXPONENTIAL: price + price * level ^ exponent
-    # EXPONENTIAL2: price * 2 ^ (level - 1)
-    Curve: Linear
+  # Valid values are: LINEAR and EXPONENTIAL
+  # If an invalid value is entered, this will reset to the default setting, which is LINEAR
+  # CONSTANT:      price
+  # LINEAR:      price + (level * price)
+  # EXPONENTIAL: price + price * level ^ exponent
+  # EXPONENTIAL2: price * 2 ^ (level - 1)
+  Curve: Linear
 
-    Constant:
-    Linear:
-    Exponential:
-        exponent: 1.80
+  Constant:
+  Linear:
+  Exponential:
+    exponent: 1.80
 
 # pick one from CostFormulae.js
 DefaultFormula: "linear_diff"
 
-# if this option is true, when you tried to enchant an item, which already has enchantment
-# level, the excess enchantment level will be removed and set to the max level.
-CapOverEnchant: true
-
 # if this option is true, any enchantment level which is over the configured max level
 # will be capped at the max level
+CapOverEnchant: true
+
+# if this option is true, the excess enchantment level will be removed and set to the max level.
 RemoveExcessEnchantLevel: true
+
+# if this option is true, when an item does not have an enchantment but has the corresponding lore entry,
+# TE will try to add the missing enchantment according to the lore entry.
+AddMissingEnchant: true
 
 # Refund related
 AllowRefund: false
@@ -348,6 +366,7 @@ FriendlyFire_McMMO: true
 IgnoreSelfDamage: true
 
 
+########## Anvil related config #############
 # if this option is true, TE will handle enchant merging via Anvil
 AnvilMerge: true
 
@@ -359,6 +378,11 @@ MergeMode: ADD
 # you can specify to cap the cost at the specified level (<= 40);
 # if this value is -1, cost won't be capped and anvil might not proceed with "Too Expensive"
 RepairCostCap: 40
+
+# if this option is true, TE will strip the custom enchants when you open the anvil.
+StripCEsForAnvil: false
+########## Anvil related config #############
+
 
 #
 # the mode of permission node for each effect, default=ENCHANT
@@ -391,33 +415,33 @@ PermissionMode: ENCHANT
 #  world_nether:              <-- The world you wish commands below to be shown in.                          
 #  - "!te_rawmessage %p &aHello, you are in the nether." <-- This message will only be seen if player is in the nether.
 Commands:
-    # example of giving slot 9 chestbackpack to a user (ChestBackpack plugin)
-    # backpack9:
-    #   permission:
-    #    - my.permission.for.backpack9
-    #   price: 30
-    #   default:
-    #     - "!pex user %p add chestbackpack.slots.9"
-    # # example of giving slot 18 chestbackpack to a user (ChestBackpack plugin)
-    # backpack18:
-    #   permission:
-    #     - my.permission.for.backpack18
-    #   price: 60
-    #   default:
-    #     - "!pex user %p add chestbackpack.slots.18"
-    # # example of allowing a player to set his prefix using PermissionsEx command.
-    # setprefix:
-    #   permission:
-    #     - my.permission.for.setprefix
-    #   price: 160
-    #   default:
-    #     - "!pex user %p prefix %1"
-    # letmefly:
-    #   permission:
-    #     - my.permission.for.letmefly
-    #   price: 160
-    #   default:
-    #     - ">fly"
+# example of giving slot 9 chestbackpack to a user (ChestBackpack plugin)
+# backpack9:
+#   permission:
+#    - my.permission.for.backpack9
+#   price: 30
+#   default:
+#     - "!pex user %p add chestbackpack.slots.9"
+# # example of giving slot 18 chestbackpack to a user (ChestBackpack plugin)
+# backpack18:
+#   permission:
+#     - my.permission.for.backpack18
+#   price: 60
+#   default:
+#     - "!pex user %p add chestbackpack.slots.18"
+# # example of allowing a player to set his prefix using PermissionsEx command.
+# setprefix:
+#   permission:
+#     - my.permission.for.setprefix
+#   price: 160
+#   default:
+#     - "!pex user %p prefix %1"
+# letmefly:
+#   permission:
+#     - my.permission.for.letmefly
+#   price: 160
+#   default:
+#     - ">fly"
 
 #
 # default values are listed below.  You can have LOWEST, LOW, NORMAL, HIGH, HIGHEST or MONITOR
@@ -446,6 +470,8 @@ EventPriorityMap:
   InventoryClickEvent_StopCrafting: "MONITOR"
   PlayerInteractEvent_TokenItem: "HIGH" # interacting with TokenItem.
   TEBlockExplodeEvent: "MONITOR"
+  ChunkPopulateEvent: "NORMAL"
+  LootGenerateEvent: "NORMAL"
 
 #
 # potion effects from vanilla potion effects which do not need separate .jar files
@@ -470,85 +496,85 @@ EventPriorityMap:
 #
 # CustomEnchant (CE) effects listed here do not have corresponding external CE modules.
 Potions:
-    Haste:
-      alias: "SpeedDigging"     #You can use your own name for enchant using alias.
-      duration: 200
-      amplifier: 2
-      price: 10
-      max: 10
-      # You can set the occurrence
-      # random: randomly occur based on the level
-      # always: occur always.
-      occurrence: random
-      enchant_chance: 0.8
-      refund_rate: -1
-    Speed:
-      price: 10
-      max: 10
-      # You can set the occurrence
-      # random: randomly occur based on the level
-      # always: occur always.
-      occurrence: random
-      allowed_items:
-        - DIAMOND_BOOTS
-        - GOLD_BOOTS
-    Invisibility:
-      price: 10
-      max: 1
-      # You can set the occurrence
-      # random: randomly occur based on the level
-      # always: occur always.
-      occurrence: always
-      allowed_items:
-        - DIAMOND_HELMET
-    Nightvision:
-      price: 10
-      max: 10
-      # You can set the occurrence
-      # random: randomly occur based on the level
-      # always: occur always.
-      occurrence: random
-    Jump:
-      price: 10
-      max: 10
-      # You can set the occurrence
-      # random: randomly occur based on the level
-      # always: occur always.
-      occurrence: random
-    Regeneration:
-      price: 10
-      max: 2
-      duration_multiplier: 1800
-      #
-      # You can set the occurrence
-      # random: randomly occur based on the level
-      # always: occur always.
-      occurrence: always
-    FireResistance:
-      price: 10
-      max: 1
-      duration_multiplier: 1800
-      occurrence: always
-    Strength:
-      price: 10
-      max: 3
-      duration_multiplier: -1
-      occurrence: always
-    Aqua:
-      price: 10
-      max: 1
-      duration_multiplier: -1
-      occurrence: always
-    Saturation:
-      price: 10
-      max: 3
-      duration_multiplier: -1
-      occurrence: always
-    HealthBoost:
-      price: 10
-      max: 3
-      duration_multiplier: 1200
-      occurrence: always
+  Haste:
+    alias: "SpeedDigging"     #You can use your own name for enchant using alias.
+    duration: 200
+    amplifier: 2
+    price: 10
+    max: 10
+    # You can set the occurrence
+    # random: randomly occur based on the level
+    # always: occur always.
+    occurrence: random
+    enchant_chance: 0.8
+    refund_rate: -1
+  Speed:
+    price: 10
+    max: 10
+    # You can set the occurrence
+    # random: randomly occur based on the level
+    # always: occur always.
+    occurrence: random
+    allowed_items:
+      - DIAMOND_BOOTS
+      - GOLD_BOOTS
+  Invisibility:
+    price: 10
+    max: 1
+    # You can set the occurrence
+    # random: randomly occur based on the level
+    # always: occur always.
+    occurrence: always
+    allowed_items:
+      - DIAMOND_HELMET
+  Nightvision:
+    price: 10
+    max: 10
+    # You can set the occurrence
+    # random: randomly occur based on the level
+    # always: occur always.
+    occurrence: random
+  Jump:
+    price: 10
+    max: 10
+    # You can set the occurrence
+    # random: randomly occur based on the level
+    # always: occur always.
+    occurrence: random
+  Regeneration:
+    price: 10
+    max: 2
+    duration_multiplier: 1800
+    #
+    # You can set the occurrence
+    # random: randomly occur based on the level
+    # always: occur always.
+    occurrence: always
+  FireResistance:
+    price: 10
+    max: 1
+    duration_multiplier: 1800
+    occurrence: always
+  Strength:
+    price: 10
+    max: 3
+    duration_multiplier: -1
+    occurrence: always
+  Aqua:
+    price: 10
+    max: 1
+    duration_multiplier: -1
+    occurrence: always
+  Saturation:
+    price: 10
+    max: 3
+    duration_multiplier: -1
+    occurrence: always
+  HealthBoost:
+    price: 10
+    max: 3
+    duration_multiplier: 1200
+    occurrence: always
 
 
 #
@@ -587,129 +613,134 @@ Potions:
 # Impaling (IMPALING)
 # Riptide (RIPTIDE)
 # Channeling / Channelling (CHANNELING)
+# SoulSpeed (SOUL_SPEED)
+# Cleaving (CLEAVING) not yet implemented.
 #
 Enchants:
-    Power:
-      price: 10
-      max: 10
-    Flame:
-      price: 10
-      max: 10
-    Infinity:
-      price: 10
-      max: 10
-    Punch:
-      price: 10
-      max: 10
-    Sharpness:
-      price: 10
-      max: 10
-      merge_mode: VANILLA
-      max_merge_level: 5 # this will limit the level achivable with merging enchants.
-    Baneofarthropods:
-      price: 10
-      max: 10
-    Smite:
-      price: 10
-      max: 10
-    Depth:
-      price: 10
-      max: 10
-    Efficiency:
-      price: 10
-      max: 10
-    Unbreaking:
-      price: 10
-      max: 10
-    Fireaspect:
-      price: 10
-      max: 10
-    Knockback:
-      price: 10
-      max: 10
-    Fortune:
-      price: 10
-      max: 10
-    Looting:
-      price: 10
-      max: 10
-    Luck:
-      price: 10
-      max: 10
-    Mending:
-      price: 10
-      max: 10
-    Respiration:
-      price: 10
-      max: 10
-    Protection:
-      price: 10
-      max: 10
-    Blastprotection:
-      price: 10
-      max: 10
-    Featherfall:
-      price: 10
-      max: 10
-    Fireprotection:
-      price: 10
-      max: 10
-    Projectileprot:
-      price: 10
-      max: 10
-    Silktouch:
-      price: 10
-      max: 10
-    Aquaaffinity:
-      price: 10
-      max: 10
-    Thorns:
-      price: 10
-      max: 10
-    Sweeping:
-      price: 10
-      max: 10
-    Binding:
-      price: 10
-      max: 10
-    Vanishing:
-      price: 10
-      max: 10
-    Loyalty:
-      price: 10
-      max: 10
-    Impaling:
-      price: 10
-      max: 10
-    Riptide:
-      price: 10
-      max: 10
-    Channeling:
-      price: 10
-      max: 10
-    Multishot:
-      price: 10
-      max: 10
-    Piercing:
-      price: 10
-      max: 10
-    QuickCharge:
-      price: 10
-      max: 10
+  Power:
+    price: 10
+    max: 10
+  Flame:
+    price: 10
+    max: 10
+  Infinity:
+    price: 10
+    max: 10
+  Punch:
+    price: 10
+    max: 10
+  Sharpness:
+    price: 10
+    max: 10
+    merge_mode: VANILLA
+    max_merge_level: 5 # this will limit the level achivable with merging enchants.
+  Baneofarthropods:
+    price: 10
+    max: 10
+  Smite:
+    price: 10
+    max: 10
+  Depth:
+    price: 10
+    max: 10
+  Efficiency:
+    price: 10
+    max: 10
+  Unbreaking:
+    price: 10
+    max: 10
+  Fireaspect:
+    price: 10
+    max: 10
+  Knockback:
+    price: 10
+    max: 10
+  Fortune:
+    price: 10
+    max: 10
+  Looting:
+    price: 10
+    max: 10
+  Luck:
+    price: 10
+    max: 10
+  Mending:
+    price: 10
+    max: 10
+  Respiration:
+    price: 10
+    max: 10
+  Protection:
+    price: 10
+    max: 10
+  Blastprotection:
+    price: 10
+    max: 10
+  Featherfall:
+    price: 10
+    max: 10
+  Fireprotection:
+    price: 10
+    max: 10
+  Projectileprot:
+    price: 10
+    max: 10
+  Silktouch:
+    price: 10
+    max: 10
+  Aquaaffinity:
+    price: 10
+    max: 10
+  Thorns:
+    price: 10
+    max: 10
+  Sweeping:
+    price: 10
+    max: 10
+  Binding:
+    price: 10
+    max: 10
+  Vanishing:
+    price: 10
+    max: 10
+  Loyalty:
+    price: 10
+    max: 10
+  Impaling:
+    price: 10
+    max: 10
+  Riptide:
+    price: 10
+    max: 10
+  Channeling:
+    price: 10
+    max: 10
+  Multishot:
+    price: 10
+    max: 10
+  Piercing:
+    price: 10
+    max: 10
+  QuickCharge:
+    price: 10
+    max: 10
+  SoulSpeed:
+    price: 10
+    max: 10
 
 
 # this config option is now deprecated.
 # you can now specify conflicting enchants under each enchant's setting using 'conflict_with:' option.
 Conflicts:
-    1:
-      - Explosive
-      - Excavation
-      - Sphered
-      - Disk
-      - Tile
-    2:
-      - Silktouch
-      - Fortune
+  1:
+    - Explosive
+    - Excavation
+    - Sphered
+    - Disk
+    - Tile
+  2:
+    - Silktouch
+    - Fortune
 
 
 # list of items players are allowed to enchant
@@ -720,22 +751,22 @@ Conflicts:
 # you can now specify which material type you can apply the custom enchant to using 'allowed_items:' option under
 # each enchant's setting.
 Items:
-    GOLD_PICKAXE:
-        - Unbreaking
-        - Fortune
-        - Efficiency
-    IRON_PICKAXE:
-        - Unbreaking
-        - Fortune
-        - Efficiency
-    STONE_PICKAXE:
-        - Unbreaking
-        - Fortune
-        - Efficiency
-    WOOD_PICKAXE:
-        - Unbreaking
-        - Fortune
-        - Efficiency
+  GOLD_PICKAXE:
+    - Unbreaking
+    - Fortune
+    - Efficiency
+  IRON_PICKAXE:
+    - Unbreaking
+    - Fortune
+    - Efficiency
+  STONE_PICKAXE:
+    - Unbreaking
+    - Fortune
+    - Efficiency
+  WOOD_PICKAXE:
+    - Unbreaking
+    - Fortune
+    - Efficiency
 
 # This is included from v18.7.0
 # this provides the default pickup handling of TEBlockExplodeEvent
@@ -748,4 +779,7 @@ TEBlockExplodeEvent:
 
 # the following option determines the interval of token balance top calculation occurs (in seconds).
 BalanceTopCalculation: 60
+
+# if this option is true, disenchant using a grindstone will yield refund of tokens.
+RefundViaGrindstone: false
 ```
