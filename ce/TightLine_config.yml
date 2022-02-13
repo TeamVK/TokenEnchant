@@ -18,3 +18,18 @@ Enchants:
       - "IRON_INGOT"
       - "EMERALD"
 
+  DeliciousTightLine:
+    description: "Gives you a chance of pulling out food items whilst fishing."
+    event_map:
+      PlayerFishEvent: "HIGH"
+    price: 0
+    max: 1
+    effect: "HAPPY_VILLAGER"
+    occurrence: always
+    multiplier: 1 # level * multiplier will be the number of the items.
+    prizes:
+      - "BREAD"
+      - "COOKED_MUTTON"
+      - "COOKED_CHICKEN"
+      - "BAKED_POTATO"
+

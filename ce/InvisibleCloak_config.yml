@@ -1,0 +1,32 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://te.polymart.org/resource/te-invisiblecloak.2045
+#plugin.price:US$4.0
+#plugin.enchant.category:PvP
+Enchants:
+  InvisibleCloak:
+    description: "Allows you to be invisible from others while you have this enchant!"
+    price: 10
+    max: 1
+    cooldown: -1
+    cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always
+    duration: -1
+
+  ShortInvisibleCloak:
+    description: "Allows you to be invisible from others while you have this enchant!"
+    price: 10
+    max: 5
+    cooldown: 20
+    cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always
+    duration: 20  # invisible effect lasts only 20 seconds at the max enchant level!  You need to re-apply the effect.
+
+  LongInvisibleCloak:
+    description: "Allows you to be invisible from others while you have this enchant!"
+    price: 10
+    max: 5
+    cooldown: 10
+    cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always
+    duration: 60  # invisible effect lasts only 60 seconds at the max enchant level!  You need to re-apply the effect.
+

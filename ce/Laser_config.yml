@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/2hL4uX-wOG0/0.jpg)](https://youtu.be/2hL4uX-wOG0)
 #plugin.price:US$3.0
 #plugin.enchant.category:Mining
-Potions:
+Enchants:
   Laser:
     description: "Swing of tool will cast laser of an item (such as Pumpkin), which will cause explosion!"
     event_map:
@@ -28,3 +28,53 @@ Potions:
     sneak: false # if this is true, you need to shift_click to cast the laser
     trigger: RIGHT_CLICK # or LEFT_CLICK, RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, or LEFT_CLICK_BLOCK
     radius: -1 # if it's -1, the (level-1) will be used as the radius, >=0 value will be used as the fixed radius
+
+  TinyLaser:
+    description: "Swing of tool will cast laser to remove 1 block."
+    event_map:
+      PlayerInteractEvent: "LOW"
+      BlockExplodeEvent: "NORMAL"
+      EntityExplodeEvent: "NORMAL"
+      EntityDamageByBlockEvent: "NORMAL"
+      EntityDamageByEntityEvent: "NORMAL"
+    price: 2
+    max: 1
+    cooldown: -1
+    cooldown_message: ""
+    throw_sound: MAGMACUBE_JUMP
+    type: CUBOID
+    effect: true
+    sound: true
+    particle: REDSTONE
+    rgb: "255,0,0"
+    min_rgb: "255,0,0"
+    max_rgb: "0,0,255"
+    occurrence: always
+    sneak: false # if this is true, you need to shift_click to cast the laser
+    trigger: RIGHT_CLICK # or LEFT_CLICK, RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, or LEFT_CLICK_BLOCK
+    radius: 0
+
+  SmallLaser:
+    description: "Swing of tool will cast laser to remove 3x3x3 blocks."
+    event_map:
+      PlayerInteractEvent: "LOW"
+      BlockExplodeEvent: "NORMAL"
+      EntityExplodeEvent: "NORMAL"
+      EntityDamageByBlockEvent: "NORMAL"
+      EntityDamageByEntityEvent: "NORMAL"
+    price: 3
+    max: 1
+    cooldown: -1
+    cooldown_message: ""
+    throw_sound: MAGMACUBE_JUMP
+    type: CUBOID
+    effect: true
+    sound: true
+    particle: REDSTONE
+    rgb: "255,0,0"
+    min_rgb: "255,0,0"
+    max_rgb: "0,0,255"
+    occurrence: always
+    sneak: false # if this is true, you need to shift_click to cast the laser
+    trigger: RIGHT_CLICK # or LEFT_CLICK, RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, or LEFT_CLICK_BLOCK
+    radius: 1
