@@ -103,3 +103,6 @@ All Custom Enchantment (CE) in TokenEnchant can have the following config option
     
 - hidden: (default = false)
     If this flag is 'true' the name of enchant will not be displayed on the item's lore.
+
+- toggle: (default = true)
+    If this flag is 'true' you can disable/enable this enchatnment using EnchantToggle addon (https://te.polymart.org/resource/597)
