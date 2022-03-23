@@ -1,0 +1,13 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://te.polymart.org/resource/te-aureliumexpenchant.2157
+#plugin.price:$3.00
+#plugin.enchant.category:Any
+Enchants:
+  AureliumExp:
+    description: "Multiply AureliumSkills' Experience gain! Higher level = more gain!"
+    event_map:
+      XpGainEvent: "NORMAL"
+    price: 10
+    max: 5
+    multiplier: 2.0  # new exp gain = original * level * multiplier
+    occurrence: always

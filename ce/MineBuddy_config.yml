@@ -2,14 +2,12 @@
 #plugin.url:https://polymart.org/resource/te-minebuddyenchant.337
 #plugin.price:free
 #plugin.enchant.category:Mining
-Potions:
+Enchants:
   MineBuddy:
     description: "It allows you to have a mining buddy. All you mined will automatically sent to your mining buddy's inventory."
     event_map:
-      TEBlockExplodeEvent_register: "LOWEST"
-      TEBlockExplodeEvent_process: "MONITOR"
-      BlockBreakEvent_register: "LOWEST"
-      BlockBreakEvent_process: "MONITOR"
+      TEBlockExplodeEvent: "LOWEST"
+      BlockBreakEvent: "HIGHEST"
     price: 10
     max: 1
     occurrence: always

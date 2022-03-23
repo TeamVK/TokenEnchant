@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (281 registered)
+## List of Currently Known Custom Enchantments. (282 registered)
 
 Enchantment Name | Description | Category | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | --- | ---
@@ -22,6 +22,7 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="ArmorPiercing"></a>[ArmorPiercing](https://polymart.org/resource/te-armorpiercingenchant.173) | "It will let you pierce through opponent's armour!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](ArmorPiercing_config.yml) | free
 <a name="ArmoredTank"></a>[ArmoredTank](https://polymart.org/resource/te-armoredtankenchant.174) | "You won't get any damage from explosion and lava/fire!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](ArmoredTank_config.yml) | free
 <a name="AttackDeflector"></a>[AttackDeflector](https://polymart.org/resource/te-attackdeflectorenchant.255) | "This custom effect will allow you to deflect attacks including arrow!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](AttackDeflector_config.yml) | free
+<a name="AureliumExp"></a>[AureliumExp](https://te.polymart.org/resource/te-aureliumexpenchant.2157) | "Multiply AureliumSkills' Experience gain! Higher level = more gain!" | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](AureliumExp_config.yml) | $3.00
 <a name="AutoBlocking"></a>[AutoBlocking](https://polymart.org/resource/te-autoblockingenchant.151) | "Automatically turn dust/ore into blocks when your inventory/backpack is full." | Mining |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](AutoBlocking_config.yml) | free
 <a name="AutoCook"></a>[AutoCook](https://polymart.org/resource/te-autocookenchant.256) | "Automatically cook caught fish and killed animals." | Food |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](AutoCook_config.yml) | free
 <a name="AutoSell"></a>[AutoSell](https://polymart.org/resource/te-autosellenchant.257) | "Automatically sell all items in your inventory and VKBackPack." | Mining |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](AutoSell_config.yml) | free

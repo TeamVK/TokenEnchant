@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-autosellenchant.257
 #plugin.price:free
 #plugin.enchant.category:Mining
-Potions:
+Enchants:
   AutoSell:
     description: "Automatically sell all items in your inventory and VKBackPack."
     event_map:
@@ -19,4 +19,5 @@ Potions:
       - "&bItems Sold:&r %itemssold%"
       - "&bPrice:&r %price%"
     use_right_click: false # true will allow you to initiate autosell with right click
+    sell_inventory: false # true will try to sell sellable items in the inventory as well.
     occurrence: always

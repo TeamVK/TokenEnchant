@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-autoblockingenchant.151
 #plugin.price:free
 #plugin.enchant.category:Mining
-Potions:
+Enchants:
   AutoBlocking:
     description: "Automatically turn dust/ore into blocks when your inventory/backpack is full."
     event_map:
