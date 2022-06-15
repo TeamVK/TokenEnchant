@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (282 registered)
+## List of Currently Known Custom Enchantments. (283 registered)
 
 Enchantment Name | Description | Category | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | --- | ---
@@ -107,6 +107,7 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="FrostWalker"></a>[FrostWalker](https://polymart.org/resource/te-frostwalkerenchant.279) | "Creates frost blocks when walking over water." | Any | [![demo](https://img.youtube.com/vi/SAxGBL1arlE/0.jpg)](https://www.youtube.com/watch?v=SAxGBL1arlE) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](FrostWalker_config.yml) | free
 <a name="FrozenBlade"></a>[FrozenBlade](https://polymart.org/resource/tokenenchant.155) | "Stops the person in there place with a slowness effect!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](FrozenBlade_config.yml) | US$4.0
 <a name="Frozen"></a>[Frozen](https://polymart.org/resource/te-frozenenchant.280) | "This enchant applies the slowness effect to the attacker." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Frozen_config.yml) | free
+<a name="FullArmorX"></a>[FullArmorX](https://te.polymart.org/resource/te-fullarmorxenchant.2510) | "When all your armor pieces (Helmet, Chestplate, Pants, Boots) have this enchant, it allows you to have resistance!" | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](FullArmorX_config.yml) | US$4
 <a name="Generous"></a>[Generous](https://polymart.org/resource/te-generousenchant.610) | "Give out random exp to all online players!" | Economy |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Generous_config.yml) | US$5.00
 <a name="Gluttony"></a>[Gluttony](https://polymart.org/resource/tokenenchant.155) | "Gives you full hunger bars so there is no need to eat." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Gluttony_config.yml) | US$4.0
 <a name="GodlyGuard"></a>[GodlyGuard](https://polymart.org/resource/tokenenchant.155) | "Gives you a chance to only take half the damage normally when using block hitting." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](GodlyGuard_config.yml) | US$4.0
@@ -291,4 +292,4 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="WhisperOfWind"></a>[WhisperOfWind](https://polymart.org/resource/tokenenchant.155) | "It applies speed 2 to the wearer of the boots; activated once on." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](WhisperOfWind_config.yml) | US$2.0
 <a name="WinOrLose"></a>[WinOrLose](https://polymart.org/resource/tokenenchant.155) | "This enchant upon death clears your inventory, so no ite ms are dropped." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](WinOrLose_config.yml) | US$2.0
 <a name="Wither"></a>[Wither](https://polymart.org/resource/te-badpotionenchant.169) | "Cast the Wither effect to your opponent when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Wither_config.yml) | free
-<a name="XMiner"></a>[XMiner](https://te.polymart.org/resource/te-xminerenchant.1115) | "It allows to earn player (PlayerPoints plugin) points from mining!" | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](XMiner_config.yml) | US$5
+<a name="XMiner"></a>[XMiner](https://www.spigotmc.org/resources/tokenenchant.2287/) | "It allows to earn player (PlayerPoints plugin) points from mining!" | Any |  |  | [config](XMiner_config.yml) | ask

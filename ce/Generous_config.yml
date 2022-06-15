@@ -32,6 +32,10 @@ Enchants:
     max: 5
     recipient_needs: none # if this option is true, the recipient must have the same enchant (inhand, any, none).
     command: "eco give"
+    aux_commands:  # these aux commands will be executed by the system console.
+        - "msg %recipient% %player% was very generous."
+        - "msg %recipient% %player% gave $%amount%."
+        - "msg %recipient% Say thank you to %player%."
     exclude_trigger: true
     ignore_te_explode: true
     reward_message: "&aYou're blessed by &e%player% &aand received $&e%amount% &a!"

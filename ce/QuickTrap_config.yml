@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/TUQi4rv-1mU/0.jpg)](https://www.youtube.com/watch?v=TUQi4rv-1mU)
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   QuickTrap:
     description: "Quickly trap your opponent with cob webs!"
     event_map:

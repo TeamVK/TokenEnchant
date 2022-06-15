@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/Kzxb6UBHB-Q/0.jpg)](https://youtu.be/Kzxb6UBHB-Q)
 #plugin.price:US$3.0
 #plugin.enchant.category:Mining
-Potions:
+Enchants:
   CrossExplosion:
     description: "It explodes a cross pattern of blocks in a mine."
     alias: CrossHammer

@@ -1,0 +1,37 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://te.polymart.org/resource/te-fullarmorxenchant.2510
+#plugin.price:US$4
+#plugin.enchant.category:Any
+Enchants:
+  BrothersGuard:
+    description: "Allows you to get absorption hearts when you wear full armor set with this enchantment."
+    price: 10
+    max: 3    #this number should be same as the highest level in levels: section
+    occurrence: always
+    potions:
+      Absorption:
+        duration: -1 # -1: infinite
+        amplifier: 1
+
+  Beast:
+    description: "Allows you to get strength and nightvision when you wear full armor set with this enchantment."
+    price: 10
+    max: 3    #this number should be same as the highest level in levels: section
+    occurrence: always
+    potions:
+      Strength:
+        duration: -1 # -1: infinite
+        amplifier: -1 #  -1: enchant leve = amplifier.
+      Nightvision:
+        duration: -1 # -1: infinite
+        amplifier: 1 #  -1: enchant leve = amplifier.
+
+  Titanium:
+    description: "When all your armor pieces (Helmet, Chestplate, Pants, Boots) have this enchant, it allows you to have resistance!"
+    price: 10
+    max: 3    #this number should be same as the highest level in levels: section
+    occurrence: always
+    potions:
+      Resistance:
+        duration: -1 # -1: infinite
+        amplifier: -1 #  -1: enchant leve = amplifier.

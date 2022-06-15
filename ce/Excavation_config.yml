@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-explosiveenchant.168
 #plugin.price:free
 #plugin.enchant.category:Mining
-Potions:
+Enchants:
   Excavation:
     description: "It is just like Explosive but it will remove entire cuboid!"
     event_map:

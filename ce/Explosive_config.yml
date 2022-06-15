@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-explosiveenchant.168
 #plugin.price:free
 #plugin.enchant.category:Mining
-Potions:
+Enchants:
   Explosive:
     description: "It will blow up randomly selected surrounding blocks!"
     event_map:
