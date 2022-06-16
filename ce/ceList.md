@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (283 registered)
+## List of Currently Known Custom Enchantments. (280 registered)
 
 Enchantment Name | Description | Category | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | --- | ---
@@ -107,7 +107,7 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="FrostWalker"></a>[FrostWalker](https://polymart.org/resource/te-frostwalkerenchant.279) | "Creates frost blocks when walking over water." | Any | [![demo](https://img.youtube.com/vi/SAxGBL1arlE/0.jpg)](https://www.youtube.com/watch?v=SAxGBL1arlE) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](FrostWalker_config.yml) | free
 <a name="FrozenBlade"></a>[FrozenBlade](https://polymart.org/resource/tokenenchant.155) | "Stops the person in there place with a slowness effect!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](FrozenBlade_config.yml) | US$4.0
 <a name="Frozen"></a>[Frozen](https://polymart.org/resource/te-frozenenchant.280) | "This enchant applies the slowness effect to the attacker." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Frozen_config.yml) | free
-<a name="FullArmorX"></a>[FullArmorX](https://te.polymart.org/resource/te-fullarmorxenchant.2510) | "When all your armor pieces (Helmet, Chestplate, Pants, Boots) have this enchant, it allows you to have resistance!" | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](FullArmorX_config.yml) | US$4
+<a name="FullArmorX"></a>[FullArmorX](https://te.polymart.org/resource/te-fullarmorxenchant.2510) | "When all your armor pieces (Helmet, Chestplate, Pants, Boots) have this enchant, it allows you to have resistance!" | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](FullArmorX_config.yml) | US$2
 <a name="Generous"></a>[Generous](https://polymart.org/resource/te-generousenchant.610) | "Give out random exp to all online players!" | Economy |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Generous_config.yml) | US$5.00
 <a name="Gluttony"></a>[Gluttony](https://polymart.org/resource/tokenenchant.155) | "Gives you full hunger bars so there is no need to eat." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Gluttony_config.yml) | US$4.0
 <a name="GodlyGuard"></a>[GodlyGuard](https://polymart.org/resource/tokenenchant.155) | "Gives you a chance to only take half the damage normally when using block hitting." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](GodlyGuard_config.yml) | US$4.0
@@ -142,7 +142,6 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="ItemFishing"></a>[ItemFishing](https://polymart.org/resource/te-itemfishingenchant.311) | "Fish/steal an item your opponent/mob is currently holding!!" | Any | [![demo](https://img.youtube.com/vi/GavEFSYnaKE/0.jpg)](https://www.youtube.com/watch?v=GavEFSYnaKE) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](ItemFishing_config.yml) | free
 <a name="ItemPickPocket"></a>[ItemPickPocket](https://polymart.org/resource/te-pickpocketenchant.171) | "This allows you to pickpocket an item from other players inventory." | Economy |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](ItemPickPocket_config.yml) | free
 <a name="ItemSearch"></a>[ItemSearch](https://polymart.org/resource/te-itemsearchenchant.310) | "This effect will make you 'look' towards the direction which leads you to the block/item with the same type as the item you're holding on your left hand!!" | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](ItemSearch_config.yml) | free
-<a name="JackHammer"></a>[JackHammer](https://polymart.org/resource/te-slicingenchant-jackhammer.324) | "Explodes an entire layer(s)!!" | Mining |  | [ThePurpleHoser](https://polymart.org/team/teamvk.4) | [config](JackHammer_config.yml) | free
 <a name="KeyFinder"></a>[KeyFinder](https://polymart.org/resource/te-rewardfinderenchant.615) | "If you enchant your tool with this effect, you might get lucky and get some tokens!" | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](KeyFinder_config.yml) | US$5
 <a name="KeyMiner"></a>[KeyMiner](https://te.polymart.org/resource/te-xminerenchant.1115) | KeyMiner | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](KeyMiner_config.yml) | see RewardFinder
 <a name="KillReward"></a>[KillReward](https://polymart.org/resource/te-killrewardenchant.285) | "You can receive rewards by killing!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](KillReward_config.yml) | free
