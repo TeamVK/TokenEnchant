@@ -1,0 +1,44 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://te.polymart.org/resource/te-permissionenchant.2531
+#plugin.price:US5$
+#plugin.enchant.category:Any
+Enchants:
+  TokenMultiplier0: # 2% increase
+    description: "It will give you TokenEnchant's multiplier when you have or wear item with this enchant."
+    price: 10
+    max: 1    #this number should be same as the highest level in levels: section
+    occurrence: always
+    full_armor: false
+    use_action_bar: true
+    add_message: "Your token multiplier is set to %value%!"
+    remove_message: "Your token multiplier is removed"
+    value: "1.02"
+    permissions: # you can list multiple permission node and you can use %value% and %level% placeholders.
+      - "tokenenchant.multiplier.%value%"
+
+  TokenMultiplier5: # 5% increase at level 1 and increase by 5% at the every levelup
+    description: "It will give you TokenEnchant's multiplier when you have or wear item with this enchant."
+    price: 10
+    max: 10    #this number should be same as the highest level in levels: section
+    occurrence: always
+    full_armor: true
+    use_action_bar: true
+    add_message: "Your token multiplier is set to %value%!"
+    remove_message: "Your token multiplier is removed"
+    value: "%level% * 1.05"
+    permissions:
+      - "tokenenchant.multiplier.%value%"
+
+  TokenMultiplier15: # 15% increase at level 1 and increase by 15% at the every levelup
+    description: "It will give you TokenEnchant's multiplier when you have or wear item with this enchant."
+    price: 10
+    max: 5    #this number should be same as the highest level in levels: section
+    occurrence: always
+    full_armor: true
+    use_action_bar: true
+    add_message: "Your token multiplier is set to %value%!"
+    remove_message: "Your token multiplier is removed"
+    value: "%level% * 1.15"
+    permissions:
+      - "tokenenchant.multiplier.%value%"
+
