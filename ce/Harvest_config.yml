@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/Zh-qp3XeqVE/0.jpg)](https://www.youtube.com/watch?v=Zh-qp3XeqVE)
 #plugin.price:US$5.0
 #plugin.enchant.category:Harvesting
-Potions:
+Enchants:
   Harvest:
     description: "Automatically harvest and plant."
     event_map:
@@ -11,4 +11,7 @@ Potions:
     price: 10
     max: 1
     occurrence: always
-    planting: true
+    planting: true # this is the global planting setting
+    auto_planting: # if the plant type is not listed, the above default value will be used.
+      SUGAR_CANE: false
+      CACTUS: false

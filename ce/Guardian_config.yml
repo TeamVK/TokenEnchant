@@ -3,9 +3,9 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/mu9sfXk7htQ/0.jpg)](https://www.youtube.com/watch?v=mu9sfXk7htQ)
 #plugin.price:$4.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Guardian:
-    description: "Upon taking damage, it will spawn your guardian mob (like PigZombie, IronGolem) to fight for your and protect you!"
+    description: "Upon taking damage, it will spawn your guardian mob (like PigZombie, IronGolem) to fight for you and protect you!"
     event_map:
       EntityDamageByEntityEvent: "MONITOR"
       EntityDeathEvent: "MONITOR"
@@ -24,6 +24,50 @@ Potions:
         type: PIG_ZOMBIE
       2:
         type: IRON_GOLEM
+    # if you set occurrence: random, the chance of
+    # your guardian being spawn will be calculated form the level
+    occurrence: always
+
+  HoglinGuardian:
+    description: "Upon taking damage, it will spawn your Hoglin guardian to fight for you and protect you!"
+    event_map:
+      EntityDamageByEntityEvent: "MONITOR"
+      EntityDeathEvent: "MONITOR"
+      EntityTargetEvent: "LOWEST"
+      PlayerDeathEvent: "HIGHEST"
+      PlayerMoveEvent: "LOWEST"
+      PlayerQuitEvent: "LOWEST"
+    price: 10
+    max: 1
+    name_format: "&e%player%&'s Hoglin Guardian"
+    nearby_radius: 10
+    PvE: false
+    combat_expire: 20. #in seconds.
+    guards:
+      1:
+        type: HOGLIN
+    # if you set occurrence: random, the chance of
+    # your guardian being spawn will be calculated form the level
+    occurrence: always
+
+  WardenGuardian:
+    description: "Upon taking damage, it will spawn your Warden guardian to fight for you and protect you!"
+    event_map:
+      EntityDamageByEntityEvent: "MONITOR"
+      EntityDeathEvent: "MONITOR"
+      EntityTargetEvent: "LOWEST"
+      PlayerDeathEvent: "HIGHEST"
+      PlayerMoveEvent: "LOWEST"
+      PlayerQuitEvent: "LOWEST"
+    price: 10
+    max: 1
+    name_format: "&e%player%&'s Hoglin Guardian"
+    nearby_radius: 10
+    PvE: false
+    combat_expire: 20. #in seconds.
+    guards:
+      1:
+        type: WARDEN
     # if you set occurrence: random, the chance of
     # your guardian being spawn will be calculated form the level
     occurrence: always

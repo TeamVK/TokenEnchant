@@ -1,12 +1,13 @@
 #plugin.author:[ThePurpleHoser](https://polymart.org/team/teamvk.4)
-#plugin.url:https://polymart.org/resource/te-slicingenchant-jackhammer.324
-#plugin.price:free
+#plugin.url:https://te.polymart.org/resource/te-dynamicjackhammer.2728
+#plugin.price:US$3.00
 #plugin.enchant.category:Mining
 Enchants:
-  Slicing:
-    description: "(aka JackHammer) Explode entire layer(s)!!"
+  DynamicJackHammer:
+    description: "Dynamic JackHammer will Explode entire layer(s)!!"
     event_map:
       BlockBreakEvent: "MONITOR"
+    alias: JackHammer
     price: 10
     max: 3  # the level of Slicing will be used as the depth of explosion.
     # you can nominate the world, which prevents explosive
@@ -19,11 +20,11 @@ Enchants:
     # You can set the occurrence of explosion.
     # random: randomly occur based on the level
     # always: explosion occur always.
-    occurrence: random
+    occurrence: always
     use_level_as_depth: false  #use the level of enchant to decide the depth of slicing.
     fixedDepth: 1
-    cooldown: 20  # inseconds
-    cooldown_message: "" #"&a[TE] You have to wait for &b%remaining% &aseconds."
+    cooldown: 5  # in seconds
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
     maxRadius: 100  #in case you miss config your mine.
     # You can set the list of blocks exempt from explosiont.
     # use this list to avoid your crates being exploded.

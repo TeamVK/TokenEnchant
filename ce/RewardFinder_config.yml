@@ -108,7 +108,7 @@ Enchants:
       BlockBreakEvent: "HIGH"
       TEBlockExplodeEvent: "HIGHEST"
     price: 10
-    max: 2    #this number should be same as the highest level in levels: section
+    max: 4    #this number should be same as the highest level in levels: section
     occurrence: always
     effect: MOBSPAWNER_FLAMES
     sound: ENTITY_LIGHTNING_THUNDER  # for pre 1.9 ...AMBIENCE_THUNDER

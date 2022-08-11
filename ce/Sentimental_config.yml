@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-sentimentalenchant.197
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Sentimental:
     description: "like SoulBound but not bounded to a player, whoever holds the item with enchant can claim its sentimental value."
     # this option is to set custom Death Event process priority.

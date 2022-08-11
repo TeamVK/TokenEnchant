@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/UvhMu0LCavY/0.jpg)](https://youtu.be/UvhMu0LCavY)
 #plugin.price:US$4.0
 #plugin.enchant.category:Any
-Potions:
+Enchants:
   Universal:
     description: "It allows your tool to automatically morph into an appropriate tool depending on what you're doing."
     event_map:
@@ -25,6 +25,9 @@ Potions:
       - AXE
       - PICKAXE
       - SWORD
+
+    tool_preferences:
+      "*VINES": SHEARS
 
     levels:
       1:
