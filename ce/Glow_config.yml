@@ -1,0 +1,26 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://te.polymart.org/resource/te-glowenchant.2777
+#plugin.demo:[![demo](https://img.youtube.com/vi/TDbMu0WgeyU/0.jpg)](https://youtu.be/TDbMu0WgeyU)
+#plugin.price:US$2.00
+#plugin.enchant.category:Any
+Enchants:
+  Holy:
+    description: "Gvies you holy glow!"
+    price: 10
+    max: 1
+    occurrence: always # you can set it to random as well.
+    # if duration_multiplier is set, duration (second) = level * duration_multiplier
+    # if duration_multiplier is set to -1 (negative value), it will give an infinite duration.
+    duration_multiplier: 300
+    color: WHITE
+    infinity_on_all_armors: true # you get a parmanent glow when all armors have this enchant.
+
+  Devil:
+    description: "Gvies you devil glow!"
+    price: 10
+    max: 1
+    occurrence: always # you can set it to random as well.
+    # if duration_multiplier is set, duration (second) = level * duration_multiplier
+    duration_multiplier: 300
+    color: RED
+    infinity_on_all_armors: true # you get a parmanent glow when all armors have this enchant.

@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (281 registered)
+## List of Currently Known Custom Enchantments. (282 registered)
 
 Enchantment Name | Description | Category | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | --- | ---
@@ -110,6 +110,7 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="Frozen"></a>[Frozen](https://polymart.org/resource/te-frozenenchant.280) | "This enchant applies the slowness effect to the attacker." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Frozen_config.yml) | free
 <a name="FullArmorX"></a>[FullArmorX](https://te.polymart.org/resource/te-fullarmorxenchant.2510) | "When all your armor pieces (Helmet, Chestplate, Pants, Boots) have this enchant, it allows you to have resistance!" | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](FullArmorX_config.yml) | US$2
 <a name="Generous"></a>[Generous](https://polymart.org/resource/te-generousenchant.610) | "Give out random exp to all online players!" | Economy |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Generous_config.yml) | US$5.00
+<a name="Glow"></a>[Glow](https://te.polymart.org/resource/te-glowenchant.2777) | "Gvies you devil glow!" | Any | [![demo](https://img.youtube.com/vi/TDbMu0WgeyU/0.jpg)](https://youtu.be/TDbMu0WgeyU) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Glow_config.yml) | US$2.00
 <a name="Gluttony"></a>[Gluttony](https://polymart.org/resource/tokenenchant.155) | "Gives you full hunger bars so there is no need to eat." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Gluttony_config.yml) | US$4.0
 <a name="GodlyGuard"></a>[GodlyGuard](https://polymart.org/resource/tokenenchant.155) | "Gives you a chance to only take half the damage normally when using block hitting." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](GodlyGuard_config.yml) | US$4.0
 <a name="GoldDigger"></a>[GoldDigger](https://polymart.org/resource/tokenenchant.155) | "Gives you a chance of finding small increments of In game money whilst excavating." | Mining/Economy |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](GoldDigger_config.yml) | US$3.0
@@ -234,6 +235,7 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="SecureLoot"></a>[SecureLoot](https://polymart.org/resource/te-securelootenchant.297) | "You can secure loot (from breaking chests/containers and killing mobs/players) with this enchant so that other cannot pick up your loot!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](SecureLoot_config.yml) | US$2.0
 <a name="Sentimental"></a>[Sentimental](https://polymart.org/resource/te-sentimentalenchant.197) | "like SoulBound but not bounded to a player, whoever holds the item with enchant can claim its sentimental value." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Sentimental_config.yml) | US$3.0
 <a name="Sharpen"></a>[Sharpen](https://polymart.org/resource/tokenenchant.155) | "It will sharpen your armor! Reduce the current damage on your armor!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Sharpen_config.yml) | US$3.0
+<a name="SharpenedBlock"></a>[SharpenedBlock](https://te.polymart.org/resource/te-sharpenediceenchant.1443/webhooks) | "Put your enemy in a box of obsidian!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](SharpenedBlock_config.yml) | US$3.0
 <a name="SharpenedIce"></a>[SharpenedIce](https://te.polymart.org/resource/te-sharpenediceenchant.1443/webhooks) | "Put your enemy in a box of ice!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](SharpenedIce_config.yml) | US$3.0
 <a name="ShotGun"></a>[ShotGun](https://polymart.org/resource/te-shotgunenchant.329) | "It will shoot multiple arrows in one go!" | PvP | [![demo](https://img.youtube.com/vi/itXPG-MA5ZY/0.jpg)](https://www.youtube.com/watch?v=itXPG-MA5ZY) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](ShotGun_config.yml) | free
 <a name="ShotsFired"></a>[ShotsFired](https://polymart.org/resource/tokenenchant.155) | "When wearing this and taking damage, it has a chance to fire arrows out of the armor in a round perimeter hitting enemies nearby dealing damages." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](ShotsFired_config.yml) | US$3.0

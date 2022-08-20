@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-magmawalkerenchant.308
 #plugin.price:free
 #plugin.enchant.category:Any
-Potions:
+Enchants:
   MagmaWalker:
     description: "Creates obsidian blocks when walking over lava."
     event_map:
@@ -14,3 +14,6 @@ Potions:
     cooldown: -1  # >0 will impose cooldown of the use.
     cooldown_message: ""  # empty message -> no message displayed.
     occurrence: always
+    magma_materials:
+      - LAVA
+      - STATIONARY_LAVA
