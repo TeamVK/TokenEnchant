@@ -12,7 +12,13 @@ Enchants:
     # if duration_multiplier is set, duration (second) = level * duration_multiplier
     # if duration_multiplier is set to -1 (negative value), it will give an infinite duration.
     duration_multiplier: 300
-    color: WHITE
+    colors:
+      - RED
+      - GOLD
+      - YELLOW
+      - GREEN
+      - BLUE
+      - LIGHT_PURPLE
     infinity_on_all_armors: true # you get a parmanent glow when all armors have this enchant.
 
   Devil:
@@ -22,5 +28,6 @@ Enchants:
     occurrence: always # you can set it to random as well.
     # if duration_multiplier is set, duration (second) = level * duration_multiplier
     duration_multiplier: 300
-    color: RED
+    colors:
+      - RED
     infinity_on_all_armors: true # you get a parmanent glow when all armors have this enchant.

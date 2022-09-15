@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-multidropsenchant.334
 #plugin.price:free
 #plugin.enchant.category:Any
-Potions:
+Enchants:
   MultiDrops:
     description: "Multiply the drops depending on the enchantment level."
     event_map:
@@ -10,7 +10,7 @@ Potions:
     price: 10
     max: 5
     multiplier: 2  # the extra drops = level * multiplier
-    occurrence: random
+    occurrence: always
     whitelist:  # if "*" is listed all materials yields multi drop
       - "*"
 #      - DIAMOND_ORE

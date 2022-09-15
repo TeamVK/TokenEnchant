@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (282 registered)
+## List of Currently Known Custom Enchantments. (283 registered)
 
 Enchantment Name | Description | Category | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | --- | ---
@@ -235,7 +235,7 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="SecureLoot"></a>[SecureLoot](https://polymart.org/resource/te-securelootenchant.297) | "You can secure loot (from breaking chests/containers and killing mobs/players) with this enchant so that other cannot pick up your loot!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](SecureLoot_config.yml) | US$2.0
 <a name="Sentimental"></a>[Sentimental](https://polymart.org/resource/te-sentimentalenchant.197) | "like SoulBound but not bounded to a player, whoever holds the item with enchant can claim its sentimental value." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Sentimental_config.yml) | US$3.0
 <a name="Sharpen"></a>[Sharpen](https://polymart.org/resource/tokenenchant.155) | "It will sharpen your armor! Reduce the current damage on your armor!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Sharpen_config.yml) | US$3.0
-<a name="SharpenedBlock"></a>[SharpenedBlock](https://te.polymart.org/resource/te-sharpenediceenchant.1443/webhooks) | "Put your enemy in a box of obsidian!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](SharpenedBlock_config.yml) | US$3.0
+<a name="SharpenedBlock"></a>[SharpenedBlock](https://te.polymart.org/resource/te-sharpenedblockenchant.2876) | "Put your enemy in a box of obsidian!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](SharpenedBlock_config.yml) | US$3.0
 <a name="SharpenedIce"></a>[SharpenedIce](https://te.polymart.org/resource/te-sharpenediceenchant.1443/webhooks) | "Put your enemy in a box of ice!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](SharpenedIce_config.yml) | US$3.0
 <a name="ShotGun"></a>[ShotGun](https://polymart.org/resource/te-shotgunenchant.329) | "It will shoot multiple arrows in one go!" | PvP | [![demo](https://img.youtube.com/vi/itXPG-MA5ZY/0.jpg)](https://www.youtube.com/watch?v=itXPG-MA5ZY) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](ShotGun_config.yml) | free
 <a name="ShotsFired"></a>[ShotsFired](https://polymart.org/resource/tokenenchant.155) | "When wearing this and taking damage, it has a chance to fire arrows out of the armor in a round perimeter hitting enemies nearby dealing damages." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](ShotsFired_config.yml) | US$3.0
@@ -289,6 +289,7 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="Vampire"></a>[Vampire](https://polymart.org/resource/te-vampireenchant.326) | "Suck your opponent's health when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Vampire_config.yml) | free
 <a name="Voltage"></a>[Voltage](https://polymart.org/resource/tokenenchant.155) | "Hurls a bolt of lighting at the enemy zapping them and doing damage!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Voltage_config.yml) | US$2.0
 <a name="Voodoo"></a>[Voodoo](https://polymart.org/resource/te-voodooenchant.283) | "Use ArmorStand +Voodoo head (of another player) to give another player damage!" | PvP | [![demo](https://img.youtube.com/vi/FedC7Je3Rts/0.jpg)](https://www.youtube.com/watch?v=FedC7Je3Rts) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Voodoo_config.yml) | free
+<a name="WaterStrider"></a>[WaterStrider](https://polymart.org/resource/te-frostwalkerenchant.279) | "Lets you move faster under water." | Any | [![demo](https://img.youtube.com/vi/SAxGBL1arlE/0.jpg)](https://www.youtube.com/watch?v=SAxGBL1arlE) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](WaterStrider_config.yml) | free
 <a name="Weakness"></a>[Weakness](https://polymart.org/resource/te-badpotionenchant.169) | "Cast the Wither effect to your opponent when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Weakness_config.yml) | free
 <a name="WellFed"></a>[WellFed](https://polymart.org/resource/tokenenchant.155) | "Reduces the rate of food level decrement." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](WellFed_config.yml) | US$4.0
 <a name="WhisperOfWind"></a>[WhisperOfWind](https://polymart.org/resource/tokenenchant.155) | "It applies speed 2 to the wearer of the boots; activated once on." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](WhisperOfWind_config.yml) | US$2.0
