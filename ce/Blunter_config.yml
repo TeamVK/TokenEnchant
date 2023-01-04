@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/273
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Blunter:
     description: "Give an extra durability damage to your attacker's weapon!"
     event_map:

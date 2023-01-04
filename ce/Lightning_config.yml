@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/U6y3Hkh6foc/0.jpg)](https://www.youtube.com/watch?v=U6y3Hkh6foc)
 #plugin.price:free
 #plugin.enchant.category:PvP/Mining
-Potions:
+Enchants:
   Lightning:
     description: "(aka Thundering) You strike Lightning and cause TNT-like explosion! You can also use it for mining as well."
     event_map:

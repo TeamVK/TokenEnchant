@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-summonerenchant.253
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Summoner:
     description: "Summons X zombies to fight along with you against your enemy!"
     event_map:

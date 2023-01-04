@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$2.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   FeedMe:
     description: "This enchant takes the hunger of your enemy and feeds it to you with a chance of activating."
     event_map:

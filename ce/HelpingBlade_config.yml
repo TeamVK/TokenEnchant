@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   HelpingBlade:
     description: "When you attack your enemy with this enchant, it can heal non-enemy player."
     event_map:

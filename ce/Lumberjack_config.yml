@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/Dqtcbw4_HpY/0.jpg)](https://www.youtube.com/watch?v=Dqtcbw4_HpY)
 #plugin.price:US$2.0
 #plugin.enchant.category:Mining
-Potions:
+Enchants:
   Lumberjack:
     description: "It allows a player to cut one block of a tree and destroy all connected tree block/leaves. All cut tree blocks and saplings will naturally drop"
     event_map:
@@ -14,3 +14,9 @@ Potions:
     include_leaves: true # this will remove leaves as well.
     cooldown: -1
     occurrence: always
+    # you can add any additonal/future new materials here.
+    tree_materials:
+      wood:
+        - CRIMSON_STEM
+      leave:
+        - NETHER_WART_BLOCK

@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/VZEG48M5QbA/0.jpg)](https://www.youtube.com/watch?v=VZEG48M5QbA)
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   HealingBow:
     description: "Heal your friend by shooting with this enchant bow."
     event_map:

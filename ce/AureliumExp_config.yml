@@ -9,5 +9,5 @@ Enchants:
       XpGainEvent: "NORMAL"
     price: 10
     max: 5
-    multiplier: 2.0  # new exp gain = original * level * multiplier
+    multiplier: 2.0  # new exp gain = original * (1 + level * multiplier)
     occurrence: always

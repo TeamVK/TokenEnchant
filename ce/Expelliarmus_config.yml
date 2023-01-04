@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-expelliarmusenchant.321
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Expelliarmus:
     description: "Disarm your opponent!"
     event_map:

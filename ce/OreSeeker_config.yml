@@ -4,7 +4,7 @@
 #plugin.enchant.category:Mining
 BlockPerTEBlockExplodeEvent: 200
 
-Potions:
+Enchants:
   OreSeeker:
     description: "(aka Vein Mining) Let this enchant to seek other similar ores around you!"
     event_map:

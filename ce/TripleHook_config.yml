@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$3.0
 #plugin.enchant.category:Finish
-Potions:
+Enchants:
   TripleHook:
     description: "Gives you a chance of possibly catching multiple fish with one go."
     event_map:

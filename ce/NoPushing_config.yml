@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-nopushingenchant.333
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   NoPushing:
     description: "Prevent from being pushed around!"
     event_map:

@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Mace:
     description: "When using this against an enemy player, it can do up to 1 heart of damage no matter what the gear is.
 "

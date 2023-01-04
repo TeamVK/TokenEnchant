@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-rewardfinderenchant.615
 #plugin.price:see RewardFinder
 #plugin.enchant.category:Economy
-#Potions:
+#Enchants:
 #  LuckyKey:
 #    description: "If you enchant your tool with this effect, you might get lucky and get some prizes!"
 #    # use this option to resolve any conflict with other plugin(s) such as AutoSell

@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$4.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   FearInFire:
     description: "It releases a fierce fire effect scarring off enemies while giving you regen effect!"
     event_map:

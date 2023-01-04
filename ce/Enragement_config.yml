@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$4.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Enragement:
     description: "If you drop below 3 hearts you have a chance of gaining str 4 for 5 seconds activated on use."
     event_map:

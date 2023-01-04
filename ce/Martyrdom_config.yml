@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Martyrdom:
     description: "This effect spawns a TNT which doesn’t break blocks but appears upon death. It will always be activated and made to give knockback and destroy the dropped items."
     event_map:

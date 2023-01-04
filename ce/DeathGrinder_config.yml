@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-deathgrinderenchant.247
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   DeathGrinder:
     description: "It gives you double the EXP for swords MCMMO than usual."
     event_map:

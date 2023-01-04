@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$2.0
 #plugin.enchant.category:Any
-Potions:
+Enchants:
   HalloweenFlameEffect:
     description: "If you have an item/armor with this enchantment, it will repeatedly spawn the mobspawner flames around you."
     event_map:

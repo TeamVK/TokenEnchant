@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-boomerangenchant.274
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Boomerang:
     description: "Throw your weapon to attack and your weapon will return to you when its job is done!"
     event_map:

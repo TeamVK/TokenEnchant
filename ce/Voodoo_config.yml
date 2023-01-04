@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/FedC7Je3Rts/0.jpg)](https://www.youtube.com/watch?v=FedC7Je3Rts)
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Voodoo:
     description: "Use ArmorStand +Voodoo head (of another player) to give another player damage!"
     event_map:

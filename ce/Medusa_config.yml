@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/X09nBRQfrgM/0.jpg)](https://www.youtube.com/watch?v=X09nBRQfrgM)
 #plugin.price:free
 #plugin.enchant.category:PvE
-Potions:
+Enchants:
   Medusa:
     description: "Freeze them with your stare!"
     event_map:

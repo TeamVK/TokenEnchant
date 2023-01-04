@@ -2,7 +2,7 @@
 #plugin.https://polymart.org/resource/te-fakelagenchant.277
 #plugin.price:free
 #plugin.enchant.category:Troll
-Potions:
+Enchants:
   FakeLag:
     description: "It causes your opponent to lag like crazy!"
     event_map:

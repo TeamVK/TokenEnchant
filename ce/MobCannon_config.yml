@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-mobcannonenchant.306
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   MobCannon:
     event_map:
       PlayerInteractEvent: "NORMAL"

@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$4.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   ChocolateVision:
     description: "See the names of anyone using invisibility potion."
     event_map:

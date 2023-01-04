@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-pumpkinheadenchant.301
 #plugin.price:free
 #plugin.enchant.category:PvE
-Potions:
+Enchants:
   PumpkinHead:
     description: "Being un-noticed by Endermen with this enchantment!"
     event_map:

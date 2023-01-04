@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   SwiftAura:
     description: "Give faction members, allies, and party members a constant speed 2 effect in a 10 block radius."
     event_map:

@@ -16,6 +16,7 @@ Enchants:
     effect: "MOBSPAWNER_FLAMES"
     sound: "ORB_PICKUP"
     interval: 10 #every 10 blocks mined, you get the tokens.
+    ignore_te_explode: true  # set this to false if you want to use explosion.
     # @ -> execute as a player, > -> execute as an op, ! -> execute as a console.
     commands:
       - "!te add %player% %amount%"

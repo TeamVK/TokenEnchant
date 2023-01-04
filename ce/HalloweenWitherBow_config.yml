@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$2.0
 #plugin.enchant.category:Any
-Potions:
+Enchants:
   HalloweenWitherBow:
     description: "If you shoot with a bow with this enchantment, it will shoot a witherskull instead of an arrow, and the witherskull will give damage only to a living entity and leave surrounding blocks without any damages."
     event_map:

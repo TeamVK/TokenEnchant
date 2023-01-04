@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-moreexpenchant.179
 #plugin.price:US$3.0
 #plugin.enchant.category:Any
-Potions:
+Enchants:
   MoreExp:
     description: "Yields more exp orbs depending on the level of enchantment."
     event_map:

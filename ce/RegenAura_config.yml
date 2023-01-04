@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   RegenAura:
     description: "Gives regen 1 to faction members, allies, and party members that are in a 15 block radius."
     event_map:

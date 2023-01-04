@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-mobdropsenchant.305
 #plugin.price:free
 #plugin.enchant.category:PvE
-Potions:
+Enchants:
   MobDrops:
     description: "With this effect, when you kill a mob, the mob will drop some extra goodies!"
     event_map:

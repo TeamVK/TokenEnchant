@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/uQ_qYvmL9B4/0.jpg)](https://youtu.be/uQ_qYvmL9B4)
 #plugin.price:US$2.0
 #plugin.enchant.category:Any
-Potions:
+Enchants:
   GrapplingRod:
     description: "This allows a player to cast a fishing rod for grappling."
     event_map:

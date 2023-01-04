@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$4.0
 #plugin.enchant.category:Mining
-Potions:
+Enchants:
   DiggingBoots:
     description: "When jumping, you mine the block down one when you land on top of it."
     event_map:

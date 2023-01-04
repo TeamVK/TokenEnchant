@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-frozenenchant.280
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Frozen:
     description: "This enchant applies the slowness effect to the attacker."
     event_map:

@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/GavEFSYnaKE/0.jpg)](https://www.youtube.com/watch?v=GavEFSYnaKE)
 #plugin.price:free
 #plugin.enchant.category:Any
-Potions:
+Enchants:
   ItemFishing:
     description: "Fish/steal an item your opponent/mob is currently holding!!"
     event_map:

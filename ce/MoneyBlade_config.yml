@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:free
 #plugin.enchant.category:PvP/Economy
-Potions:
+Enchants:
   MoneyBlade:
     description: " It requires BankCheque plugin. Give a chance when killing a player to drop a 5,000 (or custom defined) dollar bank note."
     event_map:

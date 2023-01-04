@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$2.0
 #plugin.enchant.category:Any
-Potions:
+Enchants:
   HalloweenMagmaTrail:
     description: "This enchant will leave a trail of magma blocks on the floor. The trail will automatically be put back to the original blocks. A player will not get damaged from the magma blocks as long as the trail belongs to the player."
     event_map:

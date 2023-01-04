@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-rammingenchant.299
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Ramming:
     description: "Charge towards your opponent when you attack to increase the damage!"
     event_map:

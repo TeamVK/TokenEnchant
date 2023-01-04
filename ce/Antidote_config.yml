@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-antidoteenchant.172
 #plugin.price:free
 #plugin.enchant.category:Potion
-Potions:
+Enchants:
   Antidote:
     description: "This enchant will protect you from bad splash/lingering potions!"
     event_map:

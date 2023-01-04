@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:free
 #plugin.enchant.category:Any
-Potions:
+Enchants:
   Noninflammable:
     description: "The item will not burn in fire!"
     price: 10

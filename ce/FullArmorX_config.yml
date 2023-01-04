@@ -8,7 +8,7 @@ Enchants:
     price: 10
     max: 3    #this number should be same as the highest level in levels: section
     occurrence: always
-    potions:
+    Enchants:
       Absorption:
         duration: -1 # -1: infinite
         amplifier: 1
@@ -18,7 +18,7 @@ Enchants:
     price: 10
     max: 3    #this number should be same as the highest level in levels: section
     occurrence: always
-    potions:
+    Enchants:
       Strength:
         duration: -1 # -1: infinite
         amplifier: -1 #  -1: enchant leve = amplifier.
@@ -31,7 +31,7 @@ Enchants:
     price: 10
     max: 3    #this number should be same as the highest level in levels: section
     occurrence: always
-    potions:
+    Enchants:
       Resistance:
         duration: -1 # -1: infinite
         amplifier: -1 #  -1: enchant leve = amplifier.

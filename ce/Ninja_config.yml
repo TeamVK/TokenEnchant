@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/ghF654IvnEo/0.jpg)](https://www.youtube.com/watch?v=ghF654IvnEo)
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Ninja:
     description: "Disappear like a Ninja!!"
     event_map:

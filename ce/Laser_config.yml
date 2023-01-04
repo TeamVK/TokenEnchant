@@ -16,7 +16,7 @@ Enchants:
     max: 5
     cooldown: -1
     cooldown_message: ""
-    throw_sound: MAGMACUBE_JUMP
+    casting_sound_type: MAGMACUBE_JUMP
     type: CUBOID
     effect: true
     sound: true
@@ -41,7 +41,7 @@ Enchants:
     max: 1
     cooldown: -1
     cooldown_message: ""
-    throw_sound: MAGMACUBE_JUMP
+    casting_sound_type: MAGMACUBE_JUMP
     type: CUBOID
     effect: true
     sound: true
@@ -66,7 +66,7 @@ Enchants:
     max: 1
     cooldown: -1
     cooldown_message: ""
-    throw_sound: MAGMACUBE_JUMP
+    casting_sound_type: MAGMACUBE_JUMP
     type: CUBOID
     effect: true
     sound: true

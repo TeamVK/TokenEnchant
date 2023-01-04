@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$3.0
 #plugin.enchant.category:Any
-Potions:
+Enchants:
   SpeedTheory:
     description: "When it is used, it will give you the defined haste effect."
     event_map:

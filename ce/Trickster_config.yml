@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-tricksterenchant.287
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Trickster:
     description: "Quickly teleport to the behind of your opponent!"
     event_map:

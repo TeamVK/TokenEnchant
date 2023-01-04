@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-exp2tokenenchant.138
 #plugin.price:US$3.00
 #plugin.enchant.category:Economy
-Potions:
+Enchants:
   Exp2Token: # give out tokens to online players.
     description: "Exchange the specified Exp levels into tokens."
     event_map:

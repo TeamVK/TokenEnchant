@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$4.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   DevilsKiss:
     description: "Gives a chance of taking away your hearts!"
     event_map:

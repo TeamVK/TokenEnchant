@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-slipperyhandenchant.293
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   SlipperyHand:
     description: "Make your opponent's hands slippery and make him lose his item from his hand!"
     event_map:

@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   ShotsFired:
     description: "When wearing this and taking damage, it has a chance to fire arrows out of the armor in a round perimeter hitting enemies nearby dealing damages."
     event_map:

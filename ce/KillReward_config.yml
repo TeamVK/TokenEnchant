@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-killrewardenchant.285
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   KillReward:
     description: "You can receive rewards by killing!"
     event_map:

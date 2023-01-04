@@ -2,7 +2,7 @@
 #plugin.url:Comissioned work.
 #plugin.price:US$10
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   HardenedPlus:
     description: "Decrease durability loss on ALL your armours!"
     event_map:

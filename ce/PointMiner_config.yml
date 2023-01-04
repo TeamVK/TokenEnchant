@@ -2,7 +2,7 @@
 #plugin.url:https://te.polymart.org/resource/te-xminerenchant.1115
 #plugin.price:[see XMiner]
 #plugin.enchant.category:Economy
-Potions:
+Enchants:
   PointMiner:
     description: "It allows to earn player (PlayerPoints plugin) points from mining!"
     event_map:

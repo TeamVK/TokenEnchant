@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   DeathBringer:
     description: "It doubles attack damage upon hitting your opponent!"
     event_map:

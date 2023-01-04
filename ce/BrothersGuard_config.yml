@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$4.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   BrothersGuard:
     description: "Allows you to get absorption hearts when you wear full armor set with this enchantment."
     price: 0

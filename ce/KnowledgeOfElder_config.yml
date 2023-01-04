@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   KnowledgeOfElder:
     description: "Gives you extra hearts (depending on the level)"
     event_map:

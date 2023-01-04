@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
     Over9000:
       description: "This enchant when put on gives you strength 3 constantly but also gives you mining fatigue 2."
       price: 10

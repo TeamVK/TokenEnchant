@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-toxicenchant.286
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Toxic:
     description: "It's a defensive effect.  Give your attacker a poison effect!"
     event_map:

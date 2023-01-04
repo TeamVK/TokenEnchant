@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$4.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   ElderPowers:
     description: "The use of your knowledge has given you the ability to craft these powerful pant to increase your armors durability when being hit by an axe."
     event_map:

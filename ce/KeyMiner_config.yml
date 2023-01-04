@@ -2,7 +2,7 @@
 #plugin.url:https://te.polymart.org/resource/te-xminerenchant.1115
 #plugin.price:see RewardFinder
 #plugin.enchant.category:Any
-#Potions:
+#Enchants:
 #  KeyMiner:
 #    description: "It will let you discover a crate key upon mining ... only if you're lucky."
 #    # use this option to resolve any conflict with other plugin(s) such as AutoSell

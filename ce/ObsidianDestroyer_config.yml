@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-obsidiandestroyerenchant.332
 #plugin.price:free
 #plugin.enchant.category:Mining
-Potions:
+Enchants:
   ObsidianDestroyer:
     description: "It lets you break obsidian block with no effor!"
     event_map:

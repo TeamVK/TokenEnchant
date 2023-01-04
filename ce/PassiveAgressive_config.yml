@@ -3,7 +3,7 @@
 #plugin.price:free
 #plugin.enchant.category:PvP
 Enchants:
-  PA_Blindness:
+  PA-Blindness:
     potion_effect: BLINDNESS
     description: "This enchant will make your attacker blind for a while!"
     event_map:
@@ -18,7 +18,7 @@ Enchants:
     # if this option is set > 0, this amplifire is applied regardless of the enchant level
     amplifier: -1
 
-  PA_Confusion:
+  PA-Confusion:
     potion_effect: CONFUSION
     description: "Makes your attacker confused!"
     event_map:
@@ -33,8 +33,8 @@ Enchants:
     # if this option is set > 0, this amplifire is applied regardless of the enchant level
     amplifier: -1
 
-  PA_Fatigue:
-    potion_effect: SLOW
+  PA-Fatigue:
+    potion_effect: SLOW_DIGGING
     description: "It gives your opponent a fatigue effect!"
     event_map:
       EntityDamageByEntityEvent: "HIGHEST"
@@ -48,7 +48,7 @@ Enchants:
     # if this option is set > 0, this amplifire is applied regardless of the enchant level
     amplifier: -1
 
-  PA_Harm:
+  PA-Harm:
     potion_effect: HARM
     description: "Cast the Harm poison effect upon attack!"
     event_map:
@@ -67,7 +67,7 @@ Enchants:
     # if this option is set > 0, this amplifire is applied regardless of the enchant level
     amplifier: -1
 
-  PA_Hunger:
+  PA-Hunger:
     potion_effect: HUNGER
     description: "Cast the Hunger poison effect upon attack!"
     event_map:
@@ -82,7 +82,7 @@ Enchants:
     # if this option is set > 0, this amplifire is applied regardless of the enchant level
     amplifier: -1
 
-  PA_Poison:
+  PA-Poison:
     potion_effect: POISON
     description: "Cast the Poison poison effect upon attack!"
     event_map:
@@ -97,7 +97,7 @@ Enchants:
     # if this option is set > 0, this amplifire is applied regardless of the enchant level
     amplifier: -1
 
-  PA_Slow:
+  PA-Slow:
     potion_effect: SLOW
     description: "Cast the Slowness poison effect upon attack!"
     event_map:
@@ -112,7 +112,7 @@ Enchants:
     # if this option is set > 0, this amplifire is applied regardless of the enchant level
     amplifier: -1
 
-  PA_Weakness:
+  PA-Weakness:
     potion_effect: WEAKNESS
     description: "Cast the Weakness poison effect upon attack!"
     event_map:
@@ -127,7 +127,7 @@ Enchants:
     # if this option is set > 0, this amplifire is applied regardless of the enchant level
     amplifier: -1
 
-  PA_Wither:
+  PA-Wither:
     potion_effect: WITHER
     description: "Cast the Wither effect to your opponent when you attack him/her."
     event_map:

@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-inquisitiveenchant.341
 #plugin.price:free
 #plugin.enchant.category:PvE
-Potions:
+Enchants:
   Inquisitive:
     description: "Get more EXP orbs upon mob killing."
     event_map:

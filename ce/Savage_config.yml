@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP/Mining
-Potions:
+Enchants:
   Savage:
     description: "It gives your enemy mining fatigue and blindness, it also might give yourself mining fatigue while fighting them."
     event_map:

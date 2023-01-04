@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$4.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   FedTooLittle:
     description: "This decrease the hunger of the enemy at an alarming rate."
     event_map:

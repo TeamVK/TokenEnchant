@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/2MwNfPYYIWo/0.jpg)](https://www.youtube.com/watch?v=2MwNfPYYIWo)
 #plugin.price:US$2.0
 #plugin.enchant.category:Any
-Potions:
+Enchants:
   GrapplingBow:
     description: "This allows a player to shoot an arrow for grappling."
     event_map:

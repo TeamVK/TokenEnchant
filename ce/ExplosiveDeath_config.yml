@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/sbi7yRlb8A8/0.jpg)](https://youtu.be/sbi7yRlb8A8)
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   ExplosiveDeath:
     description: "Gives the sound and effect of TNT and deals the damage and knockback of TNT as well."
     event_map:

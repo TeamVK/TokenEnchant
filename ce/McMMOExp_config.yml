@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-mcmmoexpenchant.233
 #plugin.price:$3.00
 #plugin.enchant.category:Any
-Potions:
+Enchants:
   McMMOExp:
     description: "Multiply McMMO Experience gain! Higher level = more gain!"
     event_map:

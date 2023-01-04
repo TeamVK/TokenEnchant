@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-blastenchant.272
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Blast:
     description: "(aka Shockwave) Blasts off nearby players and hostile mobs!"
     event_map:

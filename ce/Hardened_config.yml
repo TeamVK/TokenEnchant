@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-hardenedenchant.343
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Hardened:
     description: "Decrease durability loss on your armour!"
     event_map:

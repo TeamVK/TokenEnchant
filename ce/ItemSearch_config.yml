@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-itemsearchenchant.310
 #plugin.price:free
 #plugin.enchant.category:Any
-Potions:
+Enchants:
   ItemSearch:
     description: "This effect will make you 'look' towards the direction which leads you to the block/item with the same type as the item you're holding on your left hand!!"
     event_map:

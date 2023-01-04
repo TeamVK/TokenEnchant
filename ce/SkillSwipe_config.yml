@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-skillswipeenchant.328
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   SkillSwipe:
     description: "Take your opponent's exp when you attack!"
     event_map:

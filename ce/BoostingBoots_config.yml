@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$4.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   BoostingBoots:
     description: "When running this enchant, you have a chance to get speed effect."
     event_map:

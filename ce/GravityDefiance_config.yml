@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$2.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   GravityDefiance:
     description: "Once you're in combat, it has a chance to throw your enemy into the air making them take fall damage."
     event_map:

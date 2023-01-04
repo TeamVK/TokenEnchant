@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/tokenenchant.155
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   Laceration:
     description: "Cuts deep into your enemies armor giving a chance of dealing more damage."
     event_map:

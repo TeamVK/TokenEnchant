@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-bedrockbreakerenchant.260
 #plugin.price:free
 #plugin.enchant.category:Mining
-Potions:
+Enchants:
   BedrockBreaker:
     description: "Allow you to break a bedrock block!"
     event_map:

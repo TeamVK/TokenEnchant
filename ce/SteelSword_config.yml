@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-batmanvssuperman.259
 #plugin.price:US$2
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   SteelSword:
     description: "This sword has a chance to do an extra heart of damage when in combat."
     event_map:

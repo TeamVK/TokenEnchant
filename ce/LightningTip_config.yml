@@ -2,7 +2,7 @@
 #plugin.url:https://te.polymart.org/resource/te-lightningtipenchant.1604
 #plugin.price:US$3.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   LightningTip:
     description: "This plugin contains a custom enchantment effect that allows you to cause an lightning upon attack using a projectile (arrow) with this enchant."
     event_map:

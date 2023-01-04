@@ -2,7 +2,7 @@
 #plugin.url:https://polymart.org/resource/te-badpotionenchant.169
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   UnLuck:
     description: "Cast un-lucky opponent a poison effect upon attack!"
     event_map:

@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/itXPG-MA5ZY/0.jpg)](https://www.youtube.com/watch?v=itXPG-MA5ZY)
 #plugin.price:free
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   ShotGun:
     description: "It will shoot multiple arrows in one go!"
     event_map:

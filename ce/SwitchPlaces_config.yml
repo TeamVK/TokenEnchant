@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/U6XOm4JUwQM/0.jpg)](https://youtu.be/U6XOm4JUwQM)
 #plugin.price:US$2.0
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   SwitchPlaces:
     description: "Swap places with the enemy you've just gave damage with the specified projectile."
     event_map:

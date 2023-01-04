@@ -3,7 +3,7 @@
 #plugin.demo:[![demo](https://img.youtube.com/vi/zhXsY0_hClw/0.jpg)](https://www.youtube.com/watch?v=zhXsY0_hClw)
 #plugin.price:US$1.5
 #plugin.enchant.category:PvP
-Potions:
+Enchants:
   MolotovCocktail:
     description: "Enchant a Bow with this and get the petrol bomb effect."
     event_map:
