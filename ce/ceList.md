@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (283 registered)
+## List of Currently Known Custom Enchantments. (286 registered)
 
 Enchantment Name | Description | Category | Demo | Author | Config | Price
 --- | --- | --- | --- | --- | --- | ---
@@ -221,6 +221,7 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="QuickTrap"></a>[QuickTrap](https://polymart.org/resource/te-quicktrapenchant.331) | "Quickly trap your opponent with cob webs!" | PvP | [![demo](https://img.youtube.com/vi/TUQi4rv-1mU/0.jpg)](https://www.youtube.com/watch?v=TUQi4rv-1mU) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](QuickTrap_config.yml) | free
 <a name="Rage"></a>[Rage](https://polymart.org/resource/te-rageenchant-aka-comboattack.300) | "ComboAttack (consecutive attack without being damaged) will increase your attack damage!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Rage_config.yml) | free
 <a name="Ramming"></a>[Ramming](https://polymart.org/resource/te-rammingenchant.299) | "Charge towards your opponent when you attack to increase the damage!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Ramming_config.yml) | free
+<a name="RandomCommands"></a>[RandomCommands](https://www.spigotmc.org/resources/tokenenchant.2287/) | "It will let you discover VIP ranks! ... only if you're lucky." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](RandomCommands_config.yml) | ask
 <a name="Reconstruct"></a>[Reconstruct](https://polymart.org/resource/te-reconstructenchant.363) | "Repairs the item with this enchant while it's in use." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Reconstruct_config.yml) | US$1.5
 <a name="RedSkyAtNight"></a>[RedSkyAtNight](https://polymart.org/resource/tokenenchant.155) | "Catches a fish every time it is casted into the water" | Fishing |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](RedSkyAtNight_config.yml) | US$3.0
 <a name="RegenAura"></a>[RegenAura](https://polymart.org/resource/tokenenchant.155) | "Gives regen 1 to faction members, allies, and party members that are in a 15 block radius." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](RegenAura_config.yml) | US$3.0
@@ -255,6 +256,7 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="SteelSword"></a>[SteelSword](https://polymart.org/resource/te-batmanvssuperman.259) | "This sword has a chance to do an extra heart of damage when in combat." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](SteelSword_config.yml) | US$2
 <a name="StomperBoots"></a>[StomperBoots](https://polymart.org/resource/te-stomperbootsenchant.292) | "Break/mine a block by stomping on it!" | Mining |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](StomperBoots_config.yml) | free
 <a name="StormCaller"></a>[StormCaller](https://polymart.org/resource/te-stormcallerenchant.291) | "It allows you give lightning strike to your attacker! The duration and the level of damage is determined by the level of enchant." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](StormCaller_config.yml) | free
+<a name="Storm"></a>[Storm](https://polymart.org/team/teamvk.4) | "8 Lightning bolts fall from the sky and destroy blocks around the user." | Mining |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Storm_config.yml) | ask
 <a name="StrengthAura"></a>[StrengthAura](https://polymart.org/resource/tokenenchant.155) | "Gives strength 2 to faction members, allies, and party members that are in a 5 block radius." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](StrengthAura_config.yml) | US$3.0
 <a name="StrengthenedSkin"></a>[StrengthenedSkin](https://polymart.org/resource/te-batmanvssuperman.259) | "This breaks the enemy weapon at a slightly faster pace than usual!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](StrengthenedSkin_config.yml) | US$2
 <a name="Summoner"></a>[Summoner](https://polymart.org/resource/te-summonerenchant.253) | "Summons X zombies to fight along with you against your enemy!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Summoner_config.yml) | US$3.0
@@ -296,3 +298,4 @@ Enchantment Name | Description | Category | Demo | Author | Config | Price
 <a name="WinOrLose"></a>[WinOrLose](https://polymart.org/resource/tokenenchant.155) | "This enchant upon death clears your inventory, so no ite ms are dropped." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](WinOrLose_config.yml) | US$2.0
 <a name="Wither"></a>[Wither](https://polymart.org/resource/te-badpotionenchant.169) | "Cast the Wither effect to your opponent when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Wither_config.yml) | free
 <a name="XMiner"></a>[XMiner](https://www.spigotmc.org/resources/tokenenchant.2287/) | "It allows to earn player (PlayerPoints plugin) points from mining!" | Any |  |  | [config](XMiner_config.yml) | ask
+<a name="XStorm"></a>[XStorm](https://polymart.org/team/teamvk.4) | "Lightning bolts fall from the sky and destroy blocks around the user." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](XStorm_config.yml) | ask [this was privately commissioned work]
