@@ -15,7 +15,7 @@ coming...
 Just install TE-ExplosiveEnchant.jar in TokenEnchant/enchants folder. Then you can either "restart the server" or "reload the plugin (not /te reload)". ExplosiveEnchantment will automatically be loaded into TokenEnchant framework.
 
 ### Configuration:
-You need to add new entry for "Explosive, Excavation, Sphered, Disk, and Tile" enchant under the "Potions:" section in your config.yml.
+You need to add new entry for "Explosive, Excavation, Sphered, Disk, and Tile" enchant under the "Enchants:" section in your config.yml.
 
 #### NOTE:
 * Make sure to configure your WorldGuard (block-break : allow) or if your server uses any region management plugins, make sure they allow users to break blocks in the region where you wish to use this effect.
@@ -27,7 +27,7 @@ You need to add new entry for "Explosive, Excavation, Sphered, Disk, and Tile" e
 PickupTEExplodedBlocks: true
 SmeltTEExplodedBlocks: true
 
-Potions:
+Enchants:
     Explosive:
       event_map:
         BlockBreakEvent: "HIGHEST"

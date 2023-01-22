@@ -3,7 +3,7 @@ If you developed your own TokenEnchant Custom Enchantment, you can submit your p
 
 Please make sure that your ```NameOfYourCE_config.yml``` contain the ```description:``` filed like:
 ```
-Potions:
+Enchants:
   EvokerFangs:
     description: "Attack like Evoker!! " ## <---- this line!!
     event_map:
@@ -34,7 +34,7 @@ and the description of your custom enchantment like:
 #plugin.url:https://www.spigotmc.org/resources/te-evokerfangsenchant.34044/
 #plugin.demo:[![demo](https://img.youtube.com/vi/qk7YYzTpE2Q/0.jpg)](https://www.youtube.com/watch?v=qk7YYzTpE2Q)
 #plugin.price:US$2.5
-Potions:
+Enchants:
   EvokerFangs:
     description: "Attack like Evoker!! Fangs will reach out to your opponent and bite them!" ## <---- this line!!
     event_map:
