@@ -1,0 +1,12 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.price:ask
+#plugin.enchant.category:Any
+Enchants:
+  WaterStrider:
+    description: "Lets you move faster under water."
+    event_map:
+      PlayerMoveEvent: "HIGHEST"
+    price: 10
+    max: 3
+    cooldown: -1  # >0 will impose cooldown of the use.
+    occurrence: always

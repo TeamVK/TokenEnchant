@@ -3,7 +3,7 @@
 #plugin.price:free
 #plugin.enchant.category:PvP
 Enchants:
-  MobCannon:
+  CowCannon:
     event_map:
       PlayerInteractEvent: "NORMAL"
     price: 10
@@ -15,3 +15,17 @@ Enchants:
     cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
     occurrence: always
     pve: false
+
+  SquidCannon:
+    event_map:
+      PlayerInteractEvent: "NORMAL"
+    price: 10
+    max: 4
+    damage_multiplier: 2  # this number * level = damage
+    sound: ENTITY_GLOW_SQUID_HURT
+    type: SQUID
+    cooldown: -1
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    occurrence: always
+    pve: true
+    mining: true

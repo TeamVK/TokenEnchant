@@ -1,25 +1,29 @@
 #plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
-#plugin.url:https://te.polymart.org/resource/3722
+#plugin.url:https://te.polymart.org/resource/3723
+#plugin.demo:[![demo](https://img.youtube.com/vi/GGnkTr-jqA4/0.jpg)](https://youtu.be/GGnkTr-jqA4)
 #plugin.price:US$3.0
 #plugin.enchant.category:Mining
+# make sure to have /gamemode mobGriefing true.
 Enchants:
-  Storm:
-    description: "8 Lightning bolts fall from the sky and destroy blocks around the user."
+  MeteorShower:
+    description: "Meteor shower upon mining!"
     event_map:
-      BlockExplodeEvent: "NORMAL"
+      EntityExplodeEvent: "NORMAL"
       PlayerInteractEvent: "HIGHEST"
-      EntityDamageByBlockEvent: "NORMAL"
+      EntityDamageByEntityEvent: "NORMAL"
     price: 10
     max: 10
     invalid_in_world:
       - plotworld
     cooldown: 10
     cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
-    sound: true. # set this to "false" to turn off the lightning sound.
+    sound: true. # set this to "false" to turn off the explosion sound.
     occurrence: 0.03
+    mode: MINING # MINING, PVP, BOTH
     max_radius: 10
-    num_of_lightnings: 8
-    lightning_interval: 10  # in ticks.
+    num_of_meteors: 8
+    meteor_interval: 10  # in ticks.
+    meteor_source_height: 10 # in blocks
     explosion_power: 1 # if this value is -1, the enchantment level is used as the explosion power, power 4 = 1 TNT.
     power_multiplier: 1.0  # explosion_power * multiple = explosion power (4 = 1TNT)
     exemptions:

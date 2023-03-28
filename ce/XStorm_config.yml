@@ -1,0 +1,76 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://polymart.org/team/teamvk.4
+#plugin.price:ask [this was privately commissioned work]
+#plugin.enchant.category:Any
+Enchants:
+  LightningStorm:
+    description: "Lightning bolts fall from the sky and destroy blocks around the user."
+    event_map:
+      BlockExplodeEvent: "NORMAL"
+      PlayerInteractEvent: "HIGHEST"
+      EntityDamageByBlockEvent: "NORMAL"
+    price: 10
+    max: 10
+    invalid_in_world:
+      - plotworld
+    cooldown: 10
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    sound: true. # set this to "false" to turn off the lightning sound.
+    occurrence: 0.3
+    max_radius: 10
+    num_of_lightnings: 8
+    explosion_power: 1 # if this value is -1, the enchantment level is used as the explosion power, power 4 = 1 TNT.
+    power_multiplier: 1.0  # explosion_power * multiple = explosion power (4 = 1TNT)
+    exemptions:
+      - 'ENDER_CHEST:*'
+      - GLOWSTONE
+      - 'LADDER:*'
+      - STONE_PLATE
+
+  MeteoStorm:
+    description: "Lightning bolts fall from the sky and destroy blocks around the user."
+    event_map:
+      BlockExplodeEvent: "NORMAL"
+      PlayerInteractEvent: "HIGHEST"
+      EntityDamageByBlockEvent: "NORMAL"
+    price: 10
+    max: 10
+    invalid_in_world:
+      - plotworld
+    cooldown: 10
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    sound: true. # set this to "false" to turn off the lightning sound.
+    occurrence: 0.3
+    max_radius: 10
+    num_of_lightnings: 8
+    explosion_power: 1 # if this value is -1, the enchantment level is used as the explosion power, power 4 = 1 TNT.
+    power_multiplier: 1.0  # explosion_power * multiple = explosion power (4 = 1TNT)
+    exemptions:
+      - 'ENDER_CHEST:*'
+      - GLOWSTONE
+      - 'LADDER:*'
+      - STONE_PLATE
+
+  HailStorm:
+    description: "Lightning bolts fall from the sky and destroy blocks around the user."
+    event_map:
+      BlockExplodeEvent: "NORMAL"
+      PlayerInteractEvent: "HIGHEST"
+      EntityDamageByBlockEvent: "NORMAL"
+    price: 10
+    max: 10
+    invalid_in_world:
+      - plotworld
+    cooldown: 10
+    cooldown_message: "&a[TE] You have to wait for &b%remaining% &aseconds."
+    sound: true. # set this to "false" to turn off the lightning sound.
+    occurrence: 0.3
+    max_radius: 10
+    num_of_lightnings: 8
+    explosion_power: 1 # if this value is -1, the enchantment level is used as the explosion power, power 4 = 1 TNT.
+    power_multiplier: 1.0  # explosion_power * multiple = explosion power (4 = 1TNT)
+    exemptions:
+      - 'ENDER_CHEST:*'
+      - GLOWSTONE
+      - 'LADDER:*'
+      - STONE_PLATE
