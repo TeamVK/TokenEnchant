@@ -1,0 +1,95 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://te.polymart.org/resource/3733
+#plugin.price:US$3.0
+#plugin.enchant.category:Any
+Enchants:
+  Command:
+    alias: "LuckyMiningCommand"
+    description: "It will let you discover rewards! ... only if you're lucky."
+    # use this option to resolve any conflict with other plugin(s) such as AutoSell
+    event_map:
+      BlockBreakEvent: "HIGH"
+      TEBlockExplodeEvent: "HIGHEST"
+    price: 10
+    max: 2    #this number should be same as the highest level in levels: section
+    occurrence: always
+    effect: MOBSPAWNER_FLAMES
+    sound: ENTITY_LIGHTNING_THUNDER  # for pre 1.9 ...AMBIENCE_THUNDER
+    levels:
+      1:
+        # '!' -> console, '>' -> op, '@' -> player
+        commands:
+          - "chance:0.4;!tokenenchant add %player% 3;msg %player% &aLucky Block! <nl>&aYou received 3 tokens!"
+          - "chance:0.03;!tokenenchant add %player% 1;msg %player% &aLucky Block! <nl>&aYou received one token!"
+          # if min max are specified, you can use %amount% placeholder int the command.
+          - "chance:0.1;min:5;max:10;!tokenenchant add %player% %amount%;msg %player% &aLucky Block! <nl>&aYou received %amount% token!"
+      2:
+        commands:
+          - "chance:0.8;!tokenenchant add %player% 10;msg %player% &aLucky Block! <nl>&aYou received 5 token!"
+          - "chance:0.02;!tokenenchant add %player% 50;msg %player% &aLucky Block! <nl>&aYou received 5 token!"
+    # choices of triggering the lucky reward are
+    # ANY (all types)
+    # FISHING
+    # WOODCUTTING
+    # MINING (mining minirals)
+    # FARMING (harvesting crops)
+    # PVP (killing players)
+    # PVE (killing hostile mobs)
+    triggers:
+      - MINING
+      - WOODCUTTING
+
+    # you can list type of blocks associated with mining (mineral), woodcutting (wood)
+    # and farming (Crop)
+    block_types:
+      mineral:
+        - DIAMOND_ORE
+        - IRON_ORE
+      wood:
+        - LOG
+        - LOG_2
+      crop:
+        - CROPS
+
+  ################### VIP Finder
+  VIPMining:
+    description: "It will let you discover VIP ranks! ... only if you're lucky."
+    # use this option to resolve any conflict with other plugin(s) such as AutoSell
+    event_map:
+      BlockBreakEvent: "HIGH"
+      TEBlockExplodeEvent: "HIGHEST"
+    price: 10
+    max: 2    #this number should be same as the highest level in levels: section
+    occurrence: always
+    effect: MOBSPAWNER_FLAMES
+    sound: ENTITY_LIGHTNING_THUNDER  # for pre 1.9 ...AMBIENCE_THUNDER
+    levels:
+      1:
+        # '!' -> console, '>' -> op, '@' -> player
+        commands:
+          - "chance:0.01;!pex user %player% add your.vip.perm"
+      2:
+        commands:
+          - "chance:0.02;!pex user %player% add your.vip++.perm"
+    # choices of triggering the lucky reward are
+    # ANY (all types)
+    # FISHING
+    # WOODCUTTING
+    # MINING (mining minirals)
+    # FARMING (harvesting crops)
+    triggers:
+      - MINING
+      - WOODCUTTING
+
+    # you can list type of blocks associated with mining (mineral), woodcutting (wood)
+    # and farming (Crop)
+    block_types:
+      mineral:
+        - DIAMOND_ORE
+        - IRON_ORE
+      wood:
+        - LOG
+        - LOG_2
+      crop:
+        - CROPS
+

@@ -1,0 +1,13 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://polymart.org/resource/te-repelenchant.298
+#plugin.price:ask
+#plugin.enchant.category:Any
+Enchants:
+  EnigmaResonator:
+    description: "Any weapon enchanted with Enigma Resonator has a chance to give more damage."
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 3 # level = amount of souls to collect
+    occurrence: 0.29
+    max_damage_multiplier: 3

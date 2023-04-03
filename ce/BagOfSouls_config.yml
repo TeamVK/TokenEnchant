@@ -1,0 +1,11 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://polymart.org/resource/te-repelenchant.298
+#plugin.price:ask
+#plugin.enchant.category:Any
+Enchants:
+  BagOfSouls:
+    description: "It will increase the soul capacity."
+    price: 10
+    max: 3 # level = amount of souls to collect
+    occurrence: always
+    max_increase: 1.5  # increase at the each level = max_increase/max

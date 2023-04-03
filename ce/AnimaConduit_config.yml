@@ -1,0 +1,21 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://polymart.org/resource/te-repelenchant.298
+#plugin.price:ask
+#plugin.enchant.category:Any
+Enchants:
+  AnimaConduit:
+    description: "It allows you to heal when you gather souls."
+    price: 10
+    max: 3 # level = amount of souls to collect
+    occurrence: always
+    levels:
+      1:
+        melee_heal: 0.02
+        range_heal: 0.04
+      2:
+        melee_heal: 0.04
+        range_heal: 0.06
+      3:
+        melee_heal: 0.06
+        range_heal: 0.08
+

@@ -1,0 +1,102 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.price:commissioned.
+#plugin.enchant.category:Any
+Enchants:
+  TokenMiner:
+    full_armor: false  # if this is true, all full armors must have the same enchants.
+    alias: "LuckyMiningCommand"
+    description: "It will let you discover rewards! ... only if you're lucky."
+    # use this option to resolve any conflict with other plugin(s) such as AutoSell
+    event_map:
+      BlockBreakEvent: "HIGH"
+      TEBlockExplodeEvent: "HIGHEST"
+    price: 10
+    max: 2    #this number should be same as the highest level in levels: section
+    occurrence: always
+    effect: MOBSPAWNER_FLAMES
+    sound: ENTITY_LIGHTNING_THUNDER  # for pre 1.9 ...AMBIENCE_THUNDER
+    ignore_te_explode: true  # set this to false if you want to use explosion.
+    levels:
+      1:
+        interval: 10 #every 10 blocks mined, you get the tokens.
+        # '!' -> console, '>' -> op, '@' -> player
+        commands:
+          - "chance:0.4;!tokenenchant add %player% 3;tm msg %player% &aLucky Block! <nl>&aYou received 3 tokens!"
+          - "chance:0.03;!tokenenchant add %player% 1;tm msg %player% &aLucky Block! <nl>&aYou received one token!"
+          # if min max are specified, you can use %amount% placeholder int the command.
+          - "chance:0.1;min:5;max:10;!tokenenchant add %player% %amount%;tm msg %player% &aLucky Block! <nl>&aYou received %amount% token!"
+      2:
+        interval: 5 #every 5 blocks mined, you get the tokens.
+        commands:
+          - "chance:0.8;!tokenenchant add %player% 10;tm msg %player% &aLucky Block! <nl>&aYou received 5 token!"
+          - "chance:0.02;!tokenenchant add %player% 50;tm msg %player% &aLucky Block! <nl>&aYou received 5 token!"
+    # choices of triggering the lucky reward are
+    # ANY (all types)
+    # FISHING
+    # WOODCUTTING
+    # MINING (mining minirals)
+    # FARMING (harvesting crops)
+    # PVP (killing players)
+    # PVE (killing hostile mobs)
+    triggers:
+      - MINING
+      - WOODCUTTING
+
+    # you can list type of blocks associated with mining (mineral), woodcutting (wood)
+    # and farming (Crop)
+    block_types:
+      mineral:
+        - DIAMOND_ORE
+        - IRON_ORE
+      wood:
+        - LOG
+        - LOG_2
+      crop:
+        - CROPS
+
+  ################### VIP Finder
+  VIPMiner:
+    full_armor: true  # if this is true, all full armors must have the same enchants.
+    description: "It will let you discover VIP ranks! ... only if you're lucky."
+    # use this option to resolve any conflict with other plugin(s) such as AutoSell
+    event_map:
+      BlockBreakEvent: "HIGH"
+      TEBlockExplodeEvent: "HIGHEST"
+    price: 10
+    max: 2    #this number should be same as the highest level in levels: section
+    occurrence: always
+    effect: MOBSPAWNER_FLAMES
+    sound: ENTITY_LIGHTNING_THUNDER  # for pre 1.9 ...AMBIENCE_THUNDER
+    ignore_te_explode: true  # set this to false if you want to use explosion.
+    levels:
+      1:
+        interval: 10 #every 10 blocks mined, you get the tokens.
+        # '!' -> console, '>' -> op, '@' -> player
+        commands:
+          - "chance:0.1;!pex user %player% add your.vip.perm"
+      2:
+        interval: 5 #every 10 blocks mined, you get the tokens.
+        commands:
+          - "chance:0.02;!pex user %player% add your.vip++.perm"
+    # choices of triggering the lucky reward are
+    # ANY (all types)
+    # FISHING
+    # WOODCUTTING
+    # MINING (mining minirals)
+    # FARMING (harvesting crops)
+    triggers:
+      - MINING
+      - WOODCUTTING
+
+    # you can list type of blocks associated with mining (mineral), woodcutting (wood)
+    # and farming (Crop)
+    block_types:
+      mineral:
+        - DIAMOND_ORE
+        - IRON_ORE
+      wood:
+        - LOG
+        - LOG_2
+      crop:
+        - CROPS
+
