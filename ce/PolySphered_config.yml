@@ -1,0 +1,90 @@
+#plugin.author:[vk2gpz](https://polymart.org/team/teamvk.4)
+#plugin.url:https://te.polymart.org/resource/te-polyexplosiveenchant.3846
+#plugin.price:US$5
+#plugin.enchant.category:Mining
+Enchants:
+  PickSphered:
+    description: "It is just like Explosive but it will remove a spherical shape!"
+    event_map:
+      BlockBreakEvent: "HIGHEST"
+    price: 10
+    max: 10
+    # you can nominate the world, which prevents explosive
+    invalid_in_world:
+    #        - plotworld
+    # you can apply the identification of holding tool for pickup process.
+    applytool: true
+    # you can turn on/off explostion sound/visual effects
+    effect: true
+    # you can turn on/off explostion sound effects
+    sound: true
+    # you can increase the number of exploded blocs with in a radius
+    multiplier: 2
+    # you can specify the radius whithin which explosion will occur.
+    # it is not recommended to have a large radius. it may cause lag.
+    radius: -1
+    # if the following option is true, the above radius is used regardless of the level
+    fixedsize: false
+
+    # You can set the occurrence of explosion.
+    # random: randomly occur based on the level
+    # always: explosion occur always.
+    occurrence: always
+    # You can set the list of blocks exempt from explosiont.
+    # use this list to avoid your crates being exploded.
+    # AIR and BEDROCK are already exempted by defalt
+    exemptions:
+      - 'ENDER_CHEST:*'
+      - GLOWSTONE
+      - 'LADDER:*'
+      - STONE_PLATE
+    conflict_with:
+      - PolyTile
+      - PolyDisk
+      - PolyExcavation
+      - PolyExplosive
+    allowed_items:
+      - DIAMOND_PICKAXE
+
+  ShovelSphered:
+    description: "It is just like Explosive but it will remove a spherical shape!"
+    event_map:
+      BlockBreakEvent: "HIGHEST"
+    price: 10
+    max: 10
+    # you can nominate the world, which prevents explosive
+    invalid_in_world:
+    #        - plotworld
+    # you can apply the identification of holding tool for pickup process.
+    applytool: true
+    # you can turn on/off explostion sound/visual effects
+    effect: true
+    # you can turn on/off explostion sound effects
+    sound: true
+    # you can increase the number of exploded blocs with in a radius
+    multiplier: 2
+    # you can specify the radius whithin which explosion will occur.
+    # it is not recommended to have a large radius. it may cause lag.
+    radius: -1
+    # if the following option is true, the above radius is used regardless of the level
+    fixedsize: false
+
+    # You can set the occurrence of explosion.
+    # random: randomly occur based on the level
+    # always: explosion occur always.
+    occurrence: always
+    # You can set the list of blocks exempt from explosiont.
+    # use this list to avoid your crates being exploded.
+    # AIR and BEDROCK are already exempted by defalt
+    exemptions:
+      - 'ENDER_CHEST:*'
+      - GLOWSTONE
+      - 'LADDER:*'
+      - STONE_PLATE
+    conflict_with:
+      - PolyTile
+      - PolyDisk
+      - PolyExcavation
+      - PolyExplosive
+    allowed_items:
+      - DIAMOND_SHOVEL

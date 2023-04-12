@@ -1,0 +1,14 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://polymart.org/resource/te-guardianenchant.232
+#plugin.demo:[![demo](https://img.youtube.com/vi/mu9sfXk7htQ/0.jpg)](https://www.youtube.com/watch?v=mu9sfXk7htQ)
+#plugin.price:$4.0
+#plugin.enchant.category:PvP
+Enchants:
+  BeastBoss:
+    description: "Increases the amount of damage dealt by pets."
+    event_map:
+      EntityDamageByEntityEvent: "MONITOR"
+    price: 10
+    max: 3
+    max_increase: 0.6
+    occurrence: always

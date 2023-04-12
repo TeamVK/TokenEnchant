@@ -1,0 +1,15 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://polymart.org/resource/te-guardianenchant.232
+#plugin.demo:[![demo](https://img.youtube.com/vi/mu9sfXk7htQ/0.jpg)](https://www.youtube.com/watch?v=mu9sfXk7htQ)
+#plugin.price:$4.0
+#plugin.enchant.category:PvP
+Enchants:
+  BeastSurge:
+    description: "Using health potion boosts busy bees' attack and movement speed for 10 seconds."
+    event_map:
+      PlayerItemConsumeEvent: "NORMAL"
+      EntityPotionEffectEvent: "NORMAL"
+    price: 10
+    max: 3
+    max_increase: 1.5
+    occurrence: always

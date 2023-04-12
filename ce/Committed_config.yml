@@ -1,0 +1,14 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://te.polymart.org/resource/te-dungeonsmeleeenchant.3777
+#plugin.price:ask
+#plugin.enchant.category:Any
+Enchants:
+  Committed:
+    description: "Deal increased damage against already wounded mobs."
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 3 # level = amount of souls to collect
+    occurrence: always
+    base_max_damage: 0.5  # level's max damage = base_max_damage + (level - 1) * (max_damage - base_max_damage)/(max - 1)
+    max_damage: 1.0

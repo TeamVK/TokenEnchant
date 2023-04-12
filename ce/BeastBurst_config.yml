@@ -1,0 +1,15 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://polymart.org/resource/te-guardianenchant.232
+#plugin.demo:[![demo](https://img.youtube.com/vi/mu9sfXk7htQ/0.jpg)](https://www.youtube.com/watch?v=mu9sfXk7htQ)
+#plugin.price:$4.0
+#plugin.enchant.category:PvP
+Enchants:
+  BeastBurst:
+    description: "Using a healing potion causes an explosion at bees' locations, dealing damage to mobs around them."
+    event_map:
+      PlayerItemConsumeEvent: "NORMAL"
+      EntityPotionEffectEvent: "NORMAL"
+    price: 10
+    max: 3
+    max_increase: 0.6
+    occurrence: always

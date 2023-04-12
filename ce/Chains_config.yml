@@ -1,0 +1,15 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://te.polymart.org/resource/te-dungeonsmeleeenchant.3777
+#plugin.price:ask
+#plugin.enchant.category:PvP
+Enchants:
+  Chains:
+    description: "Has a X-% chance to chain a cluster of mobs together and keep them bound for a short time."
+    event_map:
+      EntityDamageByEntityEvent: "HIGHEST"
+    price: 10
+    max: 3
+    max_duration: 3 # duration = level * max_duration/max
+    max_radius: 6 # duration = level * max_duration/max
+    chance: 0.3
+    occurrence: always

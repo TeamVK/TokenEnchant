@@ -1,0 +1,15 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://te.polymart.org/resource/te-dungeonsmeleeenchant.3777
+#plugin.price:ask
+#plugin.enchant.category:Any
+Enchants:
+  Echo:
+    description: "Some attacks can be followed up by another attack in quick succession."
+    event_map:
+      EntityDamageByEntityEvent: "HIGH"
+    price: 10
+    max: 3 # level = amount of souls to collect
+    occurrence: always
+    cooldown: 5
+    base_cooldown: 3  # level's max chance = base_max_chance + (level - 1) * (max_chance - base_max_chance)/(max - 1)
+    num_of_attacks: 1
