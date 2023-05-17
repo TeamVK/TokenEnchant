@@ -1,7 +1,4 @@
 ```
-###########################
-# Help Messages used by the plugin
-###########################
 HelpMessages:
   banner:
     msg: "=== &e[&aTokenEnchant Commands List (%version%)&e] &r==="
@@ -49,9 +46,6 @@ HelpMessages:
   refund:
     msg: "/te refund [name] <enchant> [level]: refund <name> for the enchantment <enchant>. If [level] is not specified, level = 1."
     permission: "tokenenchant.refund"
-  givebp:
-    msg: "/te givebp <name> <row> [bpname] cost:xxx : gives <name> a backpacked named [bpname] of size <row> costing xxx."
-    permission: "tokenenchant.givebp"
   baltop:
     msg: "/te baltop : list top token balance."
     permission: "tokenenchant.baltop"
@@ -72,8 +66,9 @@ HelpMessages:
     permission: "tokenenchant.customdisplay"
 
 CommandAliases:
-  - "token"
-  - "te"
+  tokenenchant:
+    - "token"
+    - "te"
 
 ###########################
 # Messages used by the plugin
@@ -123,8 +118,6 @@ Messages:
   CannotRefundThis: "&c[TE] We cannot refund the item you're holding. (%reason%)"
   RefundSuccess: "&a[TE] &e - %refundlevel% &d%enchant% &aenchantment level. %tokens% tokens have been refunded."
   DisenchantSuccess: "&a[TE] &e - %level% &d%enchant% &aenchantment level."
-  BackPackGiven: "&a[TE] %player% has given a backpack and %tokens% toknes has been deducted."
-  VKBackPackNotFound: "&a[TE] VKBackPack plugin was not found."
   TokenBalTopHeader: "&a[TE] Token Balance Top - page:%page%/%total%-"
   TokenBalTopList: "%rank%. %name%, %balance%"
   TokenBalTopTypeMore: "&a[TE] Type &c/te baltop %next% &ato read the next page."
@@ -134,7 +127,7 @@ Messages:
     msg: "&c[TE] You cannot use an item with enchants more than &e%max%&c."
     sound: ITEM_BREAK
     outlet: cat  #c : chat, a: actionbar, t : title
-  CEListHeader: "&a[TE] Resistered Custom Enchantments - page:%page%/%total%-"
+  CEListHeader: "&a[TE] Registered Custom Enchantments - page:%page%/%total%-"
   CEListList: "%name% (%version%), max:%max%, %description%"
   CEListTypeMore: "&a[TE] Type &c/te list %next% &ato read the next page."
   CannotUseTokenItem: "&c[TE] You cannot use TokenItems for crafting!"
@@ -150,6 +143,7 @@ Reasons:
   DoesNotHave: "It does not have it."
   MaxReached: "Maximum level reached."
   PlayerNotFound: "Player not found."
+  CouldNotRemove: "Could not remove an enchantment."
 
 # this option is introduced from v18.0.1
 # this option is for the target outlet of the messages to go. Previously, they were all sent to chat.
@@ -166,7 +160,7 @@ MessageOutlet:
 # %enchant% :name of the enchant,
 # %version% :version of the enchant,
 # %alias% :alias
-# %max% : max level
+# %max% : max lCommandAliasesevel
 # %price% : base price
 # %formula% : costing formula
 # %occurrence% : occurrence chance at the max level.
@@ -201,11 +195,10 @@ DatabaseConfig:
 # it uses economy thorugh Vault
 UseToken: true
 
+
 # if this option is true, the cost of enchant is dynamically calculated
 # and displayed at where {ench_cost} is specified on the sign.
 UseDynamicSignUpdate: true
-
-Currency: token # token, money, or (exp...not supported atm)
 
 # token value formatter used for %token% or %tokens% placeholder.
 NumberFormat: "%,.0f"
@@ -213,7 +206,7 @@ NumberFormat: "%,.0f"
 # formating of number
 BeautifyNumber: false
 MaxCharLength: 4
-# the folloiwngs are units of order.
+# the followings are units of order.
 OrderChars:
   - k
   - M
@@ -223,6 +216,7 @@ OrderChars:
   - P
   - E
   - Z
+  - Y
 
 
 EnchantSign: "[&9Enchant&8]"
@@ -251,6 +245,19 @@ TokenItem: MAGMA_CREAM
 TokenItemName: "&aTokenItem"
 TokenItemLore: "&bHold it in your hand and\n&bRight-Click to redeem &eTokens"
 TokenItemGlow: true
+
+# this config can be use to keep old TokenItem settings so that previously issued
+# tokenitem can still be used.
+AlternativeTokenItems:
+  1:
+    TokenItem: FIRE_CHARGE
+    TokenItemName: "&aTokenItem"
+    TokenItemLore: "&bHold it in your hand and\n&bRight-Click to redeem &eTokens"
+  2:
+    TokenItem: CLOCK
+    TokenItemName: "&aTokenItem"
+    TokenItemLore: "&bHold it in your hand and\n&bRight-Click to redeem &eTokens"
+
 
 ####### Token Cheque
 TokenCheque: PAPER
@@ -283,40 +290,20 @@ UseWorldGuardNewFlag: true
 UseRomanNumeral: true
 # if PureRomanNumeral is true, 1 - 3998 will be converted to RomanNumeral
 PureRomanNumeral: false
-
-# if CustomEnchantDisplay is true, TE will use HideFlag option to hide the native enchantment name
-# and use custom enchantment name using the lore.
-# also it will convert enchantment.level.xxx into xxxx
-# default : true
-# this option is no longer used.
-CustomEnchantDisplay: true
-
 #
 MaxEnchantLevel: 100
 
-# UseEnchantmentTable has been replaced with HideFromNMS
-#UseEnchantmentTable: false
-# if HideFromNMS is true, custom enchants won't appear in Treasure/Villager/EnchantmentTable.
-HideFromNMS: false
+# enchantment won't be available through the unlisted activity (except through a command)
+DefaultCEAvailabilities:
+  - ENCHANTMENT_TABLE
+  - LOOT
+  - VILLAGER
+  - FISHING
+  - ENTITY_DEATH
 
 # Default enchantment chance.  This is the default chance for enchantment table to consider the enchantment.
 # each custom enchant can control its own enchance chance with enchant_chance: option (0.0 < x < 1.0)
 DefaultEnchantChance: 1.0
-
-# Deprecated, use DefaultFormula option and CostFormulae.js
-TokenFormula:
-  # Valid values are: LINEAR and EXPONENTIAL
-  # If an invalid value is entered, this will reset to the default setting, which is LINEAR
-  # CONSTANT:      price
-  # LINEAR:      price + (level * price)
-  # EXPONENTIAL: price + price * level ^ exponent
-  # EXPONENTIAL2: price * 2 ^ (level - 1)
-  Curve: Linear
-
-  Constant:
-  Linear:
-  Exponential:
-    exponent: 1.80
 
 # pick one from CostFormulae.js
 DefaultFormula: "linear_diff"
@@ -383,14 +370,7 @@ RepairCostCap: 40
 StripCEsForAnvil: false
 ########## Anvil related config #############
 
-
-#
-# the mode of permission node for each effect, default=ENCHANT
-# ENCHANT : the permission node is considered to determine whether a player can enchant or disenchant
-# USE : the permission node is considered to determine whether a player can use the effect or not.
-PermissionMode: ENCHANT
-
-#
+##
 # Command execution with token
 # This format is from a plugin called Aliazes.
 # default permission for each command te.command.<cmd>
@@ -518,6 +498,7 @@ Potions:
     allowed_items:
       - DIAMOND_BOOTS
       - GOLD_BOOTS
+    duration: -1
   Invisibility:
     price: 10
     max: 1
@@ -525,6 +506,7 @@ Potions:
     # random: randomly occur based on the level
     # always: occur always.
     occurrence: always
+    duration: -1
     allowed_items:
       - DIAMOND_HELMET
   Nightvision:
@@ -534,6 +516,7 @@ Potions:
     # random: randomly occur based on the level
     # always: occur always.
     occurrence: random
+    duration: -1
   Jump:
     price: 10
     max: 10
@@ -541,6 +524,7 @@ Potions:
     # random: randomly occur based on the level
     # always: occur always.
     occurrence: random
+    duration: -1
   Regeneration:
     price: 10
     max: 2
@@ -550,32 +534,33 @@ Potions:
     # random: randomly occur based on the level
     # always: occur always.
     occurrence: always
+    duration: -1
   FireResistance:
     price: 10
     max: 1
     duration_multiplier: 1800
     occurrence: always
+    duration: -1
   Strength:
     price: 10
     max: 3
-    duration_multiplier: -1
     occurrence: always
+    duration: -1
   Aqua:
     price: 10
     max: 1
-    duration_multiplier: -1
+    duration: -1
     occurrence: always
   Saturation:
     price: 10
     max: 3
-    duration_multiplier: -1
     occurrence: always
+    duration: -1
   HealthBoost:
     price: 10
     max: 3
     duration_multiplier: 1200
     occurrence: always
-
 
 #
 # Supported Enchantment:
@@ -729,7 +714,60 @@ Enchants:
     max: 10
 
 
-# this config option is now deprecated.
+# This is included from v18.7.0
+# this provides the default pickup handling of TEBlockExplodeEvent
+# if you have another more sophisticated pickup plugin like VKAutoPickup,
+# this option should be set to false.
+TEBlockExplodeEvent:
+  process: true
+  #if process is true and pickup is false, blocks will be dropped naturally.
+  pickup: true
+
+# the following option determines the interval of token balance top calculation occurs (in seconds).
+BalanceTopCalculation: 60
+
+# if this option is true, disenchant using a grindstone will yield refund of tokens.
+RefundViaGrindstone: false
+
+# this mode determines how enchantment and its level are selected by the EnchantmentTable
+# 0: vanilla enchantment table behavior, 1: re-generate randomly selected enchants and pick the level based on the max level.
+# 2: replace selected non-enchanttabled enchants with enchanttabled enchants.
+EnchantmentTableMode: 0
+
+# This option is included from v20.0.0
+# if this option is true, a method to clear blocks in TEBlockExplodeEvent will try to use WorldEdit
+UseWorldEditToClearExplosion: true
+
+# if this option is true, enchantments, which are not supposed to be on an item will be removed.
+RemoveNotAllowedEnchant: false
+
+######################## deprecated configs #####################################
+# only "token" is handled since VaultHook is provided
+# Currency: token # token, money, or (exp...not supported atm)
+
+### both UseEnchantmentTable and HideNMS are deprecated.
+### if they are still present in the config, it will be used to override the contents of DafaultCEAvailabilities.
+# UseEnchantmentTable has been replaced with HideFromNMS
+#UseEnchantmentTable: false
+# if HideFromNMS is true, custom enchants won't appear in Treasure/Villager/EnchantmentTable.
+#HideFromNMS: false
+
+### Deprecated, use DefaultFormula option and CostFormulae.js
+TokenFormula:
+  # Valid values are: LINEAR and EXPONENTIAL
+  # If an invalid value is entered, this will reset to the default setting, which is LINEAR
+  # CONSTANT:      price
+  # LINEAR:      price + (level * price)
+  # EXPONENTIAL: price + price * level ^ exponent
+  # EXPONENTIAL2: price * 2 ^ (level - 1)
+  Curve: Linear
+
+  Constant:
+  Linear:
+  Exponential:
+    exponent: 1.80
+
+### this config option is now deprecated.
 # you can now specify conflicting enchants under each enchant's setting using 'conflict_with:' option.
 Conflicts:
   1:
@@ -742,7 +780,8 @@ Conflicts:
     - Silktouch
     - Fortune
 
-
+### this config option is now deprecated
+### each enchant can specify allowed_item:
 # list of items players are allowed to enchant
 # if you're not sure which items, you would like to apply which enchant,
 # just comment out the following option so that any enchant can be applied to any item.
@@ -767,19 +806,4 @@ Items:
     - Unbreaking
     - Fortune
     - Efficiency
-
-# This is included from v18.7.0
-# this provides the default pickup handling of TEBlockExplodeEvent
-# if you have another more sophisticated pickup plugin like VKAutoPickup,
-# this option should be set to false.
-TEBlockExplodeEvent:
-  process: true
-  #if process is true and pickup is false, blocks will be dropped naturally.
-  pickup: true
-
-# the following option determines the interval of token balance top calculation occurs (in seconds).
-BalanceTopCalculation: 60
-
-# if this option is true, disenchant using a grindstone will yield refund of tokens.
-RefundViaGrindstone: false
 ```
