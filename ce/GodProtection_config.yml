@@ -1,0 +1,22 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://te.polymart.org/resource/te-godprotectionenchnat.4101
+#plugin.price:US$4.0
+#plugin.enchant.category:Any
+Enchants:
+  GodProtection:
+    description: "Protect you from receiving damage!"
+    event_map:
+      EntityDamageEvent: "HIGHEST"
+    price: 10
+    max: 3
+    occurrence: always
+    full_armor: false
+    # the reduced raw damage will be calculated based on each armor item you're wearing
+    # each worn armor can reduce the damage by original_damage * 0.25 * (1.0 - multiplier * level/maxlevel)
+    # this means, if you wear full armor with max level, you can cancel the damage with the multiplier 1.0.
+    multiplier: 1.0
+    # if "ALL" is specified or nothing is specified, all causes will be prevented.
+    # you can list causes available in https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+    causes:
+      - ALL
+
