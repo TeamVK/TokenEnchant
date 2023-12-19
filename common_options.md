@@ -80,13 +80,16 @@ All Custom Enchantment (CE) in TokenEnchant can have the following config option
 - occurrence_formula: (default = "DefaultOccurrenceFormula: linear" from TE's config.yml)
     The name of the javascript function from OccurrenceFormulae.js
 
-- is_treasure: (default = false) 
+- availabilities:
+    availabilities of this enchant (NONE, TREASURE, ENCHANTMENT_TABLE, LOOT, VILLAGER, FISHING, ENTITY_DEATH)
+  
+- is_treasure: (default = false) (deprecated: replaced by "availabilities" option)
     If this flag is "true", the enchantment is treated as a treasure enchantment.
     
-- is_enchanttabled: (default = !is_treasure)
+- is_enchanttabled: (default = !is_treasure) (deprecated: replaced by "availabilities" option)
     If this flag is "true", the enchantment can be selected by the Enchantment Table.
     
-- is_loot: (default = !is_treasure)
+- is_loot: (default = !is_treasure) (deprecated: replaced by "availabilities" option)
 
 - rarity: (default = "COMMON")
     The flag indicating the rarity of the enchantment.  Inherited from Bukkit API.
@@ -106,3 +109,10 @@ All Custom Enchantment (CE) in TokenEnchant can have the following config option
 
 - toggle: (default = true)
     If this flag is 'true' you can disable/enable this enchatnment using EnchantToggle addon (https://te.polymart.org/resource/597)
+
+- levels.commands:
+    a list of commands to be executed for specified levels.  commands are executed when the enchantment effect is activated
+
+- full_armor: (default = false)
+    if this option is "true", you need to have this enchant on all armor items you're wearing.
+    
