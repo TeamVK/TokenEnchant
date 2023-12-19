@@ -6,6 +6,8 @@ Enchants:
   Sentimental:
     description: "like SoulBound but not bounded to a player, whoever holds the item with enchant can claim its sentimental value."
     # this option is to set custom Death Event process priority.
+    decrement_msg: "Remaining Sentimental usage is %count%."
+    used_up_msg: "You've used up all Sentimental effects!"
     event_map:
       PlayerDeathEvent: "LOW"
       PlayerRespawnEvent: "MONITOR"

@@ -5,6 +5,8 @@
 Enchants:
   SoulBound:
     description: "If you enchant your item with this effect, the item will stay in your inventory when you die. Also other people cannot pick it up."
+    decrement_msg: "Remaining SoulBound usage is %count%."
+    used_up_msg: "You've used up all SoulBound!"
     event_map:
       PlayerDeathEvent: "LOW"
       PlayerRespawnEvent: "MONITOR"
@@ -19,3 +21,4 @@ Enchants:
     # if this flag is set to "true", soul-bounded item will have its soul attached to it, and only the lawful owner can pick it up unless you have 'tokenenchant.soulbound.admin' permission node.
     no_pickup: true
     # tag_prefix: "&bSOUL:"  # this is deprecated because the UUID is now in NBT.
+

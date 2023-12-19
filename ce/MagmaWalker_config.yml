@@ -16,4 +16,4 @@ Enchants:
     occurrence: always
     magma_materials:
       - LAVA
-      - STATIONARY_LAVA
+      #- STATIONARY_LAVA  <- this is deprecated.

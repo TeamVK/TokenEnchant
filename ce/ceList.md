@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (314 registered)
+## List of Currently Known Custom Enchantments. (316 registered)
 
 |Enchantment Name | Description | Category | Demo | Author | Config | Price|
 | --- | --- | --- | --- | --- | --- | --- |
@@ -23,6 +23,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 |<a name="Antidote"></a>[Antidote](https://polymart.org/resource/te-antidoteenchant.172) | "This enchant will protect you from bad splash/lingering potions!" | Potion |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Antidote_config.yml) | free |
 |<a name="ArmorPiercing"></a>[ArmorPiercing](https://polymart.org/resource/te-armorpiercingenchant.173) | "It will let you pierce through opponent's armour!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](ArmorPiercing_config.yml) | free |
 |<a name="ArmoredTank"></a>[ArmoredTank](https://polymart.org/resource/te-armoredtankenchant.174) | "You won't get any damage from explosion and lava/fire!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](ArmoredTank_config.yml) | free |
+|<a name="ArrowRider"></a>[ArrowRider](https://polymart.org/resource/te-grapplingbowenchant.175) | "This allows a player to shoot him/her self based on the shot arrow." | Any | [![demo](https://img.youtube.com/vi/2MwNfPYYIWo/0.jpg)](https://www.youtube.com/watch?v=2MwNfPYYIWo) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](ArrowRider_config.yml) | US$2.0 |
 |<a name="ArtifactSynergy"></a>[ArtifactSynergy](https://te.polymart.org/resource/te-dungeonsmeleeenchant.3777) | "Using an artifact causes the next attack to deal bonus damage." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](ArtifactSynergy_config.yml) | ask |
 |<a name="AttackDeflector"></a>[AttackDeflector](https://polymart.org/resource/te-attackdeflectorenchant.255) | "This custom effect will allow you to deflect attacks including arrow!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](AttackDeflector_config.yml) | free |
 |<a name="Aura"></a>[Aura](https://polymart.org/resource/tokenenchant.155) | "Give faction members, allies, and party members a constant speed 2 effect in a 10 block radius." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Aura_config.yml) | US$3.0 |
@@ -186,6 +187,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 |<a name="McMMOExp"></a>[McMMOExp](https://polymart.org/resource/te-mcmmoexpenchant.233) | "Multiply McMMO Experience gain! Higher level = more gain!" | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](McMMOExp_config.yml) | $3.00 |
 |<a name="Medusa"></a>[Medusa](https://polymart.org/resource/te-medusaenchant.345) | "Freeze them with your stare!" | PvE | [![demo](https://img.youtube.com/vi/X09nBRQfrgM/0.jpg)](https://www.youtube.com/watch?v=X09nBRQfrgM) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Medusa_config.yml) | free |
 |<a name="Melee"></a>[Melee](https://polymart.org/resource/te-meleeenchant.307) | "Sneak up from behind and kill! in HALO style!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Melee_config.yml) | free |
+|<a name="Merchant"></a>[Merchant](https://polymart.org/resource/te-autosellenchant.257) | "Gives you really good bonus earning when you sell items." | Mining |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Merchant_config.yml) | custom ordered |
 |<a name="MeteorShower"></a>[MeteorShower](https://te.polymart.org/resource/3723) | "Meteor shower upon mining!" | Mining | [![demo](https://img.youtube.com/vi/GGnkTr-jqA4/0.jpg)](https://youtu.be/GGnkTr-jqA4) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](MeteorShower_config.yml) | US$3.0 |
 |<a name="MineBuddy"></a>[MineBuddy](https://polymart.org/resource/te-minebuddyenchant.337) | "It allows you to have a mining buddy. All you mined will automatically sent to your mining buddy's inventory." | Mining |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](MineBuddy_config.yml) | free |
 |<a name="MineWipe"></a>[MineWipe](https://polymart.org/resource/te-minewipeenchant.193) | "Wipe out the entire mine! It is recommended to be used with AutoSell." | Mining |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](MineWipe_config.yml) | US$4.0 |

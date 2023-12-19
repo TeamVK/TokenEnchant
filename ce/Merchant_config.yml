@@ -1,0 +1,34 @@
+#plugin.author:[TeamVK](https://polymart.org/team/teamvk.4)
+#plugin.url:https://polymart.org/resource/te-autosellenchant.257
+#plugin.price:custom ordered
+#plugin.enchant.category:Mining
+Enchants:
+  Merchant:
+    description: "Gives you bonus earning when you sell items."
+    event_map:
+      APAutoSellEvent: "HIGHEST"
+      AutoSellEvent: "HIGHEST"
+      SellAllEvent: "HIGHEST"
+    price: 10
+    max: 1
+    use_action_bar: false
+    action_bar_message: "&aYou've got extra %earning%."
+    use_right_click: false # true will allow you to initiate autosell with right click
+    sell_inventory: false # true will try to sell sellable items in the inventory as well.
+    occurrence: always
+    bonus_rate: 0.01 # the bonus amount = sold_price * (enchant_level * bonus_rate). default = 0.01 (1%)
+
+  SuperMerchant:
+    description: "Gives you really good bonus earning when you sell items."
+    event_map:
+      APAutoSellEvent: "HIGHEST"
+      AutoSellEvent: "HIGHEST"
+      SellAllEvent: "HIGHEST"
+    price: 10
+    max: 1
+    use_action_bar: false
+    action_bar_message: "&aYou've got extra %earning%."
+    use_right_click: false # true will allow you to initiate autosell with right click
+    sell_inventory: false # true will try to sell sellable items in the inventory as well.
+    occurrence: always
+    bonus_rate: 0.1 # the bonus amount = sold_price * (enchant_level * bonus_rate). default = 0.01 (1%)
