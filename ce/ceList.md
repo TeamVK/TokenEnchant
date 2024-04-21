@@ -12,7 +12,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 
 ### [Contributing](contributing.md)
 
-## List of Currently Known Custom Enchantments. (316 registered)
+## List of Currently Known Custom Enchantments. (317 registered)
 
 |Enchantment Name | Description | Category | Demo | Author | Config | Price|
 | --- | --- | --- | --- | --- | --- | --- |
@@ -299,6 +299,7 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 |<a name="Tame"></a>[Tame](https://polymart.org/resource/te-tameenchant.289) | "Instantly tame a tameable mob!" | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Tame_config.yml) | free |
 |<a name="Tank"></a>[Tank](https://polymart.org/resource/tokenenchant.155) | "Once in combat with this enchantment, you take less damage!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Tank_config.yml) | US$3.0 |
 |<a name="TargetedCurse"></a>[TargetedCurse](https://polymart.org/resource/te-cursecastingenchant.705) | "You can cast a spell to make someone getting targeted by monsters!" | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](TargetedCurse_config.yml) | US$5 |
+|<a name="Taser"></a>[Taser](https://polymart.org/resource/te-pikachuthunderenchant.244) | "This is a basic taser." | PvP | [![demo](https://img.youtube.com/vi/s7VyEIrK-iU/0.jpg)](https://www.youtube.com/watch?v=s7VyEIrK-iU) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Taser_config.yml) | US$1.5 |
 |<a name="Teleport"></a>[Teleport](https://polymart.org/resource/te-teleportenchant.288) | "You can mark the destination of teleportation, and flick of your enchanted tool, you can teleport back to the defined location or to the top of the mine." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Teleport_config.yml) | free |
 |<a name="Throw"></a>[Throw](https://polymart.org/resource/154) | "With this enchantment, you can throw it to give a damage! Be like Ninja!" | PvP | [![demo](https://img.youtube.com/vi/crGURTLT4hg/0.jpg)](https://www.youtube.com/watch?v=crGURTLT4hg) | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Throw_config.yml) | US$3.0 |
 |<a name="TightLine"></a>[TightLine](https://te.polymart.org/resource/te-tightlineenchant.1442) | "Gives you a chance of pulling out food items whilst fishing." | Fishing/Mining |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](TightLine_config.yml) | US$3.0 |
@@ -327,5 +328,5 @@ Custom enchantments created by TeamVK (vk2gpz and ThePurpleHoser) can be obtaine
 |<a name="WhisperOfWind"></a>[WhisperOfWind](https://polymart.org/resource/tokenenchant.155) | "It applies speed 2 to the wearer of the boots; activated once on." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](WhisperOfWind_config.yml) | US$2.0 |
 |<a name="WinOrLose"></a>[WinOrLose](https://polymart.org/resource/tokenenchant.155) | "This enchant upon death clears your inventory, so no ite ms are dropped." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](WinOrLose_config.yml) | US$2.0 |
 |<a name="Wither"></a>[Wither](https://polymart.org/resource/te-badpotionenchant.169) | "Cast the Wither effect to your opponent when you attack him/her." | PvP |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](Wither_config.yml) | free |
-|<a name="XMiner"></a>[XMiner](https://www.spigotmc.org/resources/tokenenchant.2287/) | "It allows to earn player (PlayerPoints plugin) points from mining!" | Any |  |  | [config](XMiner_config.yml) | ask |
+|<a name="XMiner"></a>[XMiner](https://polymart.org/team/teamvk.4) | "It allows to earn player (PlayerPoints plugin) points from mining!" | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](XMiner_config.yml) | ask |
 |<a name="XStorm"></a>[XStorm](https://polymart.org/team/teamvk.4) | "Lightning bolts fall from the sky and destroy blocks around the user." | Any |  | [TeamVK](https://polymart.org/team/teamvk.4) | [config](XStorm_config.yml) | ask [this was privately commissioned work] |
